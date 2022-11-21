@@ -1428,8 +1428,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fb9815d13a93feb499112007d1aaa20a, type: 2}
-  m_sharedMaterial: {fileID: 2003159576316284464, guid: fb9815d13a93feb499112007d1aaa20a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0559185826cae504995352c91143ae76, type: 2}
+  m_sharedMaterial: {fileID: -2098739049437279595, guid: 0559185826cae504995352c91143ae76, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2755,8 +2755,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1406898571}
-        m_TargetAssemblyTypeName: WebRTCConnection, Assembly-CSharp
+      - m_Target: {fileID: 1406898572}
+        m_TargetAssemblyTypeName: WebRTCConnectionWithServer, Assembly-CSharp
         m_MethodName: ConnectionStart
         m_Mode: 1
         m_Arguments:
@@ -4447,7 +4447,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.144, y: 0.273}
+  m_AnchoredPosition: {x: -0.144, y: 0.066}
   m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1107785877
@@ -4546,9 +4546,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1406898571}
-        m_TargetAssemblyTypeName: WebRTCConnection, Assembly-CSharp
-        m_MethodName: ConnectionStart
+      - m_Target: {fileID: 1406898572}
+        m_TargetAssemblyTypeName: WebRTCConnectionWithServer, Assembly-CSharp
+        m_MethodName: ConnectionStop
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5032,6 +5032,7 @@ GameObject:
   - component: {fileID: 1406898568}
   - component: {fileID: 1406898570}
   - component: {fileID: 1406898571}
+  - component: {fileID: 1406898572}
   m_Layer: 0
   m_Name: Snapshot Camera
   m_TagString: Untagged
@@ -5107,6 +5108,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa770c6bbacc6fa48999885305448e27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MessageBoard: {fileID: 372425991}
+  StatusBoard: {fileID: 0}
+  TMP_url: {fileID: 353130377}
+  gameMusicAudioSource: {fileID: 0}
+  microphoneAudioSource: {fileID: 760482448}
+  remoteAudioSource: {fileID: 415225052}
+--- !u!114 &1406898572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406898567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecaa70633662cd04bba79b33e4759eb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   MessageBoard: {fileID: 372425991}
