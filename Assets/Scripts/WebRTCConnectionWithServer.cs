@@ -532,6 +532,11 @@ public class WebRTCConnectionWithServer : MonoBehaviour
         onIceCandidate = candidate => { OnIceCandidate(candidate); };
         peerConnection.OnIceCandidate = onIceCandidate;
 
+        peerConnection.OnIceConnectionChange = state =>
+        {
+            Debug.Log($"WebRTC: OnIceConnectionChange {state.ToString()}");
+        };
+        
         // add video stream
         var cam = GetComponent<Camera>();
 //        MediaStream videoStream = cam.CaptureStream(1280, 720, RenderTextureDepth.DEPTH_24);
