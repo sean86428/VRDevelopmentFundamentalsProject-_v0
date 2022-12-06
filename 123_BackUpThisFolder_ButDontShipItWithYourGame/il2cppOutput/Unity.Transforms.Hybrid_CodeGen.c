@@ -1,0 +1,404 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void TransformConversion::Convert(UnityEngine.Transform)
+extern void TransformConversion_Convert_m7E24EBFE96531442C91D766BB76E45B98B40BE3C (void);
+// 0x00000002 System.Void TransformConversion::OnUpdate()
+extern void TransformConversion_OnUpdate_mAF5C0C6E44A05501711636F2DE9AB9ED1861A22D (void);
+// 0x00000003 System.Void TransformConversion::.ctor()
+extern void TransformConversion__ctor_mEED7ED95D09B9478B0E7BFF475439614FD0FCD97 (void);
+// 0x00000004 System.Void TransformConversion::<OnUpdate>b__1_0(UnityEngine.Transform)
+extern void TransformConversion_U3COnUpdateU3Eb__1_0_m81E0B88BD6756DF3AD85FA457EDE7C9200B09D13 (void);
+// 0x00000005 System.Void TransformConversion::<OnUpdate>b__1_1(UnityEngine.RectTransform)
+extern void TransformConversion_U3COnUpdateU3Eb__1_1_m624055D7C8528C4DA79A9CD4B79CDED2A78080AF (void);
+// 0x00000006 System.Void Unity.Transforms.CopyInitialTransformFromGameObjectSystem::OnCreate()
+extern void CopyInitialTransformFromGameObjectSystem_OnCreate_m7D1A9A19AF3375F74E285FF27A958425538E32CA (void);
+// 0x00000007 System.Void Unity.Transforms.CopyInitialTransformFromGameObjectSystem::OnUpdate()
+extern void CopyInitialTransformFromGameObjectSystem_OnUpdate_mCF4CC6BD76263409C22B4BFE05577FA796A93188 (void);
+// 0x00000008 Unity.Jobs.JobHandle Unity.Transforms.CopyInitialTransformFromGameObjectSystem::__ScheduleViaJobEntityBatchIndexExtension_1(Unity.Transforms.CopyInitialTransformFromGameObjectSystem/CopyTransforms,Unity.Entities.EntityQuery,Unity.Jobs.JobHandle)
+extern void CopyInitialTransformFromGameObjectSystem___ScheduleViaJobEntityBatchIndexExtension_1_m58A4386D6D2B1023E75B3A371D0EFA1F1A8CFE21 (void);
+// 0x00000009 System.Void Unity.Transforms.CopyInitialTransformFromGameObjectSystem::OnCreateForCompiler()
+extern void CopyInitialTransformFromGameObjectSystem_OnCreateForCompiler_mF7A217637FA25E38916960254311C4B87AB946B2 (void);
+// 0x0000000A System.Void Unity.Transforms.CopyInitialTransformFromGameObjectSystem::.ctor()
+extern void CopyInitialTransformFromGameObjectSystem__ctor_mF3136542437785EC9913C372F408333FD1AC1BC2 (void);
+// 0x0000000B System.Void Unity.Transforms.CopyInitialTransformFromGameObjectSystem/StashTransforms::Execute(System.Int32,UnityEngine.Jobs.TransformAccess)
+extern void StashTransforms_Execute_m09F1836A4804C9F7D9B50199CDB97A42E4A9A01E (void);
+// 0x0000000C System.Void Unity.Transforms.CopyInitialTransformFromGameObjectSystem/CopyTransforms::Execute(System.Int32,Unity.Transforms.LocalToWorld&)
+extern void CopyTransforms_Execute_mA88A00FFBFDB381EF2A1CB2893E319B46F52A951 (void);
+// 0x0000000D System.Void Unity.Transforms.CopyInitialTransformFromGameObjectSystem/CopyTransforms::Execute(Unity.Entities.ArchetypeChunk,System.Int32,System.Int32)
+extern void CopyTransforms_Execute_m7655515313DCC8C413F7136A95BF18A17658C838 (void);
+// 0x0000000E Unity.Jobs.JobHandle Unity.Transforms.CopyInitialTransformFromGameObjectSystem/CopyTransforms::Schedule(Unity.Entities.EntityQuery,Unity.Jobs.JobHandle)
+extern void CopyTransforms_Schedule_mC51CE2FCDE096087F4E6CB2BAAFA6BDDF654E92E (void);
+// 0x0000000F Unity.Jobs.JobHandle Unity.Transforms.CopyInitialTransformFromGameObjectSystem/CopyTransforms::Schedule(Unity.Jobs.JobHandle)
+extern void CopyTransforms_Schedule_mE35E510F429F027DDC49EBC79B1B5AD89C870B37 (void);
+// 0x00000010 Unity.Jobs.JobHandle Unity.Transforms.CopyInitialTransformFromGameObjectSystem/CopyTransforms::ScheduleByRef(Unity.Entities.EntityQuery,Unity.Jobs.JobHandle)
+extern void CopyTransforms_ScheduleByRef_m9AFDF78C21AE920F56F501F14D84FFBC7D675E31 (void);
+// 0x00000011 Unity.Jobs.JobHandle Unity.Transforms.CopyInitialTransformFromGameObjectSystem/CopyTransforms::ScheduleByRef(Unity.Jobs.JobHandle)
+extern void CopyTransforms_ScheduleByRef_mA3CE5A48A3D0EB23783B58F75024DC2374BC2A9C (void);
+// 0x00000012 Unity.Jobs.JobHandle Unity.Transforms.CopyInitialTransformFromGameObjectSystem/CopyTransforms::ScheduleParallel(Unity.Entities.EntityQuery,Unity.Jobs.JobHandle)
+extern void CopyTransforms_ScheduleParallel_m24AFFA49607670325A53DBC66455C2872E8C6E04 (void);
+// 0x00000013 Unity.Jobs.JobHandle Unity.Transforms.CopyInitialTransformFromGameObjectSystem/CopyTransforms::ScheduleParallel(Unity.Jobs.JobHandle)
+extern void CopyTransforms_ScheduleParallel_mF9E077F61AA9E88F18FA8432A49089D768B462EB (void);
+// 0x00000014 Unity.Jobs.JobHandle Unity.Transforms.CopyInitialTransformFromGameObjectSystem/CopyTransforms::ScheduleParallelByRef(Unity.Entities.EntityQuery,Unity.Jobs.JobHandle)
+extern void CopyTransforms_ScheduleParallelByRef_m803E139BFDC6A26CC28AED7CCD9FFF0D020C00E8 (void);
+// 0x00000015 Unity.Jobs.JobHandle Unity.Transforms.CopyInitialTransformFromGameObjectSystem/CopyTransforms::ScheduleParallelByRef(Unity.Jobs.JobHandle)
+extern void CopyTransforms_ScheduleParallelByRef_m2F27A9EE0CA10718FE3883BEF1A3FBDD2E72FCD3 (void);
+// 0x00000016 System.Void Unity.Transforms.CopyInitialTransformFromGameObjectSystem/CopyTransforms::Run(Unity.Entities.EntityQuery)
+extern void CopyTransforms_Run_m73FFAFA1FFF7DF73F216BB52C58A373779CAA26F (void);
+// 0x00000017 System.Void Unity.Transforms.CopyInitialTransformFromGameObjectSystem/CopyTransforms::Run()
+extern void CopyTransforms_Run_m758B775D087418804875B8D0603BE3CEE771BD52 (void);
+// 0x00000018 System.Void Unity.Transforms.CopyInitialTransformFromGameObjectSystem/CopyTransforms::RunByRef(Unity.Entities.EntityQuery)
+extern void CopyTransforms_RunByRef_m873125FF88D3245706B84A52731481ABD11FABB8 (void);
+// 0x00000019 System.Void Unity.Transforms.CopyInitialTransformFromGameObjectSystem/CopyTransforms::RunByRef()
+extern void CopyTransforms_RunByRef_m93879383FF9D31C80B9FC677BBC7980C4CECBBFC (void);
+// 0x0000001A Unity.Jobs.JobHandle Unity.Transforms.CopyInitialTransformFromGameObjectSystem/CopyTransforms::__ThrowCodeGenException()
+extern void CopyTransforms___ThrowCodeGenException_mD2144EF920917B3BAD1EC2EECDCB38790C8407CD (void);
+// 0x0000001B System.Void Unity.Transforms.CopyInitialTransformFromGameObjectSystem/RemoveCopyInitialTransformFromGameObjectComponent::Execute()
+extern void RemoveCopyInitialTransformFromGameObjectComponent_Execute_m5D4ABC778414BCAB537C9165A2ED2C6891CC31BF (void);
+// 0x0000001C System.Void Unity.Transforms.CopyTransformFromGameObjectSystem::OnCreate()
+extern void CopyTransformFromGameObjectSystem_OnCreate_m416965EBA5C456492FA72453177E53E2AED35539 (void);
+// 0x0000001D System.Void Unity.Transforms.CopyTransformFromGameObjectSystem::OnUpdate()
+extern void CopyTransformFromGameObjectSystem_OnUpdate_mBBC8AE27512A4C3FC42AE221A516D86AA824369B (void);
+// 0x0000001E Unity.Jobs.JobHandle Unity.Transforms.CopyTransformFromGameObjectSystem::__ScheduleViaJobEntityBatchIndexExtension_1(Unity.Transforms.CopyTransformFromGameObjectSystem/CopyTransforms,Unity.Entities.EntityQuery,Unity.Jobs.JobHandle)
+extern void CopyTransformFromGameObjectSystem___ScheduleViaJobEntityBatchIndexExtension_1_mE1134BECEDF699BF256D5C953CC5794CD8A36B01 (void);
+// 0x0000001F System.Void Unity.Transforms.CopyTransformFromGameObjectSystem::OnCreateForCompiler()
+extern void CopyTransformFromGameObjectSystem_OnCreateForCompiler_mCB0964A01B166837FDCF52F069BC79CDF5DBA383 (void);
+// 0x00000020 System.Void Unity.Transforms.CopyTransformFromGameObjectSystem::.ctor()
+extern void CopyTransformFromGameObjectSystem__ctor_m62E2F96B558075032AD742E5EB7EEB61C4D556A5 (void);
+// 0x00000021 System.Void Unity.Transforms.CopyTransformFromGameObjectSystem/StashTransforms::Execute(System.Int32,UnityEngine.Jobs.TransformAccess)
+extern void StashTransforms_Execute_mA5046A06AE163FA321D4DE2C64C3E9BC1A95E96D (void);
+// 0x00000022 System.Void Unity.Transforms.CopyTransformFromGameObjectSystem/CopyTransforms::Execute(System.Int32,Unity.Transforms.LocalToWorld&)
+extern void CopyTransforms_Execute_m50D67A903DCC26263713457E47377A6B92F397B2 (void);
+// 0x00000023 System.Void Unity.Transforms.CopyTransformFromGameObjectSystem/CopyTransforms::Execute(Unity.Entities.ArchetypeChunk,System.Int32,System.Int32)
+extern void CopyTransforms_Execute_mD4CF45DA08D8B0B88964B6A85F245473E7CC2279 (void);
+// 0x00000024 Unity.Jobs.JobHandle Unity.Transforms.CopyTransformFromGameObjectSystem/CopyTransforms::Schedule(Unity.Entities.EntityQuery,Unity.Jobs.JobHandle)
+extern void CopyTransforms_Schedule_m6CD4AEA0D81F07E3CD3D965BDAF08B7FC7B6B924 (void);
+// 0x00000025 Unity.Jobs.JobHandle Unity.Transforms.CopyTransformFromGameObjectSystem/CopyTransforms::Schedule(Unity.Jobs.JobHandle)
+extern void CopyTransforms_Schedule_m8210C81969B3873FDA66F2A23FEC99AD2D485677 (void);
+// 0x00000026 Unity.Jobs.JobHandle Unity.Transforms.CopyTransformFromGameObjectSystem/CopyTransforms::ScheduleByRef(Unity.Entities.EntityQuery,Unity.Jobs.JobHandle)
+extern void CopyTransforms_ScheduleByRef_m34E15CE61988ED0D5F95013FFA25B0C06316D9B1 (void);
+// 0x00000027 Unity.Jobs.JobHandle Unity.Transforms.CopyTransformFromGameObjectSystem/CopyTransforms::ScheduleByRef(Unity.Jobs.JobHandle)
+extern void CopyTransforms_ScheduleByRef_mBE0BBA0033A63C4BE9165AD335B061E395B7D8DA (void);
+// 0x00000028 Unity.Jobs.JobHandle Unity.Transforms.CopyTransformFromGameObjectSystem/CopyTransforms::ScheduleParallel(Unity.Entities.EntityQuery,Unity.Jobs.JobHandle)
+extern void CopyTransforms_ScheduleParallel_m85F5120490B2055DA1B06AE797EB443B51692305 (void);
+// 0x00000029 Unity.Jobs.JobHandle Unity.Transforms.CopyTransformFromGameObjectSystem/CopyTransforms::ScheduleParallel(Unity.Jobs.JobHandle)
+extern void CopyTransforms_ScheduleParallel_m9FED3DF631FC4E91A344CFEEA8F110AEB666B01D (void);
+// 0x0000002A Unity.Jobs.JobHandle Unity.Transforms.CopyTransformFromGameObjectSystem/CopyTransforms::ScheduleParallelByRef(Unity.Entities.EntityQuery,Unity.Jobs.JobHandle)
+extern void CopyTransforms_ScheduleParallelByRef_m78892053D0D3EB1F59834283515454A448BB978C (void);
+// 0x0000002B Unity.Jobs.JobHandle Unity.Transforms.CopyTransformFromGameObjectSystem/CopyTransforms::ScheduleParallelByRef(Unity.Jobs.JobHandle)
+extern void CopyTransforms_ScheduleParallelByRef_m567019CB9B8C1B45E7BF4CBEC4A7CC02ED72B5FB (void);
+// 0x0000002C System.Void Unity.Transforms.CopyTransformFromGameObjectSystem/CopyTransforms::Run(Unity.Entities.EntityQuery)
+extern void CopyTransforms_Run_m7EC80B142EA4B13065482DB23E8C60B033E84AB5 (void);
+// 0x0000002D System.Void Unity.Transforms.CopyTransformFromGameObjectSystem/CopyTransforms::Run()
+extern void CopyTransforms_Run_m04D1A72F07D0C8FC72557A2E5B92A67E818924E8 (void);
+// 0x0000002E System.Void Unity.Transforms.CopyTransformFromGameObjectSystem/CopyTransforms::RunByRef(Unity.Entities.EntityQuery)
+extern void CopyTransforms_RunByRef_m8171C7A969EDBEE009682BEA3C203D4D86D601EC (void);
+// 0x0000002F System.Void Unity.Transforms.CopyTransformFromGameObjectSystem/CopyTransforms::RunByRef()
+extern void CopyTransforms_RunByRef_m4241FE86E80F36EBD61D2612E7667B2C7C380A9D (void);
+// 0x00000030 Unity.Jobs.JobHandle Unity.Transforms.CopyTransformFromGameObjectSystem/CopyTransforms::__ThrowCodeGenException()
+extern void CopyTransforms___ThrowCodeGenException_mFE2B2D2B1EE78B706FE9E6FC9634B0BAE94E96FE (void);
+// 0x00000031 System.Void Unity.Transforms.RemoveTransformCopyTag::OnUpdate()
+extern void RemoveTransformCopyTag_OnUpdate_mF57139AE9420DC8E20F9B08394E8B03E73544A28 (void);
+// 0x00000032 System.Void Unity.Transforms.RemoveTransformCopyTag::.ctor()
+extern void RemoveTransformCopyTag__ctor_m1749AF2AE4121A6190E357664794ADF9D037FC88 (void);
+// 0x00000033 System.Void Unity.Transforms.CopyTransformToGameObjectSystem::OnCreate()
+extern void CopyTransformToGameObjectSystem_OnCreate_m1F4D9992AC02D1BA47759692D5445F3837138D1B (void);
+// 0x00000034 System.Void Unity.Transforms.CopyTransformToGameObjectSystem::OnUpdate()
+extern void CopyTransformToGameObjectSystem_OnUpdate_mEF9354E8718863B2F3B4F359462080ED5E1D6642 (void);
+// 0x00000035 System.Void Unity.Transforms.CopyTransformToGameObjectSystem::.ctor()
+extern void CopyTransformToGameObjectSystem__ctor_mC2350A04A73610A2453C13175D70F0FBE0FED235 (void);
+// 0x00000036 System.Void Unity.Transforms.CopyTransformToGameObjectSystem/CopyTransforms::Execute(System.Int32,UnityEngine.Jobs.TransformAccess)
+extern void CopyTransforms_Execute_mA6B281F358D2B13C3367F4C37BEC4191A40D802F (void);
+// 0x00000037 System.Void Unity.Transforms.TransformIncrementalConversionSystem::OnCreate()
+extern void TransformIncrementalConversionSystem_OnCreate_m271346B494BF53E903FFF6EC30D3AE601A0BC75E (void);
+// 0x00000038 System.Void Unity.Transforms.TransformIncrementalConversionSystem::OnUpdate()
+extern void TransformIncrementalConversionSystem_OnUpdate_mD97EAECFE6A84B7D1CACF0CB3F62B2A80B69EA26 (void);
+// 0x00000039 System.Void Unity.Transforms.TransformIncrementalConversionSystem::.ctor()
+extern void TransformIncrementalConversionSystem__ctor_mB9A619FDF7D4A03E1EAF68B1400E5A0C3BC4EC0A (void);
+// 0x0000003A System.Void Unity.Transforms.TransformIncrementalConversionSystem/UpdateConvertedTransforms::Execute(System.Int32,UnityEngine.Jobs.TransformAccess)
+extern void UpdateConvertedTransforms_Execute_m422761454232011AD6085522E7028C40DB64941E (void);
+// 0x0000003B Unity.Mathematics.float3 Unity.Transforms.TransformIncrementalConversionSystem/UpdateConvertedTransforms::CalculateLossyScale(Unity.Mathematics.float4x4,Unity.Mathematics.quaternion)
+extern void UpdateConvertedTransforms_CalculateLossyScale_mB2440018FDC6D9854B91F53E95070FD66A8109B8 (void);
+// 0x0000003C System.Void Unity.Transforms.CopyInitialTransformFromGameObjectAuthoring::Convert(Unity.Entities.Entity,Unity.Entities.EntityManager,GameObjectConversionSystem)
+extern void CopyInitialTransformFromGameObjectAuthoring_Convert_mFCABB641FD981F34A2A789E25685AC0DE4BD51B4 (void);
+// 0x0000003D System.Void Unity.Transforms.CopyInitialTransformFromGameObjectAuthoring::.ctor()
+extern void CopyInitialTransformFromGameObjectAuthoring__ctor_m9AA787AA23EBF616F003A1F405EFEF27F87683A5 (void);
+// 0x0000003E System.Void Unity.Transforms.CopyTransformFromGameObjectAuthoring::Convert(Unity.Entities.Entity,Unity.Entities.EntityManager,GameObjectConversionSystem)
+extern void CopyTransformFromGameObjectAuthoring_Convert_mF72AA2973FAD08B8661BAE0D869F56855EC51406 (void);
+// 0x0000003F System.Void Unity.Transforms.CopyTransformFromGameObjectAuthoring::.ctor()
+extern void CopyTransformFromGameObjectAuthoring__ctor_mF92803CA77F4F102C509D51DABD6431606A86B96 (void);
+// 0x00000040 System.Void Unity.Transforms.CopyTransformToGameObjectAuthoring::Convert(Unity.Entities.Entity,Unity.Entities.EntityManager,GameObjectConversionSystem)
+extern void CopyTransformToGameObjectAuthoring_Convert_mAF0DAEEE28E58BD44DE2A5355B62F9A456428D80 (void);
+// 0x00000041 System.Void Unity.Transforms.CopyTransformToGameObjectAuthoring::.ctor()
+extern void CopyTransformToGameObjectAuthoring__ctor_m9BCE85B07096776183983FF4851D6995BB50FC81 (void);
+// 0x00000042 System.Void Unity.Entities.CompanionGameObjectUpdateTransformSystem::OnCreate()
+extern void CompanionGameObjectUpdateTransformSystem_OnCreate_m63D44E5D590266466050BEEEB0B9F2A8734954D5 (void);
+// 0x00000043 System.Void Unity.Entities.CompanionGameObjectUpdateTransformSystem::OnDestroy()
+extern void CompanionGameObjectUpdateTransformSystem_OnDestroy_mEC544631EAAD457B03F79D472F42CE031B80DA86 (void);
+// 0x00000044 System.Void Unity.Entities.CompanionGameObjectUpdateTransformSystem::OnUpdate()
+extern void CompanionGameObjectUpdateTransformSystem_OnUpdate_mF9012E0BD3883A6F9C3A2D0D99DF668E1CCBC5E6 (void);
+// 0x00000045 System.Void Unity.Entities.CompanionGameObjectUpdateTransformSystem::.ctor()
+extern void CompanionGameObjectUpdateTransformSystem__ctor_m99DED8EF5316C87FCEE6F5604963992D5BB48141 (void);
+// 0x00000046 System.Void Unity.Entities.CompanionGameObjectUpdateTransformSystem/CopyTransformJob::Execute(System.Int32,UnityEngine.Jobs.TransformAccess)
+extern void CopyTransformJob_Execute_m367F530AB448624F4348597AFA7BA53CA9C8C0E8 (void);
+// 0x00000047 System.Void __JobReflectionRegistrationOutput__1596671412::CreateJobReflectionData()
+extern void __JobReflectionRegistrationOutput__1596671412_CreateJobReflectionData_m75CE69096631CEDF9D93A75D1E1E347D2BD73A2E (void);
+// 0x00000048 System.Void __JobReflectionRegistrationOutput__1596671412::EarlyInit()
+extern void __JobReflectionRegistrationOutput__1596671412_EarlyInit_m68483917E2C3B713BC130824700DA9B0219BA5D0 (void);
+static Il2CppMethodPointer s_methodPointers[72] = 
+{
+	TransformConversion_Convert_m7E24EBFE96531442C91D766BB76E45B98B40BE3C,
+	TransformConversion_OnUpdate_mAF5C0C6E44A05501711636F2DE9AB9ED1861A22D,
+	TransformConversion__ctor_mEED7ED95D09B9478B0E7BFF475439614FD0FCD97,
+	TransformConversion_U3COnUpdateU3Eb__1_0_m81E0B88BD6756DF3AD85FA457EDE7C9200B09D13,
+	TransformConversion_U3COnUpdateU3Eb__1_1_m624055D7C8528C4DA79A9CD4B79CDED2A78080AF,
+	CopyInitialTransformFromGameObjectSystem_OnCreate_m7D1A9A19AF3375F74E285FF27A958425538E32CA,
+	CopyInitialTransformFromGameObjectSystem_OnUpdate_mCF4CC6BD76263409C22B4BFE05577FA796A93188,
+	CopyInitialTransformFromGameObjectSystem___ScheduleViaJobEntityBatchIndexExtension_1_m58A4386D6D2B1023E75B3A371D0EFA1F1A8CFE21,
+	CopyInitialTransformFromGameObjectSystem_OnCreateForCompiler_mF7A217637FA25E38916960254311C4B87AB946B2,
+	CopyInitialTransformFromGameObjectSystem__ctor_mF3136542437785EC9913C372F408333FD1AC1BC2,
+	StashTransforms_Execute_m09F1836A4804C9F7D9B50199CDB97A42E4A9A01E,
+	CopyTransforms_Execute_mA88A00FFBFDB381EF2A1CB2893E319B46F52A951,
+	CopyTransforms_Execute_m7655515313DCC8C413F7136A95BF18A17658C838,
+	CopyTransforms_Schedule_mC51CE2FCDE096087F4E6CB2BAAFA6BDDF654E92E,
+	CopyTransforms_Schedule_mE35E510F429F027DDC49EBC79B1B5AD89C870B37,
+	CopyTransforms_ScheduleByRef_m9AFDF78C21AE920F56F501F14D84FFBC7D675E31,
+	CopyTransforms_ScheduleByRef_mA3CE5A48A3D0EB23783B58F75024DC2374BC2A9C,
+	CopyTransforms_ScheduleParallel_m24AFFA49607670325A53DBC66455C2872E8C6E04,
+	CopyTransforms_ScheduleParallel_mF9E077F61AA9E88F18FA8432A49089D768B462EB,
+	CopyTransforms_ScheduleParallelByRef_m803E139BFDC6A26CC28AED7CCD9FFF0D020C00E8,
+	CopyTransforms_ScheduleParallelByRef_m2F27A9EE0CA10718FE3883BEF1A3FBDD2E72FCD3,
+	CopyTransforms_Run_m73FFAFA1FFF7DF73F216BB52C58A373779CAA26F,
+	CopyTransforms_Run_m758B775D087418804875B8D0603BE3CEE771BD52,
+	CopyTransforms_RunByRef_m873125FF88D3245706B84A52731481ABD11FABB8,
+	CopyTransforms_RunByRef_m93879383FF9D31C80B9FC677BBC7980C4CECBBFC,
+	CopyTransforms___ThrowCodeGenException_mD2144EF920917B3BAD1EC2EECDCB38790C8407CD,
+	RemoveCopyInitialTransformFromGameObjectComponent_Execute_m5D4ABC778414BCAB537C9165A2ED2C6891CC31BF,
+	CopyTransformFromGameObjectSystem_OnCreate_m416965EBA5C456492FA72453177E53E2AED35539,
+	CopyTransformFromGameObjectSystem_OnUpdate_mBBC8AE27512A4C3FC42AE221A516D86AA824369B,
+	CopyTransformFromGameObjectSystem___ScheduleViaJobEntityBatchIndexExtension_1_mE1134BECEDF699BF256D5C953CC5794CD8A36B01,
+	CopyTransformFromGameObjectSystem_OnCreateForCompiler_mCB0964A01B166837FDCF52F069BC79CDF5DBA383,
+	CopyTransformFromGameObjectSystem__ctor_m62E2F96B558075032AD742E5EB7EEB61C4D556A5,
+	StashTransforms_Execute_mA5046A06AE163FA321D4DE2C64C3E9BC1A95E96D,
+	CopyTransforms_Execute_m50D67A903DCC26263713457E47377A6B92F397B2,
+	CopyTransforms_Execute_mD4CF45DA08D8B0B88964B6A85F245473E7CC2279,
+	CopyTransforms_Schedule_m6CD4AEA0D81F07E3CD3D965BDAF08B7FC7B6B924,
+	CopyTransforms_Schedule_m8210C81969B3873FDA66F2A23FEC99AD2D485677,
+	CopyTransforms_ScheduleByRef_m34E15CE61988ED0D5F95013FFA25B0C06316D9B1,
+	CopyTransforms_ScheduleByRef_mBE0BBA0033A63C4BE9165AD335B061E395B7D8DA,
+	CopyTransforms_ScheduleParallel_m85F5120490B2055DA1B06AE797EB443B51692305,
+	CopyTransforms_ScheduleParallel_m9FED3DF631FC4E91A344CFEEA8F110AEB666B01D,
+	CopyTransforms_ScheduleParallelByRef_m78892053D0D3EB1F59834283515454A448BB978C,
+	CopyTransforms_ScheduleParallelByRef_m567019CB9B8C1B45E7BF4CBEC4A7CC02ED72B5FB,
+	CopyTransforms_Run_m7EC80B142EA4B13065482DB23E8C60B033E84AB5,
+	CopyTransforms_Run_m04D1A72F07D0C8FC72557A2E5B92A67E818924E8,
+	CopyTransforms_RunByRef_m8171C7A969EDBEE009682BEA3C203D4D86D601EC,
+	CopyTransforms_RunByRef_m4241FE86E80F36EBD61D2612E7667B2C7C380A9D,
+	CopyTransforms___ThrowCodeGenException_mFE2B2D2B1EE78B706FE9E6FC9634B0BAE94E96FE,
+	RemoveTransformCopyTag_OnUpdate_mF57139AE9420DC8E20F9B08394E8B03E73544A28,
+	RemoveTransformCopyTag__ctor_m1749AF2AE4121A6190E357664794ADF9D037FC88,
+	CopyTransformToGameObjectSystem_OnCreate_m1F4D9992AC02D1BA47759692D5445F3837138D1B,
+	CopyTransformToGameObjectSystem_OnUpdate_mEF9354E8718863B2F3B4F359462080ED5E1D6642,
+	CopyTransformToGameObjectSystem__ctor_mC2350A04A73610A2453C13175D70F0FBE0FED235,
+	CopyTransforms_Execute_mA6B281F358D2B13C3367F4C37BEC4191A40D802F,
+	TransformIncrementalConversionSystem_OnCreate_m271346B494BF53E903FFF6EC30D3AE601A0BC75E,
+	TransformIncrementalConversionSystem_OnUpdate_mD97EAECFE6A84B7D1CACF0CB3F62B2A80B69EA26,
+	TransformIncrementalConversionSystem__ctor_mB9A619FDF7D4A03E1EAF68B1400E5A0C3BC4EC0A,
+	UpdateConvertedTransforms_Execute_m422761454232011AD6085522E7028C40DB64941E,
+	UpdateConvertedTransforms_CalculateLossyScale_mB2440018FDC6D9854B91F53E95070FD66A8109B8,
+	CopyInitialTransformFromGameObjectAuthoring_Convert_mFCABB641FD981F34A2A789E25685AC0DE4BD51B4,
+	CopyInitialTransformFromGameObjectAuthoring__ctor_m9AA787AA23EBF616F003A1F405EFEF27F87683A5,
+	CopyTransformFromGameObjectAuthoring_Convert_mF72AA2973FAD08B8661BAE0D869F56855EC51406,
+	CopyTransformFromGameObjectAuthoring__ctor_mF92803CA77F4F102C509D51DABD6431606A86B96,
+	CopyTransformToGameObjectAuthoring_Convert_mAF0DAEEE28E58BD44DE2A5355B62F9A456428D80,
+	CopyTransformToGameObjectAuthoring__ctor_m9BCE85B07096776183983FF4851D6995BB50FC81,
+	CompanionGameObjectUpdateTransformSystem_OnCreate_m63D44E5D590266466050BEEEB0B9F2A8734954D5,
+	CompanionGameObjectUpdateTransformSystem_OnDestroy_mEC544631EAAD457B03F79D472F42CE031B80DA86,
+	CompanionGameObjectUpdateTransformSystem_OnUpdate_mF9012E0BD3883A6F9C3A2D0D99DF668E1CCBC5E6,
+	CompanionGameObjectUpdateTransformSystem__ctor_m99DED8EF5316C87FCEE6F5604963992D5BB48141,
+	CopyTransformJob_Execute_m367F530AB448624F4348597AFA7BA53CA9C8C0E8,
+	__JobReflectionRegistrationOutput__1596671412_CreateJobReflectionData_m75CE69096631CEDF9D93A75D1E1E347D2BD73A2E,
+	__JobReflectionRegistrationOutput__1596671412_EarlyInit_m68483917E2C3B713BC130824700DA9B0219BA5D0,
+};
+extern void StashTransforms_Execute_m09F1836A4804C9F7D9B50199CDB97A42E4A9A01E_AdjustorThunk (void);
+extern void CopyTransforms_Execute_mA88A00FFBFDB381EF2A1CB2893E319B46F52A951_AdjustorThunk (void);
+extern void CopyTransforms_Execute_m7655515313DCC8C413F7136A95BF18A17658C838_AdjustorThunk (void);
+extern void CopyTransforms_Schedule_mC51CE2FCDE096087F4E6CB2BAAFA6BDDF654E92E_AdjustorThunk (void);
+extern void CopyTransforms_Schedule_mE35E510F429F027DDC49EBC79B1B5AD89C870B37_AdjustorThunk (void);
+extern void CopyTransforms_ScheduleByRef_m9AFDF78C21AE920F56F501F14D84FFBC7D675E31_AdjustorThunk (void);
+extern void CopyTransforms_ScheduleByRef_mA3CE5A48A3D0EB23783B58F75024DC2374BC2A9C_AdjustorThunk (void);
+extern void CopyTransforms_ScheduleParallel_m24AFFA49607670325A53DBC66455C2872E8C6E04_AdjustorThunk (void);
+extern void CopyTransforms_ScheduleParallel_mF9E077F61AA9E88F18FA8432A49089D768B462EB_AdjustorThunk (void);
+extern void CopyTransforms_ScheduleParallelByRef_m803E139BFDC6A26CC28AED7CCD9FFF0D020C00E8_AdjustorThunk (void);
+extern void CopyTransforms_ScheduleParallelByRef_m2F27A9EE0CA10718FE3883BEF1A3FBDD2E72FCD3_AdjustorThunk (void);
+extern void CopyTransforms_Run_m73FFAFA1FFF7DF73F216BB52C58A373779CAA26F_AdjustorThunk (void);
+extern void CopyTransforms_Run_m758B775D087418804875B8D0603BE3CEE771BD52_AdjustorThunk (void);
+extern void CopyTransforms_RunByRef_m873125FF88D3245706B84A52731481ABD11FABB8_AdjustorThunk (void);
+extern void CopyTransforms_RunByRef_m93879383FF9D31C80B9FC677BBC7980C4CECBBFC_AdjustorThunk (void);
+extern void CopyTransforms___ThrowCodeGenException_mD2144EF920917B3BAD1EC2EECDCB38790C8407CD_AdjustorThunk (void);
+extern void RemoveCopyInitialTransformFromGameObjectComponent_Execute_m5D4ABC778414BCAB537C9165A2ED2C6891CC31BF_AdjustorThunk (void);
+extern void StashTransforms_Execute_mA5046A06AE163FA321D4DE2C64C3E9BC1A95E96D_AdjustorThunk (void);
+extern void CopyTransforms_Execute_m50D67A903DCC26263713457E47377A6B92F397B2_AdjustorThunk (void);
+extern void CopyTransforms_Execute_mD4CF45DA08D8B0B88964B6A85F245473E7CC2279_AdjustorThunk (void);
+extern void CopyTransforms_Schedule_m6CD4AEA0D81F07E3CD3D965BDAF08B7FC7B6B924_AdjustorThunk (void);
+extern void CopyTransforms_Schedule_m8210C81969B3873FDA66F2A23FEC99AD2D485677_AdjustorThunk (void);
+extern void CopyTransforms_ScheduleByRef_m34E15CE61988ED0D5F95013FFA25B0C06316D9B1_AdjustorThunk (void);
+extern void CopyTransforms_ScheduleByRef_mBE0BBA0033A63C4BE9165AD335B061E395B7D8DA_AdjustorThunk (void);
+extern void CopyTransforms_ScheduleParallel_m85F5120490B2055DA1B06AE797EB443B51692305_AdjustorThunk (void);
+extern void CopyTransforms_ScheduleParallel_m9FED3DF631FC4E91A344CFEEA8F110AEB666B01D_AdjustorThunk (void);
+extern void CopyTransforms_ScheduleParallelByRef_m78892053D0D3EB1F59834283515454A448BB978C_AdjustorThunk (void);
+extern void CopyTransforms_ScheduleParallelByRef_m567019CB9B8C1B45E7BF4CBEC4A7CC02ED72B5FB_AdjustorThunk (void);
+extern void CopyTransforms_Run_m7EC80B142EA4B13065482DB23E8C60B033E84AB5_AdjustorThunk (void);
+extern void CopyTransforms_Run_m04D1A72F07D0C8FC72557A2E5B92A67E818924E8_AdjustorThunk (void);
+extern void CopyTransforms_RunByRef_m8171C7A969EDBEE009682BEA3C203D4D86D601EC_AdjustorThunk (void);
+extern void CopyTransforms_RunByRef_m4241FE86E80F36EBD61D2612E7667B2C7C380A9D_AdjustorThunk (void);
+extern void CopyTransforms___ThrowCodeGenException_mFE2B2D2B1EE78B706FE9E6FC9634B0BAE94E96FE_AdjustorThunk (void);
+extern void CopyTransforms_Execute_mA6B281F358D2B13C3367F4C37BEC4191A40D802F_AdjustorThunk (void);
+extern void UpdateConvertedTransforms_Execute_m422761454232011AD6085522E7028C40DB64941E_AdjustorThunk (void);
+extern void CopyTransformJob_Execute_m367F530AB448624F4348597AFA7BA53CA9C8C0E8_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[36] = 
+{
+	{ 0x0600000B, StashTransforms_Execute_m09F1836A4804C9F7D9B50199CDB97A42E4A9A01E_AdjustorThunk },
+	{ 0x0600000C, CopyTransforms_Execute_mA88A00FFBFDB381EF2A1CB2893E319B46F52A951_AdjustorThunk },
+	{ 0x0600000D, CopyTransforms_Execute_m7655515313DCC8C413F7136A95BF18A17658C838_AdjustorThunk },
+	{ 0x0600000E, CopyTransforms_Schedule_mC51CE2FCDE096087F4E6CB2BAAFA6BDDF654E92E_AdjustorThunk },
+	{ 0x0600000F, CopyTransforms_Schedule_mE35E510F429F027DDC49EBC79B1B5AD89C870B37_AdjustorThunk },
+	{ 0x06000010, CopyTransforms_ScheduleByRef_m9AFDF78C21AE920F56F501F14D84FFBC7D675E31_AdjustorThunk },
+	{ 0x06000011, CopyTransforms_ScheduleByRef_mA3CE5A48A3D0EB23783B58F75024DC2374BC2A9C_AdjustorThunk },
+	{ 0x06000012, CopyTransforms_ScheduleParallel_m24AFFA49607670325A53DBC66455C2872E8C6E04_AdjustorThunk },
+	{ 0x06000013, CopyTransforms_ScheduleParallel_mF9E077F61AA9E88F18FA8432A49089D768B462EB_AdjustorThunk },
+	{ 0x06000014, CopyTransforms_ScheduleParallelByRef_m803E139BFDC6A26CC28AED7CCD9FFF0D020C00E8_AdjustorThunk },
+	{ 0x06000015, CopyTransforms_ScheduleParallelByRef_m2F27A9EE0CA10718FE3883BEF1A3FBDD2E72FCD3_AdjustorThunk },
+	{ 0x06000016, CopyTransforms_Run_m73FFAFA1FFF7DF73F216BB52C58A373779CAA26F_AdjustorThunk },
+	{ 0x06000017, CopyTransforms_Run_m758B775D087418804875B8D0603BE3CEE771BD52_AdjustorThunk },
+	{ 0x06000018, CopyTransforms_RunByRef_m873125FF88D3245706B84A52731481ABD11FABB8_AdjustorThunk },
+	{ 0x06000019, CopyTransforms_RunByRef_m93879383FF9D31C80B9FC677BBC7980C4CECBBFC_AdjustorThunk },
+	{ 0x0600001A, CopyTransforms___ThrowCodeGenException_mD2144EF920917B3BAD1EC2EECDCB38790C8407CD_AdjustorThunk },
+	{ 0x0600001B, RemoveCopyInitialTransformFromGameObjectComponent_Execute_m5D4ABC778414BCAB537C9165A2ED2C6891CC31BF_AdjustorThunk },
+	{ 0x06000021, StashTransforms_Execute_mA5046A06AE163FA321D4DE2C64C3E9BC1A95E96D_AdjustorThunk },
+	{ 0x06000022, CopyTransforms_Execute_m50D67A903DCC26263713457E47377A6B92F397B2_AdjustorThunk },
+	{ 0x06000023, CopyTransforms_Execute_mD4CF45DA08D8B0B88964B6A85F245473E7CC2279_AdjustorThunk },
+	{ 0x06000024, CopyTransforms_Schedule_m6CD4AEA0D81F07E3CD3D965BDAF08B7FC7B6B924_AdjustorThunk },
+	{ 0x06000025, CopyTransforms_Schedule_m8210C81969B3873FDA66F2A23FEC99AD2D485677_AdjustorThunk },
+	{ 0x06000026, CopyTransforms_ScheduleByRef_m34E15CE61988ED0D5F95013FFA25B0C06316D9B1_AdjustorThunk },
+	{ 0x06000027, CopyTransforms_ScheduleByRef_mBE0BBA0033A63C4BE9165AD335B061E395B7D8DA_AdjustorThunk },
+	{ 0x06000028, CopyTransforms_ScheduleParallel_m85F5120490B2055DA1B06AE797EB443B51692305_AdjustorThunk },
+	{ 0x06000029, CopyTransforms_ScheduleParallel_m9FED3DF631FC4E91A344CFEEA8F110AEB666B01D_AdjustorThunk },
+	{ 0x0600002A, CopyTransforms_ScheduleParallelByRef_m78892053D0D3EB1F59834283515454A448BB978C_AdjustorThunk },
+	{ 0x0600002B, CopyTransforms_ScheduleParallelByRef_m567019CB9B8C1B45E7BF4CBEC4A7CC02ED72B5FB_AdjustorThunk },
+	{ 0x0600002C, CopyTransforms_Run_m7EC80B142EA4B13065482DB23E8C60B033E84AB5_AdjustorThunk },
+	{ 0x0600002D, CopyTransforms_Run_m04D1A72F07D0C8FC72557A2E5B92A67E818924E8_AdjustorThunk },
+	{ 0x0600002E, CopyTransforms_RunByRef_m8171C7A969EDBEE009682BEA3C203D4D86D601EC_AdjustorThunk },
+	{ 0x0600002F, CopyTransforms_RunByRef_m4241FE86E80F36EBD61D2612E7667B2C7C380A9D_AdjustorThunk },
+	{ 0x06000030, CopyTransforms___ThrowCodeGenException_mFE2B2D2B1EE78B706FE9E6FC9634B0BAE94E96FE_AdjustorThunk },
+	{ 0x06000036, CopyTransforms_Execute_mA6B281F358D2B13C3367F4C37BEC4191A40D802F_AdjustorThunk },
+	{ 0x0600003A, UpdateConvertedTransforms_Execute_m422761454232011AD6085522E7028C40DB64941E_AdjustorThunk },
+	{ 0x06000046, CopyTransformJob_Execute_m367F530AB448624F4348597AFA7BA53CA9C8C0E8_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[72] = 
+{
+	8463,
+	10899,
+	10899,
+	8463,
+	8463,
+	10899,
+	10899,
+	1740,
+	10899,
+	10899,
+	4135,
+	3899,
+	1937,
+	3219,
+	7181,
+	3219,
+	7181,
+	3219,
+	7181,
+	3219,
+	7181,
+	8362,
+	10899,
+	8362,
+	10899,
+	10661,
+	10899,
+	10899,
+	10899,
+	1741,
+	10899,
+	10899,
+	4135,
+	3899,
+	1937,
+	3219,
+	7181,
+	3219,
+	7181,
+	3219,
+	7181,
+	3219,
+	7181,
+	8362,
+	10899,
+	8362,
+	10899,
+	10661,
+	10899,
+	10899,
+	10899,
+	10899,
+	10899,
+	4135,
+	10899,
+	10899,
+	10899,
+	4135,
+	16781,
+	1973,
+	10899,
+	1973,
+	10899,
+	1973,
+	10899,
+	10899,
+	10899,
+	10899,
+	10899,
+	4135,
+	19255,
+	19255,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Transforms_Hybrid_CodeGenModule;
+const Il2CppCodeGenModule g_Unity_Transforms_Hybrid_CodeGenModule = 
+{
+	"Unity.Transforms.Hybrid.dll",
+	72,
+	s_methodPointers,
+	36,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

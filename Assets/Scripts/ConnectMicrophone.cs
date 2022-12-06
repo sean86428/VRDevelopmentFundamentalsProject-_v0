@@ -58,6 +58,7 @@ public class ConnectMicrophone : MonoBehaviour
         //audioSource.clip = Microphone.Start("���J�� (Realtek(R) Audio)", true, 1000, AudioSettings.outputSampleRate);
         audioSource.clip = Microphone.Start(Microphone.devices[0], true, 10, 16000);
         GetComponent<AudioSource>().loop = true;
+        Debug.Log("Name : devices[0]" + Microphone.devices[0]);
         Debug.Log("WebRTC Microphone Recording...");
         while (!(Microphone.GetPosition(null)>0)) {}
         audioSource.Play();

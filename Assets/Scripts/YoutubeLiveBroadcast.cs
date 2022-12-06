@@ -2,8 +2,10 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Networking;
 using UnityEditor;
+// using Unity.EditorCoroutines.Editor;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Models;
@@ -12,7 +14,7 @@ using TMPro;
 
 public class YoutubeLiveBroadcast : MonoBehaviour
 {
-    public static string server_url="youtube test server url $$$$$$$";
+    public static string server_url="rtmp://140.113.167.72/live/test";
     public class LiveBroadcastRequest
     {
         public class SnippetClass {
@@ -63,12 +65,19 @@ public class YoutubeLiveBroadcast : MonoBehaviour
         public snippetClass snippet = new snippetClass();
     }
 
-    public TMP_Text MessageBoard;
+    public Text     MessageBoard;
+//    public TMP_Text MessageBoard;
     public TMP_Text StatusBoard;
 
     // YouTube Data API v3 service provider
-    protected string CLIENT_ID = "346391490014-6lcoq910j5tj7gsiij3489iunihs5k2i.apps.googleusercontent.com";
-    protected string CLIENT_SECRET = "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";
+    //danki
+    // protected string CLIENT_ID = "346391490014-6lcoq910j5tj7gsiij3489iunihs5k2i.apps.googleusercontent.com";
+    // protected string CLIENT_SECRET = "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";
+    // protected string CLIENT_ID = "211576630707-rvuur8sre27b7nptvdqu0rime67aq6ts.apps.googleusercontent.com";
+    // protected string CLIENT_SECRET = "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";
+    // sean
+    protected string CLIENT_ID = "517698240910-utvqvvben14bqc0g6keu67hhq45508lg.apps.googleusercontent.com";
+    protected string CLIENT_SECRET = "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";
 
     protected JObject   authData1 = new JObject();
     protected JObject   authData2 = new JObject();
@@ -82,15 +91,20 @@ public class YoutubeLiveBroadcast : MonoBehaviour
     private float       m_fNextActionTime = 0.0f;
     private float       m_fPeriod = 0.1f;
     protected int       m_iMessageSentCounter = 0;
+    protected float     m_preTime;
     // Start is called before the first frame update
     void Start()
     {
-//        PlayerPrefs.DeleteKey("Youtube_Auth_access_token");
+        //        PlayerPrefs.DeleteKey("Youtube_Auth_access_token");
+        m_preTime = Time.time;
     }
 
     // Update is called once per frame
     void Update()
     {
+        float curTime = Time.time;
+        float timeDiff = curTime - m_preTime;
+
         ////////////////////////////////////////
         // Wait for OAuth2 step 2 if the condition met.
         ////////////////////////////////////////
@@ -113,18 +127,18 @@ public class YoutubeLiveBroadcast : MonoBehaviour
                 apiYouTubeCreateBroadcast();
             // if youtube broadcast created, fetch chatroom messages periodicly.
             else {
-                if (m_iMessageSentCounter<5) {
-                    // apiPostChatroomMessages("This is a teset message");
-                    // apiPostChatroomMessages("中文也可以喔～～");
+                if (timeDiff > 10.0)
+                {
+                    apiGetChatroomMessages();
+                    m_preTime = curTime;
                 }
-                m_iMessageSentCounter += 1;
-                // apiGetChatroomMessages();
             }
         }
     }
 
     public void DeAuthenticate()
     {
+        StatusBoard.text = "Erease the key from device";
         if (PlayerPrefs.HasKey("Youtube_Auth_access_token"))
             PlayerPrefs.DeleteKey("Youtube_Auth_access_token");
     }
@@ -150,7 +164,7 @@ public class YoutubeLiveBroadcast : MonoBehaviour
     public void StopYouTubeLiveBroadcast()
     {
         // stop network connection.
-
+        StatusBoard.text = "Stop YouTube Broadcast...";
         // reset the status flags.
         m_bIsYouTubeAPIRequested = false;
         m_bIsBroadcastTriggered = false;
@@ -270,6 +284,8 @@ public class YoutubeLiveBroadcast : MonoBehaviour
 
     void apiYouTubeCreateBroadcast()
     {
+        Debug.Log("starting apiYouTubeCreateBroadcast ");
+        
         // check access_token exists
         if (!PlayerPrefs.HasKey("Youtube_Auth_refresh_token")) {
             return;
@@ -342,8 +358,8 @@ public class YoutubeLiveBroadcast : MonoBehaviour
             var requestBody2 = new LiveStreamRequest();
 //            requestBody2.snippet.title = "live stream "+DateTime.Now.ToString("yyyyMMdd-HHmmss");
             requestBody2.snippet.title = "live stream";
-            requestBody2.cdn.format = "1080p";
-            requestBody2.cdn.resolution = "1080p";
+            requestBody2.cdn.format = "720p";
+            requestBody2.cdn.resolution = "720p";
             requestBody2.cdn.frameRate = "30fps";
             requestBody2.cdn.ingestionType = "rtmp";
             Debug.Log(JsonConvert.SerializeObject(requestBody2));
@@ -384,7 +400,9 @@ public class YoutubeLiveBroadcast : MonoBehaviour
             Debug.Log("Binding success : "+response.Text);
             StatusBoard.text = "rtmp url : "+youtubeLiveStream["cdn"]["ingestionInfo"]["ingestionAddress"].ToString()+"/"+youtubeLiveStream["cdn"]["ingestionInfo"]["streamName"].ToString()+"\n直播 url : "+"https://youtu.be/"+m_youtubeLiveBroadcast["id"].ToString();
             //StatusBoard.text = "\n直播 url : "+"https://youtu.be/"+m_youtubeLiveBroadcast["id"].ToString();
-            server_url= "https://youtu.be/"+m_youtubeLiveBroadcast["id"].ToString();
+            server_url= youtubeLiveStream["cdn"]["ingestionInfo"]["ingestionAddress"].ToString()+"/"+youtubeLiveStream["cdn"]["ingestionInfo"]["streamName"].ToString();
+            Debug.Log("\n直播 url : "+"https://youtu.be/"+m_youtubeLiveBroadcast["id"].ToString());
+            Debug.Log("rtmp url :" + server_url);
         }).Catch(err => {
             Debug.Log("Error : "+err.Message);
         });
@@ -399,11 +417,12 @@ public class YoutubeLiveBroadcast : MonoBehaviour
         if (youtubeBinding["snippet"]["liveChatId"] == null)
             return;
 
+        Debug.Log("apiGetChatroomMessages start...");
         /////////////////////////////////////////////
         // get chatroom messages
         /////////////////////////////////////////////
 
-        RestClient.Post(new RequestHelper {
+        RestClient.Get(new RequestHelper {
             Uri = "https://www.googleapis.com/youtube/v3/liveChat/messages",
             Headers = new Dictionary<string, string> {
                 { "Authorization", PlayerPrefs.GetString("Youtube_Auth_token_type")+" "+PlayerPrefs.GetString("Youtube_Auth_access_token") },
@@ -415,13 +434,14 @@ public class YoutubeLiveBroadcast : MonoBehaviour
             },
         }).Then(response => {
             JObject chatMessages = JObject.Parse(response.Text);
+            string sOneMessage = "";
             foreach (var item in chatMessages["items"]) {
-                string sOneMessage = "";
-                sOneMessage += item["snippet"]["publishedAt"].ToString();
-                sOneMessage += item["authorDetails"]["displayName"].ToString();
+                sOneMessage += item["snippet"]["publishedAt"].ToString()+" : ";
+                sOneMessage += item["authorDetails"]["displayName"].ToString()+" : ";
                 sOneMessage += item["snippet"]["displayMessage"].ToString();
+                sOneMessage += "\n";
             }
-            StatusBoard.text = youtubeLiveStream["cdn"]["ingestionInfo"]["ingestionAddress"].ToString()+"/"+youtubeLiveStream["cdn"]["ingestionInfo"]["streamName"].ToString();
+            MessageBoard.text = sOneMessage;
         }).Catch(err => {
             Debug.Log("Error : "+err.Message);
         });
@@ -463,7 +483,6 @@ public class YoutubeLiveBroadcast : MonoBehaviour
                 sOneMessage += item["snippet"]["publishedAt"].ToString();
                 sOneMessage += " : "+item["authorDetails"]["displayName"].ToString();
                 sOneMessage += " : "+item["snippet"]["displayMessage"].ToString();
-                sOneMessage += "\n";
             }
         }).Catch(err => {
             Debug.Log("Error : "+err.Message);

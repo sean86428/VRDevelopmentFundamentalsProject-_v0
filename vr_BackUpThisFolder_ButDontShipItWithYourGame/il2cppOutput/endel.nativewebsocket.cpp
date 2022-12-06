@@ -4904,7 +4904,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA857
 		String_t* L_1 = ___message0;
 		NullCheck(L_0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2;
-		L_2 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(16 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_0, L_1);
+		L_2 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(19 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_0, L_1);
 		V_0 = L_2;
 		// return SendMessage(sendTextQueue, WebSocketMessageType.Text, new ArraySegment<byte>(encoded, 0, encoded.Length));
 		List_1_tA624903E1259A700E57AC71565033F4E3C8470F9* L_3 = __this->___sendTextQueue_14;
@@ -6847,7 +6847,7 @@ IL_0145_4:
 							int32_t L_44;
 							L_44 = WebSocketReceiveResult_get_Count_mCD1591C6EAFAA98DDEBA26821531A80EB9E614C6_inline(L_43, NULL);
 							NullCheck(L_38);
-							VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(28 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_38, L_40, L_42, L_44);
+							VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_38, L_40, L_42, L_44);
 							// while (!result.EndOfMessage);
 							WebSocketReceiveResult_t31FCE9F2E53843C065CD57BE10581EE47D6FAD2C* L_45 = __this->___U3CresultU3E5__6_8;
 							NullCheck(L_45);
@@ -6863,7 +6863,7 @@ IL_0145_4:
 							MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_47 = __this->___U3CmsU3E5__7_9;
 							NullCheck(L_47);
 							int64_t L_48;
-							L_48 = VirtualFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(24 /* System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin) */, L_47, ((int64_t)0), 0);
+							L_48 = VirtualFuncInvoker2< int64_t, int64_t, int32_t >::Invoke(30 /* System.Int64 System.IO.Stream::Seek(System.Int64,System.IO.SeekOrigin) */, L_47, ((int64_t)0), 0);
 							// if (result.MessageType == WebSocketMessageType.Text)
 							WebSocketReceiveResult_t31FCE9F2E53843C065CD57BE10581EE47D6FAD2C* L_49 = __this->___U3CresultU3E5__6_8;
 							NullCheck(L_49);
@@ -6924,7 +6924,7 @@ IL_01ea_4:
 								MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_59 = __this->___U3CmsU3E5__7_9;
 								NullCheck(L_59);
 								ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_60;
-								L_60 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(34 /* System.Byte[] System.IO.MemoryStream::ToArray() */, L_59);
+								L_60 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(40 /* System.Byte[] System.IO.MemoryStream::ToArray() */, L_59);
 								NullCheck(L_58);
 								List_1_Add_mAF067D8BCD6732A0ADBE1BA6EE909B3512880D42_inline(L_58, L_60, List_1_Add_mAF067D8BCD6732A0ADBE1BA6EE909B3512880D42_RuntimeMethod_var);
 								// }
@@ -6998,7 +6998,7 @@ IL_0237_4:
 								MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_71 = __this->___U3CmsU3E5__7_9;
 								NullCheck(L_71);
 								ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_72;
-								L_72 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(34 /* System.Byte[] System.IO.MemoryStream::ToArray() */, L_71);
+								L_72 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(40 /* System.Byte[] System.IO.MemoryStream::ToArray() */, L_71);
 								NullCheck(L_70);
 								List_1_Add_mAF067D8BCD6732A0ADBE1BA6EE909B3512880D42_inline(L_70, L_72, List_1_Add_mAF067D8BCD6732A0ADBE1BA6EE909B3512880D42_RuntimeMethod_var);
 								// }

@@ -1,401 +1,3 @@
-// using System;
-// using System.Collections;
-// using System.Collections.Generic;
-// using UnityEngine;
-// using Unity.WebRTC;
-
-// using NativeWebSocket;
-// using TMPro;
-
-// public class WebRTCConnection : MonoBehaviour
-// {
-//     public TMP_Text MessageBoard;
-//     public TMP_Text TMP_url;
-//     //Guid myuuid = Guid.NewGuid();
-//     //string newBackstageItemID1 = myuuid.ToString();
-//     //Guid myuuid = Guid.NewGuid();
-//     //string newBackstageItemID2 = myuuid.ToString();
-//     string newBackstageItemID1 ;
-//     string newBackstageItemID2 ;
-
-//     //string newBackstageItemID1 = "00000";
-//     //string newBackstageItemID2 = "11111";
-//     [System.Serializable] 
-//     public class OnmessageObject
-//     {
-//         public string type;
-//         public string data;
-//     }
-
-//     [System.Serializable]
-//     public class CallReceivedMessageObject
-//     {
-//         public string type;
-//         public CallReceivedData data;
-//     }
-
-//     [System.Serializable]
-//     public class CallReceivedData
-//     {
-//         public string caller;
-//         public CallReceivedRtcMessage rtcMessage;
-//     }
-
-//     [System.Serializable]
-//     public class CallReceivedRtcMessage
-//     {
-//         public string sdp;
-//         public string type;
-//     }
-
-//     [System.Serializable]
-//     public class ICEcandidateMessageObject
-//     {
-//         public string type;
-//         public ICEcandidateData data;
-//     }
-
-//     [System.Serializable]
-//     public class ICEcandidateData
-//     {
-//         public ICEcandidateRtcMessage rtcMessage;
-//     }
-
-//     [System.Serializable]
-//     public class ICEcandidateRtcMessage
-//     {
-//         public string label;
-//         public string id;
-//         public string candidate;
-//     }
-
-//     [System.Serializable]
-//     public class MessageMessageObject
-//     {
-//         public string type;
-//         public MessageData data;
-//     }
-
-//     [System.Serializable]
-//     public class MessageData
-//     {
-//         public string message;
-//     }
-
-
-
-//     WebSocket websocket;
-//     RTCPeerConnection peerConnection;
-//     public AudioSource gameMusicAudioSource, microphoneAudioSource, remoteAudioSource;
-//     private List<RTCRtpSender> pcSenders;
-//     DelegateOnIceCandidate onIceCandidate;
-//     private MediaStream videoStream;
-//     private MediaStream sendGameMusicAudioStream, sendMicrophoneAudioStream, receiveStream;
-//     private AudioStreamTrack gameMusic_audioTrack, microphone_audioTrack;
-//     private DelegateOnIceConnectionChange onIceConnectionChange;
-//     private bool webrtcUpdateStarted;
-//     List<string> messageList = new List<string>();
-
-    
-//     void OnEnable()
-//     {
-//         Start();
-//     }
-//     // Start is called before the first frame update
-//     async void Start()
-//     {
-//         newBackstageItemID1 = System.Guid.NewGuid().ToString();
-//         newBackstageItemID2 = System.Guid.NewGuid().ToString();
-//         newBackstageItemID1 = newBackstageItemID1.Substring(0,3);
-//         newBackstageItemID2 = newBackstageItemID2.Substring(0,3);
-//         TMP_url.text="https://meta.crazycurly.tk/friend/"+newBackstageItemID2+"_"+newBackstageItemID1;
-//         // Initialize WebRTC
-//         WebRTC.Initialize();
-//         pcSenders = new List<RTCRtpSender>();
-//         RTCConfiguration configuration = default;
-//         configuration.iceServers = new[] { new RTCIceServer { urls = new[] { "stun:stun.l.google.com:19302" } } };
-//         peerConnection = new RTCPeerConnection(ref configuration);
-//         //onIceConnectionChange = state => { OnIceConnectionChange(state); };
-//         onIceCandidate = candidate => { OnIceCandidate(candidate); };
-//         peerConnection.OnIceCandidate = onIceCandidate;
-
-
-//         // add video stream
-//         var cam = GetComponent<Camera>();
-//         if (videoStream == null)
-//         {
-//             videoStream = cam.CaptureStream(1280, 720, 1000);
-//         }
-
-//         foreach (var track in videoStream.GetTracks())
-//         {
-//             Debug.Log("track.enabled");
-//             Debug.Log(track.Enabled);
-//             pcSenders.Add(peerConnection.AddTrack(track, videoStream));
-//         }
-
-//         // add game music stream
-//         Debug.Log("game music audiosource name");
-//         Debug.Log(gameMusicAudioSource.name);
-//         sendGameMusicAudioStream = new MediaStream();
-//         gameMusic_audioTrack = new AudioStreamTrack(gameMusicAudioSource);
-//         peerConnection.AddTrack(gameMusic_audioTrack, sendGameMusicAudioStream);
-
-//         //// add microphone stream
-//         //Debug.Log("microphont audiosource name");
-//         //Debug.Log(microphoneAudioSource.name);
-//         //sendMicrophoneAudioStream = new MediaStream();
-//         //microphone_audioTrack = new AudioStreamTrack(microphoneAudioSource);
-//         //peerConnection.AddTrack(microphone_audioTrack, sendMicrophoneAudioStream);
-
-
-//         // add receive audio
-//         receiveStream = new MediaStream();
-//         receiveStream.OnAddTrack = e =>
-//         {
-//             if (e.Track is AudioStreamTrack track)
-//             {
-//                 // `AudioSource.SetTrack` is a extension method which is available 
-//                 // when using `Unity.WebRTC` namespace.
-//                 remoteAudioSource.SetTrack(track);
-
-//                 // Please do not forget to turn on the `loop` flag.
-//                 remoteAudioSource.loop = true;
-//                 remoteAudioSource.Play();
-//             }
-//         };
-//         peerConnection.OnTrack = (RTCTrackEvent e) => {
-//             if (e.Track.Kind == TrackKind.Audio)
-//             {
-//                 // Add track to MediaStream for receiver.
-//                 // This process triggers `OnAddTrack` event of `MediaStream`.
-//                 receiveStream.AddTrack(e.Track);
-//             }
-//         };
-
-//         if (!webrtcUpdateStarted)
-//         {
-//             StartCoroutine(WebRTC.Update());
-//             webrtcUpdateStarted = true;
-//         }
-
-//         /*
-//         var camera = GetComponent<Camera>();
-//         var track = camera.CaptureStreamTrack(1280, 720, 20);
-//         // Add the track.
-//         peerConnection.AddTrack(track);
-//         */
-
-//         // websocket = new WebSocket("ws://echo.websocket.org");
-//         websocket = new WebSocket("wss://meta.crazycurly.tk/ws/call/");
-
-//         websocket.OnOpen += () =>
-//         {
-//             Debug.Log("Connection open!");
-//             SendLoginMessage();
-//         };
-
-//         websocket.OnError += (e) =>
-//         {
-//             Debug.Log("Error! " + e);
-//         };
-
-//         websocket.OnClose += (e) =>
-//         {
-//             Debug.Log("Connection closed!");
-//         };
-
-//         websocket.OnMessage += (bytes) =>
-//         {
-//             // Reading a plain text message
-//             var message = System.Text.Encoding.UTF8.GetString(bytes);
-//             var message_obbject = JsonUtility.FromJson<OnmessageObject>(message);
-//             Debug.Log("Received OnMessage! (" + bytes.Length + " bytes) " + message);
-//             if (message_obbject.type == "connection")
-//             {
-//                 Debug.Log("connection");
-//             }
-//             if (message_obbject.type == "call_received")
-//             {
-//                 Debug.Log("call_received");
-//                 StartCoroutine(HandleCallReceived(message));
-//             }
-//             if (message_obbject.type == "ICEcandidate")
-//             {
-//                 Debug.Log("ICEcandidate");
-//                 HandleICEcandidate(message);
-//             }
-//             if (message_obbject.type == "send_msg")
-//             {
-//                 Debug.Log("ICEcandidate");
-//                 HandleMessage(message);
-//             }
-//         };
-
-//         // Keep sending messages at every 0.3s
-//         //InvokeRepeating("SendWebSocketMessage", 0.0f, 0.3f);
-
-//         await websocket.Connect();
-//     }
-
-//     void Update()
-//     {
-// #if !UNITY_WEBGL || UNITY_EDITOR
-//         websocket.DispatchMessageQueue();
-// #endif
-//     }
-
-//     private void OnIceCandidate(RTCIceCandidate candidate)
-//     {
-//         Debug.Log("~~~~~~~~~~~~~~~~~~OnIceCandidate~~~~~~~~~~~~~~~~~~~");
-//         Debug.Log(candidate.SdpMid);
-//         Debug.Log(candidate.SdpMLineIndex);
-//         Debug.Log(candidate.Candidate);
-//         SendICEcandidate(candidate);
-//     }
-
-//     public void HandleMessage(string message)
-//     {
-//         int max_row_num = 10;
-//         var message_object = JsonUtility.FromJson<MessageMessageObject>(message);
-//         messageList.Add(message_object.data.message);
-//         if (messageList.Count > max_row_num)
-//         {
-//             messageList.RemoveAt(0);
-//         }
-//         //�L�Xmessage
-//         string message_string = "";
-//         messageList.ForEach(delegate (string msg)
-//         {
-//             message_string = message_string + msg + '\n';
-//         });
-//         MessageBoard.text = message_string;
-//     }
-
-//     public void HandleICEcandidate(string message)
-//     {
-//         var message_object = JsonUtility.FromJson<ICEcandidateMessageObject>(message);
-//         Debug.Log(JsonUtility.ToJson(message_object, true));
-//         RTCIceCandidateInit candidate_info = new RTCIceCandidateInit();
-//         candidate_info.candidate = message_object.data.rtcMessage.candidate;
-//         candidate_info.sdpMid = message_object.data.rtcMessage.id;
-//         candidate_info.sdpMLineIndex = Int32.Parse(message_object.data.rtcMessage.label);
-//         peerConnection.AddIceCandidate(new RTCIceCandidate(candidate_info));
-//     }
-
-//     public IEnumerator HandleCallReceived(string message)
-//     {
-//         var message_object = JsonUtility.FromJson<CallReceivedMessageObject>(message);
-//         Debug.Log("message");
-//         Debug.Log(JsonUtility.ToJson(message_object, true));
-//         RTCSessionDescription remote_desc = new RTCSessionDescription();
-//         remote_desc.sdp = message_object.data.rtcMessage.sdp;
-//         if (message_object.data.rtcMessage.type == "offer")
-//         {
-//             remote_desc.type = RTCSdpType.Offer;
-//         }
-//         Debug.Log("----remote description----");
-//         Debug.Log(JsonUtility.ToJson(remote_desc, true));
-//         var op2 = peerConnection.SetRemoteDescription(ref remote_desc);
-//         yield return op2;
-//         if (!op2.IsError)
-//         {
-//             Debug.Log("----op2 SetRemoteDescription complete----");
-//         }
-//         else
-//         {
-//             var error = op2.Error;
-//             Debug.Log("----op2 SetRemoteDescription error----");
-//             Debug.Log(error);
-//             yield break;
-//         }
-//         // Create the SDP.
-//         var op3 = peerConnection.CreateAnswer();
-//         yield return op3;
-//         if (!op3.IsError)
-//         {
-//             Debug.Log("----op3 CreateAnswer complete----");
-//         }
-//         else
-//         {
-//             var error = op3.Error;
-//             Debug.Log("----op3 CreateAnswer error----");
-//             Debug.Log(error);
-//         }
-//         RTCSessionDescription local_desc = op3.Desc;
-//         Debug.Log("----local description----");
-//         Debug.Log(JsonUtility.ToJson(local_desc, true));
-//         var op4 = peerConnection.SetLocalDescription(ref local_desc);
-//         yield return op4;
-//         if (!op4.IsError)
-//         {
-//             Debug.Log("----op4 CreateAnswer complete----");
-//         }
-//         else
-//         {
-//             var error = op4.Error;
-//             Debug.Log("----op4 CreateAnswer error----");
-//             Debug.Log(error);
-//         }
-
-//         SendAnswer(local_desc);
-//         Debug.Log("Done");
-//     }
-
-//     async void SendLoginMessage()
-//     {
-//         if (websocket.State == WebSocketState.Open)
-//         {
-//             // https://meta.crazycurly.tk/friend/cde456_abc123
-//             // var name_string = "{\"type\":\"login\", \"data\":{\"name\":\"abc123\"}}";
-//             var name_string = "{\"type\":\"login\", \"data\":{\"name\":\"" + newBackstageItemID1 + "\"}}";
-
-//             Debug.Log(name_string);
-//             await websocket.SendText(name_string);
-//         }
-//     }
-
-//     async void SendAnswer(RTCSessionDescription desc)
-//     {
-//         string other_user = newBackstageItemID2;
-//         string data = JsonUtility.ToJson(desc, true);
-//         string message_string = "{\"type\":\"answer_call\", \"data\":{";
-//         message_string = message_string + "\"caller\":\"" + other_user + "\",";
-//         message_string = message_string + "\"rtcMessage\":" + data;
-//         message_string = message_string + "}}";
-//         message_string = message_string.Replace("\"type\": 2", "\"type\": \"answer\"");
-//         Debug.Log("???????????????????????????????????");
-//         Debug.Log(message_string);
-//         await websocket.SendText(message_string);
-//     }
-
-//     async void SendICEcandidate(RTCIceCandidate candidate)
-//     {
-//         if (websocket.State == WebSocketState.Open)
-//         {
-//             // https://meta.crazycurly.tk/friend/cde456_abc123
-//             //TMP_url.text="https://meta.crazycurly.tk/friend/"+newBackstageItemID2+"_"+newBackstageItemID1;
-//             //var name_string = "{\"type\":\"login\", \"data\":{\"name\":\"abc123\"}}";
-//             string other_user = newBackstageItemID2;
-//             string message_string = "{\"type\":\"ICEcandidate\", \"data\":{";
-//             message_string = message_string + "\"user\":\"" + other_user + "\",";
-//             message_string = message_string + "\"rtcMessage\":{";
-//             message_string = message_string + "\"label\":" + candidate.SdpMLineIndex + ",";
-//             message_string = message_string + "\"id\":\"" + candidate.SdpMid + "\",";
-//             message_string = message_string + "\"candidate\":\"" + candidate.Candidate + "\"";
-//             message_string = message_string + "}}}";
-//             Debug.Log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-//             Debug.Log(message_string);
-//             await websocket.SendText(message_string);
-//         }
-//     }
-
-//     private async void OnApplicationQuit()
-//     {
-//         await websocket.Close();
-//     }
-// } 
-// #####################################################
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -405,10 +7,12 @@ using Unity.WebRTC;
 
 using NativeWebSocket;
 using TMPro;
+using UnityEngine.UI;
 
 public class WebRTCConnection : MonoBehaviour
 {
-    public TMP_Text MessageBoard;
+    public string friend_url;
+    public Text MessageBoard;
     public TMP_Text StatusBoard;
     public TMP_Text TMP_url;
     string newBackstageItemID1 ;
@@ -489,7 +93,8 @@ public class WebRTCConnection : MonoBehaviour
         Debug.Log("WebRTCConnection.Start");
         // Initialize WebRTC
         WebRTC.Initialize();
-
+        TMP_url.text=friend_url;
+        // MessageBoard.text = "進行中文英文字測試 : testing chinese and english";
 /*      
         // start / stop connection 3 times
         ConnectionStart();
@@ -503,10 +108,11 @@ public class WebRTCConnection : MonoBehaviour
     }
 
     async public void ConnectionStart() {
+        friend_url="https://metaverse.venraas.tw:7654/friend/";
         Debug.Log("[vr_debug]WebRTCConnection.ConnectionStart");
         // newBackstageItemID1="00000";
         // newBackstageItemID2="11111";
-
+        
         
 
         // check if connection is existed.
@@ -517,7 +123,7 @@ public class WebRTCConnection : MonoBehaviour
         newBackstageItemID2 = System.Guid.NewGuid().ToString();
         newBackstageItemID1 = newBackstageItemID1.Substring(0,3);
         newBackstageItemID2 = newBackstageItemID2.Substring(0,3);
-        TMP_url.text="https://meta.crazycurly.tk/friend/"+newBackstageItemID2+"_"+newBackstageItemID1;
+        TMP_url.text=friend_url+newBackstageItemID2+"_"+newBackstageItemID1;
         
         TMP_url.text="[vr_debug]WebRTCConnection.ConnectionStart -2";
         RTCConfiguration configuration = default;
@@ -541,21 +147,17 @@ public class WebRTCConnection : MonoBehaviour
             Debug.Log("track.enabled : "+track.Enabled);
             peerConnection.AddTrack(track, videoStream);
         }
-        TMP_url.text="[vr_debug]WebRTCConnection.ConnectionStart 1.1";
         // add game music stream
         // Debug.Log("game music audiosource name : "+gameMusicAudioSource.name);
         // MediaStream sendGameMusicAudioStream = new MediaStream();
         // AudioStreamTrack gameMusic_audioTrack = new AudioStreamTrack(gameMusicAudioSource);
-        // TMP_url.text="[vr_debug]WebRTCConnection.ConnectionStart 1.2";
         // peerConnection.AddTrack(gameMusic_audioTrack, sendGameMusicAudioStream);
-        // TMP_url.text="[vr_debug]WebRTCConnection.ConnectionStart 1.3";
-        //// add microphone stream
+        // add microphone stream
         Debug.Log("microphont audiosource name : "+microphoneAudioSource.name);
         TMP_url.text="[vr_debug] microphont audiosource name : "+microphoneAudioSource.name;
         MediaStream sendMicrophoneAudioStream = new MediaStream();
         AudioStreamTrack microphone_audioTrack = new AudioStreamTrack(microphoneAudioSource);
         peerConnection.AddTrack(microphone_audioTrack, sendMicrophoneAudioStream);
-        TMP_url.text="[vr_debug]WebRTCConnection.ConnectionStart 1.4";
         // add receive audio
         MediaStream receiveStream = new MediaStream();
         receiveStream.OnAddTrack = e =>
@@ -595,9 +197,16 @@ public class WebRTCConnection : MonoBehaviour
         */
         Debug.Log("[vr_debug]WebRTCConnection.ConnectionStart 2");
         TMP_url.text="[vr_debug]WebRTCConnection.ConnectionStart 2";
-        TMP_url.text="https://meta.crazycurly.tk/friend/"+newBackstageItemID2+"_"+newBackstageItemID1+"  : (connected) ";
+        TMP_url.text=friend_url+newBackstageItemID2+"_"+newBackstageItemID1+"  : (connected) ";
         // websocket = new WebSocket("ws://echo.websocket.org");
+        // websocket = new WebSocket("wss://60.250.213.114:4567/ws/call/", { rejectUnauthorized : false} );
+        
+        // Dictionary<string, string> dic = new Dictionary<string, string>();
+        // dic.Add("rejectUnauthorized", "false");
+        // websocket = new WebSocket("wss://60.250.213.114:4567/ws/call/",dic);
+        // websocket = new WebSocket("wss://metaverse.venraas.tw:4567/ws/call/");
         websocket = new WebSocket("wss://meta.crazycurly.tk/ws/call/");
+        
         Debug.Log("[vr_debug]WebRTCConnection.ConnectionStart 3");
         websocket.OnOpen += () =>
         {
@@ -616,6 +225,7 @@ public class WebRTCConnection : MonoBehaviour
         };
         TMP_url.text=newBackstageItemID2+"_"+newBackstageItemID1+" bug 3 ";
         websocket.OnMessage += (bytes) =>
+
         {
             // Reading a plain text message
             var message = System.Text.Encoding.UTF8.GetString(bytes);
@@ -646,10 +256,11 @@ public class WebRTCConnection : MonoBehaviour
         //InvokeRepeating("SendWebSocketMessage", 0.0f, 0.3f);
         Debug.Log("[vr_debug]WebRTCConnection.ConnectionStart 4");
         TMP_url.text=newBackstageItemID2+"_"+newBackstageItemID1+" bug 5 ";
-        TMP_url.text="https://meta.crazycurly.tk/friend/"+newBackstageItemID2+"_"+newBackstageItemID1+"  : (connected) ";
+        TMP_url.text=friend_url+newBackstageItemID2+"_"+newBackstageItemID1+"  : (connected) ";
+        Debug.Log(friend_url+newBackstageItemID2+"_"+newBackstageItemID1+"  : (connected url) ");
         await websocket.Connect();
         Debug.Log("[vr_debug]WebRTCConnection.ConnectionStart 5");
-        TMP_url.text="https://meta.crazycurly.tk/friend/"+newBackstageItemID2+"_"+newBackstageItemID1+"  : (closed) ";
+        TMP_url.text=friend_url+newBackstageItemID2+"_"+newBackstageItemID1+"  : (closed) ";
     }
 
     void Update()
@@ -803,7 +414,7 @@ public class WebRTCConnection : MonoBehaviour
     }
 
     async public void ConnectionStop() {
-        TMP_url.text="ConnectionStop #";
+        TMP_url.text="中止連線";
         
         try{
             Debug.Log("WebRTCConnection.ConnectionStop");
