@@ -31,7 +31,7 @@ public class WebRtcBroadcast : MonoBehaviour
         // check if connection is existed.
         if (peerConnection!= null)
             return;
-        
+        WebRTC.Initialize();
         RTCConfiguration configuration = new RTCConfiguration
         {
             iceServers = new[] { new RTCIceServer { urls = new[] { "stun:stun.l.google.com:19302" } } }

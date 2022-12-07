@@ -80,7 +80,6 @@ public class WebRTCConnection : MonoBehaviour
     }
 
     public AudioSource gameMusicAudioSource, microphoneAudioSource, remoteAudioSource;
-
     public WebSocket websocket = null;
     public RTCPeerConnection peerConnection = null;
     private DelegateOnIceCandidate onIceCandidate;
@@ -92,7 +91,7 @@ public class WebRTCConnection : MonoBehaviour
     {
         Debug.Log("WebRTCConnection.Start");
         // Initialize WebRTC
-        WebRTC.Initialize();
+        // WebRTC.Initialize();
         TMP_url.text=friend_url;
         // MessageBoard.text = "進行中文英文字測試 : testing chinese and english";
 /*      
@@ -108,17 +107,20 @@ public class WebRTCConnection : MonoBehaviour
     }
 
     async public void ConnectionStart() {
+        
         friend_url="https://metaverse.venraas.tw:7654/friend/";
         Debug.Log("[vr_debug]WebRTCConnection.ConnectionStart");
         // newBackstageItemID1="00000";
         // newBackstageItemID2="11111";
-        
-        
+        //microphoneAudioSource = GameObject.Find("MicrophoneAudioSource").GetComponent<AudioSource>();
+        //microphoneAudioSource=null;
+        microphoneAudioSource.GetComponent<AudioSource>();
 
         // check if connection is existed.
         if (peerConnection!= null)
             return;
 
+        WebRTC.Initialize();
         newBackstageItemID1 = System.Guid.NewGuid().ToString();
         newBackstageItemID2 = System.Guid.NewGuid().ToString();
         newBackstageItemID1 = newBackstageItemID1.Substring(0,3);
@@ -151,13 +153,16 @@ public class WebRTCConnection : MonoBehaviour
         // Debug.Log("game music audiosource name : "+gameMusicAudioSource.name);
         // MediaStream sendGameMusicAudioStream = new MediaStream();
         // AudioStreamTrack gameMusic_audioTrack = new AudioStreamTrack(gameMusicAudioSource);
-        // peerConnection.AddTrack(gameMusic_audioTrack, sendGameMusicAudioStream);
+        // var sender = peerConnection.AddTrack(gameMusic_audioTrack, sendGameMusicAudioStream);
+
+        
         // add microphone stream
         Debug.Log("microphont audiosource name : "+microphoneAudioSource.name);
-        TMP_url.text="[vr_debug] microphont audiosource name : "+microphoneAudioSource.name;
         MediaStream sendMicrophoneAudioStream = new MediaStream();
         AudioStreamTrack microphone_audioTrack = new AudioStreamTrack(microphoneAudioSource);
-        peerConnection.AddTrack(microphone_audioTrack, sendMicrophoneAudioStream);
+        var sender = peerConnection.AddTrack(microphone_audioTrack, sendMicrophoneAudioStream);
+        
+
         // add receive audio
         MediaStream receiveStream = new MediaStream();
         receiveStream.OnAddTrack = e =>
@@ -204,8 +209,8 @@ public class WebRTCConnection : MonoBehaviour
         // Dictionary<string, string> dic = new Dictionary<string, string>();
         // dic.Add("rejectUnauthorized", "false");
         // websocket = new WebSocket("wss://60.250.213.114:4567/ws/call/",dic);
-        // websocket = new WebSocket("wss://metaverse.venraas.tw:4567/ws/call/");
-        websocket = new WebSocket("wss://meta.crazycurly.tk/ws/call/");
+        websocket = new WebSocket("wss://metaverse.venraas.tw:4567/ws/call/");
+        // websocket = new WebSocket("wss://meta.crazycurly.tk/ws/call/");
         
         Debug.Log("[vr_debug]WebRTCConnection.ConnectionStart 3");
         websocket.OnOpen += () =>
@@ -251,16 +256,22 @@ public class WebRTCConnection : MonoBehaviour
                 HandleMessage(message);
             }
         };
-        TMP_url.text=newBackstageItemID2+"_"+newBackstageItemID1+" bug 4 ";
+
         // Keep sending messages at every 0.3s
         //InvokeRepeating("SendWebSocketMessage", 0.0f, 0.3f);
-        Debug.Log("[vr_debug]WebRTCConnection.ConnectionStart 4");
-        TMP_url.text=newBackstageItemID2+"_"+newBackstageItemID1+" bug 5 ";
+
         TMP_url.text=friend_url+newBackstageItemID2+"_"+newBackstageItemID1+"  : (connected) ";
         Debug.Log(friend_url+newBackstageItemID2+"_"+newBackstageItemID1+"  : (connected url) ");
         await websocket.Connect();
-        Debug.Log("[vr_debug]WebRTCConnection.ConnectionStart 5");
+
+        // release webrtc resources
+        peerConnection.Close();
+        peerConnection.RemoveTrack(sender);
+        peerConnection = null;
+        WebRTC.Dispose();
+        
         TMP_url.text=friend_url+newBackstageItemID2+"_"+newBackstageItemID1+"  : (closed) ";
+
     }
 
     void Update()
@@ -415,23 +426,18 @@ public class WebRTCConnection : MonoBehaviour
 
     async public void ConnectionStop() {
         TMP_url.text="中止連線";
-        
-        try{
-            Debug.Log("WebRTCConnection.ConnectionStop");
-              if (websocket!=null) {
+
+        Debug.Log("WebRTCConnection.ConnectionStop");
+            if (websocket!=null) {
                 await websocket.Close();
                 websocket = null;
-                }
-              if (peerConnection!=null) {
-                peerConnection.Close();
-                peerConnection = null;
-                }
-        
-          
-        }
-        catch{
-            TMP_url.text="exception";
-        }
+            }
+            // if (peerConnection!=null) {
+            
+            // // peerConnection.Close();
+            // // peerConnection = null;
+            //     WebRTC.Dispose();
+            // }
 
     }
 

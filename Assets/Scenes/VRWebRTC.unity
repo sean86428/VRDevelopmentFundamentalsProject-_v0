@@ -1391,7 +1391,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &343920489
 Transform:
   m_ObjectHideFlags: 0
@@ -5828,7 +5828,7 @@ MonoBehaviour:
   MessageBoard: {fileID: 1688776705}
   StatusBoard: {fileID: 0}
   TMP_url: {fileID: 353130377}
-  gameMusicAudioSource: {fileID: 343920490}
+  gameMusicAudioSource: {fileID: 0}
   microphoneAudioSource: {fileID: 760482448}
   remoteAudioSource: {fileID: 415225052}
 --- !u!114 &1406898574
