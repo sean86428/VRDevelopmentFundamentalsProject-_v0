@@ -17132,11 +17132,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_RetainBlobAssetSys
 	RetainBlobAssetBatchPtr_t3C4E424C414A65ED2C7215C76B298CA04E362306 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// Unity.Entities.InternalCompilerInterface.UnsafeReleaseGatheredEntities(ref query, ref gatherEntitiesResult);
 		BlobAssetOwner_t48F662D0AF49A5BBFD013EF59C8BD9C335A854AD L_0 = ___blobOwner1;
 		BlobAssetBatch_tE7DAEECF09D38F983FE3F829F7774B40F4FD6B46* L_1 = L_0.___BlobAssetBatchPtr_0;
 		BlobAssetBatch_Retain_m53A0C2B421793FAF5B7A0323310BA94332FD6A9D(L_1, NULL);
-		// }
 		EntityManager_t245CC8C15DD62AF5BA0B385CF94EA7CD0B3F4C91 L_2;
 		L_2 = ComponentSystemBase_get_EntityManager_mB0505034AB04061030BABADB8A1F6C3112AFEB3A(__this, NULL);
 		V_0 = L_2;
@@ -17148,7 +17146,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_RetainBlobAssetSys
 		RetainBlobAssetBatchPtr_t3C4E424C414A65ED2C7215C76B298CA04E362306 L_6 = V_1;
 		bool L_7;
 		L_7 = EntityManager_AddComponentData_TisRetainBlobAssetBatchPtr_t3C4E424C414A65ED2C7215C76B298CA04E362306_mDC34413D10741AB76F84CD1D0ED2F4130B1E3C38((&V_0), L_3, L_6, EntityManager_AddComponentData_TisRetainBlobAssetBatchPtr_t3C4E424C414A65ED2C7215C76B298CA04E362306_mDC34413D10741AB76F84CD1D0ED2F4130B1E3C38_RuntimeMethod_var);
-		// }
 		return;
 	}
 }
@@ -17166,21 +17163,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_RetainBlobAssetSys
 	RetainBlobAssetSystem_LambdaJob_0_Job_t82585A13CF7BF99FEFC300EC3D69D837FB5A3697 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// {
 		ComponentTypeHandle_1_tB7A5E0DF1C502132573B4FD0D015465F94541302* L_0 = (&__this->_____Unity_Entities_RetainBlobAssets_RW_ComponentTypeHandle_6);
 		ComponentTypeHandle_1_Update_mDFB7B47F34976137CE999AF3B8F22571B1A7ADAE(L_0, __this, ComponentTypeHandle_1_Update_mDFB7B47F34976137CE999AF3B8F22571B1A7ADAE_RuntimeMethod_var);
-		// Unity.Entities.InternalCompilerInterface.EntitiesJournaling_RecordSetSharedComponentData<Unity.Entities.BlobAssetOwner>(__worldSequenceNumber, in __executingSystem, entity, blobOwnerTypeIndex);
 		il2cpp_codegen_initobj((&V_1), sizeof(RetainBlobAssetSystem_LambdaJob_0_Job_t82585A13CF7BF99FEFC300EC3D69D837FB5A3697));
 		(&V_1)->_____this_0 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->_____this_0), (void*)__this);
 		RetainBlobAssetSystem_LambdaJob_0_Job_t82585A13CF7BF99FEFC300EC3D69D837FB5A3697 L_1 = V_1;
 		V_0 = L_1;
-		// }
 		SystemBase_CompleteDependency_m6A50401D4D48AA0F64ABC1F99A8ABA0F34EB7BB6(__this, NULL);
-		// }
 		EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 L_2 = __this->___RetainBlobAssetSystem_LambdaJob_0_Query_1;
 		RetainBlobAssetSystem_LambdaJob_0_Job_RunWithStructuralChange_m8441ECB3183434EA2168819DB899DBFF1119560C((&V_0), L_2, NULL);
-		// 
 		return;
 	}
 }
@@ -17198,7 +17190,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_RetainBlobAssetSys
 	EntityManager_t245CC8C15DD62AF5BA0B385CF94EA7CD0B3F4C91 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// Unity.Entities.InternalCompilerInterface.WriteComponentData<Unity.Entities.RetainBlobAssetBatchPtr>(__this.EntityManager, entity, retainPtrTypeIndex, ref retainPtr, ref originalretainPtr);
 		RetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3* L_0 = ___retain1;
 		int32_t* L_1 = (&L_0->___FramesToRetainBlobAssets_1);
 		int32_t* L_2 = L_1;
@@ -17213,18 +17204,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_RetainBlobAssetSys
 		}
 	}
 	{
-		// }
 		RetainBlobAssetBatchPtr_t3C4E424C414A65ED2C7215C76B298CA04E362306* L_6 = ___retainPtr2;
 		BlobAssetBatch_tE7DAEECF09D38F983FE3F829F7774B40F4FD6B46* L_7 = L_6->___BlobAssetBatchPtr_0;
 		BlobAssetBatch_Release_m94DB18B581CE2D2F2B2F0F3D5F59247D9B71E515(L_7, NULL);
-		// }
 		EntityManager_t245CC8C15DD62AF5BA0B385CF94EA7CD0B3F4C91 L_8;
 		L_8 = ComponentSystemBase_get_EntityManager_mB0505034AB04061030BABADB8A1F6C3112AFEB3A(__this, NULL);
 		V_1 = L_8;
 		Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_9 = ___e0;
 		bool L_10;
 		L_10 = EntityManager_RemoveComponent_TisRetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3_m8A9600C84553DE5830E0084CA09C65FA39893F89((&V_1), L_9, EntityManager_RemoveComponent_TisRetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3_m8A9600C84553DE5830E0084CA09C65FA39893F89_RuntimeMethod_var);
-		// finally
 		EntityManager_t245CC8C15DD62AF5BA0B385CF94EA7CD0B3F4C91 L_11;
 		L_11 = ComponentSystemBase_get_EntityManager_mB0505034AB04061030BABADB8A1F6C3112AFEB3A(__this, NULL);
 		V_1 = L_11;
@@ -17235,7 +17223,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_RetainBlobAssetSys
 
 IL_003b:
 	{
-		// Unity.Entities.InternalCompilerInterface.UnsafeReleaseGatheredEntities(ref query, ref gatherEntitiesResult);
 		return;
 	}
 }
@@ -17254,24 +17241,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_RetainBlobAssetSys
 	RetainBlobAssetSystem_LambdaJob_1_Job_t6F0F36570CF42AB96AFBFAC6F3CCFEE18AF12A93 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// 
 		ComponentTypeHandle_1_tB7A5E0DF1C502132573B4FD0D015465F94541302* L_0 = (&__this->_____Unity_Entities_RetainBlobAssets_RW_ComponentTypeHandle_6);
 		ComponentTypeHandle_1_Update_mDFB7B47F34976137CE999AF3B8F22571B1A7ADAE(L_0, __this, ComponentTypeHandle_1_Update_mDFB7B47F34976137CE999AF3B8F22571B1A7ADAE_RuntimeMethod_var);
-		// unsafe void RetainBlobAssetSystem_LambdaJob_1_LambdaBody(Unity.Entities.Entity e, ref Unity.Entities.RetainBlobAssets retain, ref Unity.Entities.RetainBlobAssetBatchPtr retainPtr)
 		ComponentTypeHandle_1_t57CD8CF9271CEF8CF02A5F4B3951FE7D83088F0F* L_1 = (&__this->_____Unity_Entities_RetainBlobAssetBatchPtr_RW_ComponentTypeHandle_7);
 		ComponentTypeHandle_1_Update_m0F58274D7C60023B20C167F16D6D3D853DC727D6(L_1, __this, ComponentTypeHandle_1_Update_m0F58274D7C60023B20C167F16D6D3D853DC727D6_RuntimeMethod_var);
-		// {
 		il2cpp_codegen_initobj((&V_1), sizeof(RetainBlobAssetSystem_LambdaJob_1_Job_t6F0F36570CF42AB96AFBFAC6F3CCFEE18AF12A93));
 		(&V_1)->_____this_0 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->_____this_0), (void*)__this);
 		RetainBlobAssetSystem_LambdaJob_1_Job_t6F0F36570CF42AB96AFBFAC6F3CCFEE18AF12A93 L_2 = V_1;
 		V_0 = L_2;
-		// if (retain.FramesToRetainBlobAssets-- == 0)
 		SystemBase_CompleteDependency_m6A50401D4D48AA0F64ABC1F99A8ABA0F34EB7BB6(__this, NULL);
-		// {
 		EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 L_3 = __this->___RetainBlobAssetSystem_LambdaJob_1_Query_2;
 		RetainBlobAssetSystem_LambdaJob_1_Job_RunWithStructuralChange_m7DDFD911B725CA971B17A350206105BFDF055853((&V_0), L_3, NULL);
-		// BlobAssetBatch.Release(retainPtr.BlobAssetBatchPtr);
 		return;
 	}
 }
@@ -17290,7 +17271,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_RetainBlobAssetSys
 	EntityManager_t245CC8C15DD62AF5BA0B385CF94EA7CD0B3F4C91 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// Unity.Entities.InternalCompilerInterface.WriteComponentData<Unity.Entities.RetainBlobAssetPtr>(__this.EntityManager, entity, retainPtrTypeIndex, ref retainPtr, ref originalretainPtr);
 		RetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3* L_0 = ___retain1;
 		int32_t* L_1 = (&L_0->___FramesToRetainBlobAssets_1);
 		int32_t* L_2 = L_1;
@@ -17305,24 +17285,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_RetainBlobAssetSys
 		}
 	}
 	{
-		// }
 		RetainBlobAssetPtr_tB58F0A9A302FCFEFE95EAB011F522AFFB283873F* L_6 = ___retainPtr2;
 		BlobAssetHeader_t3EC5AD955B287949B57D36BBDE25A4D1BA85E639* L_7 = L_6->___BlobAsset_0;
 		BlobAssetHeader_Invalidate_m1FBA085C879A044576145FDDD97E845DCA8F93D4((BlobAssetHeader_t3EC5AD955B287949B57D36BBDE25A4D1BA85E639*)L_7, NULL);
-		// }
 		RetainBlobAssetPtr_tB58F0A9A302FCFEFE95EAB011F522AFFB283873F* L_8 = ___retainPtr2;
 		BlobAssetHeader_t3EC5AD955B287949B57D36BBDE25A4D1BA85E639* L_9 = L_8->___BlobAsset_0;
 		AllocatorHandle_t3CA09720B1F89F91A8DDBA95E74C28A1EC3E3148 L_10;
 		L_10 = AllocatorHandle_op_Implicit_mDCF4431F31BB4A09438AE644785C4273F86B2B8D(4, NULL);
 		Unmanaged_Free_TisBlobAssetHeader_t3EC5AD955B287949B57D36BBDE25A4D1BA85E639_mFA1A3A9A1820C8BFDD4B217AC84C26DC6B3BE54E(L_9, L_10, Unmanaged_Free_TisBlobAssetHeader_t3EC5AD955B287949B57D36BBDE25A4D1BA85E639_mFA1A3A9A1820C8BFDD4B217AC84C26DC6B3BE54E_RuntimeMethod_var);
-		// finally
 		EntityManager_t245CC8C15DD62AF5BA0B385CF94EA7CD0B3F4C91 L_11;
 		L_11 = ComponentSystemBase_get_EntityManager_mB0505034AB04061030BABADB8A1F6C3112AFEB3A(__this, NULL);
 		V_1 = L_11;
 		Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_12 = ___e0;
 		bool L_13;
 		L_13 = EntityManager_RemoveComponent_TisRetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3_m8A9600C84553DE5830E0084CA09C65FA39893F89((&V_1), L_12, EntityManager_RemoveComponent_TisRetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3_m8A9600C84553DE5830E0084CA09C65FA39893F89_RuntimeMethod_var);
-		// {
 		EntityManager_t245CC8C15DD62AF5BA0B385CF94EA7CD0B3F4C91 L_14;
 		L_14 = ComponentSystemBase_get_EntityManager_mB0505034AB04061030BABADB8A1F6C3112AFEB3A(__this, NULL);
 		V_1 = L_14;
@@ -17333,7 +17309,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_RetainBlobAssetSys
 
 IL_004c:
 	{
-		// }
 		return;
 	}
 }
@@ -17352,24 +17327,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_RetainBlobAssetSys
 	RetainBlobAssetSystem_LambdaJob_2_Job_t3B61FB4B6BC4171E87D7E5C3E9FE67646DD3DF96 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		// unsafe void RetainBlobAssetSystem_LambdaJob_2_LambdaBody(Unity.Entities.Entity e, ref Unity.Entities.RetainBlobAssets retain, ref Unity.Entities.RetainBlobAssetPtr retainPtr)
 		ComponentTypeHandle_1_tB7A5E0DF1C502132573B4FD0D015465F94541302* L_0 = (&__this->_____Unity_Entities_RetainBlobAssets_RW_ComponentTypeHandle_6);
 		ComponentTypeHandle_1_Update_mDFB7B47F34976137CE999AF3B8F22571B1A7ADAE(L_0, __this, ComponentTypeHandle_1_Update_mDFB7B47F34976137CE999AF3B8F22571B1A7ADAE_RuntimeMethod_var);
-		// {
 		ComponentTypeHandle_1_tC77453B187F8E1BA3B21948C6F94060D060D4CF6* L_1 = (&__this->_____Unity_Entities_RetainBlobAssetPtr_RW_ComponentTypeHandle_8);
 		ComponentTypeHandle_1_Update_mE983BE6C93BA0472ED3554C0D09EB6B5042A1225(L_1, __this, ComponentTypeHandle_1_Update_mE983BE6C93BA0472ED3554C0D09EB6B5042A1225_RuntimeMethod_var);
-		// if (retain.FramesToRetainBlobAssets-- == 0)
 		il2cpp_codegen_initobj((&V_1), sizeof(RetainBlobAssetSystem_LambdaJob_2_Job_t3B61FB4B6BC4171E87D7E5C3E9FE67646DD3DF96));
 		(&V_1)->_____this_0 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_1)->_____this_0), (void*)__this);
 		RetainBlobAssetSystem_LambdaJob_2_Job_t3B61FB4B6BC4171E87D7E5C3E9FE67646DD3DF96 L_2 = V_1;
 		V_0 = L_2;
-		// {
 		SystemBase_CompleteDependency_m6A50401D4D48AA0F64ABC1F99A8ABA0F34EB7BB6(__this, NULL);
-		// retainPtr.BlobAsset->Invalidate();
 		EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 L_3 = __this->___RetainBlobAssetSystem_LambdaJob_2_Query_3;
 		RetainBlobAssetSystem_LambdaJob_2_Job_RunWithStructuralChange_mC8AAF6E038C68907D3EFFB8C0EB05BB6E0D89763((&V_0), L_3, NULL);
-		// Memory.Unmanaged.Free(retainPtr.BlobAsset, Allocator.Persistent);
 		return;
 	}
 }
@@ -17392,13 +17361,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_RetainBlobAssetSys
 	memset((&V_2), 0, sizeof(V_2));
 	JobEntityBatchRunWithoutJobSystemDelegate_t7772B36B6B2DB9B6493E0C366BE1D0109AF5DC27* G_B3_0 = NULL;
 	{
-		// if (Unity.Entities.EntitiesJournaling.Enabled)
 		ComponentTypeHandle_1_tB7A5E0DF1C502132573B4FD0D015465F94541302* L_0 = (&__this->_____Unity_Entities_RetainBlobAssets_RW_ComponentTypeHandle_6);
 		ComponentTypeHandle_1_Update_mDFB7B47F34976137CE999AF3B8F22571B1A7ADAE(L_0, __this, ComponentTypeHandle_1_Update_mDFB7B47F34976137CE999AF3B8F22571B1A7ADAE_RuntimeMethod_var);
-		// EntitiesJournaling_RecordChunk(in chunk, in __retainTypeHandle, retainArrayPtr, in __retainPtrTypeHandle, retainPtrArrayPtr);
 		ComponentTypeHandle_1_t57CD8CF9271CEF8CF02A5F4B3951FE7D83088F0F* L_1 = (&__this->_____Unity_Entities_RetainBlobAssetBatchPtr_RW_ComponentTypeHandle_7);
 		ComponentTypeHandle_1_Update_m0F58274D7C60023B20C167F16D6D3D853DC727D6(L_1, __this, ComponentTypeHandle_1_Update_m0F58274D7C60023B20C167F16D6D3D853DC727D6_RuntimeMethod_var);
-		// }
 		il2cpp_codegen_initobj((&V_2), sizeof(RetainBlobAssetSystem_LambdaJob_3_Job_tA4EA74EE61D9C5990E1D020DD62BA6748307642E));
 		EntityTypeHandle_t1D0AE8970094A6835B0D90DC48D4A7AA79BC570A L_2;
 		L_2 = ComponentSystemBase_GetEntityTypeHandle_mE0A167B78BED3CEA55CB40A4848BE723373931A5(__this, NULL);
@@ -17409,9 +17375,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_RetainBlobAssetSys
 		(&V_2)->_____retainPtrTypeHandle_4 = L_4;
 		RetainBlobAssetSystem_LambdaJob_3_Job_tA4EA74EE61D9C5990E1D020DD62BA6748307642E L_5 = V_2;
 		V_0 = L_5;
-		// 
 		SystemBase_CompleteDependency_m6A50401D4D48AA0F64ABC1F99A8ABA0F34EB7BB6(__this, NULL);
-		// [Unity.Burst.BurstCompile(FloatMode = Unity.Burst.FloatMode.Default, FloatPrecision = Unity.Burst.FloatPrecision.Standard, CompileSynchronously = false)]
 		bool L_6;
 		L_6 = JobsUtility_get_JobCompilerEnabled_m7E1FB99677AD373C40882D407D9E7C4E079A51CA(NULL);
 		if (L_6)
@@ -17434,11 +17398,9 @@ IL_005d:
 IL_0062:
 	{
 		V_1 = G_B3_0;
-		// [AOT.MonoPInvokeCallback(typeof(Unity.Entities.InternalCompilerInterface.JobEntityBatchRunWithoutJobSystemDelegate))]
 		EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 L_9 = __this->___RetainBlobAssetSystem_LambdaJob_3_Query_4;
 		JobEntityBatchRunWithoutJobSystemDelegate_t7772B36B6B2DB9B6493E0C366BE1D0109AF5DC27* L_10 = V_1;
 		InternalCompilerInterface_UnsafeRunJobEntityBatch_TisRetainBlobAssetSystem_LambdaJob_3_Job_tA4EA74EE61D9C5990E1D020DD62BA6748307642E_m7D3685E8BE277E8C3A5358BDA4EE11977D39220E((&V_0), L_9, L_10, InternalCompilerInterface_UnsafeRunJobEntityBatch_TisRetainBlobAssetSystem_LambdaJob_3_Job_tA4EA74EE61D9C5990E1D020DD62BA6748307642E_m7D3685E8BE277E8C3A5358BDA4EE11977D39220E_RuntimeMethod_var);
-		// public static void RunWithoutJobSystem(ref Unity.Entities.ArchetypeChunkIterator archetypeChunkIterator, global::System.IntPtr jobPtr)
 		return;
 	}
 }
@@ -17461,13 +17423,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_RetainBlobAssetSys
 	memset((&V_2), 0, sizeof(V_2));
 	JobEntityBatchRunWithoutJobSystemDelegate_t7772B36B6B2DB9B6493E0C366BE1D0109AF5DC27* G_B3_0 = NULL;
 	{
-		// }
 		ComponentTypeHandle_1_tB7A5E0DF1C502132573B4FD0D015465F94541302* L_0 = (&__this->_____Unity_Entities_RetainBlobAssets_RW_ComponentTypeHandle_6);
 		ComponentTypeHandle_1_Update_mDFB7B47F34976137CE999AF3B8F22571B1A7ADAE(L_0, __this, ComponentTypeHandle_1_Update_mDFB7B47F34976137CE999AF3B8F22571B1A7ADAE_RuntimeMethod_var);
-		// 
 		ComponentTypeHandle_1_tC77453B187F8E1BA3B21948C6F94060D060D4CF6* L_1 = (&__this->_____Unity_Entities_RetainBlobAssetPtr_RW_ComponentTypeHandle_8);
 		ComponentTypeHandle_1_Update_mE983BE6C93BA0472ED3554C0D09EB6B5042A1225(L_1, __this, ComponentTypeHandle_1_Update_mE983BE6C93BA0472ED3554C0D09EB6B5042A1225_RuntimeMethod_var);
-		// #line 301 "C:\unity_projects\VRDevelopmentFundamentalsProject _v0\Temp\GeneratedCode\Unity.Entities\RetainBlobAssetSystem__System_1406786464.g.cs"
 		il2cpp_codegen_initobj((&V_2), sizeof(RetainBlobAssetSystem_LambdaJob_4_Job_tB345099448B6AFBA94CA372DD4969B00BE688F7B));
 		EntityTypeHandle_t1D0AE8970094A6835B0D90DC48D4A7AA79BC570A L_2;
 		L_2 = ComponentSystemBase_GetEntityTypeHandle_mE0A167B78BED3CEA55CB40A4848BE723373931A5(__this, NULL);
@@ -17478,9 +17437,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_RetainBlobAssetSys
 		(&V_2)->_____retainPtrTypeHandle_4 = L_4;
 		RetainBlobAssetSystem_LambdaJob_4_Job_tB345099448B6AFBA94CA372DD4969B00BE688F7B L_5 = V_2;
 		V_0 = L_5;
-		// public void Execute(Unity.Entities.ArchetypeChunk chunk, int batchIndex)
 		SystemBase_CompleteDependency_m6A50401D4D48AA0F64ABC1F99A8ABA0F34EB7BB6(__this, NULL);
-		// {
 		bool L_6;
 		L_6 = JobsUtility_get_JobCompilerEnabled_m7E1FB99677AD373C40882D407D9E7C4E079A51CA(NULL);
 		if (L_6)
@@ -17503,11 +17460,9 @@ IL_005d:
 IL_0062:
 	{
 		V_1 = G_B3_0;
-		// var __eArrayPtr = Unity.Entities.InternalCompilerInterface.UnsafeGetChunkEntityArrayIntPtr(chunk, __eTypeHandle);
 		EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 L_9 = __this->___RetainBlobAssetSystem_LambdaJob_4_Query_5;
 		JobEntityBatchRunWithoutJobSystemDelegate_t7772B36B6B2DB9B6493E0C366BE1D0109AF5DC27* L_10 = V_1;
 		InternalCompilerInterface_UnsafeRunJobEntityBatch_TisRetainBlobAssetSystem_LambdaJob_4_Job_tB345099448B6AFBA94CA372DD4969B00BE688F7B_mCB7CE1CCE172555803B8784BC1AA67797C663988((&V_0), L_9, L_10, InternalCompilerInterface_UnsafeRunJobEntityBatch_TisRetainBlobAssetSystem_LambdaJob_4_Job_tB345099448B6AFBA94CA372DD4969B00BE688F7B_mCB7CE1CCE172555803B8784BC1AA67797C663988_RuntimeMethod_var);
-		// var retainArrayPtr = Unity.Entities.InternalCompilerInterface.UnsafeGetChunkNativeArrayIntPtr<Unity.Entities.RetainBlobAssets>(chunk, __retainTypeHandle);
 		return;
 	}
 }
@@ -17538,9 +17493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_OnCreateForCompile
 	}
 	EntityQueryDesc_tF763EF854EFC4D825A92A5E4DADFCF5B0750C9A1* V_0 = NULL;
 	{
-		// {
 		ComponentSystemBase_OnCreateForCompiler_mE0B70EDF4B717B5AB04C77DC20ED957C2D69D089(__this, NULL);
-		// OriginalLambdaBody(Unity.Entities.InternalCompilerInterface.UnsafeGetCopyOfNativeArrayPtrElement<Unity.Entities.Entity>(__eArrayPtr, entityIndex), ref Unity.Entities.InternalCompilerInterface.UnsafeGetRefToNativeArrayPtrElement<Unity.Entities.RetainBlobAssets>(retainArrayPtr, entityIndex), ref Unity.Entities.InternalCompilerInterface.UnsafeGetRefToNativeArrayPtrElement<Unity.Entities.RetainBlobAssetPtr>(retainPtrArrayPtr, entityIndex));
 		EntityQueryDescU5BU5D_tDAC463E207ADB3A0620DEAC74FAE23AB46A1F43B* L_0 = (EntityQueryDescU5BU5D_tDAC463E207ADB3A0620DEAC74FAE23AB46A1F43B*)(EntityQueryDescU5BU5D_tDAC463E207ADB3A0620DEAC74FAE23AB46A1F43B*)SZArrayNew(EntityQueryDescU5BU5D_tDAC463E207ADB3A0620DEAC74FAE23AB46A1F43B_il2cpp_TypeInfo_var, (uint32_t)1);
 		EntityQueryDescU5BU5D_tDAC463E207ADB3A0620DEAC74FAE23AB46A1F43B* L_1 = L_0;
 		EntityQueryDesc_tF763EF854EFC4D825A92A5E4DADFCF5B0750C9A1* L_2 = (EntityQueryDesc_tF763EF854EFC4D825A92A5E4DADFCF5B0750C9A1*)il2cpp_codegen_object_new(EntityQueryDesc_tF763EF854EFC4D825A92A5E4DADFCF5B0750C9A1_il2cpp_TypeInfo_var);
@@ -17587,7 +17540,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_OnCreateForCompile
 		EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 L_17;
 		L_17 = ComponentSystemBase_GetEntityQuery_m2DDDDFD060F9D52C3FF4904D1711C5C4F662CC3B(__this, L_1, NULL);
 		__this->___RetainBlobAssetSystem_LambdaJob_0_Query_1 = L_17;
-		// }
 		EntityQueryDescU5BU5D_tDAC463E207ADB3A0620DEAC74FAE23AB46A1F43B* L_18 = (EntityQueryDescU5BU5D_tDAC463E207ADB3A0620DEAC74FAE23AB46A1F43B*)(EntityQueryDescU5BU5D_tDAC463E207ADB3A0620DEAC74FAE23AB46A1F43B*)SZArrayNew(EntityQueryDescU5BU5D_tDAC463E207ADB3A0620DEAC74FAE23AB46A1F43B_il2cpp_TypeInfo_var, (uint32_t)1);
 		EntityQueryDescU5BU5D_tDAC463E207ADB3A0620DEAC74FAE23AB46A1F43B* L_19 = L_18;
 		EntityQueryDesc_tF763EF854EFC4D825A92A5E4DADFCF5B0750C9A1* L_20 = (EntityQueryDesc_tF763EF854EFC4D825A92A5E4DADFCF5B0750C9A1*)il2cpp_codegen_object_new(EntityQueryDesc_tF763EF854EFC4D825A92A5E4DADFCF5B0750C9A1_il2cpp_TypeInfo_var);
@@ -17634,7 +17586,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_OnCreateForCompile
 		EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 L_35;
 		L_35 = ComponentSystemBase_GetEntityQuery_m2DDDDFD060F9D52C3FF4904D1711C5C4F662CC3B(__this, L_19, NULL);
 		__this->___RetainBlobAssetSystem_LambdaJob_1_Query_2 = L_35;
-		// 
 		EntityQueryDescU5BU5D_tDAC463E207ADB3A0620DEAC74FAE23AB46A1F43B* L_36 = (EntityQueryDescU5BU5D_tDAC463E207ADB3A0620DEAC74FAE23AB46A1F43B*)(EntityQueryDescU5BU5D_tDAC463E207ADB3A0620DEAC74FAE23AB46A1F43B*)SZArrayNew(EntityQueryDescU5BU5D_tDAC463E207ADB3A0620DEAC74FAE23AB46A1F43B_il2cpp_TypeInfo_var, (uint32_t)1);
 		EntityQueryDescU5BU5D_tDAC463E207ADB3A0620DEAC74FAE23AB46A1F43B* L_37 = L_36;
 		EntityQueryDesc_tF763EF854EFC4D825A92A5E4DADFCF5B0750C9A1* L_38 = (EntityQueryDesc_tF763EF854EFC4D825A92A5E4DADFCF5B0750C9A1*)il2cpp_codegen_object_new(EntityQueryDesc_tF763EF854EFC4D825A92A5E4DADFCF5B0750C9A1_il2cpp_TypeInfo_var);
@@ -17681,7 +17632,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_OnCreateForCompile
 		EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 L_53;
 		L_53 = ComponentSystemBase_GetEntityQuery_m2DDDDFD060F9D52C3FF4904D1711C5C4F662CC3B(__this, L_37, NULL);
 		__this->___RetainBlobAssetSystem_LambdaJob_2_Query_3 = L_53;
-		// if (Unity.Entities.EntitiesJournaling.Enabled)
 		EntityQueryDescU5BU5D_tDAC463E207ADB3A0620DEAC74FAE23AB46A1F43B* L_54 = (EntityQueryDescU5BU5D_tDAC463E207ADB3A0620DEAC74FAE23AB46A1F43B*)(EntityQueryDescU5BU5D_tDAC463E207ADB3A0620DEAC74FAE23AB46A1F43B*)SZArrayNew(EntityQueryDescU5BU5D_tDAC463E207ADB3A0620DEAC74FAE23AB46A1F43B_il2cpp_TypeInfo_var, (uint32_t)1);
 		EntityQueryDescU5BU5D_tDAC463E207ADB3A0620DEAC74FAE23AB46A1F43B* L_55 = L_54;
 		EntityQueryDesc_tF763EF854EFC4D825A92A5E4DADFCF5B0750C9A1* L_56 = (EntityQueryDesc_tF763EF854EFC4D825A92A5E4DADFCF5B0750C9A1*)il2cpp_codegen_object_new(EntityQueryDesc_tF763EF854EFC4D825A92A5E4DADFCF5B0750C9A1_il2cpp_TypeInfo_var);
@@ -17723,7 +17673,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_OnCreateForCompile
 		EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 L_69;
 		L_69 = ComponentSystemBase_GetEntityQuery_m2DDDDFD060F9D52C3FF4904D1711C5C4F662CC3B(__this, L_55, NULL);
 		__this->___RetainBlobAssetSystem_LambdaJob_3_Query_4 = L_69;
-		// EntitiesJournaling_RecordChunk(in chunk, in __retainTypeHandle, retainArrayPtr, in __retainPtrTypeHandle, retainPtrArrayPtr);
 		EntityQueryDescU5BU5D_tDAC463E207ADB3A0620DEAC74FAE23AB46A1F43B* L_70 = (EntityQueryDescU5BU5D_tDAC463E207ADB3A0620DEAC74FAE23AB46A1F43B*)(EntityQueryDescU5BU5D_tDAC463E207ADB3A0620DEAC74FAE23AB46A1F43B*)SZArrayNew(EntityQueryDescU5BU5D_tDAC463E207ADB3A0620DEAC74FAE23AB46A1F43B_il2cpp_TypeInfo_var, (uint32_t)1);
 		EntityQueryDescU5BU5D_tDAC463E207ADB3A0620DEAC74FAE23AB46A1F43B* L_71 = L_70;
 		EntityQueryDesc_tF763EF854EFC4D825A92A5E4DADFCF5B0750C9A1* L_72 = (EntityQueryDesc_tF763EF854EFC4D825A92A5E4DADFCF5B0750C9A1*)il2cpp_codegen_object_new(EntityQueryDesc_tF763EF854EFC4D825A92A5E4DADFCF5B0750C9A1_il2cpp_TypeInfo_var);
@@ -17765,43 +17714,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_OnCreateForCompile
 		EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 L_85;
 		L_85 = ComponentSystemBase_GetEntityQuery_m2DDDDFD060F9D52C3FF4904D1711C5C4F662CC3B(__this, L_71, NULL);
 		__this->___RetainBlobAssetSystem_LambdaJob_4_Query_5 = L_85;
-		// }
 		ComponentTypeHandle_1_tB7A5E0DF1C502132573B4FD0D015465F94541302 L_86;
 		L_86 = ComponentSystemBase_GetComponentTypeHandle_TisRetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3_m43CDE9553BA070F205DA70201E4618BE6B402329(__this, (bool)0, ComponentSystemBase_GetComponentTypeHandle_TisRetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3_m43CDE9553BA070F205DA70201E4618BE6B402329_RuntimeMethod_var);
 		__this->_____Unity_Entities_RetainBlobAssets_RW_ComponentTypeHandle_6 = L_86;
-		// [Unity.Burst.BurstCompile(FloatMode = Unity.Burst.FloatMode.Default, FloatPrecision = Unity.Burst.FloatPrecision.Standard, CompileSynchronously = false)]
 		ComponentTypeHandle_1_t57CD8CF9271CEF8CF02A5F4B3951FE7D83088F0F L_87;
 		L_87 = ComponentSystemBase_GetComponentTypeHandle_TisRetainBlobAssetBatchPtr_t3C4E424C414A65ED2C7215C76B298CA04E362306_mDA1D4720EEB6B6DA412147718908AAAFD4C356B4(__this, (bool)0, ComponentSystemBase_GetComponentTypeHandle_TisRetainBlobAssetBatchPtr_t3C4E424C414A65ED2C7215C76B298CA04E362306_mDA1D4720EEB6B6DA412147718908AAAFD4C356B4_RuntimeMethod_var);
 		__this->_____Unity_Entities_RetainBlobAssetBatchPtr_RW_ComponentTypeHandle_7 = L_87;
-		// public static void RunWithoutJobSystem(ref Unity.Entities.ArchetypeChunkIterator archetypeChunkIterator, global::System.IntPtr jobPtr)
 		ComponentTypeHandle_1_tC77453B187F8E1BA3B21948C6F94060D060D4CF6 L_88;
 		L_88 = ComponentSystemBase_GetComponentTypeHandle_TisRetainBlobAssetPtr_tB58F0A9A302FCFEFE95EAB011F522AFFB283873F_m28DAE98025D9D80F47A8F499FF48BF556A0CFFE9(__this, (bool)0, ComponentSystemBase_GetComponentTypeHandle_TisRetainBlobAssetPtr_tB58F0A9A302FCFEFE95EAB011F522AFFB283873F_m28DAE98025D9D80F47A8F499FF48BF556A0CFFE9_RuntimeMethod_var);
 		__this->_____Unity_Entities_RetainBlobAssetPtr_RW_ComponentTypeHandle_8 = L_88;
-		// {
 		JobEntityBatchRunWithoutJobSystemDelegate_t7772B36B6B2DB9B6493E0C366BE1D0109AF5DC27* L_89 = (JobEntityBatchRunWithoutJobSystemDelegate_t7772B36B6B2DB9B6493E0C366BE1D0109AF5DC27*)il2cpp_codegen_object_new(JobEntityBatchRunWithoutJobSystemDelegate_t7772B36B6B2DB9B6493E0C366BE1D0109AF5DC27_il2cpp_TypeInfo_var);
 		NullCheck(L_89);
 		JobEntityBatchRunWithoutJobSystemDelegate__ctor_m80E0134B9DC3EEF7CFE3375B41ED6F42C778DE04(L_89, NULL, (intptr_t)((void*)RetainBlobAssetSystem_LambdaJob_3_Job_RunWithoutJobSystem_m54B8D7583590E155FE61618F35F94E3E265E665D_RuntimeMethod_var), NULL);
 		((RetainBlobAssetSystem_LambdaJob_3_Job_tA4EA74EE61D9C5990E1D020DD62BA6748307642E_StaticFields*)il2cpp_codegen_static_fields_for(RetainBlobAssetSystem_LambdaJob_3_Job_tA4EA74EE61D9C5990E1D020DD62BA6748307642E_il2cpp_TypeInfo_var))->___FunctionPtrFieldNoBurst_0 = L_89;
 		Il2CppCodeGenWriteBarrier((void**)(&((RetainBlobAssetSystem_LambdaJob_3_Job_tA4EA74EE61D9C5990E1D020DD62BA6748307642E_StaticFields*)il2cpp_codegen_static_fields_for(RetainBlobAssetSystem_LambdaJob_3_Job_tA4EA74EE61D9C5990E1D020DD62BA6748307642E_il2cpp_TypeInfo_var))->___FunctionPtrFieldNoBurst_0), (void*)L_89);
-		// try
 		JobEntityBatchRunWithoutJobSystemDelegate_t7772B36B6B2DB9B6493E0C366BE1D0109AF5DC27* L_90 = ((RetainBlobAssetSystem_LambdaJob_3_Job_tA4EA74EE61D9C5990E1D020DD62BA6748307642E_StaticFields*)il2cpp_codegen_static_fields_for(RetainBlobAssetSystem_LambdaJob_3_Job_tA4EA74EE61D9C5990E1D020DD62BA6748307642E_il2cpp_TypeInfo_var))->___FunctionPtrFieldNoBurst_0;
 		JobEntityBatchRunWithoutJobSystemDelegate_t7772B36B6B2DB9B6493E0C366BE1D0109AF5DC27* L_91;
 		L_91 = InternalCompilerInterface_BurstCompile_m9B2BD3DA0350F7C68BAB7682D0DB13A167784153(L_90, NULL);
 		((RetainBlobAssetSystem_LambdaJob_3_Job_tA4EA74EE61D9C5990E1D020DD62BA6748307642E_StaticFields*)il2cpp_codegen_static_fields_for(RetainBlobAssetSystem_LambdaJob_3_Job_tA4EA74EE61D9C5990E1D020DD62BA6748307642E_il2cpp_TypeInfo_var))->___FunctionPtrFieldBurst_1 = L_91;
 		Il2CppCodeGenWriteBarrier((void**)(&((RetainBlobAssetSystem_LambdaJob_3_Job_tA4EA74EE61D9C5990E1D020DD62BA6748307642E_StaticFields*)il2cpp_codegen_static_fields_for(RetainBlobAssetSystem_LambdaJob_3_Job_tA4EA74EE61D9C5990E1D020DD62BA6748307642E_il2cpp_TypeInfo_var))->___FunctionPtrFieldBurst_1), (void*)L_91);
-		// {
 		JobEntityBatchRunWithoutJobSystemDelegate_t7772B36B6B2DB9B6493E0C366BE1D0109AF5DC27* L_92 = (JobEntityBatchRunWithoutJobSystemDelegate_t7772B36B6B2DB9B6493E0C366BE1D0109AF5DC27*)il2cpp_codegen_object_new(JobEntityBatchRunWithoutJobSystemDelegate_t7772B36B6B2DB9B6493E0C366BE1D0109AF5DC27_il2cpp_TypeInfo_var);
 		NullCheck(L_92);
 		JobEntityBatchRunWithoutJobSystemDelegate__ctor_m80E0134B9DC3EEF7CFE3375B41ED6F42C778DE04(L_92, NULL, (intptr_t)((void*)RetainBlobAssetSystem_LambdaJob_4_Job_RunWithoutJobSystem_mE390F6B55C81F8778FC2C116A4CD950FE731826B_RuntimeMethod_var), NULL);
 		((RetainBlobAssetSystem_LambdaJob_4_Job_tB345099448B6AFBA94CA372DD4969B00BE688F7B_StaticFields*)il2cpp_codegen_static_fields_for(RetainBlobAssetSystem_LambdaJob_4_Job_tB345099448B6AFBA94CA372DD4969B00BE688F7B_il2cpp_TypeInfo_var))->___FunctionPtrFieldNoBurst_0 = L_92;
 		Il2CppCodeGenWriteBarrier((void**)(&((RetainBlobAssetSystem_LambdaJob_4_Job_tB345099448B6AFBA94CA372DD4969B00BE688F7B_StaticFields*)il2cpp_codegen_static_fields_for(RetainBlobAssetSystem_LambdaJob_4_Job_tB345099448B6AFBA94CA372DD4969B00BE688F7B_il2cpp_TypeInfo_var))->___FunctionPtrFieldNoBurst_0), (void*)L_92);
-		// Unity.Entities.JobEntityBatchExtensions.RunWithoutJobsInternal(ref Unity.Entities.InternalCompilerInterface.UnsafeAsRef<RetainBlobAssetSystem_LambdaJob_4_Job>(jobPtr), ref archetypeChunkIterator);
 		JobEntityBatchRunWithoutJobSystemDelegate_t7772B36B6B2DB9B6493E0C366BE1D0109AF5DC27* L_93 = ((RetainBlobAssetSystem_LambdaJob_4_Job_tB345099448B6AFBA94CA372DD4969B00BE688F7B_StaticFields*)il2cpp_codegen_static_fields_for(RetainBlobAssetSystem_LambdaJob_4_Job_tB345099448B6AFBA94CA372DD4969B00BE688F7B_il2cpp_TypeInfo_var))->___FunctionPtrFieldNoBurst_0;
 		JobEntityBatchRunWithoutJobSystemDelegate_t7772B36B6B2DB9B6493E0C366BE1D0109AF5DC27* L_94;
 		L_94 = InternalCompilerInterface_BurstCompile_m9B2BD3DA0350F7C68BAB7682D0DB13A167784153(L_93, NULL);
 		((RetainBlobAssetSystem_LambdaJob_4_Job_tB345099448B6AFBA94CA372DD4969B00BE688F7B_StaticFields*)il2cpp_codegen_static_fields_for(RetainBlobAssetSystem_LambdaJob_4_Job_tB345099448B6AFBA94CA372DD4969B00BE688F7B_il2cpp_TypeInfo_var))->___FunctionPtrFieldBurst_1 = L_94;
 		Il2CppCodeGenWriteBarrier((void**)(&((RetainBlobAssetSystem_LambdaJob_4_Job_tB345099448B6AFBA94CA372DD4969B00BE688F7B_StaticFields*)il2cpp_codegen_static_fields_for(RetainBlobAssetSystem_LambdaJob_4_Job_tB345099448B6AFBA94CA372DD4969B00BE688F7B_il2cpp_TypeInfo_var))->___FunctionPtrFieldBurst_1), (void*)L_94);
-		// }
 		return;
 	}
 }
@@ -18063,7 +18004,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_LambdaJob_0_Job_Ru
 	RetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3 V_9;
 	memset((&V_9), 0, sizeof(V_9));
 	{
-		// public Unity.Entities.RetainBlobAssetSystem __this;
 		RetainBlobAssetSystem_t914B83578D1DCE64075D7AD5B213496BDBDE5574* L_0 = __this->_____this_0;
 		NullCheck(L_0);
 		EntityManager_t245CC8C15DD62AF5BA0B385CF94EA7CD0B3F4C91 L_1;
@@ -18073,9 +18013,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_LambdaJob_0_Job_Ru
 		EntityQueryMask_tA3298547B0A6701B30F8E223B5346B40E68DDEEF L_3;
 		L_3 = EntityManager_GetEntityQueryMask_m8684727194E90667F6E75E18BE36250E06257861((&V_3), L_2, NULL);
 		V_0 = L_3;
-		// public void RunWithStructuralChange(Unity.Entities.EntityQuery query)
 		InternalCompilerInterface_UnsafeCreateGatherEntitiesResult_mACE3055D9D7B519119682165555C728C812023AA((&___query0), (&V_1), NULL);
-		// {
 		il2cpp_codegen_runtime_class_init_inline(TypeManager_t1CD355B61F0A783824533CABA3B27CAD1CE5C725_il2cpp_TypeInfo_var);
 		int32_t L_4;
 		L_4 = TypeManager_GetTypeIndex_TisRetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3_m5DC8F6920402CC5B582592732C066776D1841DCF(TypeManager_GetTypeIndex_TisRetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3_m5DC8F6920402CC5B582592732C066776D1841DCF_RuntimeMethod_var);
@@ -18087,32 +18025,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_LambdaJob_0_Job_Ru
 
 FINALLY_00ab:
 			{// begin finally (depth: 1)
-				// if (Unity.Entities.EntitiesJournaling.Enabled)
 				InternalCompilerInterface_UnsafeReleaseGatheredEntities_m3FECB40955DAD1CA6FC9DE899B2C409DEA594B4F((&___query0), (&V_1), NULL);
-				// EntitiesJournaling_RecordEntity(in entity, blobOwnerTypeIndex);
 				return;
 			}// end finally (depth: 1)
 		});
 		try
 		{// begin try (depth: 1)
 			{
-				// Unity.Entities.InternalCompilerInterface.UnsafeCreateGatherEntitiesResult(ref query, out var gatherEntitiesResult);
 				GatherEntitiesResult_t6B5ADB8C14276BC07FC1467699EDC78E6F372A71 L_5 = V_1;
 				int32_t L_6 = L_5.___EntityCount_1;
 				V_4 = L_6;
-				// var blobOwnerTypeIndex = Unity.Entities.TypeManager.GetTypeIndex<Unity.Entities.BlobAssetOwner>();
 				V_5 = 0;
 				goto IL_00a3_1;
 			}
 
 IL_0031_1:
 			{
-				// try
 				int32_t L_7 = V_5;
 				Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_8;
 				L_8 = InternalCompilerInterface_UnsafeGetEntityFromGatheredEntities_mBD3BFD33B03365AFB0100D62B6724A5CB2018C07((&V_1), L_7, NULL);
 				V_6 = L_8;
-				// {
 				Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_9 = V_6;
 				bool L_10;
 				L_10 = EntityQueryMask_Matches_mEBA825285137E95230824E1B25EED6F7FDAFA0B7((&V_0), L_9, NULL);
@@ -18122,7 +18054,6 @@ IL_0031_1:
 				}
 			}
 			{
-				// for (int entityIndex = 0; entityIndex != entityCount; entityIndex++)
 				RetainBlobAssetSystem_t914B83578D1DCE64075D7AD5B213496BDBDE5574* L_11 = __this->_____this_0;
 				NullCheck(L_11);
 				EntityManager_t245CC8C15DD62AF5BA0B385CF94EA7CD0B3F4C91 L_12;
@@ -18132,7 +18063,6 @@ IL_0031_1:
 				BlobAssetOwner_t48F662D0AF49A5BBFD013EF59C8BD9C335A854AD L_14;
 				L_14 = EntityManager_GetSharedComponentData_TisBlobAssetOwner_t48F662D0AF49A5BBFD013EF59C8BD9C335A854AD_mF316400F379049C2B0DF07F2B835BF3DE2C27093((&V_3), L_13, EntityManager_GetSharedComponentData_TisBlobAssetOwner_t48F662D0AF49A5BBFD013EF59C8BD9C335A854AD_mF316400F379049C2B0DF07F2B835BF3DE2C27093_RuntimeMethod_var);
 				V_7 = L_14;
-				// {
 				RetainBlobAssetSystem_t914B83578D1DCE64075D7AD5B213496BDBDE5574* L_15 = __this->_____this_0;
 				NullCheck(L_15);
 				EntityManager_t245CC8C15DD62AF5BA0B385CF94EA7CD0B3F4C91 L_16;
@@ -18142,13 +18072,11 @@ IL_0031_1:
 				RetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3 L_19;
 				L_19 = InternalCompilerInterface_GetComponentData_TisRetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3_m89AA647A1417A6619F78214F89E2F511F11F995A(L_16, L_17, L_18, (&V_9), InternalCompilerInterface_GetComponentData_TisRetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3_m89AA647A1417A6619F78214F89E2F511F11F995A_RuntimeMethod_var);
 				V_8 = L_19;
-				// var entity = Unity.Entities.InternalCompilerInterface.UnsafeGetEntityFromGatheredEntities(ref gatherEntitiesResult, entityIndex);
 				RetainBlobAssetSystem_t914B83578D1DCE64075D7AD5B213496BDBDE5574* L_20 = __this->_____this_0;
 				Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_21 = V_6;
 				BlobAssetOwner_t48F662D0AF49A5BBFD013EF59C8BD9C335A854AD L_22 = V_7;
 				NullCheck(L_20);
 				RetainBlobAssetSystem_RetainBlobAssetSystem_LambdaJob_0_LambdaBody_m876D6FA36C25E5B71C44A890A4F0571FAF072B59(L_20, L_21, L_22, (&V_8), NULL);
-				// if (mask.Matches(entity))
 				RetainBlobAssetSystem_t914B83578D1DCE64075D7AD5B213496BDBDE5574* L_23 = __this->_____this_0;
 				NullCheck(L_23);
 				EntityManager_t245CC8C15DD62AF5BA0B385CF94EA7CD0B3F4C91 L_24;
@@ -18160,14 +18088,12 @@ IL_0031_1:
 
 IL_009d_1:
 			{
-				// var blobOwnerTypeIndex = Unity.Entities.TypeManager.GetTypeIndex<Unity.Entities.BlobAssetOwner>();
 				int32_t L_27 = V_5;
 				V_5 = ((int32_t)il2cpp_codegen_add(L_27, 1));
 			}
 
 IL_00a3_1:
 			{
-				// var blobOwnerTypeIndex = Unity.Entities.TypeManager.GetTypeIndex<Unity.Entities.BlobAssetOwner>();
 				int32_t L_28 = V_5;
 				int32_t L_29 = V_4;
 				if ((!(((uint32_t)L_28) == ((uint32_t)L_29))))
@@ -18176,7 +18102,6 @@ IL_00a3_1:
 				}
 			}
 			{
-				// var retain = Unity.Entities.InternalCompilerInterface.GetComponentData<Unity.Entities.RetainBlobAssets>(__this.EntityManager, entity, retainTypeIndex, out var originalretain);
 				goto IL_00b5;
 			}
 		}// end try (depth: 1)
@@ -18188,7 +18113,6 @@ IL_00a3_1:
 
 IL_00b5:
 	{
-		// }
 		return;
 	}
 }
@@ -18273,7 +18197,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_LambdaJob_1_Job_Ru
 	RetainBlobAssetBatchPtr_t3C4E424C414A65ED2C7215C76B298CA04E362306 V_11;
 	memset((&V_11), 0, sizeof(V_11));
 	{
-		// __Unity_Entities_RetainBlobAssets_RW_ComponentTypeHandle.Update(this);
 		RetainBlobAssetSystem_t914B83578D1DCE64075D7AD5B213496BDBDE5574* L_0 = __this->_____this_0;
 		NullCheck(L_0);
 		EntityManager_t245CC8C15DD62AF5BA0B385CF94EA7CD0B3F4C91 L_1;
@@ -18283,14 +18206,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_LambdaJob_1_Job_Ru
 		EntityQueryMask_tA3298547B0A6701B30F8E223B5346B40E68DDEEF L_3;
 		L_3 = EntityManager_GetEntityQueryMask_m8684727194E90667F6E75E18BE36250E06257861((&V_4), L_2, NULL);
 		V_0 = L_3;
-		// var __job = new RetainBlobAssetSystem_LambdaJob_0_Job{__worldSequenceNumber = this.World.SequenceNumber, __executingSystem = this.SystemHandleUntyped, __this = this};
 		InternalCompilerInterface_UnsafeCreateGatherEntitiesResult_mACE3055D9D7B519119682165555C728C812023AA((&___query0), (&V_1), NULL);
-		// CompleteDependency();
 		il2cpp_codegen_runtime_class_init_inline(TypeManager_t1CD355B61F0A783824533CABA3B27CAD1CE5C725_il2cpp_TypeInfo_var);
 		int32_t L_4;
 		L_4 = TypeManager_GetTypeIndex_TisRetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3_m5DC8F6920402CC5B582592732C066776D1841DCF(TypeManager_GetTypeIndex_TisRetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3_m5DC8F6920402CC5B582592732C066776D1841DCF_RuntimeMethod_var);
 		V_2 = L_4;
-		// __job.RunWithStructuralChange(RetainBlobAssetSystem_LambdaJob_0_Query);
 		int32_t L_5;
 		L_5 = TypeManager_GetTypeIndex_TisRetainBlobAssetBatchPtr_t3C4E424C414A65ED2C7215C76B298CA04E362306_m4B0118F99DEB0C761BE3572E11EBAE24DE1B9CAE(TypeManager_GetTypeIndex_TisRetainBlobAssetBatchPtr_t3C4E424C414A65ED2C7215C76B298CA04E362306_m4B0118F99DEB0C761BE3572E11EBAE24DE1B9CAE_RuntimeMethod_var);
 		V_3 = L_5;
@@ -18301,32 +18221,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_LambdaJob_1_Job_Ru
 
 FINALLY_00cf:
 			{// begin finally (depth: 1)
-				// var entity = Unity.Entities.InternalCompilerInterface.UnsafeGetEntityFromGatheredEntities(ref gatherEntitiesResult, entityIndex);
 				InternalCompilerInterface_UnsafeReleaseGatheredEntities_m3FECB40955DAD1CA6FC9DE899B2C409DEA594B4F((&___query0), (&V_1), NULL);
-				// if (mask.Matches(entity))
 				return;
 			}// end finally (depth: 1)
 		});
 		try
 		{// begin try (depth: 1)
 			{
-				// #line 101 "C:\unity_projects\VRDevelopmentFundamentalsProject _v0\Temp\GeneratedCode\Unity.Entities\RetainBlobAssetSystem__System_1406786464.g.cs"
 				GatherEntitiesResult_t6B5ADB8C14276BC07FC1467699EDC78E6F372A71 L_6 = V_1;
 				int32_t L_7 = L_6.___EntityCount_1;
 				V_5 = L_7;
-				// unsafe struct RetainBlobAssetSystem_LambdaJob_1_Job
 				V_6 = 0;
 				goto IL_00c4_1;
 			}
 
 IL_003b_1:
 			{
-				// public Unity.Entities.RetainBlobAssetSystem __this;
 				int32_t L_8 = V_6;
 				Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_9;
 				L_9 = InternalCompilerInterface_UnsafeGetEntityFromGatheredEntities_mBD3BFD33B03365AFB0100D62B6724A5CB2018C07((&V_1), L_8, NULL);
 				V_7 = L_9;
-				// public void RunWithStructuralChange(Unity.Entities.EntityQuery query)
 				Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_10 = V_7;
 				bool L_11;
 				L_11 = EntityQueryMask_Matches_mEBA825285137E95230824E1B25EED6F7FDAFA0B7((&V_0), L_10, NULL);
@@ -18336,7 +18250,6 @@ IL_003b_1:
 				}
 			}
 			{
-				// #line 107 "C:\unity_projects\VRDevelopmentFundamentalsProject _v0\Temp\GeneratedCode\Unity.Entities\RetainBlobAssetSystem__System_1406786464.g.cs"
 				RetainBlobAssetSystem_t914B83578D1DCE64075D7AD5B213496BDBDE5574* L_12 = __this->_____this_0;
 				NullCheck(L_12);
 				EntityManager_t245CC8C15DD62AF5BA0B385CF94EA7CD0B3F4C91 L_13;
@@ -18346,7 +18259,6 @@ IL_003b_1:
 				RetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3 L_16;
 				L_16 = InternalCompilerInterface_GetComponentData_TisRetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3_m89AA647A1417A6619F78214F89E2F511F11F995A(L_13, L_14, L_15, (&V_9), InternalCompilerInterface_GetComponentData_TisRetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3_m89AA647A1417A6619F78214F89E2F511F11F995A_RuntimeMethod_var);
 				V_8 = L_16;
-				// var mask = __this.EntityManager.GetEntityQueryMask(query);
 				RetainBlobAssetSystem_t914B83578D1DCE64075D7AD5B213496BDBDE5574* L_17 = __this->_____this_0;
 				NullCheck(L_17);
 				EntityManager_t245CC8C15DD62AF5BA0B385CF94EA7CD0B3F4C91 L_18;
@@ -18356,12 +18268,10 @@ IL_003b_1:
 				RetainBlobAssetBatchPtr_t3C4E424C414A65ED2C7215C76B298CA04E362306 L_21;
 				L_21 = InternalCompilerInterface_GetComponentData_TisRetainBlobAssetBatchPtr_t3C4E424C414A65ED2C7215C76B298CA04E362306_m6B9605E61D2C0602DC32F8ABCC0EB5C681BDE6D5(L_18, L_19, L_20, (&V_11), InternalCompilerInterface_GetComponentData_TisRetainBlobAssetBatchPtr_t3C4E424C414A65ED2C7215C76B298CA04E362306_m6B9605E61D2C0602DC32F8ABCC0EB5C681BDE6D5_RuntimeMethod_var);
 				V_10 = L_21;
-				// Unity.Entities.InternalCompilerInterface.UnsafeCreateGatherEntitiesResult(ref query, out var gatherEntitiesResult);
 				RetainBlobAssetSystem_t914B83578D1DCE64075D7AD5B213496BDBDE5574* L_22 = __this->_____this_0;
 				Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_23 = V_7;
 				NullCheck(L_22);
 				RetainBlobAssetSystem_RetainBlobAssetSystem_LambdaJob_1_LambdaBody_mF6D35F3D1B8A7A64B173B7330F6D757C105C9365(L_22, L_23, (&V_8), (&V_10), NULL);
-				// var retainTypeIndex = Unity.Entities.TypeManager.GetTypeIndex<Unity.Entities.RetainBlobAssets>();
 				RetainBlobAssetSystem_t914B83578D1DCE64075D7AD5B213496BDBDE5574* L_24 = __this->_____this_0;
 				NullCheck(L_24);
 				EntityManager_t245CC8C15DD62AF5BA0B385CF94EA7CD0B3F4C91 L_25;
@@ -18369,7 +18279,6 @@ IL_003b_1:
 				Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_26 = V_7;
 				int32_t L_27 = V_2;
 				InternalCompilerInterface_WriteComponentData_TisRetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3_mEDBC3824705121733B5914BF86EEF96B2EBC60A3(L_25, L_26, L_27, (&V_8), (&V_9), InternalCompilerInterface_WriteComponentData_TisRetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3_mEDBC3824705121733B5914BF86EEF96B2EBC60A3_RuntimeMethod_var);
-				// var retainPtrTypeIndex = Unity.Entities.TypeManager.GetTypeIndex<Unity.Entities.RetainBlobAssetBatchPtr>();
 				RetainBlobAssetSystem_t914B83578D1DCE64075D7AD5B213496BDBDE5574* L_28 = __this->_____this_0;
 				NullCheck(L_28);
 				EntityManager_t245CC8C15DD62AF5BA0B385CF94EA7CD0B3F4C91 L_29;
@@ -18381,14 +18290,12 @@ IL_003b_1:
 
 IL_00be_1:
 			{
-				// unsafe struct RetainBlobAssetSystem_LambdaJob_1_Job
 				int32_t L_32 = V_6;
 				V_6 = ((int32_t)il2cpp_codegen_add(L_32, 1));
 			}
 
 IL_00c4_1:
 			{
-				// unsafe struct RetainBlobAssetSystem_LambdaJob_1_Job
 				int32_t L_33 = V_6;
 				int32_t L_34 = V_5;
 				if ((!(((uint32_t)L_33) == ((uint32_t)L_34))))
@@ -18397,7 +18304,6 @@ IL_00c4_1:
 				}
 			}
 			{
-				// int entityCount = gatherEntitiesResult.EntityCount;
 				goto IL_00d9;
 			}
 		}// end try (depth: 1)
@@ -18409,7 +18315,6 @@ IL_00c4_1:
 
 IL_00d9:
 	{
-		// {
 		return;
 	}
 }
@@ -18494,7 +18399,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_LambdaJob_2_Job_Ru
 	RetainBlobAssetPtr_tB58F0A9A302FCFEFE95EAB011F522AFFB283873F V_11;
 	memset((&V_11), 0, sizeof(V_11));
 	{
-		// __Unity_Entities_RetainBlobAssetBatchPtr_RW_ComponentTypeHandle.Update(this);
 		RetainBlobAssetSystem_t914B83578D1DCE64075D7AD5B213496BDBDE5574* L_0 = __this->_____this_0;
 		NullCheck(L_0);
 		EntityManager_t245CC8C15DD62AF5BA0B385CF94EA7CD0B3F4C91 L_1;
@@ -18504,14 +18408,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_LambdaJob_2_Job_Ru
 		EntityQueryMask_tA3298547B0A6701B30F8E223B5346B40E68DDEEF L_3;
 		L_3 = EntityManager_GetEntityQueryMask_m8684727194E90667F6E75E18BE36250E06257861((&V_4), L_2, NULL);
 		V_0 = L_3;
-		// var __job = new RetainBlobAssetSystem_LambdaJob_1_Job{__this = this};
 		InternalCompilerInterface_UnsafeCreateGatherEntitiesResult_mACE3055D9D7B519119682165555C728C812023AA((&___query0), (&V_1), NULL);
-		// CompleteDependency();
 		il2cpp_codegen_runtime_class_init_inline(TypeManager_t1CD355B61F0A783824533CABA3B27CAD1CE5C725_il2cpp_TypeInfo_var);
 		int32_t L_4;
 		L_4 = TypeManager_GetTypeIndex_TisRetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3_m5DC8F6920402CC5B582592732C066776D1841DCF(TypeManager_GetTypeIndex_TisRetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3_m5DC8F6920402CC5B582592732C066776D1841DCF_RuntimeMethod_var);
 		V_2 = L_4;
-		// __job.RunWithStructuralChange(RetainBlobAssetSystem_LambdaJob_1_Query);
 		int32_t L_5;
 		L_5 = TypeManager_GetTypeIndex_TisRetainBlobAssetPtr_tB58F0A9A302FCFEFE95EAB011F522AFFB283873F_m3E980D277FD2A8BD3953B296DBCEA885519004AB(TypeManager_GetTypeIndex_TisRetainBlobAssetPtr_tB58F0A9A302FCFEFE95EAB011F522AFFB283873F_m3E980D277FD2A8BD3953B296DBCEA885519004AB_RuntimeMethod_var);
 		V_3 = L_5;
@@ -18522,32 +18423,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_LambdaJob_2_Job_Ru
 
 FINALLY_00cf:
 			{// begin finally (depth: 1)
-				// var entity = Unity.Entities.InternalCompilerInterface.UnsafeGetEntityFromGatheredEntities(ref gatherEntitiesResult, entityIndex);
 				InternalCompilerInterface_UnsafeReleaseGatheredEntities_m3FECB40955DAD1CA6FC9DE899B2C409DEA594B4F((&___query0), (&V_1), NULL);
-				// if (mask.Matches(entity))
 				return;
 			}// end finally (depth: 1)
 		});
 		try
 		{// begin try (depth: 1)
 			{
-				// #line 154 "C:\unity_projects\VRDevelopmentFundamentalsProject _v0\Temp\GeneratedCode\Unity.Entities\RetainBlobAssetSystem__System_1406786464.g.cs"
 				GatherEntitiesResult_t6B5ADB8C14276BC07FC1467699EDC78E6F372A71 L_6 = V_1;
 				int32_t L_7 = L_6.___EntityCount_1;
 				V_5 = L_7;
-				// unsafe struct RetainBlobAssetSystem_LambdaJob_2_Job
 				V_6 = 0;
 				goto IL_00c4_1;
 			}
 
 IL_003b_1:
 			{
-				// public Unity.Entities.RetainBlobAssetSystem __this;
 				int32_t L_8 = V_6;
 				Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_9;
 				L_9 = InternalCompilerInterface_UnsafeGetEntityFromGatheredEntities_mBD3BFD33B03365AFB0100D62B6724A5CB2018C07((&V_1), L_8, NULL);
 				V_7 = L_9;
-				// public void RunWithStructuralChange(Unity.Entities.EntityQuery query)
 				Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_10 = V_7;
 				bool L_11;
 				L_11 = EntityQueryMask_Matches_mEBA825285137E95230824E1B25EED6F7FDAFA0B7((&V_0), L_10, NULL);
@@ -18557,7 +18452,6 @@ IL_003b_1:
 				}
 			}
 			{
-				// #line 160 "C:\unity_projects\VRDevelopmentFundamentalsProject _v0\Temp\GeneratedCode\Unity.Entities\RetainBlobAssetSystem__System_1406786464.g.cs"
 				RetainBlobAssetSystem_t914B83578D1DCE64075D7AD5B213496BDBDE5574* L_12 = __this->_____this_0;
 				NullCheck(L_12);
 				EntityManager_t245CC8C15DD62AF5BA0B385CF94EA7CD0B3F4C91 L_13;
@@ -18567,7 +18461,6 @@ IL_003b_1:
 				RetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3 L_16;
 				L_16 = InternalCompilerInterface_GetComponentData_TisRetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3_m89AA647A1417A6619F78214F89E2F511F11F995A(L_13, L_14, L_15, (&V_9), InternalCompilerInterface_GetComponentData_TisRetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3_m89AA647A1417A6619F78214F89E2F511F11F995A_RuntimeMethod_var);
 				V_8 = L_16;
-				// var mask = __this.EntityManager.GetEntityQueryMask(query);
 				RetainBlobAssetSystem_t914B83578D1DCE64075D7AD5B213496BDBDE5574* L_17 = __this->_____this_0;
 				NullCheck(L_17);
 				EntityManager_t245CC8C15DD62AF5BA0B385CF94EA7CD0B3F4C91 L_18;
@@ -18577,12 +18470,10 @@ IL_003b_1:
 				RetainBlobAssetPtr_tB58F0A9A302FCFEFE95EAB011F522AFFB283873F L_21;
 				L_21 = InternalCompilerInterface_GetComponentData_TisRetainBlobAssetPtr_tB58F0A9A302FCFEFE95EAB011F522AFFB283873F_mA30B9823EEBEED52AF6F4C6440AB55E4A24B86F3(L_18, L_19, L_20, (&V_11), InternalCompilerInterface_GetComponentData_TisRetainBlobAssetPtr_tB58F0A9A302FCFEFE95EAB011F522AFFB283873F_mA30B9823EEBEED52AF6F4C6440AB55E4A24B86F3_RuntimeMethod_var);
 				V_10 = L_21;
-				// Unity.Entities.InternalCompilerInterface.UnsafeCreateGatherEntitiesResult(ref query, out var gatherEntitiesResult);
 				RetainBlobAssetSystem_t914B83578D1DCE64075D7AD5B213496BDBDE5574* L_22 = __this->_____this_0;
 				Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_23 = V_7;
 				NullCheck(L_22);
 				RetainBlobAssetSystem_RetainBlobAssetSystem_LambdaJob_2_LambdaBody_mCF1E428CB9DD7DDDA01C92190F5425FF1E698DB2(L_22, L_23, (&V_8), (&V_10), NULL);
-				// var retainTypeIndex = Unity.Entities.TypeManager.GetTypeIndex<Unity.Entities.RetainBlobAssets>();
 				RetainBlobAssetSystem_t914B83578D1DCE64075D7AD5B213496BDBDE5574* L_24 = __this->_____this_0;
 				NullCheck(L_24);
 				EntityManager_t245CC8C15DD62AF5BA0B385CF94EA7CD0B3F4C91 L_25;
@@ -18590,7 +18481,6 @@ IL_003b_1:
 				Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_26 = V_7;
 				int32_t L_27 = V_2;
 				InternalCompilerInterface_WriteComponentData_TisRetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3_mEDBC3824705121733B5914BF86EEF96B2EBC60A3(L_25, L_26, L_27, (&V_8), (&V_9), InternalCompilerInterface_WriteComponentData_TisRetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3_mEDBC3824705121733B5914BF86EEF96B2EBC60A3_RuntimeMethod_var);
-				// var retainPtrTypeIndex = Unity.Entities.TypeManager.GetTypeIndex<Unity.Entities.RetainBlobAssetPtr>();
 				RetainBlobAssetSystem_t914B83578D1DCE64075D7AD5B213496BDBDE5574* L_28 = __this->_____this_0;
 				NullCheck(L_28);
 				EntityManager_t245CC8C15DD62AF5BA0B385CF94EA7CD0B3F4C91 L_29;
@@ -18602,14 +18492,12 @@ IL_003b_1:
 
 IL_00be_1:
 			{
-				// unsafe struct RetainBlobAssetSystem_LambdaJob_2_Job
 				int32_t L_32 = V_6;
 				V_6 = ((int32_t)il2cpp_codegen_add(L_32, 1));
 			}
 
 IL_00c4_1:
 			{
-				// unsafe struct RetainBlobAssetSystem_LambdaJob_2_Job
 				int32_t L_33 = V_6;
 				int32_t L_34 = V_5;
 				if ((!(((uint32_t)L_33) == ((uint32_t)L_34))))
@@ -18618,7 +18506,6 @@ IL_00c4_1:
 				}
 			}
 			{
-				// int entityCount = gatherEntitiesResult.EntityCount;
 				goto IL_00d9;
 			}
 		}// end try (depth: 1)
@@ -18630,7 +18517,6 @@ IL_00c4_1:
 
 IL_00d9:
 	{
-		// {
 		return;
 	}
 }
@@ -18736,36 +18622,30 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_L
 	int32_t V_3 = 0;
 	int32_t V_4 = 0;
 	{
-		// public ulong __worldSequenceNumber;
 		ArchetypeChunk_tF9C2266ECFAB3A9C58EADE74121F80C845F0CCC5 L_0 = ___chunk0;
 		EntityTypeHandle_t1D0AE8970094A6835B0D90DC48D4A7AA79BC570A L_1 = __this->_____eTypeHandle_2;
 		intptr_t L_2;
 		L_2 = InternalCompilerInterface_UnsafeGetChunkEntityArrayIntPtr_m95669E499BBE6476BE5EC9AFEF8D43ACD5BCBE5F(L_0, L_1, NULL);
 		V_0 = L_2;
-		// [Unity.Collections.ReadOnly]
 		ArchetypeChunk_tF9C2266ECFAB3A9C58EADE74121F80C845F0CCC5 L_3 = ___chunk0;
 		ComponentTypeHandle_1_tB7A5E0DF1C502132573B4FD0D015465F94541302 L_4 = __this->_____retainTypeHandle_3;
 		intptr_t L_5;
 		L_5 = InternalCompilerInterface_UnsafeGetChunkNativeArrayIntPtr_TisRetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3_m71CE8E3812776AF47AA1A5F59881EF831F634026(L_3, L_4, InternalCompilerInterface_UnsafeGetChunkNativeArrayIntPtr_TisRetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3_m71CE8E3812776AF47AA1A5F59881EF831F634026_RuntimeMethod_var);
 		V_1 = L_5;
-		// public Unity.Entities.SystemHandleUntyped __executingSystem;
 		ArchetypeChunk_tF9C2266ECFAB3A9C58EADE74121F80C845F0CCC5 L_6 = ___chunk0;
 		ComponentTypeHandle_1_t57CD8CF9271CEF8CF02A5F4B3951FE7D83088F0F L_7 = __this->_____retainPtrTypeHandle_4;
 		intptr_t L_8;
 		L_8 = InternalCompilerInterface_UnsafeGetChunkNativeArrayIntPtr_TisRetainBlobAssetBatchPtr_t3C4E424C414A65ED2C7215C76B298CA04E362306_mE6E42F3E80F632C3C6171D288A42FF8269141A4E(L_6, L_7, InternalCompilerInterface_UnsafeGetChunkNativeArrayIntPtr_TisRetainBlobAssetBatchPtr_t3C4E424C414A65ED2C7215C76B298CA04E362306_mE6E42F3E80F632C3C6171D288A42FF8269141A4E_RuntimeMethod_var);
 		V_2 = L_8;
-		// [Unity.Collections.ReadOnly]
 		int32_t L_9;
 		L_9 = ArchetypeChunk_get_Count_m26812679ADC029977B8D5C629B26551716EC7C6A((&___chunk0), NULL);
 		V_3 = L_9;
-		// public Unity.Entities.EntityTypeHandle __eTypeHandle;
 		V_4 = 0;
 		goto IL_0058;
 	}
 
 IL_0034:
 	{
-		// public Unity.Entities.ComponentTypeHandle<Unity.Entities.RetainBlobAssetBatchPtr> __retainPtrTypeHandle;
 		intptr_t L_10 = V_0;
 		int32_t L_11 = V_4;
 		Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_12;
@@ -18779,14 +18659,12 @@ IL_0034:
 		RetainBlobAssetBatchPtr_t3C4E424C414A65ED2C7215C76B298CA04E362306* L_18;
 		L_18 = InternalCompilerInterface_UnsafeGetRefToNativeArrayPtrElement_TisRetainBlobAssetBatchPtr_t3C4E424C414A65ED2C7215C76B298CA04E362306_m3269D4C5A3F72ED48C0BFF1AE432C18252614E68(L_16, L_17, InternalCompilerInterface_UnsafeGetRefToNativeArrayPtrElement_TisRetainBlobAssetBatchPtr_t3C4E424C414A65ED2C7215C76B298CA04E362306_m3269D4C5A3F72ED48C0BFF1AE432C18252614E68_RuntimeMethod_var);
 		RetainBlobAssetSystem_LambdaJob_3_Job_OriginalLambdaBody_mACED894002254E7794E847A330258450925D0910_inline(__this, L_12, L_15, L_18, NULL);
-		// public Unity.Entities.EntityTypeHandle __eTypeHandle;
 		int32_t L_19 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_19, 1));
 	}
 
 IL_0058:
 	{
-		// public Unity.Entities.EntityTypeHandle __eTypeHandle;
 		int32_t L_20 = V_4;
 		int32_t L_21 = V_3;
 		if ((!(((uint32_t)L_20) == ((uint32_t)L_21))))
@@ -18795,7 +18673,6 @@ IL_0058:
 		}
 	}
 	{
-		// void OriginalLambdaBody(Unity.Entities.Entity e, [Unity.Burst.NoAlias] ref Unity.Entities.RetainBlobAssets retain, [Unity.Burst.NoAlias] ref Unity.Entities.RetainBlobAssetBatchPtr retainPtr)
 		return;
 	}
 }
@@ -18816,7 +18693,6 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_L
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// {
 		ArchetypeChunkIterator_tF12F77BF7EDC14CB4CC602C7C1EB8A4A9AC0D62A* L_0 = ___archetypeChunkIterator0;
 		intptr_t L_1 = ___jobPtr1;
 		il2cpp_codegen_runtime_class_init_inline(RunWithoutJobSystem_00000E1EU24BurstDirectCall_t2A08D8475D17828D8093982F41EE125DFF8D0F82_il2cpp_TypeInfo_var);
@@ -18835,13 +18711,11 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_L
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// {
 		intptr_t L_0 = ___jobPtr1;
 		RetainBlobAssetSystem_LambdaJob_3_Job_tA4EA74EE61D9C5990E1D020DD62BA6748307642E* L_1;
 		L_1 = InternalCompilerInterface_UnsafeAsRef_TisRetainBlobAssetSystem_LambdaJob_3_Job_tA4EA74EE61D9C5990E1D020DD62BA6748307642E_m85023822D9B5AB3215AF9E0ABFB7E9EB7BA6F6AE(L_0, InternalCompilerInterface_UnsafeAsRef_TisRetainBlobAssetSystem_LambdaJob_3_Job_tA4EA74EE61D9C5990E1D020DD62BA6748307642E_m85023822D9B5AB3215AF9E0ABFB7E9EB7BA6F6AE_RuntimeMethod_var);
 		ArchetypeChunkIterator_tF12F77BF7EDC14CB4CC602C7C1EB8A4A9AC0D62A* L_2 = ___archetypeChunkIterator0;
 		JobEntityBatchExtensions_RunWithoutJobsInternal_TisRetainBlobAssetSystem_LambdaJob_3_Job_tA4EA74EE61D9C5990E1D020DD62BA6748307642E_m937FDA2BEA208C2BF89DF4A72034993201D66AA6(L_1, L_2, JobEntityBatchExtensions_RunWithoutJobsInternal_TisRetainBlobAssetSystem_LambdaJob_3_Job_tA4EA74EE61D9C5990E1D020DD62BA6748307642E_m937FDA2BEA208C2BF89DF4A72034993201D66AA6_RuntimeMethod_var);
-		// for (int entityIndex = 0; entityIndex != count; entityIndex++)
 		return;
 	}
 }
@@ -19218,36 +19092,30 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_L
 	int32_t V_3 = 0;
 	int32_t V_4 = 0;
 	{
-		// var __functionPointer = Unity.Jobs.LowLevel.Unsafe.JobsUtility.JobCompilerEnabled ? RetainBlobAssetSystem_LambdaJob_3_Job.FunctionPtrFieldBurst : RetainBlobAssetSystem_LambdaJob_3_Job.FunctionPtrFieldNoBurst;
 		ArchetypeChunk_tF9C2266ECFAB3A9C58EADE74121F80C845F0CCC5 L_0 = ___chunk0;
 		EntityTypeHandle_t1D0AE8970094A6835B0D90DC48D4A7AA79BC570A L_1 = __this->_____eTypeHandle_2;
 		intptr_t L_2;
 		L_2 = InternalCompilerInterface_UnsafeGetChunkEntityArrayIntPtr_m95669E499BBE6476BE5EC9AFEF8D43ACD5BCBE5F(L_0, L_1, NULL);
 		V_0 = L_2;
-		// Unity.Entities.InternalCompilerInterface.UnsafeRunJobEntityBatch(ref __job, RetainBlobAssetSystem_LambdaJob_3_Query, __functionPointer);
 		ArchetypeChunk_tF9C2266ECFAB3A9C58EADE74121F80C845F0CCC5 L_3 = ___chunk0;
 		ComponentTypeHandle_1_tB7A5E0DF1C502132573B4FD0D015465F94541302 L_4 = __this->_____retainTypeHandle_3;
 		intptr_t L_5;
 		L_5 = InternalCompilerInterface_UnsafeGetChunkNativeArrayIntPtr_TisRetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3_m71CE8E3812776AF47AA1A5F59881EF831F634026(L_3, L_4, InternalCompilerInterface_UnsafeGetChunkNativeArrayIntPtr_TisRetainBlobAssets_t190E68112895048346A189ADC59FD9CCAE9C73B3_m71CE8E3812776AF47AA1A5F59881EF831F634026_RuntimeMethod_var);
 		V_1 = L_5;
-		// }
 		ArchetypeChunk_tF9C2266ECFAB3A9C58EADE74121F80C845F0CCC5 L_6 = ___chunk0;
 		ComponentTypeHandle_1_tC77453B187F8E1BA3B21948C6F94060D060D4CF6 L_7 = __this->_____retainPtrTypeHandle_4;
 		intptr_t L_8;
 		L_8 = InternalCompilerInterface_UnsafeGetChunkNativeArrayIntPtr_TisRetainBlobAssetPtr_tB58F0A9A302FCFEFE95EAB011F522AFFB283873F_m21E2E2CEF05CD07DE784C4F234D3F8BCD3FF5897(L_6, L_7, InternalCompilerInterface_UnsafeGetChunkNativeArrayIntPtr_TisRetainBlobAssetPtr_tB58F0A9A302FCFEFE95EAB011F522AFFB283873F_m21E2E2CEF05CD07DE784C4F234D3F8BCD3FF5897_RuntimeMethod_var);
 		V_2 = L_8;
-		// 
 		int32_t L_9;
 		L_9 = ArchetypeChunk_get_Count_m26812679ADC029977B8D5C629B26551716EC7C6A((&___chunk0), NULL);
 		V_3 = L_9;
-		// #line 277 "C:\unity_projects\VRDevelopmentFundamentalsProject _v0\Temp\GeneratedCode\Unity.Entities\RetainBlobAssetSystem__System_1406786464.g.cs"
 		V_4 = 0;
 		goto IL_0058;
 	}
 
 IL_0034:
 	{
-		// [Unity.Burst.BurstCompile(FloatMode = Unity.Burst.FloatMode.Default, FloatPrecision = Unity.Burst.FloatPrecision.Standard, CompileSynchronously = false)]
 		intptr_t L_10 = V_0;
 		int32_t L_11 = V_4;
 		Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_12;
@@ -19261,14 +19129,12 @@ IL_0034:
 		RetainBlobAssetPtr_tB58F0A9A302FCFEFE95EAB011F522AFFB283873F* L_18;
 		L_18 = InternalCompilerInterface_UnsafeGetRefToNativeArrayPtrElement_TisRetainBlobAssetPtr_tB58F0A9A302FCFEFE95EAB011F522AFFB283873F_m26C8374925F009DB25CEE432FC2A5951A8831E17(L_16, L_17, InternalCompilerInterface_UnsafeGetRefToNativeArrayPtrElement_TisRetainBlobAssetPtr_tB58F0A9A302FCFEFE95EAB011F522AFFB283873F_m26C8374925F009DB25CEE432FC2A5951A8831E17_RuntimeMethod_var);
 		RetainBlobAssetSystem_LambdaJob_4_Job_OriginalLambdaBody_mE142B4E37ADF3F5CC749CE64ED1380B07CAF00F1_inline(__this, L_12, L_15, L_18, NULL);
-		// #line 277 "C:\unity_projects\VRDevelopmentFundamentalsProject _v0\Temp\GeneratedCode\Unity.Entities\RetainBlobAssetSystem__System_1406786464.g.cs"
 		int32_t L_19 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_19, 1));
 	}
 
 IL_0058:
 	{
-		// #line 277 "C:\unity_projects\VRDevelopmentFundamentalsProject _v0\Temp\GeneratedCode\Unity.Entities\RetainBlobAssetSystem__System_1406786464.g.cs"
 		int32_t L_20 = V_4;
 		int32_t L_21 = V_3;
 		if ((!(((uint32_t)L_20) == ((uint32_t)L_21))))
@@ -19277,7 +19143,6 @@ IL_0058:
 		}
 	}
 	{
-		// {
 		return;
 	}
 }
@@ -19298,7 +19163,6 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_L
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// public Unity.Entities.EntityTypeHandle __eTypeHandle;
 		ArchetypeChunkIterator_tF12F77BF7EDC14CB4CC602C7C1EB8A4A9AC0D62A* L_0 = ___archetypeChunkIterator0;
 		intptr_t L_1 = ___jobPtr1;
 		il2cpp_codegen_runtime_class_init_inline(RunWithoutJobSystem_00000E21U24BurstDirectCall_t252471F9D70847D10C6375B041C574BBDDA8AE5B_il2cpp_TypeInfo_var);
@@ -19317,13 +19181,11 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void RetainBlobAssetSystem_L
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// public Unity.Entities.EntityTypeHandle __eTypeHandle;
 		intptr_t L_0 = ___jobPtr1;
 		RetainBlobAssetSystem_LambdaJob_4_Job_tB345099448B6AFBA94CA372DD4969B00BE688F7B* L_1;
 		L_1 = InternalCompilerInterface_UnsafeAsRef_TisRetainBlobAssetSystem_LambdaJob_4_Job_tB345099448B6AFBA94CA372DD4969B00BE688F7B_mE1A3805A99560D56BFAB1722385D6881F83A7222(L_0, InternalCompilerInterface_UnsafeAsRef_TisRetainBlobAssetSystem_LambdaJob_4_Job_tB345099448B6AFBA94CA372DD4969B00BE688F7B_mE1A3805A99560D56BFAB1722385D6881F83A7222_RuntimeMethod_var);
 		ArchetypeChunkIterator_tF12F77BF7EDC14CB4CC602C7C1EB8A4A9AC0D62A* L_2 = ___archetypeChunkIterator0;
 		JobEntityBatchExtensions_RunWithoutJobsInternal_TisRetainBlobAssetSystem_LambdaJob_4_Job_tB345099448B6AFBA94CA372DD4969B00BE688F7B_m759D5B4E687383D5B47A56E02CD77E6A387AA7CC(L_1, L_2, JobEntityBatchExtensions_RunWithoutJobsInternal_TisRetainBlobAssetSystem_LambdaJob_4_Job_tB345099448B6AFBA94CA372DD4969B00BE688F7B_m759D5B4E687383D5B47A56E02CD77E6A387AA7CC_RuntimeMethod_var);
-		// {
 		return;
 	}
 }
@@ -37956,13 +37818,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void RetainBlobA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// {
 		intptr_t L_0 = ___jobPtr1;
 		RetainBlobAssetSystem_LambdaJob_3_Job_tA4EA74EE61D9C5990E1D020DD62BA6748307642E* L_1;
 		L_1 = InternalCompilerInterface_UnsafeAsRef_TisRetainBlobAssetSystem_LambdaJob_3_Job_tA4EA74EE61D9C5990E1D020DD62BA6748307642E_m85023822D9B5AB3215AF9E0ABFB7E9EB7BA6F6AE(L_0, InternalCompilerInterface_UnsafeAsRef_TisRetainBlobAssetSystem_LambdaJob_3_Job_tA4EA74EE61D9C5990E1D020DD62BA6748307642E_m85023822D9B5AB3215AF9E0ABFB7E9EB7BA6F6AE_RuntimeMethod_var);
 		ArchetypeChunkIterator_tF12F77BF7EDC14CB4CC602C7C1EB8A4A9AC0D62A* L_2 = ___archetypeChunkIterator0;
 		JobEntityBatchExtensions_RunWithoutJobsInternal_TisRetainBlobAssetSystem_LambdaJob_3_Job_tA4EA74EE61D9C5990E1D020DD62BA6748307642E_m937FDA2BEA208C2BF89DF4A72034993201D66AA6(L_1, L_2, JobEntityBatchExtensions_RunWithoutJobsInternal_TisRetainBlobAssetSystem_LambdaJob_3_Job_tA4EA74EE61D9C5990E1D020DD62BA6748307642E_m937FDA2BEA208C2BF89DF4A72034993201D66AA6_RuntimeMethod_var);
-		// for (int entityIndex = 0; entityIndex != count; entityIndex++)
 		return;
 	}
 }
@@ -37987,13 +37847,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void RetainBlobA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// public Unity.Entities.EntityTypeHandle __eTypeHandle;
 		intptr_t L_0 = ___jobPtr1;
 		RetainBlobAssetSystem_LambdaJob_4_Job_tB345099448B6AFBA94CA372DD4969B00BE688F7B* L_1;
 		L_1 = InternalCompilerInterface_UnsafeAsRef_TisRetainBlobAssetSystem_LambdaJob_4_Job_tB345099448B6AFBA94CA372DD4969B00BE688F7B_mE1A3805A99560D56BFAB1722385D6881F83A7222(L_0, InternalCompilerInterface_UnsafeAsRef_TisRetainBlobAssetSystem_LambdaJob_4_Job_tB345099448B6AFBA94CA372DD4969B00BE688F7B_mE1A3805A99560D56BFAB1722385D6881F83A7222_RuntimeMethod_var);
 		ArchetypeChunkIterator_tF12F77BF7EDC14CB4CC602C7C1EB8A4A9AC0D62A* L_2 = ___archetypeChunkIterator0;
 		JobEntityBatchExtensions_RunWithoutJobsInternal_TisRetainBlobAssetSystem_LambdaJob_4_Job_tB345099448B6AFBA94CA372DD4969B00BE688F7B_m759D5B4E687383D5B47A56E02CD77E6A387AA7CC(L_1, L_2, JobEntityBatchExtensions_RunWithoutJobsInternal_TisRetainBlobAssetSystem_LambdaJob_4_Job_tB345099448B6AFBA94CA372DD4969B00BE688F7B_m759D5B4E687383D5B47A56E02CD77E6A387AA7CC_RuntimeMethod_var);
-		// {
 		return;
 	}
 }

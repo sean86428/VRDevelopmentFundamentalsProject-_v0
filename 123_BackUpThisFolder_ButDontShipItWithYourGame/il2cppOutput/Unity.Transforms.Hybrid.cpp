@@ -4065,45 +4065,37 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void CopyTransforms_Execute_
 	int32_t V_3 = 0;
 	LocalToWorld_t23B3E8CDA5838EF771A49AC5B39A57AF233E038D* V_4 = NULL;
 	{
-		// public void Execute(ArchetypeChunk batch, int batchIndex, int indexOfFirstEntityInQuery)
 		ArchetypeChunk_tF9C2266ECFAB3A9C58EADE74121F80C845F0CCC5 L_0 = ___batch0;
 		ComponentTypeHandle_1_tEEE2A5C7BC9EBACD051B2BC1B43C739F75FEA206 L_1 = __this->_____LocalToWorldTypeHandle_1;
 		intptr_t L_2;
 		L_2 = InternalCompilerInterface_UnsafeGetChunkNativeArrayIntPtr_TisLocalToWorld_t23B3E8CDA5838EF771A49AC5B39A57AF233E038D_m7538910D15595D536495C87F0ACE9664FF702492(L_0, L_1, InternalCompilerInterface_UnsafeGetChunkNativeArrayIntPtr_TisLocalToWorld_t23B3E8CDA5838EF771A49AC5B39A57AF233E038D_m7538910D15595D536495C87F0ACE9664FF702492_RuntimeMethod_var);
 		V_0 = L_2;
-		// {
 		int32_t L_3;
 		L_3 = ArchetypeChunk_get_Count_m26812679ADC029977B8D5C629B26551716EC7C6A((&___batch0), NULL);
 		V_1 = L_3;
-		// var localToWorldData = InternalCompilerInterface.UnsafeGetChunkNativeArrayIntPtr<Unity.Transforms.LocalToWorld>(batch, __LocalToWorldTypeHandle);
 		V_2 = 0;
 		goto IL_0033;
 	}
 
 IL_0019:
 	{
-		// for (int i = 0; i < count; ++i)
 		int32_t L_4 = ___indexOfFirstEntityInQuery2;
 		int32_t L_5 = V_2;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_4, L_5));
-		// {
 		intptr_t L_6 = V_0;
 		int32_t L_7 = V_2;
 		LocalToWorld_t23B3E8CDA5838EF771A49AC5B39A57AF233E038D* L_8;
 		L_8 = InternalCompilerInterface_UnsafeGetRefToNativeArrayPtrElement_TisLocalToWorld_t23B3E8CDA5838EF771A49AC5B39A57AF233E038D_m2635506D305366800D4F970D920F11CB4DEF4A85(L_6, L_7, InternalCompilerInterface_UnsafeGetRefToNativeArrayPtrElement_TisLocalToWorld_t23B3E8CDA5838EF771A49AC5B39A57AF233E038D_m2635506D305366800D4F970D920F11CB4DEF4A85_RuntimeMethod_var);
 		V_4 = L_8;
-		// var entityInQueryIndex = indexOfFirstEntityInQuery + i;
 		int32_t L_9 = V_3;
 		LocalToWorld_t23B3E8CDA5838EF771A49AC5B39A57AF233E038D* L_10 = V_4;
 		CopyTransforms_Execute_mA88A00FFBFDB381EF2A1CB2893E319B46F52A951(__this, L_9, L_10, NULL);
-		// var localToWorldData = InternalCompilerInterface.UnsafeGetChunkNativeArrayIntPtr<Unity.Transforms.LocalToWorld>(batch, __LocalToWorldTypeHandle);
 		int32_t L_11 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_11, 1));
 	}
 
 IL_0033:
 	{
-		// var localToWorldData = InternalCompilerInterface.UnsafeGetChunkNativeArrayIntPtr<Unity.Transforms.LocalToWorld>(batch, __LocalToWorldTypeHandle);
 		int32_t L_12 = V_2;
 		int32_t L_13 = V_1;
 		if ((((int32_t)L_12) < ((int32_t)L_13)))
@@ -4112,7 +4104,6 @@ IL_0033:
 		}
 	}
 	{
-		// Execute(entityInQueryIndex, ref localToWorldData__ref);
 		return;
 	}
 }
@@ -4127,7 +4118,6 @@ IL2CPP_EXTERN_C  void CopyTransforms_Execute_m7655515313DCC8C413F7136A95BF18A176
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransforms_Schedule_mC51CE2FCDE096087F4E6CB2BAAFA6BDDF654E92E (CopyTransforms_tA6336E22D0159EF972CBC83C42D8DE8269B9ED5F* IL2CPP_PARAMETER_RESTRICT __this, EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 ___query0, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___dependsOn1, const RuntimeMethod* method) 
 {
 	{
-		// }
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_0;
 		L_0 = CopyTransforms___ThrowCodeGenException_mD2144EF920917B3BAD1EC2EECDCB38790C8407CD(__this, NULL);
 		return L_0;
@@ -4146,7 +4136,6 @@ IL2CPP_EXTERN_C  JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransfo
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransforms_Schedule_mE35E510F429F027DDC49EBC79B1B5AD89C870B37 (CopyTransforms_tA6336E22D0159EF972CBC83C42D8DE8269B9ED5F* IL2CPP_PARAMETER_RESTRICT __this, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___dependsOn0, const RuntimeMethod* method) 
 {
 	{
-		// 
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_0;
 		L_0 = CopyTransforms___ThrowCodeGenException_mD2144EF920917B3BAD1EC2EECDCB38790C8407CD(__this, NULL);
 		return L_0;
@@ -4165,7 +4154,6 @@ IL2CPP_EXTERN_C  JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransfo
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransforms_ScheduleByRef_m9AFDF78C21AE920F56F501F14D84FFBC7D675E31 (CopyTransforms_tA6336E22D0159EF972CBC83C42D8DE8269B9ED5F* IL2CPP_PARAMETER_RESTRICT __this, EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 ___query0, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___dependsOn1, const RuntimeMethod* method) 
 {
 	{
-		// public Unity.Jobs.JobHandle Schedule(Unity.Entities.EntityQuery query, Unity.Jobs.JobHandle dependsOn = default(Unity.Jobs.JobHandle)) => __ThrowCodeGenException();
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_0;
 		L_0 = CopyTransforms___ThrowCodeGenException_mD2144EF920917B3BAD1EC2EECDCB38790C8407CD(__this, NULL);
 		return L_0;
@@ -4184,7 +4172,6 @@ IL2CPP_EXTERN_C  JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransfo
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransforms_ScheduleByRef_mA3CE5A48A3D0EB23783B58F75024DC2374BC2A9C (CopyTransforms_tA6336E22D0159EF972CBC83C42D8DE8269B9ED5F* IL2CPP_PARAMETER_RESTRICT __this, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___dependsOn0, const RuntimeMethod* method) 
 {
 	{
-		// public Unity.Jobs.JobHandle Schedule(Unity.Jobs.JobHandle dependsOn = default(Unity.Jobs.JobHandle)) => __ThrowCodeGenException();
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_0;
 		L_0 = CopyTransforms___ThrowCodeGenException_mD2144EF920917B3BAD1EC2EECDCB38790C8407CD(__this, NULL);
 		return L_0;
@@ -4203,7 +4190,6 @@ IL2CPP_EXTERN_C  JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransfo
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransforms_ScheduleParallel_m24AFFA49607670325A53DBC66455C2872E8C6E04 (CopyTransforms_tA6336E22D0159EF972CBC83C42D8DE8269B9ED5F* IL2CPP_PARAMETER_RESTRICT __this, EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 ___query0, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___dependsOn1, const RuntimeMethod* method) 
 {
 	{
-		// public Unity.Jobs.JobHandle ScheduleByRef(Unity.Entities.EntityQuery query, Unity.Jobs.JobHandle dependsOn = default(Unity.Jobs.JobHandle)) => __ThrowCodeGenException();
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_0;
 		L_0 = CopyTransforms___ThrowCodeGenException_mD2144EF920917B3BAD1EC2EECDCB38790C8407CD(__this, NULL);
 		return L_0;
@@ -4222,7 +4208,6 @@ IL2CPP_EXTERN_C  JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransfo
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransforms_ScheduleParallel_mF9E077F61AA9E88F18FA8432A49089D768B462EB (CopyTransforms_tA6336E22D0159EF972CBC83C42D8DE8269B9ED5F* IL2CPP_PARAMETER_RESTRICT __this, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___dependsOn0, const RuntimeMethod* method) 
 {
 	{
-		// public Unity.Jobs.JobHandle ScheduleByRef(Unity.Jobs.JobHandle dependsOn = default(Unity.Jobs.JobHandle)) => __ThrowCodeGenException();
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_0;
 		L_0 = CopyTransforms___ThrowCodeGenException_mD2144EF920917B3BAD1EC2EECDCB38790C8407CD(__this, NULL);
 		return L_0;
@@ -4241,7 +4226,6 @@ IL2CPP_EXTERN_C  JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransfo
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransforms_ScheduleParallelByRef_m803E139BFDC6A26CC28AED7CCD9FFF0D020C00E8 (CopyTransforms_tA6336E22D0159EF972CBC83C42D8DE8269B9ED5F* IL2CPP_PARAMETER_RESTRICT __this, EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 ___query0, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___dependsOn1, const RuntimeMethod* method) 
 {
 	{
-		// public Unity.Jobs.JobHandle ScheduleParallel(Unity.Entities.EntityQuery query, Unity.Jobs.JobHandle dependsOn = default(Unity.Jobs.JobHandle)) => __ThrowCodeGenException();
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_0;
 		L_0 = CopyTransforms___ThrowCodeGenException_mD2144EF920917B3BAD1EC2EECDCB38790C8407CD(__this, NULL);
 		return L_0;
@@ -4260,7 +4244,6 @@ IL2CPP_EXTERN_C  JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransfo
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransforms_ScheduleParallelByRef_m2F27A9EE0CA10718FE3883BEF1A3FBDD2E72FCD3 (CopyTransforms_tA6336E22D0159EF972CBC83C42D8DE8269B9ED5F* IL2CPP_PARAMETER_RESTRICT __this, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___dependsOn0, const RuntimeMethod* method) 
 {
 	{
-		// public Unity.Jobs.JobHandle ScheduleParallel(Unity.Jobs.JobHandle dependsOn = default(Unity.Jobs.JobHandle)) => __ThrowCodeGenException();
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_0;
 		L_0 = CopyTransforms___ThrowCodeGenException_mD2144EF920917B3BAD1EC2EECDCB38790C8407CD(__this, NULL);
 		return L_0;
@@ -4279,7 +4262,6 @@ IL2CPP_EXTERN_C  JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransfo
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void CopyTransforms_Run_m73FFAFA1FFF7DF73F216BB52C58A373779CAA26F (CopyTransforms_tA6336E22D0159EF972CBC83C42D8DE8269B9ED5F* IL2CPP_PARAMETER_RESTRICT __this, EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 ___query0, const RuntimeMethod* method) 
 {
 	{
-		// public Unity.Jobs.JobHandle ScheduleParallelByRef(Unity.Entities.EntityQuery query, Unity.Jobs.JobHandle dependsOn = default(Unity.Jobs.JobHandle)) => __ThrowCodeGenException();
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_0;
 		L_0 = CopyTransforms___ThrowCodeGenException_mD2144EF920917B3BAD1EC2EECDCB38790C8407CD(__this, NULL);
 		return;
@@ -4296,7 +4278,6 @@ IL2CPP_EXTERN_C  void CopyTransforms_Run_m73FFAFA1FFF7DF73F216BB52C58A373779CAA2
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void CopyTransforms_Run_m758B775D087418804875B8D0603BE3CEE771BD52 (CopyTransforms_tA6336E22D0159EF972CBC83C42D8DE8269B9ED5F* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	{
-		// public Unity.Jobs.JobHandle ScheduleParallelByRef(Unity.Jobs.JobHandle dependsOn = default(Unity.Jobs.JobHandle)) => __ThrowCodeGenException();
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_0;
 		L_0 = CopyTransforms___ThrowCodeGenException_mD2144EF920917B3BAD1EC2EECDCB38790C8407CD(__this, NULL);
 		return;
@@ -4313,7 +4294,6 @@ IL2CPP_EXTERN_C  void CopyTransforms_Run_m758B775D087418804875B8D0603BE3CEE771BD
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void CopyTransforms_RunByRef_m873125FF88D3245706B84A52731481ABD11FABB8 (CopyTransforms_tA6336E22D0159EF972CBC83C42D8DE8269B9ED5F* IL2CPP_PARAMETER_RESTRICT __this, EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 ___query0, const RuntimeMethod* method) 
 {
 	{
-		// public void Run(Unity.Entities.EntityQuery query) => __ThrowCodeGenException();
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_0;
 		L_0 = CopyTransforms___ThrowCodeGenException_mD2144EF920917B3BAD1EC2EECDCB38790C8407CD(__this, NULL);
 		return;
@@ -4330,7 +4310,6 @@ IL2CPP_EXTERN_C  void CopyTransforms_RunByRef_m873125FF88D3245706B84A52731481ABD
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void CopyTransforms_RunByRef_m93879383FF9D31C80B9FC677BBC7980C4CECBBFC (CopyTransforms_tA6336E22D0159EF972CBC83C42D8DE8269B9ED5F* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	{
-		// public void Run() => __ThrowCodeGenException();
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_0;
 		L_0 = CopyTransforms___ThrowCodeGenException_mD2144EF920917B3BAD1EC2EECDCB38790C8407CD(__this, NULL);
 		return;
@@ -4349,7 +4328,6 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C80
 	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		// public void RunByRef(Unity.Entities.EntityQuery query) => __ThrowCodeGenException();
 		Exception_t* L_0 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
 		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral14544155ACDDF9CE4B41BE9FCA135FB1FDF90E3F)), NULL);
@@ -4791,45 +4769,37 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void CopyTransforms_Execute_
 	int32_t V_3 = 0;
 	LocalToWorld_t23B3E8CDA5838EF771A49AC5B39A57AF233E038D* V_4 = NULL;
 	{
-		// public void Execute(ArchetypeChunk batch, int batchIndex, int indexOfFirstEntityInQuery)
 		ArchetypeChunk_tF9C2266ECFAB3A9C58EADE74121F80C845F0CCC5 L_0 = ___batch0;
 		ComponentTypeHandle_1_tEEE2A5C7BC9EBACD051B2BC1B43C739F75FEA206 L_1 = __this->_____LocalToWorldTypeHandle_1;
 		intptr_t L_2;
 		L_2 = InternalCompilerInterface_UnsafeGetChunkNativeArrayIntPtr_TisLocalToWorld_t23B3E8CDA5838EF771A49AC5B39A57AF233E038D_m7538910D15595D536495C87F0ACE9664FF702492(L_0, L_1, InternalCompilerInterface_UnsafeGetChunkNativeArrayIntPtr_TisLocalToWorld_t23B3E8CDA5838EF771A49AC5B39A57AF233E038D_m7538910D15595D536495C87F0ACE9664FF702492_RuntimeMethod_var);
 		V_0 = L_2;
-		// {
 		int32_t L_3;
 		L_3 = ArchetypeChunk_get_Count_m26812679ADC029977B8D5C629B26551716EC7C6A((&___batch0), NULL);
 		V_1 = L_3;
-		// var localToWorldData = InternalCompilerInterface.UnsafeGetChunkNativeArrayIntPtr<Unity.Transforms.LocalToWorld>(batch, __LocalToWorldTypeHandle);
 		V_2 = 0;
 		goto IL_0033;
 	}
 
 IL_0019:
 	{
-		// for (int i = 0; i < count; ++i)
 		int32_t L_4 = ___indexOfFirstEntityInQuery2;
 		int32_t L_5 = V_2;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_4, L_5));
-		// {
 		intptr_t L_6 = V_0;
 		int32_t L_7 = V_2;
 		LocalToWorld_t23B3E8CDA5838EF771A49AC5B39A57AF233E038D* L_8;
 		L_8 = InternalCompilerInterface_UnsafeGetRefToNativeArrayPtrElement_TisLocalToWorld_t23B3E8CDA5838EF771A49AC5B39A57AF233E038D_m2635506D305366800D4F970D920F11CB4DEF4A85(L_6, L_7, InternalCompilerInterface_UnsafeGetRefToNativeArrayPtrElement_TisLocalToWorld_t23B3E8CDA5838EF771A49AC5B39A57AF233E038D_m2635506D305366800D4F970D920F11CB4DEF4A85_RuntimeMethod_var);
 		V_4 = L_8;
-		// var entityInQueryIndex = indexOfFirstEntityInQuery + i;
 		int32_t L_9 = V_3;
 		LocalToWorld_t23B3E8CDA5838EF771A49AC5B39A57AF233E038D* L_10 = V_4;
 		CopyTransforms_Execute_m50D67A903DCC26263713457E47377A6B92F397B2(__this, L_9, L_10, NULL);
-		// var localToWorldData = InternalCompilerInterface.UnsafeGetChunkNativeArrayIntPtr<Unity.Transforms.LocalToWorld>(batch, __LocalToWorldTypeHandle);
 		int32_t L_11 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_11, 1));
 	}
 
 IL_0033:
 	{
-		// var localToWorldData = InternalCompilerInterface.UnsafeGetChunkNativeArrayIntPtr<Unity.Transforms.LocalToWorld>(batch, __LocalToWorldTypeHandle);
 		int32_t L_12 = V_2;
 		int32_t L_13 = V_1;
 		if ((((int32_t)L_12) < ((int32_t)L_13)))
@@ -4838,7 +4808,6 @@ IL_0033:
 		}
 	}
 	{
-		// Execute(entityInQueryIndex, ref localToWorldData__ref);
 		return;
 	}
 }
@@ -4853,7 +4822,6 @@ IL2CPP_EXTERN_C  void CopyTransforms_Execute_mD4CF45DA08D8B0B88964B6A85F245473E7
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransforms_Schedule_m6CD4AEA0D81F07E3CD3D965BDAF08B7FC7B6B924 (CopyTransforms_t8B0E6095FF30CAC5E663F7A42028E304909C447F* IL2CPP_PARAMETER_RESTRICT __this, EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 ___query0, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___dependsOn1, const RuntimeMethod* method) 
 {
 	{
-		// }
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_0;
 		L_0 = CopyTransforms___ThrowCodeGenException_mFE2B2D2B1EE78B706FE9E6FC9634B0BAE94E96FE(__this, NULL);
 		return L_0;
@@ -4872,7 +4840,6 @@ IL2CPP_EXTERN_C  JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransfo
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransforms_Schedule_m8210C81969B3873FDA66F2A23FEC99AD2D485677 (CopyTransforms_t8B0E6095FF30CAC5E663F7A42028E304909C447F* IL2CPP_PARAMETER_RESTRICT __this, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___dependsOn0, const RuntimeMethod* method) 
 {
 	{
-		// 
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_0;
 		L_0 = CopyTransforms___ThrowCodeGenException_mFE2B2D2B1EE78B706FE9E6FC9634B0BAE94E96FE(__this, NULL);
 		return L_0;
@@ -4891,7 +4858,6 @@ IL2CPP_EXTERN_C  JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransfo
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransforms_ScheduleByRef_m34E15CE61988ED0D5F95013FFA25B0C06316D9B1 (CopyTransforms_t8B0E6095FF30CAC5E663F7A42028E304909C447F* IL2CPP_PARAMETER_RESTRICT __this, EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 ___query0, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___dependsOn1, const RuntimeMethod* method) 
 {
 	{
-		// public Unity.Jobs.JobHandle Schedule(Unity.Entities.EntityQuery query, Unity.Jobs.JobHandle dependsOn = default(Unity.Jobs.JobHandle)) => __ThrowCodeGenException();
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_0;
 		L_0 = CopyTransforms___ThrowCodeGenException_mFE2B2D2B1EE78B706FE9E6FC9634B0BAE94E96FE(__this, NULL);
 		return L_0;
@@ -4910,7 +4876,6 @@ IL2CPP_EXTERN_C  JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransfo
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransforms_ScheduleByRef_mBE0BBA0033A63C4BE9165AD335B061E395B7D8DA (CopyTransforms_t8B0E6095FF30CAC5E663F7A42028E304909C447F* IL2CPP_PARAMETER_RESTRICT __this, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___dependsOn0, const RuntimeMethod* method) 
 {
 	{
-		// public Unity.Jobs.JobHandle Schedule(Unity.Jobs.JobHandle dependsOn = default(Unity.Jobs.JobHandle)) => __ThrowCodeGenException();
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_0;
 		L_0 = CopyTransforms___ThrowCodeGenException_mFE2B2D2B1EE78B706FE9E6FC9634B0BAE94E96FE(__this, NULL);
 		return L_0;
@@ -4929,7 +4894,6 @@ IL2CPP_EXTERN_C  JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransfo
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransforms_ScheduleParallel_m85F5120490B2055DA1B06AE797EB443B51692305 (CopyTransforms_t8B0E6095FF30CAC5E663F7A42028E304909C447F* IL2CPP_PARAMETER_RESTRICT __this, EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 ___query0, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___dependsOn1, const RuntimeMethod* method) 
 {
 	{
-		// public Unity.Jobs.JobHandle ScheduleByRef(Unity.Entities.EntityQuery query, Unity.Jobs.JobHandle dependsOn = default(Unity.Jobs.JobHandle)) => __ThrowCodeGenException();
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_0;
 		L_0 = CopyTransforms___ThrowCodeGenException_mFE2B2D2B1EE78B706FE9E6FC9634B0BAE94E96FE(__this, NULL);
 		return L_0;
@@ -4948,7 +4912,6 @@ IL2CPP_EXTERN_C  JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransfo
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransforms_ScheduleParallel_m9FED3DF631FC4E91A344CFEEA8F110AEB666B01D (CopyTransforms_t8B0E6095FF30CAC5E663F7A42028E304909C447F* IL2CPP_PARAMETER_RESTRICT __this, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___dependsOn0, const RuntimeMethod* method) 
 {
 	{
-		// public Unity.Jobs.JobHandle ScheduleByRef(Unity.Jobs.JobHandle dependsOn = default(Unity.Jobs.JobHandle)) => __ThrowCodeGenException();
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_0;
 		L_0 = CopyTransforms___ThrowCodeGenException_mFE2B2D2B1EE78B706FE9E6FC9634B0BAE94E96FE(__this, NULL);
 		return L_0;
@@ -4967,7 +4930,6 @@ IL2CPP_EXTERN_C  JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransfo
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransforms_ScheduleParallelByRef_m78892053D0D3EB1F59834283515454A448BB978C (CopyTransforms_t8B0E6095FF30CAC5E663F7A42028E304909C447F* IL2CPP_PARAMETER_RESTRICT __this, EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 ___query0, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___dependsOn1, const RuntimeMethod* method) 
 {
 	{
-		// public Unity.Jobs.JobHandle ScheduleParallel(Unity.Entities.EntityQuery query, Unity.Jobs.JobHandle dependsOn = default(Unity.Jobs.JobHandle)) => __ThrowCodeGenException();
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_0;
 		L_0 = CopyTransforms___ThrowCodeGenException_mFE2B2D2B1EE78B706FE9E6FC9634B0BAE94E96FE(__this, NULL);
 		return L_0;
@@ -4986,7 +4948,6 @@ IL2CPP_EXTERN_C  JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransfo
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransforms_ScheduleParallelByRef_m567019CB9B8C1B45E7BF4CBEC4A7CC02ED72B5FB (CopyTransforms_t8B0E6095FF30CAC5E663F7A42028E304909C447F* IL2CPP_PARAMETER_RESTRICT __this, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___dependsOn0, const RuntimeMethod* method) 
 {
 	{
-		// public Unity.Jobs.JobHandle ScheduleParallel(Unity.Jobs.JobHandle dependsOn = default(Unity.Jobs.JobHandle)) => __ThrowCodeGenException();
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_0;
 		L_0 = CopyTransforms___ThrowCodeGenException_mFE2B2D2B1EE78B706FE9E6FC9634B0BAE94E96FE(__this, NULL);
 		return L_0;
@@ -5005,7 +4966,6 @@ IL2CPP_EXTERN_C  JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 CopyTransfo
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void CopyTransforms_Run_m7EC80B142EA4B13065482DB23E8C60B033E84AB5 (CopyTransforms_t8B0E6095FF30CAC5E663F7A42028E304909C447F* IL2CPP_PARAMETER_RESTRICT __this, EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 ___query0, const RuntimeMethod* method) 
 {
 	{
-		// public Unity.Jobs.JobHandle ScheduleParallelByRef(Unity.Entities.EntityQuery query, Unity.Jobs.JobHandle dependsOn = default(Unity.Jobs.JobHandle)) => __ThrowCodeGenException();
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_0;
 		L_0 = CopyTransforms___ThrowCodeGenException_mFE2B2D2B1EE78B706FE9E6FC9634B0BAE94E96FE(__this, NULL);
 		return;
@@ -5022,7 +4982,6 @@ IL2CPP_EXTERN_C  void CopyTransforms_Run_m7EC80B142EA4B13065482DB23E8C60B033E84A
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void CopyTransforms_Run_m04D1A72F07D0C8FC72557A2E5B92A67E818924E8 (CopyTransforms_t8B0E6095FF30CAC5E663F7A42028E304909C447F* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	{
-		// public Unity.Jobs.JobHandle ScheduleParallelByRef(Unity.Jobs.JobHandle dependsOn = default(Unity.Jobs.JobHandle)) => __ThrowCodeGenException();
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_0;
 		L_0 = CopyTransforms___ThrowCodeGenException_mFE2B2D2B1EE78B706FE9E6FC9634B0BAE94E96FE(__this, NULL);
 		return;
@@ -5039,7 +4998,6 @@ IL2CPP_EXTERN_C  void CopyTransforms_Run_m04D1A72F07D0C8FC72557A2E5B92A67E818924
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void CopyTransforms_RunByRef_m8171C7A969EDBEE009682BEA3C203D4D86D601EC (CopyTransforms_t8B0E6095FF30CAC5E663F7A42028E304909C447F* IL2CPP_PARAMETER_RESTRICT __this, EntityQuery_t23B7A11FAA475D860E94409BFD4CF7E4B337CF90 ___query0, const RuntimeMethod* method) 
 {
 	{
-		// public void Run(Unity.Entities.EntityQuery query) => __ThrowCodeGenException();
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_0;
 		L_0 = CopyTransforms___ThrowCodeGenException_mFE2B2D2B1EE78B706FE9E6FC9634B0BAE94E96FE(__this, NULL);
 		return;
@@ -5056,7 +5014,6 @@ IL2CPP_EXTERN_C  void CopyTransforms_RunByRef_m8171C7A969EDBEE009682BEA3C203D4D8
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void CopyTransforms_RunByRef_m4241FE86E80F36EBD61D2612E7667B2C7C380A9D (CopyTransforms_t8B0E6095FF30CAC5E663F7A42028E304909C447F* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	{
-		// public void Run() => __ThrowCodeGenException();
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_0;
 		L_0 = CopyTransforms___ThrowCodeGenException_mFE2B2D2B1EE78B706FE9E6FC9634B0BAE94E96FE(__this, NULL);
 		return;
@@ -5075,7 +5032,6 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C80
 	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		// public void RunByRef(Unity.Entities.EntityQuery query) => __ThrowCodeGenException();
 		Exception_t* L_0 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
 		NullCheck(L_0);
 		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_0, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral14544155ACDDF9CE4B41BE9FCA135FB1FDF90E3F)), NULL);
@@ -5952,14 +5908,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CopyInitialTransformFromGameObjectAuthor
 	CopyInitialTransformFromGameObject_t67BC76431C4464D59459AA8CC1EB58BCD133F485 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		// {
 		il2cpp_codegen_initobj((&V_0), sizeof(CopyInitialTransformFromGameObject_t67BC76431C4464D59459AA8CC1EB58BCD133F485));
-		// Unity.Transforms.CopyInitialTransformFromGameObject component = default(Unity.Transforms.CopyInitialTransformFromGameObject);
 		Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_0 = _____entity0;
 		CopyInitialTransformFromGameObject_t67BC76431C4464D59459AA8CC1EB58BCD133F485 L_1 = V_0;
 		bool L_2;
 		L_2 = EntityManager_AddComponentData_TisCopyInitialTransformFromGameObject_t67BC76431C4464D59459AA8CC1EB58BCD133F485_m9C5B7BAD399370C8D9A349367966343C2959C2C3((&_____dstManager1), L_0, L_1, EntityManager_AddComponentData_TisCopyInitialTransformFromGameObject_t67BC76431C4464D59459AA8CC1EB58BCD133F485_m9C5B7BAD399370C8D9A349367966343C2959C2C3_RuntimeMethod_var);
-		// __dstManager.AddComponentData(__entity, component);
 		return;
 	}
 }
@@ -5991,14 +5944,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CopyTransformFromGameObjectAuthoring_Con
 	CopyTransformFromGameObject_t05A84170D6D07A318FD6BFAADCDD184E2DA7E95E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		// {
 		il2cpp_codegen_initobj((&V_0), sizeof(CopyTransformFromGameObject_t05A84170D6D07A318FD6BFAADCDD184E2DA7E95E));
-		// Unity.Transforms.CopyTransformFromGameObject component = default(Unity.Transforms.CopyTransformFromGameObject);
 		Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_0 = _____entity0;
 		CopyTransformFromGameObject_t05A84170D6D07A318FD6BFAADCDD184E2DA7E95E L_1 = V_0;
 		bool L_2;
 		L_2 = EntityManager_AddComponentData_TisCopyTransformFromGameObject_t05A84170D6D07A318FD6BFAADCDD184E2DA7E95E_mDBD9449DEDF1E27C5B705C1DE41E70371201BED3((&_____dstManager1), L_0, L_1, EntityManager_AddComponentData_TisCopyTransformFromGameObject_t05A84170D6D07A318FD6BFAADCDD184E2DA7E95E_mDBD9449DEDF1E27C5B705C1DE41E70371201BED3_RuntimeMethod_var);
-		// __dstManager.AddComponentData(__entity, component);
 		return;
 	}
 }
@@ -6030,14 +5980,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CopyTransformToGameObjectAuthoring_Conve
 	CopyTransformToGameObject_tFE9066D2A01051E55CED0FD8943F2C7B11FBCC58 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		// {
 		il2cpp_codegen_initobj((&V_0), sizeof(CopyTransformToGameObject_tFE9066D2A01051E55CED0FD8943F2C7B11FBCC58));
-		// Unity.Transforms.CopyTransformToGameObject component = default(Unity.Transforms.CopyTransformToGameObject);
 		Entity_t56176FC78C475061A82383D9E0CEE352C6C52ABD L_0 = _____entity0;
 		CopyTransformToGameObject_tFE9066D2A01051E55CED0FD8943F2C7B11FBCC58 L_1 = V_0;
 		bool L_2;
 		L_2 = EntityManager_AddComponentData_TisCopyTransformToGameObject_tFE9066D2A01051E55CED0FD8943F2C7B11FBCC58_m56C59E2B5E635B7EF77EB40B8481CB812156DE53((&_____dstManager1), L_0, L_1, EntityManager_AddComponentData_TisCopyTransformToGameObject_tFE9066D2A01051E55CED0FD8943F2C7B11FBCC58_m56C59E2B5E635B7EF77EB40B8481CB812156DE53_RuntimeMethod_var);
-		// __dstManager.AddComponentData(__entity, component);
 		return;
 	}
 }

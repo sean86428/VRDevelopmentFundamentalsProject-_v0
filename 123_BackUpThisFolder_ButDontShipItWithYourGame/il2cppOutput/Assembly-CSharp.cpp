@@ -910,7 +910,6 @@ IL2CPP_EXTERN_C RuntimeClass* RTCSessionDescription_t3FA5DAD67F61C0D9822A5CC9FF8
 IL2CPP_EXTERN_C RuntimeClass* RTCSignalingState_tF70BBAF65390E27D2E8A03D298B21ECD7325BDB0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RequestHelper_t9D74E18CE3036DEF5E7344045F37CE8B5AF496C2_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* RuntimeObject_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Singleton_1_t3E13BF56D639138F17ED19253521AF828152ACEF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SnippetClass_t2737B7539B2AF2B126105DA64B40881994424CD8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StateEnterEvent_tFC62157A97667193613E3653535D32888ADC10DE_il2cpp_TypeInfo_var;
@@ -989,7 +988,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral14B5EF65D185BC68C4621B4CC59D7B6223479D03
 IL2CPP_EXTERN_C String_t* _stringLiteral14E338D17C42E552FA7AF42CDAE40CA1F0E8A04D;
 IL2CPP_EXTERN_C String_t* _stringLiteral161E1E3D3773B9A2A42A563B603B539004626203;
 IL2CPP_EXTERN_C String_t* _stringLiteral1621CDF88720004B98E248E7EAD75A11B170370D;
-IL2CPP_EXTERN_C String_t* _stringLiteral1692F7D4B7986C25B62525402BAB05AB08035362;
 IL2CPP_EXTERN_C String_t* _stringLiteral16D46E00A879AD1C9053ED90B4B148D721A45E92;
 IL2CPP_EXTERN_C String_t* _stringLiteral18063BADCC7437F047BC944C288A4B844D359EB6;
 IL2CPP_EXTERN_C String_t* _stringLiteral18D559FCAA3FFCD996828FBD7872D718543AF295;
@@ -1051,7 +1049,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C
 IL2CPP_EXTERN_C String_t* _stringLiteral50F6DE0B87485A4C4845031A930C21D1FC13929B;
 IL2CPP_EXTERN_C String_t* _stringLiteral5276276414219C1C9E636F9FF7A30D84163BFF4E;
 IL2CPP_EXTERN_C String_t* _stringLiteral5276CE61B28CC251F17A113BA65624B1FD81C4D1;
-IL2CPP_EXTERN_C String_t* _stringLiteral54372B29398E8EF373453E5D8EEF343B02C82897;
 IL2CPP_EXTERN_C String_t* _stringLiteral54729B2F020AACAEEF50300E7D86AB4BA23DAAD7;
 IL2CPP_EXTERN_C String_t* _stringLiteral55AE1E5409B55AAAB07A29D3331521674FF34FBE;
 IL2CPP_EXTERN_C String_t* _stringLiteral56D0744D28E401DDEA4E98B4CE8933753D18D756;
@@ -1071,10 +1068,9 @@ IL2CPP_EXTERN_C String_t* _stringLiteral637325760D011EE9E5C3FC901754FB794449F531
 IL2CPP_EXTERN_C String_t* _stringLiteral64058CC688A96A90239811EF06C9D20DB0499C3E;
 IL2CPP_EXTERN_C String_t* _stringLiteral6440C1C7FE3CFD07921F120257129B233E306DC6;
 IL2CPP_EXTERN_C String_t* _stringLiteral6477FB0CBF4E978465F5CB8C51161A34304B3890;
-IL2CPP_EXTERN_C String_t* _stringLiteral64CCBEB53107CFD0D9858F3E4B2A50F9697FD077;
 IL2CPP_EXTERN_C String_t* _stringLiteral650D2A6F6A46064C18B41A5253BF971422EC01E2;
-IL2CPP_EXTERN_C String_t* _stringLiteral66565BF09EF300BFEE8AFF98202EEC5E0D6DBFFC;
 IL2CPP_EXTERN_C String_t* _stringLiteral67558788357FED78DB3FD39501F70402DE5B5F73;
+IL2CPP_EXTERN_C String_t* _stringLiteral68C1A4B3AB847735C0E9D7023B719EA4EEDF1A79;
 IL2CPP_EXTERN_C String_t* _stringLiteral6A9A70143B5CA13D5CF97A6838126B21D3A5E31B;
 IL2CPP_EXTERN_C String_t* _stringLiteral6AE901DB28BAA84150566CFCD4CEDD33F80872B4;
 IL2CPP_EXTERN_C String_t* _stringLiteral6C00B98F12B0C558FE9D144FB1818D110944710C;
@@ -1083,7 +1079,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral6C72534A7BA13CCAAC2BD7A943CCD6E31B106FBE
 IL2CPP_EXTERN_C String_t* _stringLiteral6E4CDB19951DC99E828F2CF68CC546703C4A67D3;
 IL2CPP_EXTERN_C String_t* _stringLiteral6E921DAD2E7387E4D1070A8A305ADFE06DCFC567;
 IL2CPP_EXTERN_C String_t* _stringLiteral6F2DD7CABAACF29C5070EE8521B28A02D2A4E3AC;
-IL2CPP_EXTERN_C String_t* _stringLiteral70AB7FB5FB55FE54159A9384D1B62AEA0BE277C1;
 IL2CPP_EXTERN_C String_t* _stringLiteral70C7A7B1740DDE9F98EE7C23058C9001BB44E8C6;
 IL2CPP_EXTERN_C String_t* _stringLiteral70F1769C72FCAF144F53009F7DA60ED467C29635;
 IL2CPP_EXTERN_C String_t* _stringLiteral7116E4D1C3306E15F0DDF303F54E6DB216987530;
@@ -1102,7 +1097,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral7C637272786DDA3AA83933430BB60922DCF66C2E
 IL2CPP_EXTERN_C String_t* _stringLiteral7C81215ADD1A8A42E0AF2DB25C49691ABECB5098;
 IL2CPP_EXTERN_C String_t* _stringLiteral7C8710EE977EB298784800B09D0AA55186EDB0D3;
 IL2CPP_EXTERN_C String_t* _stringLiteral7CFA716CD737649E2181F71E628356EFA122DDD7;
-IL2CPP_EXTERN_C String_t* _stringLiteral7D6BA5C6EC459A6998BDCA0C55D2938B709E3417;
+IL2CPP_EXTERN_C String_t* _stringLiteral7F2CC8E4B29BFABAB0DAE6926451D1814AC49870;
 IL2CPP_EXTERN_C String_t* _stringLiteral7FE07E57C59B01D7124DB764056D565987EB83C6;
 IL2CPP_EXTERN_C String_t* _stringLiteral845601714FB132030B7585887918D078E9CE2267;
 IL2CPP_EXTERN_C String_t* _stringLiteral853E47E721B574301465DBBD44E55FDC33071790;
@@ -1117,10 +1112,11 @@ IL2CPP_EXTERN_C String_t* _stringLiteral8C317CFE24F93A34190AFD708736BB7C47D99FA9
 IL2CPP_EXTERN_C String_t* _stringLiteral8F42070E0A40D08A1B1ADBDC3DADDED1B63852EB;
 IL2CPP_EXTERN_C String_t* _stringLiteral8F43501A924F098AF4BEBD6FEC72E7AA960D838D;
 IL2CPP_EXTERN_C String_t* _stringLiteral8FD2FCE61414AB2192F02CF2453DC0DD532613F8;
+IL2CPP_EXTERN_C String_t* _stringLiteral9040D6797BE00D35D9AF18E07007840A211C480C;
 IL2CPP_EXTERN_C String_t* _stringLiteral906C7058D0ED3C21FFCF5A47EA9E8D772D25E05C;
 IL2CPP_EXTERN_C String_t* _stringLiteral95DC8551B6F3F2E45D1C3ACF87D309C4781167CF;
-IL2CPP_EXTERN_C String_t* _stringLiteral97B47AFEABA85FDB491038D053CD494D40BA975D;
 IL2CPP_EXTERN_C String_t* _stringLiteral996E5360F80E16B2189CC1E536C91CE68083F694;
+IL2CPP_EXTERN_C String_t* _stringLiteral9AC8E4E8C67C0F3852DECEC2037A97C692126303;
 IL2CPP_EXTERN_C String_t* _stringLiteral9BD8BFCCD034050ABDF24FC357095653412B69BB;
 IL2CPP_EXTERN_C String_t* _stringLiteral9D5A3AE3D2B0B5E5AF5AB489000D9B88FA11E907;
 IL2CPP_EXTERN_C String_t* _stringLiteral9D98B85840EC8962DC80D5F5C5D298426D00AF50;
@@ -1134,8 +1130,8 @@ IL2CPP_EXTERN_C String_t* _stringLiteralA9E08CFF59BD312B13DFBD39293630B9F76D3CA3
 IL2CPP_EXTERN_C String_t* _stringLiteralAB01943B71CC45A5CB9270545A41CABD7A8EF5AC;
 IL2CPP_EXTERN_C String_t* _stringLiteralAB2CCB21991EE3962565CBAE1B018CD490160A62;
 IL2CPP_EXTERN_C String_t* _stringLiteralABAA299D4887028108F2C8F5B3D4E47CF793706E;
+IL2CPP_EXTERN_C String_t* _stringLiteralAC0F60CEB354FB51B8CAB27FA93D604559DF81DE;
 IL2CPP_EXTERN_C String_t* _stringLiteralAC3AA7A6A02970D8D2E69211F49BC2C02B54B151;
-IL2CPP_EXTERN_C String_t* _stringLiteralAD767B6B92F5DB75B5540E6329FE280A611B9BD2;
 IL2CPP_EXTERN_C String_t* _stringLiteralADB182209EBFCA7F2B7E6476F06D1C3C1E6E07BC;
 IL2CPP_EXTERN_C String_t* _stringLiteralAEF052F213FFA1F29CCA63C31B1FC2F9D051E133;
 IL2CPP_EXTERN_C String_t* _stringLiteralAF59839A82604249AB9AA428E084C0235EF3D3D5;
@@ -1162,14 +1158,12 @@ IL2CPP_EXTERN_C String_t* _stringLiteralC4A11E6BD289680B3A703E5D6D4ECFB1E7AB0C36
 IL2CPP_EXTERN_C String_t* _stringLiteralC4E920B7717C5800EF2ED537EE62E64E449D1144;
 IL2CPP_EXTERN_C String_t* _stringLiteralC5056D58A74D538020EFD111787C72CA59935882;
 IL2CPP_EXTERN_C String_t* _stringLiteralC62C64F00567C5368CAE37F4E64E1E82FF785677;
-IL2CPP_EXTERN_C String_t* _stringLiteralC7265723AE828D9983CBCF2303EAB69459F51E28;
 IL2CPP_EXTERN_C String_t* _stringLiteralC74616D609961C488402230B907AA3556118EEE0;
 IL2CPP_EXTERN_C String_t* _stringLiteralC842C987182278F37E07C94891C9DB4EBBDDCE33;
 IL2CPP_EXTERN_C String_t* _stringLiteralCBB61000AB99F3A74161E5CAE03D9D062A999D26;
 IL2CPP_EXTERN_C String_t* _stringLiteralCC966D8E10858584AAC7247F7335035C3A270A56;
 IL2CPP_EXTERN_C String_t* _stringLiteralCEE56A055ADD365F679EB5EE36CE42502E80C542;
 IL2CPP_EXTERN_C String_t* _stringLiteralCEE9E23FE6006FBF577BEB714E51AB9968A3F8D8;
-IL2CPP_EXTERN_C String_t* _stringLiteralCF6D423D6F6C1327D40E616C52007CE750F00A62;
 IL2CPP_EXTERN_C String_t* _stringLiteralD31B6C6D365B740DA1644268A9D4F59520C4FCE1;
 IL2CPP_EXTERN_C String_t* _stringLiteralD4891E2A046EEFE751991A75652AF4FA8F4B9C70;
 IL2CPP_EXTERN_C String_t* _stringLiteralD559C6D97E819D8E4EF7ACDC34C4E8D3DD314964;
@@ -1196,7 +1190,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralE38113F5CA9F5C09C85054A2A2AA6F0F4E0D8323
 IL2CPP_EXTERN_C String_t* _stringLiteralE39493AB2CF455100A5794F9B10C4516FD561738;
 IL2CPP_EXTERN_C String_t* _stringLiteralE3A2C7876315BFD54164A7A50F98A44D3AE983BD;
 IL2CPP_EXTERN_C String_t* _stringLiteralE6204B652E414A0AF23F08E82413251AEB8E0A51;
-IL2CPP_EXTERN_C String_t* _stringLiteralE660608646DC2948F0955A207525583986188A59;
 IL2CPP_EXTERN_C String_t* _stringLiteralE7857BE83090EB9D47690E22B57524B973BC050F;
 IL2CPP_EXTERN_C String_t* _stringLiteralE82D96A31E0033FC180986F481E6D5EE91BFC120;
 IL2CPP_EXTERN_C String_t* _stringLiteralE82E12813D2130F09C5D0B6573B3750E5A58E4E9;
@@ -4626,8 +4619,10 @@ struct U3CConnectionStartU3Ed__24_t094AAB2F05459CBB0019529614A9BC7071A47ACF
 	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
 	// WebRTCConnection WebRTCConnection/<ConnectionStart>d__24::<>4__this
 	WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* ___U3CU3E4__this_2;
+	// Unity.WebRTC.RTCRtpSender WebRTCConnection/<ConnectionStart>d__24::<sender>5__2
+	RTCRtpSender_t9F641589CAD8E9FECEE9613037EAF7BAD0C84657* ___U3CsenderU3E5__2_3;
 	// System.Runtime.CompilerServices.TaskAwaiter WebRTCConnection/<ConnectionStart>d__24::<>u__1
-	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_3;
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_4;
 };
 
 // WebRTCConnection/<ConnectionStop>d__33
@@ -4695,8 +4690,10 @@ struct U3CConnectionStartU3Ed__24_t9F5D61F91F11F2913933C8DF142D1F99369494CE
 	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
 	// WebRTCConnectionWithServer WebRTCConnectionWithServer/<ConnectionStart>d__24::<>4__this
 	WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* ___U3CU3E4__this_2;
+	// Unity.WebRTC.RTCRtpSender WebRTCConnectionWithServer/<ConnectionStart>d__24::<sender>5__2
+	RTCRtpSender_t9F641589CAD8E9FECEE9613037EAF7BAD0C84657* ___U3CsenderU3E5__2_3;
 	// System.Runtime.CompilerServices.TaskAwaiter WebRTCConnectionWithServer/<ConnectionStart>d__24::<>u__1
-	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_3;
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_4;
 };
 
 // WebRTCConnectionWithServer/<ConnectionStop>d__35
@@ -8053,6 +8050,12 @@ inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661A
 {
 	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*, U3CConnectionStartU3Ed__24_t094AAB2F05459CBB0019529614A9BC7071A47ACF*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CConnectionStartU3Ed__24_t094AAB2F05459CBB0019529614A9BC7071A47ACF_m4427A148CA7FA93DF2FE0F29FF34EB238758B05E_gshared)(__this, ___awaiter0, ___stateMachine1, method);
 }
+// System.Void Unity.WebRTC.RTCPeerConnection::Close()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RTCPeerConnection_Close_m4A7E9986B74152BAAF950C6155E3BD39D8226FCC (RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* __this, const RuntimeMethod* method) ;
+// Unity.WebRTC.RTCErrorType Unity.WebRTC.RTCPeerConnection::RemoveTrack(Unity.WebRTC.RTCRtpSender)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RTCPeerConnection_RemoveTrack_m16397C48B9E118A46CEECA2648ABEA02E16CE68A (RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* __this, RTCRtpSender_t9F641589CAD8E9FECEE9613037EAF7BAD0C84657* ___sender0, const RuntimeMethod* method) ;
+// System.Void Unity.WebRTC.WebRTC::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebRTC_Dispose_m00620DEA440A9A8FC3DDB3C9F51D79D4E3DBDA60 (const RuntimeMethod* method) ;
 // System.Void WebRTCConnection/<ConnectionStart>d__24::MoveNext()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConnectionStartU3Ed__24_MoveNext_m9EEE97931BCD56452BD22260DC5ABB32FB9159A5 (U3CConnectionStartU3Ed__24_t094AAB2F05459CBB0019529614A9BC7071A47ACF* __this, const RuntimeMethod* method) ;
 // System.Void WebRTCConnection/<ConnectionStart>d__24::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
@@ -8096,8 +8099,6 @@ inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661A
 {
 	((  void (*) (AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D*, TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833*, U3CConnectionStopU3Ed__33_tC6DF0BAFE2197D6AE6E5AB80E9D82CE37DB28866*, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CConnectionStopU3Ed__33_tC6DF0BAFE2197D6AE6E5AB80E9D82CE37DB28866_m78EEF426A11C560B397A325B7134729B3911A444_gshared)(__this, ___awaiter0, ___stateMachine1, method);
 }
-// System.Void Unity.WebRTC.RTCPeerConnection::Close()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RTCPeerConnection_Close_m4A7E9986B74152BAAF950C6155E3BD39D8226FCC (RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* __this, const RuntimeMethod* method) ;
 // System.Void WebRTCConnection/<ConnectionStop>d__33::MoveNext()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConnectionStopU3Ed__33_MoveNext_m189CDBC29F6B2E8576852F0093103F7B96800C11 (U3CConnectionStopU3Ed__33_tC6DF0BAFE2197D6AE6E5AB80E9D82CE37DB28866* __this, const RuntimeMethod* method) ;
 // System.Void WebRTCConnection/<ConnectionStop>d__33::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
@@ -15756,11 +15757,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConnectionStartU3Ed__8_MoveNext_mFC2F
 		}
 		{
 			// return;
-			goto IL_01e8;
+			goto IL_01f0;
 		}
 
 IL_001b_1:
 		{
+			// WebRTC.Initialize();
+			WebRTC_Initialize_mD79110DF1000DC3AEDC14B128A6619C9BEA5048F((bool)1, (bool)0, 1, NULL);
 			// RTCConfiguration configuration = new RTCConfiguration
 			// {
 			//     iceServers = new[] { new RTCIceServer { urls = new[] { "stun:stun.l.google.com:19302" } } }
@@ -15825,7 +15828,7 @@ IL_001b_1:
 			{
 				G_B5_0 = L_22;
 				G_B5_1 = L_20;
-				goto IL_00ae_1;
+				goto IL_00b6_1;
 			}
 		}
 		{
@@ -15841,7 +15844,7 @@ IL_001b_1:
 			G_B5_1 = G_B4_1;
 		}
 
-IL_00ae_1:
+IL_00b6_1:
 		{
 			NullCheck(G_B5_1);
 			RTCPeerConnection_set_OnIceGatheringStateChange_mAEBC40950256C34A9CB68840FA26FDCC7791AFDE_inline(G_B5_1, G_B5_0, NULL);
@@ -15861,7 +15864,7 @@ IL_00ae_1:
 			{
 				G_B7_0 = L_29;
 				G_B7_1 = L_27;
-				goto IL_00d8_1;
+				goto IL_00e0_1;
 			}
 		}
 		{
@@ -15877,7 +15880,7 @@ IL_00ae_1:
 			G_B7_1 = G_B6_1;
 		}
 
-IL_00d8_1:
+IL_00e0_1:
 		{
 			NullCheck(G_B7_1);
 			RTCPeerConnection_set_OnConnectionStateChange_m08B0324E91E2E057AD2C36BF0EF175F99F35FA4D_inline(G_B7_1, G_B7_0, NULL);
@@ -15886,9 +15889,9 @@ IL_00d8_1:
 			NullCheck(L_33);
 			Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_34;
 			L_34 = Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4(L_33, Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var);
-			// MediaStream videoStream = cam.CaptureStream(1280, 720);
+			// MediaStream videoStream = cam.CaptureStream(640, 480);
 			MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_35;
-			L_35 = CameraExtension_CaptureStream_m1B3AB13B0C1B1846997638488E287DBD3314F221(L_34, ((int32_t)1280), ((int32_t)720), ((int32_t)24), NULL);
+			L_35 = CameraExtension_CaptureStream_m1B3AB13B0C1B1846997638488E287DBD3314F221(L_34, ((int32_t)640), ((int32_t)480), ((int32_t)24), NULL);
 			V_3 = L_35;
 			// foreach (var track in videoStream.GetTracks())
 			MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_36 = V_3;
@@ -15904,20 +15907,20 @@ IL_00d8_1:
 			auto __finallyBlock = il2cpp::utils::Finally([&]
 			{
 
-FINALLY_0159_1:
+FINALLY_0161_1:
 				{// begin finally (depth: 2)
 					{
 						int32_t L_39 = V_0;
 						if ((((int32_t)L_39) >= ((int32_t)0)))
 						{
-							goto IL_0168_1;
+							goto IL_0170_1;
 						}
 					}
 					{
 						RuntimeObject* L_40 = V_7;
 						if (!L_40)
 						{
-							goto IL_0168_1;
+							goto IL_0170_1;
 						}
 					}
 					{
@@ -15926,7 +15929,7 @@ FINALLY_0159_1:
 						InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_41);
 					}
 
-IL_0168_1:
+IL_0170_1:
 					{
 						return;
 					}
@@ -15935,10 +15938,10 @@ IL_0168_1:
 			try
 			{// begin try (depth: 2)
 				{
-					goto IL_014e_2;
+					goto IL_0156_2;
 				}
 
-IL_0104_2:
+IL_010c_2:
 				{
 					// foreach (var track in videoStream.GetTracks())
 					RuntimeObject* L_42 = V_7;
@@ -15966,7 +15969,7 @@ IL_0104_2:
 						G_B11_1 = _stringLiteral47D28093A5560D622CB303F5C059263A89E0BA21;
 						G_B11_2 = L_46;
 						G_B11_3 = _stringLiteral12A32D77F55F3AEC458E68162C8A6FF50814B9E0;
-						goto IL_0130_2;
+						goto IL_0138_2;
 					}
 				}
 				{
@@ -15974,10 +15977,10 @@ IL_0104_2:
 					G_B12_1 = G_B10_1;
 					G_B12_2 = G_B10_2;
 					G_B12_3 = G_B10_3;
-					goto IL_0135_2;
+					goto IL_013d_2;
 				}
 
-IL_0130_2:
+IL_0138_2:
 				{
 					NullCheck(G_B11_0);
 					String_t* L_49;
@@ -15988,7 +15991,7 @@ IL_0130_2:
 					G_B12_3 = G_B11_3;
 				}
 
-IL_0135_2:
+IL_013d_2:
 				{
 					String_t* L_50;
 					L_50 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(G_B12_3, G_B12_2, G_B12_1, G_B12_0, NULL);
@@ -16005,7 +16008,7 @@ IL_0135_2:
 					L_55 = RTCPeerConnection_AddTrack_m98F6DF27832BA37E3BF69DEDF2168E1E20310F9D(L_52, L_53, L_54, NULL);
 				}
 
-IL_014e_2:
+IL_0156_2:
 				{
 					// foreach (var track in videoStream.GetTracks())
 					RuntimeObject* L_56 = V_7;
@@ -16014,11 +16017,11 @@ IL_014e_2:
 					L_57 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_56);
 					if (L_57)
 					{
-						goto IL_0104_2;
+						goto IL_010c_2;
 					}
 				}
 				{
-					goto IL_0169_1;
+					goto IL_0171_1;
 				}
 			}// end try (depth: 2)
 			catch(Il2CppExceptionWrapper& e)
@@ -16027,7 +16030,7 @@ IL_014e_2:
 			}
 		}
 
-IL_0169_1:
+IL_0171_1:
 		{
 			// Debug.Log("microphont audiosource name : "+microphoneAudioSource.name);
 			WebRtcBroadcast_t8AD5E892CD08D734DC6055A07A8AB5129D2F5936* L_58 = V_1;
@@ -16062,7 +16065,7 @@ IL_0169_1:
 			bool L_70 = L_69->___webrtcUpdateStarted_6;
 			if (L_70)
 			{
-				goto IL_01ba_1;
+				goto IL_01c2_1;
 			}
 		}
 		{
@@ -16079,7 +16082,7 @@ IL_0169_1:
 			L_74->___webrtcUpdateStarted_6 = (bool)1;
 		}
 
-IL_01ba_1:
+IL_01c2_1:
 		{
 			// StartCoroutine(PeerNegotiationNeeded(peerConnection));
 			WebRtcBroadcast_t8AD5E892CD08D734DC6055A07A8AB5129D2F5936* L_75 = V_1;
@@ -16093,7 +16096,7 @@ IL_01ba_1:
 			NullCheck(L_75);
 			Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_80;
 			L_80 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_75, L_79, NULL);
-			goto IL_01e8;
+			goto IL_01f0;
 		}
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -16101,12 +16104,12 @@ IL_01ba_1:
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_01cf;
+			goto CATCH_01d7;
 		}
 		throw e;
 	}
 
-CATCH_01cf:
+CATCH_01d7:
 	{// begin catch(System.Exception)
 		V_10 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
 		__this->___U3CU3E1__state_0 = ((int32_t)-2);
@@ -16114,10 +16117,10 @@ CATCH_01cf:
 		Exception_t* L_82 = V_10;
 		AsyncVoidMethodBuilder_SetException_mD9A6F5D1A99A62AC9DF322901BFDE05193CB177B(L_81, L_82, NULL);
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_01fb;
+		goto IL_0203;
 	}// end catch (depth: 1)
 
-IL_01e8:
+IL_01f0:
 	{
 		// }
 		__this->___U3CU3E1__state_0 = ((int32_t)-2);
@@ -16125,7 +16128,7 @@ IL_01e8:
 		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_83, NULL);
 	}
 
-IL_01fb:
+IL_0203:
 	{
 		return;
 	}
@@ -16631,12 +16634,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3COnGetAnswerSuccessU3Ed__12_MoveNext_m
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral411F721BE398E3A7D4ED65ED1CAEFC636FB461ED);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral41BA998418E283FC56755BD2968F71507A183757);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral54372B29398E8EF373453E5D8EEF343B02C82897);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5B58EBE31E594BF8FA4BEA3CD075473149322B18);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5BEFD8CC60A79699B5BB00E37BAC5B62D371E174);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral64058CC688A96A90239811EF06C9D20DB0499C3E);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6E4CDB19951DC99E828F2CF68CC546703C4A67D3);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6F2DD7CABAACF29C5070EE8521B28A02D2A4E3AC);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7F2CC8E4B29BFABAB0DAE6926451D1814AC49870);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8F43501A924F098AF4BEBD6FEC72E7AA960D838D);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAF59839A82604249AB9AA428E084C0235EF3D3D5);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC238EBAAC826ED30F17E84F0093DA620A6E21DCA);
@@ -16746,10 +16749,10 @@ IL_001f:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_23;
 		L_23 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(19 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_21, L_22);
 		V_3 = L_23;
-		// var www = new UnityWebRequest("http://60.250.213.114:8080/offer", UnityWebRequest.kHttpVerbPOST);
+		// var www = new UnityWebRequest("https://metaverse.venraas.tw:8080/offer", UnityWebRequest.kHttpVerbPOST);
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_24 = (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F*)il2cpp_codegen_object_new(UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_il2cpp_TypeInfo_var);
 		NullCheck(L_24);
-		UnityWebRequest__ctor_mD4739B0BF1C4937479A83B24B531C6B819712A3E(L_24, _stringLiteral54372B29398E8EF373453E5D8EEF343B02C82897, _stringLiteral14E338D17C42E552FA7AF42CDAE40CA1F0E8A04D, NULL);
+		UnityWebRequest__ctor_mD4739B0BF1C4937479A83B24B531C6B819712A3E(L_24, _stringLiteral7F2CC8E4B29BFABAB0DAE6926451D1814AC49870, _stringLiteral14E338D17C42E552FA7AF42CDAE40CA1F0E8A04D, NULL);
 		__this->___U3CwwwU3E5__2_4 = L_24;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CwwwU3E5__2_4), (void*)L_24);
 		// www.chunkedTransfer = false;
@@ -17084,13 +17087,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebRTCConnection_Start_mB5FC46EC4F16F2A3
 		// Debug.Log("WebRTCConnection.Start");
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral109D343A3949B481BE9C1F0C71A2BA8043D9A345, NULL);
-		// WebRTC.Initialize();
-		WebRTC_Initialize_mD79110DF1000DC3AEDC14B128A6619C9BEA5048F((bool)1, (bool)0, 1, NULL);
-		// TMP_url.text=friend_url;
-		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___TMP_url_7;
-		String_t* L_1 = __this->___friend_url_4;
-		NullCheck(L_0);
-		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_0, L_1);
 		// }
 		return;
 	}
@@ -18086,6 +18082,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConnectionStartU3Ed__24_MoveNext_m9EE
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CConnectionStartU3Ed__24_t094AAB2F05459CBB0019529614A9BC7071A47ACF_m4427A148CA7FA93DF2FE0F29FF34EB238758B05E_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioStreamTrack_t04D03230A7070B413208CA9F1D47BD3C6015FDFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DelegateOnAddTrack_tCA18E923B6BAADF8427EA9331CA985968EB04481_il2cpp_TypeInfo_var);
@@ -18115,7 +18112,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConnectionStartU3Ed__24_MoveNext_m9EE
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral08E61D7024F97BF9AD3C38EA4EE20D707BC34251);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral12A32D77F55F3AEC458E68162C8A6FF50814B9E0);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1692F7D4B7986C25B62525402BAB05AB08035362);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1927CD38A67E950F13732AF98A23F4313A251142);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral27BF76287F468EFE73C45C52A1C41B2E7CAFEC5F);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral29E0E06DB6B4F8482D1149EDA951A83D65B93BFD);
@@ -18123,17 +18119,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConnectionStartU3Ed__24_MoveNext_m9EE
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5276CE61B28CC251F17A113BA65624B1FD81C4D1);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral581D047DB6859429EC8F8CE0300CB23569DF2E94);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral64CCBEB53107CFD0D9858F3E4B2A50F9697FD077);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral66565BF09EF300BFEE8AFF98202EEC5E0D6DBFFC);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral70AB7FB5FB55FE54159A9384D1B62AEA0BE277C1);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral766D76A60075D7861DD9C8A2F1504D0EF88CFCE1);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7C637272786DDA3AA83933430BB60922DCF66C2E);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral97B47AFEABA85FDB491038D053CD494D40BA975D);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA3911314737FF37683BFF76CC5F7671FB51CA782);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAD767B6B92F5DB75B5540E6329FE280A611B9BD2);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB49320BC8E4767AF9E4E9F81A22C876B3D5A3CB2);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC5056D58A74D538020EFD111787C72CA59935882);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC7265723AE828D9983CBCF2303EAB69459F51E28);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD6C1626750A32580034F1B7A3DF754767CFA0DA1);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD85FA8B832ACD7FC86D5068E92E3CCF085E93EE9);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDE58E973AD1D91D64B6B4074F84CBE2E57E2069F);
@@ -18181,7 +18171,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConnectionStartU3Ed__24_MoveNext_m9EE
 			int32_t L_2 = V_0;
 			if (!L_2)
 			{
-				goto IL_0557_1;
+				goto IL_04eb_1;
 			}
 		}
 		{
@@ -18199,195 +18189,213 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConnectionStartU3Ed__24_MoveNext_m9EE
 			NullCheck(L_6);
 			L_6->___friend_url_4 = _stringLiteralA3911314737FF37683BFF76CC5F7671FB51CA782;
 			Il2CppCodeGenWriteBarrier((void**)(&L_6->___friend_url_4), (void*)_stringLiteralA3911314737FF37683BFF76CC5F7671FB51CA782);
+			// TMP_url.text=friend_url;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_7 = V_1;
+			NullCheck(L_7);
+			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_8 = L_7->___TMP_url_7;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_9 = V_1;
+			NullCheck(L_9);
+			String_t* L_10 = L_9->___friend_url_4;
+			NullCheck(L_8);
+			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_8, L_10);
 			// Debug.Log("[vr_debug]WebRTCConnection.ConnectionStart");
 			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral08E61D7024F97BF9AD3C38EA4EE20D707BC34251, NULL);
+			// microphoneAudioSource.GetComponent<AudioSource>();
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_11 = V_1;
+			NullCheck(L_11);
+			AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_12 = L_11->___microphoneAudioSource_11;
+			NullCheck(L_12);
+			AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_13;
+			L_13 = Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B(L_12, Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B_RuntimeMethod_var);
 			// if (peerConnection!= null)
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_7 = V_1;
-			NullCheck(L_7);
-			RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_8 = L_7->___peerConnection_14;
-			if (!L_8)
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_14 = V_1;
+			NullCheck(L_14);
+			RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_15 = L_14->___peerConnection_14;
+			if (!L_15)
 			{
-				goto IL_0048_1;
+				goto IL_0065_1;
 			}
 		}
 		{
 			// return;
-			goto IL_05e1;
+			goto IL_059b;
 		}
 
-IL_0048_1:
+IL_0065_1:
 		{
+			// WebRTC.Initialize();
+			WebRTC_Initialize_mD79110DF1000DC3AEDC14B128A6619C9BEA5048F((bool)1, (bool)0, 1, NULL);
 			// newBackstageItemID1 = System.Guid.NewGuid().ToString();
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_9 = V_1;
-			Guid_t L_10;
-			L_10 = Guid_NewGuid_m1F4894E8DC089811D6252148AD5858E58D43A7BD(NULL);
-			V_7 = L_10;
-			String_t* L_11;
-			L_11 = Guid_ToString_m2BFFD5FA726E03FA707AAFCCF065896C46D5290C((&V_7), NULL);
-			NullCheck(L_9);
-			L_9->___newBackstageItemID1_8 = L_11;
-			Il2CppCodeGenWriteBarrier((void**)(&L_9->___newBackstageItemID1_8), (void*)L_11);
-			// newBackstageItemID2 = System.Guid.NewGuid().ToString();
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_12 = V_1;
-			Guid_t L_13;
-			L_13 = Guid_NewGuid_m1F4894E8DC089811D6252148AD5858E58D43A7BD(NULL);
-			V_7 = L_13;
-			String_t* L_14;
-			L_14 = Guid_ToString_m2BFFD5FA726E03FA707AAFCCF065896C46D5290C((&V_7), NULL);
-			NullCheck(L_12);
-			L_12->___newBackstageItemID2_9 = L_14;
-			Il2CppCodeGenWriteBarrier((void**)(&L_12->___newBackstageItemID2_9), (void*)L_14);
-			// newBackstageItemID1 = newBackstageItemID1.Substring(0,3);
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_15 = V_1;
 			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_16 = V_1;
-			NullCheck(L_16);
-			String_t* L_17 = L_16->___newBackstageItemID1_8;
-			NullCheck(L_17);
+			Guid_t L_17;
+			L_17 = Guid_NewGuid_m1F4894E8DC089811D6252148AD5858E58D43A7BD(NULL);
+			V_7 = L_17;
 			String_t* L_18;
-			L_18 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_17, 0, 3, NULL);
-			NullCheck(L_15);
-			L_15->___newBackstageItemID1_8 = L_18;
-			Il2CppCodeGenWriteBarrier((void**)(&L_15->___newBackstageItemID1_8), (void*)L_18);
-			// newBackstageItemID2 = newBackstageItemID2.Substring(0,3);
+			L_18 = Guid_ToString_m2BFFD5FA726E03FA707AAFCCF065896C46D5290C((&V_7), NULL);
+			NullCheck(L_16);
+			L_16->___newBackstageItemID1_8 = L_18;
+			Il2CppCodeGenWriteBarrier((void**)(&L_16->___newBackstageItemID1_8), (void*)L_18);
+			// newBackstageItemID2 = System.Guid.NewGuid().ToString();
 			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_19 = V_1;
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_20 = V_1;
-			NullCheck(L_20);
-			String_t* L_21 = L_20->___newBackstageItemID2_9;
-			NullCheck(L_21);
-			String_t* L_22;
-			L_22 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_21, 0, 3, NULL);
+			Guid_t L_20;
+			L_20 = Guid_NewGuid_m1F4894E8DC089811D6252148AD5858E58D43A7BD(NULL);
+			V_7 = L_20;
+			String_t* L_21;
+			L_21 = Guid_ToString_m2BFFD5FA726E03FA707AAFCCF065896C46D5290C((&V_7), NULL);
 			NullCheck(L_19);
-			L_19->___newBackstageItemID2_9 = L_22;
-			Il2CppCodeGenWriteBarrier((void**)(&L_19->___newBackstageItemID2_9), (void*)L_22);
-			// TMP_url.text=friend_url+newBackstageItemID2+"_"+newBackstageItemID1;
+			L_19->___newBackstageItemID2_9 = L_21;
+			Il2CppCodeGenWriteBarrier((void**)(&L_19->___newBackstageItemID2_9), (void*)L_21);
+			// newBackstageItemID1 = newBackstageItemID1.Substring(0,3);
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_22 = V_1;
 			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_23 = V_1;
 			NullCheck(L_23);
-			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_24 = L_23->___TMP_url_7;
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_25 = V_1;
-			NullCheck(L_25);
-			String_t* L_26 = L_25->___friend_url_4;
+			String_t* L_24 = L_23->___newBackstageItemID1_8;
+			NullCheck(L_24);
+			String_t* L_25;
+			L_25 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_24, 0, 3, NULL);
+			NullCheck(L_22);
+			L_22->___newBackstageItemID1_8 = L_25;
+			Il2CppCodeGenWriteBarrier((void**)(&L_22->___newBackstageItemID1_8), (void*)L_25);
+			// newBackstageItemID2 = newBackstageItemID2.Substring(0,3);
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_26 = V_1;
 			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_27 = V_1;
 			NullCheck(L_27);
 			String_t* L_28 = L_27->___newBackstageItemID2_9;
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_29 = V_1;
-			NullCheck(L_29);
-			String_t* L_30 = L_29->___newBackstageItemID1_8;
-			String_t* L_31;
-			L_31 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(L_26, L_28, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C, L_30, NULL);
-			NullCheck(L_24);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_24, L_31);
-			// TMP_url.text="[vr_debug]WebRTCConnection.ConnectionStart -2";
+			NullCheck(L_28);
+			String_t* L_29;
+			L_29 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_28, 0, 3, NULL);
+			NullCheck(L_26);
+			L_26->___newBackstageItemID2_9 = L_29;
+			Il2CppCodeGenWriteBarrier((void**)(&L_26->___newBackstageItemID2_9), (void*)L_29);
+			// TMP_url.text=friend_url+newBackstageItemID2+"_"+newBackstageItemID1;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_30 = V_1;
+			NullCheck(L_30);
+			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_31 = L_30->___TMP_url_7;
 			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_32 = V_1;
 			NullCheck(L_32);
-			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_33 = L_32->___TMP_url_7;
-			NullCheck(L_33);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_33, _stringLiteralD85FA8B832ACD7FC86D5068E92E3CCF085E93EE9);
-			// RTCConfiguration configuration = default;
-			il2cpp_codegen_initobj((&V_3), sizeof(RTCConfiguration_t7D74CAE450A2A9A4A190FC7016BF7B95C71E6839));
-			// configuration.iceServers = new[] { new RTCIceServer { urls = new[] { "stun:stun.l.google.com:19302" } } };
-			RTCIceServerU5BU5D_t13301352D5F5F78D0D702CC03B8EA75523D31FE5* L_34 = (RTCIceServerU5BU5D_t13301352D5F5F78D0D702CC03B8EA75523D31FE5*)(RTCIceServerU5BU5D_t13301352D5F5F78D0D702CC03B8EA75523D31FE5*)SZArrayNew(RTCIceServerU5BU5D_t13301352D5F5F78D0D702CC03B8EA75523D31FE5_il2cpp_TypeInfo_var, (uint32_t)1);
-			RTCIceServerU5BU5D_t13301352D5F5F78D0D702CC03B8EA75523D31FE5* L_35 = L_34;
-			il2cpp_codegen_initobj((&V_8), sizeof(RTCIceServer_t548B7A7F1BF0F7C29275974C129920AA55208D0B));
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_36 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)1);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_37 = L_36;
-			NullCheck(L_37);
-			ArrayElementTypeCheck (L_37, _stringLiteral29E0E06DB6B4F8482D1149EDA951A83D65B93BFD);
-			(L_37)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral29E0E06DB6B4F8482D1149EDA951A83D65B93BFD);
-			(&V_8)->___urls_2 = L_37;
-			Il2CppCodeGenWriteBarrier((void**)(&(&V_8)->___urls_2), (void*)L_37);
-			RTCIceServer_t548B7A7F1BF0F7C29275974C129920AA55208D0B L_38 = V_8;
-			NullCheck(L_35);
-			(L_35)->SetAt(static_cast<il2cpp_array_size_t>(0), (RTCIceServer_t548B7A7F1BF0F7C29275974C129920AA55208D0B)L_38);
-			(&V_3)->___iceServers_0 = L_35;
-			Il2CppCodeGenWriteBarrier((void**)(&(&V_3)->___iceServers_0), (void*)L_35);
-			// TMP_url.text="[vr_debug]WebRTCConnection.ConnectionStart -1";
+			String_t* L_33 = L_32->___friend_url_4;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_34 = V_1;
+			NullCheck(L_34);
+			String_t* L_35 = L_34->___newBackstageItemID2_9;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_36 = V_1;
+			NullCheck(L_36);
+			String_t* L_37 = L_36->___newBackstageItemID1_8;
+			String_t* L_38;
+			L_38 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(L_33, L_35, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C, L_37, NULL);
+			NullCheck(L_31);
+			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_31, L_38);
+			// TMP_url.text="[vr_debug]WebRTCConnection.ConnectionStart -2";
 			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_39 = V_1;
 			NullCheck(L_39);
 			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_40 = L_39->___TMP_url_7;
 			NullCheck(L_40);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_40, _stringLiteral5276CE61B28CC251F17A113BA65624B1FD81C4D1);
-			// peerConnection = new RTCPeerConnection(ref configuration);
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_41 = V_1;
-			RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_42 = (RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2*)il2cpp_codegen_object_new(RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2_il2cpp_TypeInfo_var);
+			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_40, _stringLiteralD85FA8B832ACD7FC86D5068E92E3CCF085E93EE9);
+			// RTCConfiguration configuration = default;
+			il2cpp_codegen_initobj((&V_3), sizeof(RTCConfiguration_t7D74CAE450A2A9A4A190FC7016BF7B95C71E6839));
+			// configuration.iceServers = new[] { new RTCIceServer { urls = new[] { "stun:stun.l.google.com:19302" } } };
+			RTCIceServerU5BU5D_t13301352D5F5F78D0D702CC03B8EA75523D31FE5* L_41 = (RTCIceServerU5BU5D_t13301352D5F5F78D0D702CC03B8EA75523D31FE5*)(RTCIceServerU5BU5D_t13301352D5F5F78D0D702CC03B8EA75523D31FE5*)SZArrayNew(RTCIceServerU5BU5D_t13301352D5F5F78D0D702CC03B8EA75523D31FE5_il2cpp_TypeInfo_var, (uint32_t)1);
+			RTCIceServerU5BU5D_t13301352D5F5F78D0D702CC03B8EA75523D31FE5* L_42 = L_41;
+			il2cpp_codegen_initobj((&V_8), sizeof(RTCIceServer_t548B7A7F1BF0F7C29275974C129920AA55208D0B));
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_43 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)1);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_44 = L_43;
+			NullCheck(L_44);
+			ArrayElementTypeCheck (L_44, _stringLiteral29E0E06DB6B4F8482D1149EDA951A83D65B93BFD);
+			(L_44)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral29E0E06DB6B4F8482D1149EDA951A83D65B93BFD);
+			(&V_8)->___urls_2 = L_44;
+			Il2CppCodeGenWriteBarrier((void**)(&(&V_8)->___urls_2), (void*)L_44);
+			RTCIceServer_t548B7A7F1BF0F7C29275974C129920AA55208D0B L_45 = V_8;
 			NullCheck(L_42);
-			RTCPeerConnection__ctor_m8B71DFA4536EDC2C382A8164FADF716BC2AAB7FE(L_42, (&V_3), NULL);
-			NullCheck(L_41);
-			L_41->___peerConnection_14 = L_42;
-			Il2CppCodeGenWriteBarrier((void**)(&L_41->___peerConnection_14), (void*)L_42);
-			// onIceCandidate = candidate => { OnIceCandidate(candidate); };
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_43 = V_1;
-			U3CU3Ec__DisplayClass24_0_tF832AFAB650AB6673407F5E389833FF4A0403C35* L_44 = V_2;
-			DelegateOnIceCandidate_tDAEDCD6006EF84842D32A716C955A486C4820C7D* L_45 = (DelegateOnIceCandidate_tDAEDCD6006EF84842D32A716C955A486C4820C7D*)il2cpp_codegen_object_new(DelegateOnIceCandidate_tDAEDCD6006EF84842D32A716C955A486C4820C7D_il2cpp_TypeInfo_var);
-			NullCheck(L_45);
-			DelegateOnIceCandidate__ctor_m5434F142DB3B3F3DFB94D575A0D1E3128D327853(L_45, L_44, (intptr_t)((void*)U3CU3Ec__DisplayClass24_0_U3CConnectionStartU3Eb__0_m873E7532A601045C86438B397E710EAF5A757052_RuntimeMethod_var), NULL);
-			NullCheck(L_43);
-			L_43->___onIceCandidate_15 = L_45;
-			Il2CppCodeGenWriteBarrier((void**)(&L_43->___onIceCandidate_15), (void*)L_45);
-			// peerConnection.OnIceCandidate = onIceCandidate;
+			(L_42)->SetAt(static_cast<il2cpp_array_size_t>(0), (RTCIceServer_t548B7A7F1BF0F7C29275974C129920AA55208D0B)L_45);
+			(&V_3)->___iceServers_0 = L_42;
+			Il2CppCodeGenWriteBarrier((void**)(&(&V_3)->___iceServers_0), (void*)L_42);
+			// TMP_url.text="[vr_debug]WebRTCConnection.ConnectionStart -1";
 			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_46 = V_1;
 			NullCheck(L_46);
-			RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_47 = L_46->___peerConnection_14;
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_48 = V_1;
-			NullCheck(L_48);
-			DelegateOnIceCandidate_tDAEDCD6006EF84842D32A716C955A486C4820C7D* L_49 = L_48->___onIceCandidate_15;
+			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_47 = L_46->___TMP_url_7;
 			NullCheck(L_47);
-			RTCPeerConnection_set_OnIceCandidate_m91B18C3CBA7F82BBBA0FE10D8251B830ACAE25E4_inline(L_47, L_49, NULL);
-			// var cam = GetComponent<Camera>();
+			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_47, _stringLiteral5276CE61B28CC251F17A113BA65624B1FD81C4D1);
+			// peerConnection = new RTCPeerConnection(ref configuration);
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_48 = V_1;
+			RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_49 = (RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2*)il2cpp_codegen_object_new(RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2_il2cpp_TypeInfo_var);
+			NullCheck(L_49);
+			RTCPeerConnection__ctor_m8B71DFA4536EDC2C382A8164FADF716BC2AAB7FE(L_49, (&V_3), NULL);
+			NullCheck(L_48);
+			L_48->___peerConnection_14 = L_49;
+			Il2CppCodeGenWriteBarrier((void**)(&L_48->___peerConnection_14), (void*)L_49);
+			// onIceCandidate = candidate => { OnIceCandidate(candidate); };
 			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_50 = V_1;
+			U3CU3Ec__DisplayClass24_0_tF832AFAB650AB6673407F5E389833FF4A0403C35* L_51 = V_2;
+			DelegateOnIceCandidate_tDAEDCD6006EF84842D32A716C955A486C4820C7D* L_52 = (DelegateOnIceCandidate_tDAEDCD6006EF84842D32A716C955A486C4820C7D*)il2cpp_codegen_object_new(DelegateOnIceCandidate_tDAEDCD6006EF84842D32A716C955A486C4820C7D_il2cpp_TypeInfo_var);
+			NullCheck(L_52);
+			DelegateOnIceCandidate__ctor_m5434F142DB3B3F3DFB94D575A0D1E3128D327853(L_52, L_51, (intptr_t)((void*)U3CU3Ec__DisplayClass24_0_U3CConnectionStartU3Eb__0_m873E7532A601045C86438B397E710EAF5A757052_RuntimeMethod_var), NULL);
 			NullCheck(L_50);
-			Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_51;
-			L_51 = Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4(L_50, Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var);
+			L_50->___onIceCandidate_15 = L_52;
+			Il2CppCodeGenWriteBarrier((void**)(&L_50->___onIceCandidate_15), (void*)L_52);
+			// peerConnection.OnIceCandidate = onIceCandidate;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_53 = V_1;
+			NullCheck(L_53);
+			RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_54 = L_53->___peerConnection_14;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_55 = V_1;
+			NullCheck(L_55);
+			DelegateOnIceCandidate_tDAEDCD6006EF84842D32A716C955A486C4820C7D* L_56 = L_55->___onIceCandidate_15;
+			NullCheck(L_54);
+			RTCPeerConnection_set_OnIceCandidate_m91B18C3CBA7F82BBBA0FE10D8251B830ACAE25E4_inline(L_54, L_56, NULL);
+			// var cam = GetComponent<Camera>();
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_57 = V_1;
+			NullCheck(L_57);
+			Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_58;
+			L_58 = Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4(L_57, Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var);
 			// MediaStream videoStream = cam.CaptureStream(1280, 720);
-			MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_52;
-			L_52 = CameraExtension_CaptureStream_m1B3AB13B0C1B1846997638488E287DBD3314F221(L_51, ((int32_t)1280), ((int32_t)720), ((int32_t)24), NULL);
-			V_4 = L_52;
+			MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_59;
+			L_59 = CameraExtension_CaptureStream_m1B3AB13B0C1B1846997638488E287DBD3314F221(L_58, ((int32_t)1280), ((int32_t)720), ((int32_t)24), NULL);
+			V_4 = L_59;
 			// Debug.Log("[vr_debug]WebRTCConnection.ConnectionStart 1");
 			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralF6BB6C7665DA674A1D990EFDDA723C0DC1EF5A1B, NULL);
 			// TMP_url.text="[vr_debug]WebRTCConnection.ConnectionStart 1";
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_53 = V_1;
-			NullCheck(L_53);
-			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_54 = L_53->___TMP_url_7;
-			NullCheck(L_54);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_54, _stringLiteralF6BB6C7665DA674A1D990EFDDA723C0DC1EF5A1B);
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_60 = V_1;
+			NullCheck(L_60);
+			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_61 = L_60->___TMP_url_7;
+			NullCheck(L_61);
+			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_61, _stringLiteralF6BB6C7665DA674A1D990EFDDA723C0DC1EF5A1B);
 			// foreach (var track in videoStream.GetTracks())
-			MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_55 = V_4;
-			NullCheck(L_55);
-			RuntimeObject* L_56;
-			L_56 = MediaStream_GetTracks_m134FD76346815CA9FFF8115FDEBCE14DBF04F868(L_55, NULL);
-			NullCheck(L_56);
-			RuntimeObject* L_57;
-			L_57 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<Unity.WebRTC.MediaStreamTrack>::GetEnumerator() */, IEnumerable_1_tCD38BCB580AB2636A0EE46D0B88C40B44862BFA6_il2cpp_TypeInfo_var, L_56);
-			V_9 = L_57;
+			MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_62 = V_4;
+			NullCheck(L_62);
+			RuntimeObject* L_63;
+			L_63 = MediaStream_GetTracks_m134FD76346815CA9FFF8115FDEBCE14DBF04F868(L_62, NULL);
+			NullCheck(L_63);
+			RuntimeObject* L_64;
+			L_64 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<Unity.WebRTC.MediaStreamTrack>::GetEnumerator() */, IEnumerable_1_tCD38BCB580AB2636A0EE46D0B88C40B44862BFA6_il2cpp_TypeInfo_var, L_63);
+			V_9 = L_64;
 		}
 		{
 			auto __finallyBlock = il2cpp::utils::Finally([&]
 			{
 
-FINALLY_01da_1:
+FINALLY_01ff_1:
 				{// begin finally (depth: 2)
 					{
-						int32_t L_58 = V_0;
-						if ((((int32_t)L_58) >= ((int32_t)0)))
+						int32_t L_65 = V_0;
+						if ((((int32_t)L_65) >= ((int32_t)0)))
 						{
-							goto IL_01e9_1;
+							goto IL_020e_1;
 						}
 					}
 					{
-						RuntimeObject* L_59 = V_9;
-						if (!L_59)
+						RuntimeObject* L_66 = V_9;
+						if (!L_66)
 						{
-							goto IL_01e9_1;
+							goto IL_020e_1;
 						}
 					}
 					{
-						RuntimeObject* L_60 = V_9;
-						NullCheck(L_60);
-						InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_60);
+						RuntimeObject* L_67 = V_9;
+						NullCheck(L_67);
+						InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_67);
 					}
 
-IL_01e9_1:
+IL_020e_1:
 					{
 						return;
 					}
@@ -18396,54 +18404,54 @@ IL_01e9_1:
 			try
 			{// begin try (depth: 2)
 				{
-					goto IL_01cf_2;
+					goto IL_01f4_2;
 				}
 
-IL_0197_2:
+IL_01bc_2:
 				{
 					// foreach (var track in videoStream.GetTracks())
-					RuntimeObject* L_61 = V_9;
-					NullCheck(L_61);
-					MediaStreamTrack_tE9A3A14A55BD53667B26B202AF719053FDBDC2E6* L_62;
-					L_62 = InterfaceFuncInvoker0< MediaStreamTrack_tE9A3A14A55BD53667B26B202AF719053FDBDC2E6* >::Invoke(0 /* T System.Collections.Generic.IEnumerator`1<Unity.WebRTC.MediaStreamTrack>::get_Current() */, IEnumerator_1_t90B18233A3A36BB63F925FAEC1549B95DCA94978_il2cpp_TypeInfo_var, L_61);
-					V_10 = L_62;
-					// Debug.Log("track.enabled : "+track.Enabled);
-					MediaStreamTrack_tE9A3A14A55BD53667B26B202AF719053FDBDC2E6* L_63 = V_10;
-					NullCheck(L_63);
-					bool L_64;
-					L_64 = MediaStreamTrack_get_Enabled_mBAD3132E274239AD2FE349778112D4B6C25BB04D(L_63, NULL);
-					V_11 = L_64;
-					String_t* L_65;
-					L_65 = Boolean_ToString_m6646C8026B1DF381A1EE8CD13549175E9703CC63((&V_11), NULL);
-					String_t* L_66;
-					L_66 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral12A32D77F55F3AEC458E68162C8A6FF50814B9E0, L_65, NULL);
-					il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-					Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_66, NULL);
-					// peerConnection.AddTrack(track, videoStream);
-					WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_67 = V_1;
-					NullCheck(L_67);
-					RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_68 = L_67->___peerConnection_14;
-					MediaStreamTrack_tE9A3A14A55BD53667B26B202AF719053FDBDC2E6* L_69 = V_10;
-					MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_70 = V_4;
+					RuntimeObject* L_68 = V_9;
 					NullCheck(L_68);
-					RTCRtpSender_t9F641589CAD8E9FECEE9613037EAF7BAD0C84657* L_71;
-					L_71 = RTCPeerConnection_AddTrack_m98F6DF27832BA37E3BF69DEDF2168E1E20310F9D(L_68, L_69, L_70, NULL);
+					MediaStreamTrack_tE9A3A14A55BD53667B26B202AF719053FDBDC2E6* L_69;
+					L_69 = InterfaceFuncInvoker0< MediaStreamTrack_tE9A3A14A55BD53667B26B202AF719053FDBDC2E6* >::Invoke(0 /* T System.Collections.Generic.IEnumerator`1<Unity.WebRTC.MediaStreamTrack>::get_Current() */, IEnumerator_1_t90B18233A3A36BB63F925FAEC1549B95DCA94978_il2cpp_TypeInfo_var, L_68);
+					V_10 = L_69;
+					// Debug.Log("track.enabled : "+track.Enabled);
+					MediaStreamTrack_tE9A3A14A55BD53667B26B202AF719053FDBDC2E6* L_70 = V_10;
+					NullCheck(L_70);
+					bool L_71;
+					L_71 = MediaStreamTrack_get_Enabled_mBAD3132E274239AD2FE349778112D4B6C25BB04D(L_70, NULL);
+					V_11 = L_71;
+					String_t* L_72;
+					L_72 = Boolean_ToString_m6646C8026B1DF381A1EE8CD13549175E9703CC63((&V_11), NULL);
+					String_t* L_73;
+					L_73 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral12A32D77F55F3AEC458E68162C8A6FF50814B9E0, L_72, NULL);
+					il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+					Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_73, NULL);
+					// peerConnection.AddTrack(track, videoStream);
+					WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_74 = V_1;
+					NullCheck(L_74);
+					RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_75 = L_74->___peerConnection_14;
+					MediaStreamTrack_tE9A3A14A55BD53667B26B202AF719053FDBDC2E6* L_76 = V_10;
+					MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_77 = V_4;
+					NullCheck(L_75);
+					RTCRtpSender_t9F641589CAD8E9FECEE9613037EAF7BAD0C84657* L_78;
+					L_78 = RTCPeerConnection_AddTrack_m98F6DF27832BA37E3BF69DEDF2168E1E20310F9D(L_75, L_76, L_77, NULL);
 				}
 
-IL_01cf_2:
+IL_01f4_2:
 				{
 					// foreach (var track in videoStream.GetTracks())
-					RuntimeObject* L_72 = V_9;
-					NullCheck(L_72);
-					bool L_73;
-					L_73 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_72);
-					if (L_73)
+					RuntimeObject* L_79 = V_9;
+					NullCheck(L_79);
+					bool L_80;
+					L_80 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_79);
+					if (L_80)
 					{
-						goto IL_0197_2;
+						goto IL_01bc_2;
 					}
 				}
 				{
-					goto IL_01ea_1;
+					goto IL_020f_1;
 				}
 			}// end try (depth: 2)
 			catch(Il2CppExceptionWrapper& e)
@@ -18452,75 +18460,51 @@ IL_01cf_2:
 			}
 		}
 
-IL_01ea_1:
+IL_020f_1:
 		{
-			// TMP_url.text="[vr_debug]WebRTCConnection.ConnectionStart 1.1";
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_74 = V_1;
-			NullCheck(L_74);
-			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_75 = L_74->___TMP_url_7;
-			NullCheck(L_75);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_75, _stringLiteral97B47AFEABA85FDB491038D053CD494D40BA975D);
 			// Debug.Log("microphont audiosource name : "+microphoneAudioSource.name);
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_76 = V_1;
-			NullCheck(L_76);
-			AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_77 = L_76->___microphoneAudioSource_11;
-			NullCheck(L_77);
-			String_t* L_78;
-			L_78 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_77, NULL);
-			String_t* L_79;
-			L_79 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralD6C1626750A32580034F1B7A3DF754767CFA0DA1, L_78, NULL);
-			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_79, NULL);
-			// TMP_url.text="[vr_debug] microphont audiosource name : "+microphoneAudioSource.name;
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_80 = V_1;
-			NullCheck(L_80);
-			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_81 = L_80->___TMP_url_7;
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_82 = V_1;
-			NullCheck(L_82);
-			AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_83 = L_82->___microphoneAudioSource_11;
-			NullCheck(L_83);
-			String_t* L_84;
-			L_84 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_83, NULL);
-			String_t* L_85;
-			L_85 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral70AB7FB5FB55FE54159A9384D1B62AEA0BE277C1, L_84, NULL);
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_81 = V_1;
 			NullCheck(L_81);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_81, L_85);
+			AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_82 = L_81->___microphoneAudioSource_11;
+			NullCheck(L_82);
+			String_t* L_83;
+			L_83 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_82, NULL);
+			String_t* L_84;
+			L_84 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralD6C1626750A32580034F1B7A3DF754767CFA0DA1, L_83, NULL);
+			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_84, NULL);
 			// MediaStream sendMicrophoneAudioStream = new MediaStream();
-			MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_86 = (MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED*)il2cpp_codegen_object_new(MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED_il2cpp_TypeInfo_var);
-			NullCheck(L_86);
-			MediaStream__ctor_mC5CCF48C9CE423D106ABF77D1C28C352B1CA7E3E(L_86, NULL);
-			V_5 = L_86;
+			MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_85 = (MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED*)il2cpp_codegen_object_new(MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED_il2cpp_TypeInfo_var);
+			NullCheck(L_85);
+			MediaStream__ctor_mC5CCF48C9CE423D106ABF77D1C28C352B1CA7E3E(L_85, NULL);
+			V_5 = L_85;
 			// AudioStreamTrack microphone_audioTrack = new AudioStreamTrack(microphoneAudioSource);
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_87 = V_1;
-			NullCheck(L_87);
-			AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_88 = L_87->___microphoneAudioSource_11;
-			AudioStreamTrack_t04D03230A7070B413208CA9F1D47BD3C6015FDFC* L_89 = (AudioStreamTrack_t04D03230A7070B413208CA9F1D47BD3C6015FDFC*)il2cpp_codegen_object_new(AudioStreamTrack_t04D03230A7070B413208CA9F1D47BD3C6015FDFC_il2cpp_TypeInfo_var);
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_86 = V_1;
+			NullCheck(L_86);
+			AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_87 = L_86->___microphoneAudioSource_11;
+			AudioStreamTrack_t04D03230A7070B413208CA9F1D47BD3C6015FDFC* L_88 = (AudioStreamTrack_t04D03230A7070B413208CA9F1D47BD3C6015FDFC*)il2cpp_codegen_object_new(AudioStreamTrack_t04D03230A7070B413208CA9F1D47BD3C6015FDFC_il2cpp_TypeInfo_var);
+			NullCheck(L_88);
+			AudioStreamTrack__ctor_mF0F55E34C2DF945290423F8A05D5CBBA5C4DC250(L_88, L_87, NULL);
+			V_6 = L_88;
+			// var sender = peerConnection.AddTrack(microphone_audioTrack, sendMicrophoneAudioStream);
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_89 = V_1;
 			NullCheck(L_89);
-			AudioStreamTrack__ctor_mF0F55E34C2DF945290423F8A05D5CBBA5C4DC250(L_89, L_88, NULL);
-			V_6 = L_89;
-			// peerConnection.AddTrack(microphone_audioTrack, sendMicrophoneAudioStream);
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_90 = V_1;
+			RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_90 = L_89->___peerConnection_14;
+			AudioStreamTrack_t04D03230A7070B413208CA9F1D47BD3C6015FDFC* L_91 = V_6;
+			MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_92 = V_5;
 			NullCheck(L_90);
-			RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_91 = L_90->___peerConnection_14;
-			AudioStreamTrack_t04D03230A7070B413208CA9F1D47BD3C6015FDFC* L_92 = V_6;
-			MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_93 = V_5;
-			NullCheck(L_91);
-			RTCRtpSender_t9F641589CAD8E9FECEE9613037EAF7BAD0C84657* L_94;
-			L_94 = RTCPeerConnection_AddTrack_m98F6DF27832BA37E3BF69DEDF2168E1E20310F9D(L_91, L_92, L_93, NULL);
-			// TMP_url.text="[vr_debug]WebRTCConnection.ConnectionStart 1.4";
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_95 = V_1;
-			NullCheck(L_95);
-			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_96 = L_95->___TMP_url_7;
-			NullCheck(L_96);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_96, _stringLiteral1692F7D4B7986C25B62525402BAB05AB08035362);
+			RTCRtpSender_t9F641589CAD8E9FECEE9613037EAF7BAD0C84657* L_93;
+			L_93 = RTCPeerConnection_AddTrack_m98F6DF27832BA37E3BF69DEDF2168E1E20310F9D(L_90, L_91, L_92, NULL);
+			__this->___U3CsenderU3E5__2_3 = L_93;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CsenderU3E5__2_3), (void*)L_93);
 			// MediaStream receiveStream = new MediaStream();
-			U3CU3Ec__DisplayClass24_0_tF832AFAB650AB6673407F5E389833FF4A0403C35* L_97 = V_2;
-			MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_98 = (MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED*)il2cpp_codegen_object_new(MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED_il2cpp_TypeInfo_var);
-			NullCheck(L_98);
-			MediaStream__ctor_mC5CCF48C9CE423D106ABF77D1C28C352B1CA7E3E(L_98, NULL);
-			NullCheck(L_97);
-			L_97->___receiveStream_1 = L_98;
-			Il2CppCodeGenWriteBarrier((void**)(&L_97->___receiveStream_1), (void*)L_98);
+			U3CU3Ec__DisplayClass24_0_tF832AFAB650AB6673407F5E389833FF4A0403C35* L_94 = V_2;
+			MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_95 = (MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED*)il2cpp_codegen_object_new(MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED_il2cpp_TypeInfo_var);
+			NullCheck(L_95);
+			MediaStream__ctor_mC5CCF48C9CE423D106ABF77D1C28C352B1CA7E3E(L_95, NULL);
+			NullCheck(L_94);
+			L_94->___receiveStream_1 = L_95;
+			Il2CppCodeGenWriteBarrier((void**)(&L_94->___receiveStream_1), (void*)L_95);
 			// receiveStream.OnAddTrack = e =>
 			// {
 			//     if (e.Track is AudioStreamTrack track)
@@ -18534,21 +18518,21 @@ IL_01ea_1:
 			//         remoteAudioSource.Play();
 			//     }
 			// };
-			U3CU3Ec__DisplayClass24_0_tF832AFAB650AB6673407F5E389833FF4A0403C35* L_99 = V_2;
+			U3CU3Ec__DisplayClass24_0_tF832AFAB650AB6673407F5E389833FF4A0403C35* L_96 = V_2;
+			NullCheck(L_96);
+			MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_97 = L_96->___receiveStream_1;
+			U3CU3Ec__DisplayClass24_0_tF832AFAB650AB6673407F5E389833FF4A0403C35* L_98 = V_2;
+			DelegateOnAddTrack_tCA18E923B6BAADF8427EA9331CA985968EB04481* L_99 = (DelegateOnAddTrack_tCA18E923B6BAADF8427EA9331CA985968EB04481*)il2cpp_codegen_object_new(DelegateOnAddTrack_tCA18E923B6BAADF8427EA9331CA985968EB04481_il2cpp_TypeInfo_var);
 			NullCheck(L_99);
-			MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_100 = L_99->___receiveStream_1;
-			U3CU3Ec__DisplayClass24_0_tF832AFAB650AB6673407F5E389833FF4A0403C35* L_101 = V_2;
-			DelegateOnAddTrack_tCA18E923B6BAADF8427EA9331CA985968EB04481* L_102 = (DelegateOnAddTrack_tCA18E923B6BAADF8427EA9331CA985968EB04481*)il2cpp_codegen_object_new(DelegateOnAddTrack_tCA18E923B6BAADF8427EA9331CA985968EB04481_il2cpp_TypeInfo_var);
-			NullCheck(L_102);
-			DelegateOnAddTrack__ctor_m6AD61ADAFEC3E1AD89AB88A1B7B5F77AA9066705(L_102, L_101, (intptr_t)((void*)U3CU3Ec__DisplayClass24_0_U3CConnectionStartU3Eb__1_m444AF42ABE1F97C58543ADF384F8C8D0B01C64C1_RuntimeMethod_var), NULL);
-			NullCheck(L_100);
-			MediaStream_set_OnAddTrack_mF8BB65B2B6631431E04C078D5208AC2EE7258DB0_inline(L_100, L_102, NULL);
+			DelegateOnAddTrack__ctor_m6AD61ADAFEC3E1AD89AB88A1B7B5F77AA9066705(L_99, L_98, (intptr_t)((void*)U3CU3Ec__DisplayClass24_0_U3CConnectionStartU3Eb__1_m444AF42ABE1F97C58543ADF384F8C8D0B01C64C1_RuntimeMethod_var), NULL);
+			NullCheck(L_97);
+			MediaStream_set_OnAddTrack_mF8BB65B2B6631431E04C078D5208AC2EE7258DB0_inline(L_97, L_99, NULL);
 			// TMP_url.text="[vr_debug]WebRTCConnection.ConnectionStart 1.5";
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_103 = V_1;
-			NullCheck(L_103);
-			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_104 = L_103->___TMP_url_7;
-			NullCheck(L_104);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_104, _stringLiteralE6204B652E414A0AF23F08E82413251AEB8E0A51);
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_100 = V_1;
+			NullCheck(L_100);
+			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_101 = L_100->___TMP_url_7;
+			NullCheck(L_101);
+			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_101, _stringLiteralE6204B652E414A0AF23F08E82413251AEB8E0A51);
 			// peerConnection.OnTrack = (RTCTrackEvent e) => {
 			//     if (e.Track.Kind == TrackKind.Audio)
 			//     {
@@ -18557,101 +18541,101 @@ IL_01ea_1:
 			//         receiveStream.AddTrack(e.Track);
 			//     }
 			// };
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_105 = V_1;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_102 = V_1;
+			NullCheck(L_102);
+			RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_103 = L_102->___peerConnection_14;
+			U3CU3Ec__DisplayClass24_0_tF832AFAB650AB6673407F5E389833FF4A0403C35* L_104 = V_2;
+			DelegateOnTrack_t274AA48A2E8C802AE101CF2A09192E35DD1127BF* L_105 = (DelegateOnTrack_t274AA48A2E8C802AE101CF2A09192E35DD1127BF*)il2cpp_codegen_object_new(DelegateOnTrack_t274AA48A2E8C802AE101CF2A09192E35DD1127BF_il2cpp_TypeInfo_var);
 			NullCheck(L_105);
-			RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_106 = L_105->___peerConnection_14;
-			U3CU3Ec__DisplayClass24_0_tF832AFAB650AB6673407F5E389833FF4A0403C35* L_107 = V_2;
-			DelegateOnTrack_t274AA48A2E8C802AE101CF2A09192E35DD1127BF* L_108 = (DelegateOnTrack_t274AA48A2E8C802AE101CF2A09192E35DD1127BF*)il2cpp_codegen_object_new(DelegateOnTrack_t274AA48A2E8C802AE101CF2A09192E35DD1127BF_il2cpp_TypeInfo_var);
-			NullCheck(L_108);
-			DelegateOnTrack__ctor_m9F9248EC74098EBE06A9120A5DEE3F4E816B0EFE(L_108, L_107, (intptr_t)((void*)U3CU3Ec__DisplayClass24_0_U3CConnectionStartU3Eb__2_mB94F44BCBC67B9DFDD4B2FB2CD17520588B1E92B_RuntimeMethod_var), NULL);
-			NullCheck(L_106);
-			RTCPeerConnection_set_OnTrack_mFC24230DF8CCAB0D65D01BE0116DE7AA9FEB765E_inline(L_106, L_108, NULL);
+			DelegateOnTrack__ctor_m9F9248EC74098EBE06A9120A5DEE3F4E816B0EFE(L_105, L_104, (intptr_t)((void*)U3CU3Ec__DisplayClass24_0_U3CConnectionStartU3Eb__2_mB94F44BCBC67B9DFDD4B2FB2CD17520588B1E92B_RuntimeMethod_var), NULL);
+			NullCheck(L_103);
+			RTCPeerConnection_set_OnTrack_mFC24230DF8CCAB0D65D01BE0116DE7AA9FEB765E_inline(L_103, L_105, NULL);
 			// TMP_url.text="[vr_debug]WebRTCConnection.ConnectionStart 1.6";
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_109 = V_1;
-			NullCheck(L_109);
-			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_110 = L_109->___TMP_url_7;
-			NullCheck(L_110);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_110, _stringLiteral7C637272786DDA3AA83933430BB60922DCF66C2E);
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_106 = V_1;
+			NullCheck(L_106);
+			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_107 = L_106->___TMP_url_7;
+			NullCheck(L_107);
+			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_107, _stringLiteral7C637272786DDA3AA83933430BB60922DCF66C2E);
 			// if (!webrtcUpdateStarted)
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_111 = V_1;
-			NullCheck(L_111);
-			bool L_112 = L_111->___webrtcUpdateStarted_16;
-			if (L_112)
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_108 = V_1;
+			NullCheck(L_108);
+			bool L_109 = L_108->___webrtcUpdateStarted_16;
+			if (L_109)
 			{
-				goto IL_02dc_1;
+				goto IL_02c6_1;
 			}
 		}
 		{
 			// StartCoroutine(WebRTC.Update());
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_113 = V_1;
-			RuntimeObject* L_114;
-			L_114 = WebRTC_Update_mDC3FE52572BFC486A7E3A6BFAEC091CDB2093977(NULL);
-			NullCheck(L_113);
-			Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_115;
-			L_115 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_113, L_114, NULL);
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_110 = V_1;
+			RuntimeObject* L_111;
+			L_111 = WebRTC_Update_mDC3FE52572BFC486A7E3A6BFAEC091CDB2093977(NULL);
+			NullCheck(L_110);
+			Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_112;
+			L_112 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_110, L_111, NULL);
 			// webrtcUpdateStarted = true;
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_116 = V_1;
-			NullCheck(L_116);
-			L_116->___webrtcUpdateStarted_16 = (bool)1;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_113 = V_1;
+			NullCheck(L_113);
+			L_113->___webrtcUpdateStarted_16 = (bool)1;
 		}
 
-IL_02dc_1:
+IL_02c6_1:
 		{
 			// Debug.Log("[vr_debug]WebRTCConnection.ConnectionStart 2");
 			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralC5056D58A74D538020EFD111787C72CA59935882, NULL);
 			// TMP_url.text="[vr_debug]WebRTCConnection.ConnectionStart 2";
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_117 = V_1;
-			NullCheck(L_117);
-			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_118 = L_117->___TMP_url_7;
-			NullCheck(L_118);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_118, _stringLiteralC5056D58A74D538020EFD111787C72CA59935882);
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_114 = V_1;
+			NullCheck(L_114);
+			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_115 = L_114->___TMP_url_7;
+			NullCheck(L_115);
+			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_115, _stringLiteralC5056D58A74D538020EFD111787C72CA59935882);
 			// TMP_url.text=friend_url+newBackstageItemID2+"_"+newBackstageItemID1+"  : (connected) ";
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_119 = V_1;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_116 = V_1;
+			NullCheck(L_116);
+			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_117 = L_116->___TMP_url_7;
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_118 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_119 = L_118;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_120 = V_1;
+			NullCheck(L_120);
+			String_t* L_121 = L_120->___friend_url_4;
 			NullCheck(L_119);
-			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_120 = L_119->___TMP_url_7;
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_121 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_122 = L_121;
+			ArrayElementTypeCheck (L_119, L_121);
+			(L_119)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_121);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_122 = L_119;
 			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_123 = V_1;
 			NullCheck(L_123);
-			String_t* L_124 = L_123->___friend_url_4;
+			String_t* L_124 = L_123->___newBackstageItemID2_9;
 			NullCheck(L_122);
 			ArrayElementTypeCheck (L_122, L_124);
-			(L_122)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_124);
+			(L_122)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_124);
 			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_125 = L_122;
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_126 = V_1;
-			NullCheck(L_126);
-			String_t* L_127 = L_126->___newBackstageItemID2_9;
 			NullCheck(L_125);
-			ArrayElementTypeCheck (L_125, L_127);
-			(L_125)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_127);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_128 = L_125;
-			NullCheck(L_128);
-			ArrayElementTypeCheck (L_128, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
-			(L_128)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_129 = L_128;
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_130 = V_1;
-			NullCheck(L_130);
-			String_t* L_131 = L_130->___newBackstageItemID1_8;
+			ArrayElementTypeCheck (L_125, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
+			(L_125)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_126 = L_125;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_127 = V_1;
+			NullCheck(L_127);
+			String_t* L_128 = L_127->___newBackstageItemID1_8;
+			NullCheck(L_126);
+			ArrayElementTypeCheck (L_126, L_128);
+			(L_126)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_128);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_129 = L_126;
 			NullCheck(L_129);
-			ArrayElementTypeCheck (L_129, L_131);
-			(L_129)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_131);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_132 = L_129;
-			NullCheck(L_132);
-			ArrayElementTypeCheck (L_132, _stringLiteral1927CD38A67E950F13732AF98A23F4313A251142);
-			(L_132)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral1927CD38A67E950F13732AF98A23F4313A251142);
-			String_t* L_133;
-			L_133 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_132, NULL);
-			NullCheck(L_120);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_120, L_133);
+			ArrayElementTypeCheck (L_129, _stringLiteral1927CD38A67E950F13732AF98A23F4313A251142);
+			(L_129)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral1927CD38A67E950F13732AF98A23F4313A251142);
+			String_t* L_130;
+			L_130 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_129, NULL);
+			NullCheck(L_117);
+			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_117, L_130);
 			// websocket = new WebSocket("wss://metaverse.venraas.tw:4567/ws/call/");
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_134 = V_1;
-			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_135 = (WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F*)il2cpp_codegen_object_new(WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F_il2cpp_TypeInfo_var);
-			NullCheck(L_135);
-			WebSocket__ctor_mE82FA607D6E3E45BA219738196DA152651677B24(L_135, _stringLiteral581D047DB6859429EC8F8CE0300CB23569DF2E94, (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)NULL, NULL);
-			NullCheck(L_134);
-			L_134->___websocket_13 = L_135;
-			Il2CppCodeGenWriteBarrier((void**)(&L_134->___websocket_13), (void*)L_135);
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_131 = V_1;
+			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_132 = (WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F*)il2cpp_codegen_object_new(WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F_il2cpp_TypeInfo_var);
+			NullCheck(L_132);
+			WebSocket__ctor_mE82FA607D6E3E45BA219738196DA152651677B24(L_132, _stringLiteral581D047DB6859429EC8F8CE0300CB23569DF2E94, (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)NULL, NULL);
+			NullCheck(L_131);
+			L_131->___websocket_13 = L_132;
+			Il2CppCodeGenWriteBarrier((void**)(&L_131->___websocket_13), (void*)L_132);
 			// Debug.Log("[vr_debug]WebRTCConnection.ConnectionStart 3");
 			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral27BF76287F468EFE73C45C52A1C41B2E7CAFEC5F, NULL);
 			// websocket.OnOpen += () =>
@@ -18659,129 +18643,129 @@ IL_02dc_1:
 			//     Debug.Log("Connection open!");
 			//     SendLoginMessage();
 			// };
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_136 = V_1;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_133 = V_1;
+			NullCheck(L_133);
+			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_134 = L_133->___websocket_13;
+			U3CU3Ec__DisplayClass24_0_tF832AFAB650AB6673407F5E389833FF4A0403C35* L_135 = V_2;
+			WebSocketOpenEventHandler_t0241D6C4719F6CD56F1FE610A9371AC15FDCC93E* L_136 = (WebSocketOpenEventHandler_t0241D6C4719F6CD56F1FE610A9371AC15FDCC93E*)il2cpp_codegen_object_new(WebSocketOpenEventHandler_t0241D6C4719F6CD56F1FE610A9371AC15FDCC93E_il2cpp_TypeInfo_var);
 			NullCheck(L_136);
-			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_137 = L_136->___websocket_13;
-			U3CU3Ec__DisplayClass24_0_tF832AFAB650AB6673407F5E389833FF4A0403C35* L_138 = V_2;
-			WebSocketOpenEventHandler_t0241D6C4719F6CD56F1FE610A9371AC15FDCC93E* L_139 = (WebSocketOpenEventHandler_t0241D6C4719F6CD56F1FE610A9371AC15FDCC93E*)il2cpp_codegen_object_new(WebSocketOpenEventHandler_t0241D6C4719F6CD56F1FE610A9371AC15FDCC93E_il2cpp_TypeInfo_var);
-			NullCheck(L_139);
-			WebSocketOpenEventHandler__ctor_m9C0F1F9240E959710FE2E7F9F1F97AF5D3D440AF(L_139, L_138, (intptr_t)((void*)U3CU3Ec__DisplayClass24_0_U3CConnectionStartU3Eb__3_m58D0761A39334A69C35B313073CAEA91D93E1C29_RuntimeMethod_var), NULL);
-			NullCheck(L_137);
-			WebSocket_add_OnOpen_mE4848C3EB53A6CF346B790895D636D7A8BA4DDA3(L_137, L_139, NULL);
+			WebSocketOpenEventHandler__ctor_m9C0F1F9240E959710FE2E7F9F1F97AF5D3D440AF(L_136, L_135, (intptr_t)((void*)U3CU3Ec__DisplayClass24_0_U3CConnectionStartU3Eb__3_m58D0761A39334A69C35B313073CAEA91D93E1C29_RuntimeMethod_var), NULL);
+			NullCheck(L_134);
+			WebSocket_add_OnOpen_mE4848C3EB53A6CF346B790895D636D7A8BA4DDA3(L_134, L_136, NULL);
 			// TMP_url.text=newBackstageItemID2+"_"+newBackstageItemID1+" bug 1 ";
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_140 = V_1;
-			NullCheck(L_140);
-			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_141 = L_140->___TMP_url_7;
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_142 = V_1;
-			NullCheck(L_142);
-			String_t* L_143 = L_142->___newBackstageItemID2_9;
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_144 = V_1;
-			NullCheck(L_144);
-			String_t* L_145 = L_144->___newBackstageItemID1_8;
-			String_t* L_146;
-			L_146 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(L_143, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C, L_145, _stringLiteralE39493AB2CF455100A5794F9B10C4516FD561738, NULL);
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_137 = V_1;
+			NullCheck(L_137);
+			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_138 = L_137->___TMP_url_7;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_139 = V_1;
+			NullCheck(L_139);
+			String_t* L_140 = L_139->___newBackstageItemID2_9;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_141 = V_1;
 			NullCheck(L_141);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_141, L_146);
+			String_t* L_142 = L_141->___newBackstageItemID1_8;
+			String_t* L_143;
+			L_143 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(L_140, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C, L_142, _stringLiteralE39493AB2CF455100A5794F9B10C4516FD561738, NULL);
+			NullCheck(L_138);
+			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_138, L_143);
 			// websocket.OnError += (e) =>
 			// {
 			//     Debug.Log("Error! " + e);
 			// };
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_147 = V_1;
-			NullCheck(L_147);
-			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_148 = L_147->___websocket_13;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_144 = V_1;
+			NullCheck(L_144);
+			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_145 = L_144->___websocket_13;
 			il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_il2cpp_TypeInfo_var);
-			WebSocketErrorEventHandler_t6121C1087F8242428F801B27D293CE78597A75C3* L_149 = ((U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_il2cpp_TypeInfo_var))->___U3CU3E9__24_4_1;
-			WebSocketErrorEventHandler_t6121C1087F8242428F801B27D293CE78597A75C3* L_150 = L_149;
-			G_B16_0 = L_150;
-			G_B16_1 = L_148;
-			if (L_150)
+			WebSocketErrorEventHandler_t6121C1087F8242428F801B27D293CE78597A75C3* L_146 = ((U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_il2cpp_TypeInfo_var))->___U3CU3E9__24_4_1;
+			WebSocketErrorEventHandler_t6121C1087F8242428F801B27D293CE78597A75C3* L_147 = L_146;
+			G_B16_0 = L_147;
+			G_B16_1 = L_145;
+			if (L_147)
 			{
-				G_B17_0 = L_150;
-				G_B17_1 = L_148;
-				goto IL_03b4_1;
+				G_B17_0 = L_147;
+				G_B17_1 = L_145;
+				goto IL_039e_1;
 			}
 		}
 		{
 			il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_il2cpp_TypeInfo_var);
-			U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285* L_151 = ((U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_il2cpp_TypeInfo_var))->___U3CU3E9_0;
-			WebSocketErrorEventHandler_t6121C1087F8242428F801B27D293CE78597A75C3* L_152 = (WebSocketErrorEventHandler_t6121C1087F8242428F801B27D293CE78597A75C3*)il2cpp_codegen_object_new(WebSocketErrorEventHandler_t6121C1087F8242428F801B27D293CE78597A75C3_il2cpp_TypeInfo_var);
-			NullCheck(L_152);
-			WebSocketErrorEventHandler__ctor_m57F2C1BA800F30F50FD411F8461AAA24D40FBAF9(L_152, L_151, (intptr_t)((void*)U3CU3Ec_U3CConnectionStartU3Eb__24_4_mF1CD6F38158E5DEAA5618A413D56BA75BD4FFA7F_RuntimeMethod_var), NULL);
-			WebSocketErrorEventHandler_t6121C1087F8242428F801B27D293CE78597A75C3* L_153 = L_152;
-			((U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_il2cpp_TypeInfo_var))->___U3CU3E9__24_4_1 = L_153;
-			Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_il2cpp_TypeInfo_var))->___U3CU3E9__24_4_1), (void*)L_153);
-			G_B17_0 = L_153;
+			U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285* L_148 = ((U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+			WebSocketErrorEventHandler_t6121C1087F8242428F801B27D293CE78597A75C3* L_149 = (WebSocketErrorEventHandler_t6121C1087F8242428F801B27D293CE78597A75C3*)il2cpp_codegen_object_new(WebSocketErrorEventHandler_t6121C1087F8242428F801B27D293CE78597A75C3_il2cpp_TypeInfo_var);
+			NullCheck(L_149);
+			WebSocketErrorEventHandler__ctor_m57F2C1BA800F30F50FD411F8461AAA24D40FBAF9(L_149, L_148, (intptr_t)((void*)U3CU3Ec_U3CConnectionStartU3Eb__24_4_mF1CD6F38158E5DEAA5618A413D56BA75BD4FFA7F_RuntimeMethod_var), NULL);
+			WebSocketErrorEventHandler_t6121C1087F8242428F801B27D293CE78597A75C3* L_150 = L_149;
+			((U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_il2cpp_TypeInfo_var))->___U3CU3E9__24_4_1 = L_150;
+			Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_il2cpp_TypeInfo_var))->___U3CU3E9__24_4_1), (void*)L_150);
+			G_B17_0 = L_150;
 			G_B17_1 = G_B16_1;
 		}
 
-IL_03b4_1:
+IL_039e_1:
 		{
 			NullCheck(G_B17_1);
 			WebSocket_add_OnError_mA10F34789A6C13F5AA64EC0F35D45ED4EDCDABA0(G_B17_1, G_B17_0, NULL);
 			// TMP_url.text=newBackstageItemID2+"_"+newBackstageItemID1+" bug 2 ";
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_154 = V_1;
-			NullCheck(L_154);
-			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_155 = L_154->___TMP_url_7;
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_156 = V_1;
-			NullCheck(L_156);
-			String_t* L_157 = L_156->___newBackstageItemID2_9;
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_158 = V_1;
-			NullCheck(L_158);
-			String_t* L_159 = L_158->___newBackstageItemID1_8;
-			String_t* L_160;
-			L_160 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(L_157, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C, L_159, _stringLiteralB49320BC8E4767AF9E4E9F81A22C876B3D5A3CB2, NULL);
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_151 = V_1;
+			NullCheck(L_151);
+			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_152 = L_151->___TMP_url_7;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_153 = V_1;
+			NullCheck(L_153);
+			String_t* L_154 = L_153->___newBackstageItemID2_9;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_155 = V_1;
 			NullCheck(L_155);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_155, L_160);
+			String_t* L_156 = L_155->___newBackstageItemID1_8;
+			String_t* L_157;
+			L_157 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(L_154, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C, L_156, _stringLiteralB49320BC8E4767AF9E4E9F81A22C876B3D5A3CB2, NULL);
+			NullCheck(L_152);
+			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_152, L_157);
 			// websocket.OnClose += (e) =>
 			// {
 			//     Debug.Log("Connection closed!");
 			// };
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_161 = V_1;
-			NullCheck(L_161);
-			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_162 = L_161->___websocket_13;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_158 = V_1;
+			NullCheck(L_158);
+			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_159 = L_158->___websocket_13;
 			il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_il2cpp_TypeInfo_var);
-			WebSocketCloseEventHandler_tC02B2B8CA126489D18F9F48805A3C7460661E466* L_163 = ((U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_il2cpp_TypeInfo_var))->___U3CU3E9__24_5_2;
-			WebSocketCloseEventHandler_tC02B2B8CA126489D18F9F48805A3C7460661E466* L_164 = L_163;
-			G_B18_0 = L_164;
-			G_B18_1 = L_162;
-			if (L_164)
+			WebSocketCloseEventHandler_tC02B2B8CA126489D18F9F48805A3C7460661E466* L_160 = ((U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_il2cpp_TypeInfo_var))->___U3CU3E9__24_5_2;
+			WebSocketCloseEventHandler_tC02B2B8CA126489D18F9F48805A3C7460661E466* L_161 = L_160;
+			G_B18_0 = L_161;
+			G_B18_1 = L_159;
+			if (L_161)
 			{
-				G_B19_0 = L_164;
-				G_B19_1 = L_162;
-				goto IL_0404_1;
+				G_B19_0 = L_161;
+				G_B19_1 = L_159;
+				goto IL_03ee_1;
 			}
 		}
 		{
 			il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_il2cpp_TypeInfo_var);
-			U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285* L_165 = ((U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_il2cpp_TypeInfo_var))->___U3CU3E9_0;
-			WebSocketCloseEventHandler_tC02B2B8CA126489D18F9F48805A3C7460661E466* L_166 = (WebSocketCloseEventHandler_tC02B2B8CA126489D18F9F48805A3C7460661E466*)il2cpp_codegen_object_new(WebSocketCloseEventHandler_tC02B2B8CA126489D18F9F48805A3C7460661E466_il2cpp_TypeInfo_var);
-			NullCheck(L_166);
-			WebSocketCloseEventHandler__ctor_mCF39CA9F24C0F9804D5B6E51EF946CEB60142764(L_166, L_165, (intptr_t)((void*)U3CU3Ec_U3CConnectionStartU3Eb__24_5_mEBFD63F12DF45F414EC5600E4E0CD24C673ABADF_RuntimeMethod_var), NULL);
-			WebSocketCloseEventHandler_tC02B2B8CA126489D18F9F48805A3C7460661E466* L_167 = L_166;
-			((U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_il2cpp_TypeInfo_var))->___U3CU3E9__24_5_2 = L_167;
-			Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_il2cpp_TypeInfo_var))->___U3CU3E9__24_5_2), (void*)L_167);
-			G_B19_0 = L_167;
+			U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285* L_162 = ((U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+			WebSocketCloseEventHandler_tC02B2B8CA126489D18F9F48805A3C7460661E466* L_163 = (WebSocketCloseEventHandler_tC02B2B8CA126489D18F9F48805A3C7460661E466*)il2cpp_codegen_object_new(WebSocketCloseEventHandler_tC02B2B8CA126489D18F9F48805A3C7460661E466_il2cpp_TypeInfo_var);
+			NullCheck(L_163);
+			WebSocketCloseEventHandler__ctor_mCF39CA9F24C0F9804D5B6E51EF946CEB60142764(L_163, L_162, (intptr_t)((void*)U3CU3Ec_U3CConnectionStartU3Eb__24_5_mEBFD63F12DF45F414EC5600E4E0CD24C673ABADF_RuntimeMethod_var), NULL);
+			WebSocketCloseEventHandler_tC02B2B8CA126489D18F9F48805A3C7460661E466* L_164 = L_163;
+			((U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_il2cpp_TypeInfo_var))->___U3CU3E9__24_5_2 = L_164;
+			Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t22DAEC7A7AAB3EB22935DB36582150E17D7A8285_il2cpp_TypeInfo_var))->___U3CU3E9__24_5_2), (void*)L_164);
+			G_B19_0 = L_164;
 			G_B19_1 = G_B18_1;
 		}
 
-IL_0404_1:
+IL_03ee_1:
 		{
 			NullCheck(G_B19_1);
 			WebSocket_add_OnClose_m5D0A672A02F5BF6252DA825D7AB7EFC1020C2B4A(G_B19_1, G_B19_0, NULL);
 			// TMP_url.text=newBackstageItemID2+"_"+newBackstageItemID1+" bug 3 ";
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_168 = V_1;
-			NullCheck(L_168);
-			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_169 = L_168->___TMP_url_7;
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_170 = V_1;
-			NullCheck(L_170);
-			String_t* L_171 = L_170->___newBackstageItemID2_9;
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_172 = V_1;
-			NullCheck(L_172);
-			String_t* L_173 = L_172->___newBackstageItemID1_8;
-			String_t* L_174;
-			L_174 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(L_171, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C, L_173, _stringLiteral2C193CE0C52954957FC5F2C09FA38ED8BE8DF154, NULL);
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_165 = V_1;
+			NullCheck(L_165);
+			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_166 = L_165->___TMP_url_7;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_167 = V_1;
+			NullCheck(L_167);
+			String_t* L_168 = L_167->___newBackstageItemID2_9;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_169 = V_1;
 			NullCheck(L_169);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_169, L_174);
+			String_t* L_170 = L_169->___newBackstageItemID1_8;
+			String_t* L_171;
+			L_171 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(L_168, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C, L_170, _stringLiteral2C193CE0C52954957FC5F2C09FA38ED8BE8DF154, NULL);
+			NullCheck(L_166);
+			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_166, L_171);
 			// websocket.OnMessage += (bytes) =>
 			// 
 			// {
@@ -18809,204 +18793,192 @@ IL_0404_1:
 			//         HandleMessage(message);
 			//     }
 			// };
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_175 = V_1;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_172 = V_1;
+			NullCheck(L_172);
+			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_173 = L_172->___websocket_13;
+			U3CU3Ec__DisplayClass24_0_tF832AFAB650AB6673407F5E389833FF4A0403C35* L_174 = V_2;
+			WebSocketMessageEventHandler_tE2C6EB24566102E15F0474D745557485BA17496C* L_175 = (WebSocketMessageEventHandler_tE2C6EB24566102E15F0474D745557485BA17496C*)il2cpp_codegen_object_new(WebSocketMessageEventHandler_tE2C6EB24566102E15F0474D745557485BA17496C_il2cpp_TypeInfo_var);
 			NullCheck(L_175);
-			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_176 = L_175->___websocket_13;
-			U3CU3Ec__DisplayClass24_0_tF832AFAB650AB6673407F5E389833FF4A0403C35* L_177 = V_2;
-			WebSocketMessageEventHandler_tE2C6EB24566102E15F0474D745557485BA17496C* L_178 = (WebSocketMessageEventHandler_tE2C6EB24566102E15F0474D745557485BA17496C*)il2cpp_codegen_object_new(WebSocketMessageEventHandler_tE2C6EB24566102E15F0474D745557485BA17496C_il2cpp_TypeInfo_var);
-			NullCheck(L_178);
-			WebSocketMessageEventHandler__ctor_m15BC0672C78EDC192A2ECACCD3B9762149A5A7A8(L_178, L_177, (intptr_t)((void*)U3CU3Ec__DisplayClass24_0_U3CConnectionStartU3Eb__6_m93A970D0F28BBDDBB77DEDABA6F4DCCE037DCEFD_RuntimeMethod_var), NULL);
+			WebSocketMessageEventHandler__ctor_m15BC0672C78EDC192A2ECACCD3B9762149A5A7A8(L_175, L_174, (intptr_t)((void*)U3CU3Ec__DisplayClass24_0_U3CConnectionStartU3Eb__6_m93A970D0F28BBDDBB77DEDABA6F4DCCE037DCEFD_RuntimeMethod_var), NULL);
+			NullCheck(L_173);
+			WebSocket_add_OnMessage_mB2D438685DB29D57498A0AC6BEF756F5FEB0BDE5(L_173, L_175, NULL);
+			// TMP_url.text=friend_url+newBackstageItemID2+"_"+newBackstageItemID1+"  : (connected) ";
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_176 = V_1;
 			NullCheck(L_176);
-			WebSocket_add_OnMessage_mB2D438685DB29D57498A0AC6BEF756F5FEB0BDE5(L_176, L_178, NULL);
-			// TMP_url.text=newBackstageItemID2+"_"+newBackstageItemID1+" bug 4 ";
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_179 = V_1;
+			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_177 = L_176->___TMP_url_7;
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_178 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_179 = L_178;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_180 = V_1;
+			NullCheck(L_180);
+			String_t* L_181 = L_180->___friend_url_4;
 			NullCheck(L_179);
-			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_180 = L_179->___TMP_url_7;
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_181 = V_1;
-			NullCheck(L_181);
-			String_t* L_182 = L_181->___newBackstageItemID2_9;
+			ArrayElementTypeCheck (L_179, L_181);
+			(L_179)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_181);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_182 = L_179;
 			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_183 = V_1;
 			NullCheck(L_183);
-			String_t* L_184 = L_183->___newBackstageItemID1_8;
-			String_t* L_185;
-			L_185 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(L_182, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C, L_184, _stringLiteral64CCBEB53107CFD0D9858F3E4B2A50F9697FD077, NULL);
-			NullCheck(L_180);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_180, L_185);
-			// Debug.Log("[vr_debug]WebRTCConnection.ConnectionStart 4");
-			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralC7265723AE828D9983CBCF2303EAB69459F51E28, NULL);
-			// TMP_url.text=newBackstageItemID2+"_"+newBackstageItemID1+" bug 5 ";
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_186 = V_1;
-			NullCheck(L_186);
-			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_187 = L_186->___TMP_url_7;
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_188 = V_1;
-			NullCheck(L_188);
-			String_t* L_189 = L_188->___newBackstageItemID2_9;
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_190 = V_1;
-			NullCheck(L_190);
-			String_t* L_191 = L_190->___newBackstageItemID1_8;
-			String_t* L_192;
-			L_192 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(L_189, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C, L_191, _stringLiteral66565BF09EF300BFEE8AFF98202EEC5E0D6DBFFC, NULL);
+			String_t* L_184 = L_183->___newBackstageItemID2_9;
+			NullCheck(L_182);
+			ArrayElementTypeCheck (L_182, L_184);
+			(L_182)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_184);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_185 = L_182;
+			NullCheck(L_185);
+			ArrayElementTypeCheck (L_185, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
+			(L_185)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_186 = L_185;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_187 = V_1;
 			NullCheck(L_187);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_187, L_192);
-			// TMP_url.text=friend_url+newBackstageItemID2+"_"+newBackstageItemID1+"  : (connected) ";
+			String_t* L_188 = L_187->___newBackstageItemID1_8;
+			NullCheck(L_186);
+			ArrayElementTypeCheck (L_186, L_188);
+			(L_186)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_188);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_189 = L_186;
+			NullCheck(L_189);
+			ArrayElementTypeCheck (L_189, _stringLiteral1927CD38A67E950F13732AF98A23F4313A251142);
+			(L_189)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral1927CD38A67E950F13732AF98A23F4313A251142);
+			String_t* L_190;
+			L_190 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_189, NULL);
+			NullCheck(L_177);
+			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_177, L_190);
+			// Debug.Log(friend_url+newBackstageItemID2+"_"+newBackstageItemID1+"  : (connected url) ");
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_191 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_192 = L_191;
 			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_193 = V_1;
 			NullCheck(L_193);
-			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_194 = L_193->___TMP_url_7;
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_195 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_196 = L_195;
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_197 = V_1;
-			NullCheck(L_197);
-			String_t* L_198 = L_197->___friend_url_4;
+			String_t* L_194 = L_193->___friend_url_4;
+			NullCheck(L_192);
+			ArrayElementTypeCheck (L_192, L_194);
+			(L_192)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_194);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_195 = L_192;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_196 = V_1;
 			NullCheck(L_196);
-			ArrayElementTypeCheck (L_196, L_198);
-			(L_196)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_198);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_199 = L_196;
+			String_t* L_197 = L_196->___newBackstageItemID2_9;
+			NullCheck(L_195);
+			ArrayElementTypeCheck (L_195, L_197);
+			(L_195)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_197);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_198 = L_195;
+			NullCheck(L_198);
+			ArrayElementTypeCheck (L_198, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
+			(L_198)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_199 = L_198;
 			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_200 = V_1;
 			NullCheck(L_200);
-			String_t* L_201 = L_200->___newBackstageItemID2_9;
+			String_t* L_201 = L_200->___newBackstageItemID1_8;
 			NullCheck(L_199);
 			ArrayElementTypeCheck (L_199, L_201);
-			(L_199)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_201);
+			(L_199)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_201);
 			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_202 = L_199;
 			NullCheck(L_202);
-			ArrayElementTypeCheck (L_202, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
-			(L_202)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_203 = L_202;
+			ArrayElementTypeCheck (L_202, _stringLiteralDE58E973AD1D91D64B6B4074F84CBE2E57E2069F);
+			(L_202)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralDE58E973AD1D91D64B6B4074F84CBE2E57E2069F);
+			String_t* L_203;
+			L_203 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_202, NULL);
+			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_203, NULL);
+			// await websocket.Connect();
 			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_204 = V_1;
 			NullCheck(L_204);
-			String_t* L_205 = L_204->___newBackstageItemID1_8;
-			NullCheck(L_203);
-			ArrayElementTypeCheck (L_203, L_205);
-			(L_203)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_205);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_206 = L_203;
+			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_205 = L_204->___websocket_13;
+			NullCheck(L_205);
+			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_206;
+			L_206 = WebSocket_Connect_m6668D9F07FE1BFD16D5391B1AB8980FA740E705A(L_205, NULL);
 			NullCheck(L_206);
-			ArrayElementTypeCheck (L_206, _stringLiteral1927CD38A67E950F13732AF98A23F4313A251142);
-			(L_206)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral1927CD38A67E950F13732AF98A23F4313A251142);
-			String_t* L_207;
-			L_207 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_206, NULL);
-			NullCheck(L_194);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_194, L_207);
-			// Debug.Log(friend_url+newBackstageItemID2+"_"+newBackstageItemID1+"  : (connected url) ");
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_208 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_209 = L_208;
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_210 = V_1;
-			NullCheck(L_210);
-			String_t* L_211 = L_210->___friend_url_4;
-			NullCheck(L_209);
-			ArrayElementTypeCheck (L_209, L_211);
-			(L_209)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_211);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_212 = L_209;
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_213 = V_1;
-			NullCheck(L_213);
-			String_t* L_214 = L_213->___newBackstageItemID2_9;
-			NullCheck(L_212);
-			ArrayElementTypeCheck (L_212, L_214);
-			(L_212)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_214);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_215 = L_212;
-			NullCheck(L_215);
-			ArrayElementTypeCheck (L_215, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
-			(L_215)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_216 = L_215;
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_217 = V_1;
-			NullCheck(L_217);
-			String_t* L_218 = L_217->___newBackstageItemID1_8;
-			NullCheck(L_216);
-			ArrayElementTypeCheck (L_216, L_218);
-			(L_216)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_218);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_219 = L_216;
-			NullCheck(L_219);
-			ArrayElementTypeCheck (L_219, _stringLiteralDE58E973AD1D91D64B6B4074F84CBE2E57E2069F);
-			(L_219)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralDE58E973AD1D91D64B6B4074F84CBE2E57E2069F);
-			String_t* L_220;
-			L_220 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_219, NULL);
-			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_220, NULL);
-			// await websocket.Connect();
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_221 = V_1;
-			NullCheck(L_221);
-			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_222 = L_221->___websocket_13;
-			NullCheck(L_222);
-			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_223;
-			L_223 = WebSocket_Connect_m6668D9F07FE1BFD16D5391B1AB8980FA740E705A(L_222, NULL);
-			NullCheck(L_223);
-			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_224;
-			L_224 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_223, NULL);
-			V_12 = L_224;
-			bool L_225;
-			L_225 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_12), NULL);
-			if (L_225)
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_207;
+			L_207 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_206, NULL);
+			V_12 = L_207;
+			bool L_208;
+			L_208 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_12), NULL);
+			if (L_208)
 			{
-				goto IL_0574_1;
+				goto IL_0508_1;
 			}
 		}
 		{
-			int32_t L_226 = 0;
-			V_0 = L_226;
-			__this->___U3CU3E1__state_0 = L_226;
-			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_227 = V_12;
-			__this->___U3CU3Eu__1_3 = L_227;
-			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_3))->___m_task_0), (void*)NULL);
-			AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_228 = (&__this->___U3CU3Et__builder_1);
-			AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CConnectionStartU3Ed__24_t094AAB2F05459CBB0019529614A9BC7071A47ACF_m4427A148CA7FA93DF2FE0F29FF34EB238758B05E(L_228, (&V_12), __this, AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CConnectionStartU3Ed__24_t094AAB2F05459CBB0019529614A9BC7071A47ACF_m4427A148CA7FA93DF2FE0F29FF34EB238758B05E_RuntimeMethod_var);
-			goto IL_05f4;
+			int32_t L_209 = 0;
+			V_0 = L_209;
+			__this->___U3CU3E1__state_0 = L_209;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_210 = V_12;
+			__this->___U3CU3Eu__1_4 = L_210;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_4))->___m_task_0), (void*)NULL);
+			AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_211 = (&__this->___U3CU3Et__builder_1);
+			AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CConnectionStartU3Ed__24_t094AAB2F05459CBB0019529614A9BC7071A47ACF_m4427A148CA7FA93DF2FE0F29FF34EB238758B05E(L_211, (&V_12), __this, AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CConnectionStartU3Ed__24_t094AAB2F05459CBB0019529614A9BC7071A47ACF_m4427A148CA7FA93DF2FE0F29FF34EB238758B05E_RuntimeMethod_var);
+			goto IL_05b5;
 		}
 
-IL_0557_1:
+IL_04eb_1:
 		{
-			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_229 = __this->___U3CU3Eu__1_3;
-			V_12 = L_229;
-			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_230 = (&__this->___U3CU3Eu__1_3);
-			il2cpp_codegen_initobj(L_230, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
-			int32_t L_231 = (-1);
-			V_0 = L_231;
-			__this->___U3CU3E1__state_0 = L_231;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_212 = __this->___U3CU3Eu__1_4;
+			V_12 = L_212;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_213 = (&__this->___U3CU3Eu__1_4);
+			il2cpp_codegen_initobj(L_213, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
+			int32_t L_214 = (-1);
+			V_0 = L_214;
+			__this->___U3CU3E1__state_0 = L_214;
 		}
 
-IL_0574_1:
+IL_0508_1:
 		{
 			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_12), NULL);
-			// Debug.Log("[vr_debug]WebRTCConnection.ConnectionStart 5");
-			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralAD767B6B92F5DB75B5540E6329FE280A611B9BD2, NULL);
+			// peerConnection.Close();
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_215 = V_1;
+			NullCheck(L_215);
+			RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_216 = L_215->___peerConnection_14;
+			NullCheck(L_216);
+			RTCPeerConnection_Close_m4A7E9986B74152BAAF950C6155E3BD39D8226FCC(L_216, NULL);
+			// peerConnection.RemoveTrack(sender);
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_217 = V_1;
+			NullCheck(L_217);
+			RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_218 = L_217->___peerConnection_14;
+			RTCRtpSender_t9F641589CAD8E9FECEE9613037EAF7BAD0C84657* L_219 = __this->___U3CsenderU3E5__2_3;
+			NullCheck(L_218);
+			int32_t L_220;
+			L_220 = RTCPeerConnection_RemoveTrack_m16397C48B9E118A46CEECA2648ABEA02E16CE68A(L_218, L_219, NULL);
+			// peerConnection = null;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_221 = V_1;
+			NullCheck(L_221);
+			L_221->___peerConnection_14 = (RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2*)NULL;
+			Il2CppCodeGenWriteBarrier((void**)(&L_221->___peerConnection_14), (void*)(RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2*)NULL);
+			// WebRTC.Dispose();
+			WebRTC_Dispose_m00620DEA440A9A8FC3DDB3C9F51D79D4E3DBDA60(NULL);
 			// TMP_url.text=friend_url+newBackstageItemID2+"_"+newBackstageItemID1+"  : (closed) ";
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_232 = V_1;
-			NullCheck(L_232);
-			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_233 = L_232->___TMP_url_7;
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_234 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_235 = L_234;
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_236 = V_1;
-			NullCheck(L_236);
-			String_t* L_237 = L_236->___friend_url_4;
-			NullCheck(L_235);
-			ArrayElementTypeCheck (L_235, L_237);
-			(L_235)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_237);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_238 = L_235;
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_239 = V_1;
-			NullCheck(L_239);
-			String_t* L_240 = L_239->___newBackstageItemID2_9;
-			NullCheck(L_238);
-			ArrayElementTypeCheck (L_238, L_240);
-			(L_238)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_240);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_241 = L_238;
-			NullCheck(L_241);
-			ArrayElementTypeCheck (L_241, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
-			(L_241)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_242 = L_241;
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_243 = V_1;
-			NullCheck(L_243);
-			String_t* L_244 = L_243->___newBackstageItemID1_8;
-			NullCheck(L_242);
-			ArrayElementTypeCheck (L_242, L_244);
-			(L_242)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_244);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_245 = L_242;
-			NullCheck(L_245);
-			ArrayElementTypeCheck (L_245, _stringLiteral766D76A60075D7861DD9C8A2F1504D0EF88CFCE1);
-			(L_245)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral766D76A60075D7861DD9C8A2F1504D0EF88CFCE1);
-			String_t* L_246;
-			L_246 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_245, NULL);
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_222 = V_1;
+			NullCheck(L_222);
+			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_223 = L_222->___TMP_url_7;
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_224 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_225 = L_224;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_226 = V_1;
+			NullCheck(L_226);
+			String_t* L_227 = L_226->___friend_url_4;
+			NullCheck(L_225);
+			ArrayElementTypeCheck (L_225, L_227);
+			(L_225)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_227);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_228 = L_225;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_229 = V_1;
+			NullCheck(L_229);
+			String_t* L_230 = L_229->___newBackstageItemID2_9;
+			NullCheck(L_228);
+			ArrayElementTypeCheck (L_228, L_230);
+			(L_228)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_230);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_231 = L_228;
+			NullCheck(L_231);
+			ArrayElementTypeCheck (L_231, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
+			(L_231)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_232 = L_231;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_233 = V_1;
 			NullCheck(L_233);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_233, L_246);
-			goto IL_05e1;
+			String_t* L_234 = L_233->___newBackstageItemID1_8;
+			NullCheck(L_232);
+			ArrayElementTypeCheck (L_232, L_234);
+			(L_232)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_234);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_235 = L_232;
+			NullCheck(L_235);
+			ArrayElementTypeCheck (L_235, _stringLiteral766D76A60075D7861DD9C8A2F1504D0EF88CFCE1);
+			(L_235)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral766D76A60075D7861DD9C8A2F1504D0EF88CFCE1);
+			String_t* L_236;
+			L_236 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_235, NULL);
+			NullCheck(L_223);
+			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_223, L_236);
+			goto IL_059b;
 		}
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -19014,31 +18986,35 @@ IL_0574_1:
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_05c8;
+			goto CATCH_057b;
 		}
 		throw e;
 	}
 
-CATCH_05c8:
+CATCH_057b:
 	{// begin catch(System.Exception)
 		V_13 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
 		__this->___U3CU3E1__state_0 = ((int32_t)-2);
-		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_247 = (&__this->___U3CU3Et__builder_1);
-		Exception_t* L_248 = V_13;
-		AsyncVoidMethodBuilder_SetException_mD9A6F5D1A99A62AC9DF322901BFDE05193CB177B(L_247, L_248, NULL);
+		__this->___U3CsenderU3E5__2_3 = (RTCRtpSender_t9F641589CAD8E9FECEE9613037EAF7BAD0C84657*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CsenderU3E5__2_3), (void*)(RTCRtpSender_t9F641589CAD8E9FECEE9613037EAF7BAD0C84657*)NULL);
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_237 = (&__this->___U3CU3Et__builder_1);
+		Exception_t* L_238 = V_13;
+		AsyncVoidMethodBuilder_SetException_mD9A6F5D1A99A62AC9DF322901BFDE05193CB177B(L_237, L_238, NULL);
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_05f4;
+		goto IL_05b5;
 	}// end catch (depth: 1)
 
-IL_05e1:
+IL_059b:
 	{
 		// }
 		__this->___U3CU3E1__state_0 = ((int32_t)-2);
-		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_249 = (&__this->___U3CU3Et__builder_1);
-		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_249, NULL);
+		__this->___U3CsenderU3E5__2_3 = (RTCRtpSender_t9F641589CAD8E9FECEE9613037EAF7BAD0C84657*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CsenderU3E5__2_3), (void*)(RTCRtpSender_t9F641589CAD8E9FECEE9613037EAF7BAD0C84657*)NULL);
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_239 = (&__this->___U3CU3Et__builder_1);
+		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_239, NULL);
 	}
 
-IL_05f4:
+IL_05b5:
 	{
 		return;
 	}
@@ -20102,7 +20078,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConnectionStopU3Ed__33_MoveNext_m189C
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CConnectionStopU3Ed__33_tC6DF0BAFE2197D6AE6E5AB80E9D82CE37DB28866_m78EEF426A11C560B397A325B7134729B3911A444_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7D6BA5C6EC459A6998BDCA0C55D2938B709E3417);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9AC8E4E8C67C0F3852DECEC2037A97C692126303);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF346123C092B451C2FC9C4F64B359F05443C0569);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -20111,7 +20087,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConnectionStopU3Ed__33_MoveNext_m189C
 	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	Exception_t* V_3 = NULL;
-	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 2> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		int32_t L_0 = __this->___U3CU3E1__state_0;
 		V_0 = L_0;
@@ -20124,153 +20100,83 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConnectionStopU3Ed__33_MoveNext_m189C
 			int32_t L_2 = V_0;
 			if (!L_2)
 			{
-				goto IL_0021_1;
+				goto IL_006d_1;
 			}
 		}
 		{
-			// TMP_url.text="ConnectionStop #";
+			// TMP_url.text="????";
 			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_3 = V_1;
 			NullCheck(L_3);
 			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_4 = L_3->___TMP_url_7;
 			NullCheck(L_4);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_4, _stringLiteral7D6BA5C6EC459A6998BDCA0C55D2938B709E3417);
+			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_4, _stringLiteral9AC8E4E8C67C0F3852DECEC2037A97C692126303);
+			// Debug.Log("WebRTCConnection.ConnectionStop");
+			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralF346123C092B451C2FC9C4F64B359F05443C0569, NULL);
+			// if (websocket!=null) {
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_5 = V_1;
+			NullCheck(L_5);
+			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_6 = L_5->___websocket_13;
+			if (!L_6)
+			{
+				goto IL_0097_1;
+			}
+		}
+		{
+			// await websocket.Close();
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_7 = V_1;
+			NullCheck(L_7);
+			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_8 = L_7->___websocket_13;
+			NullCheck(L_8);
+			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_9;
+			L_9 = WebSocket_Close_m8EF33167E215E9898AF33A787C3E9FABCBB789E3(L_8, NULL);
+			NullCheck(L_9);
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_10;
+			L_10 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_9, NULL);
+			V_2 = L_10;
+			bool L_11;
+			L_11 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_2), NULL);
+			if (L_11)
+			{
+				goto IL_0089_1;
+			}
+		}
+		{
+			int32_t L_12 = 0;
+			V_0 = L_12;
+			__this->___U3CU3E1__state_0 = L_12;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_13 = V_2;
+			__this->___U3CU3Eu__1_3 = L_13;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_3))->___m_task_0), (void*)NULL);
+			AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_14 = (&__this->___U3CU3Et__builder_1);
+			AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CConnectionStopU3Ed__33_tC6DF0BAFE2197D6AE6E5AB80E9D82CE37DB28866_m78EEF426A11C560B397A325B7134729B3911A444(L_14, (&V_2), __this, AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CConnectionStopU3Ed__33_tC6DF0BAFE2197D6AE6E5AB80E9D82CE37DB28866_m78EEF426A11C560B397A325B7134729B3911A444_RuntimeMethod_var);
+			goto IL_00c3;
 		}
 
-IL_0021_1:
+IL_006d_1:
 		{
-		}
-		try
-		{// begin try (depth: 2)
-			{
-				int32_t L_5 = V_0;
-				if (!L_5)
-				{
-					goto IL_0074_2;
-				}
-			}
-			{
-				// Debug.Log("WebRTCConnection.ConnectionStop");
-				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-				Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralF346123C092B451C2FC9C4F64B359F05443C0569, NULL);
-				// if (websocket!=null) {
-				WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_6 = V_1;
-				NullCheck(L_6);
-				WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_7 = L_6->___websocket_13;
-				if (!L_7)
-				{
-					goto IL_009e_2;
-				}
-			}
-			{
-				// await websocket.Close();
-				WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_8 = V_1;
-				NullCheck(L_8);
-				WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_9 = L_8->___websocket_13;
-				NullCheck(L_9);
-				Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_10;
-				L_10 = WebSocket_Close_m8EF33167E215E9898AF33A787C3E9FABCBB789E3(L_9, NULL);
-				NullCheck(L_10);
-				TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_11;
-				L_11 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_10, NULL);
-				V_2 = L_11;
-				bool L_12;
-				L_12 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_2), NULL);
-				if (L_12)
-				{
-					goto IL_0090_2;
-				}
-			}
-			{
-				int32_t L_13 = 0;
-				V_0 = L_13;
-				__this->___U3CU3E1__state_0 = L_13;
-				TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_14 = V_2;
-				__this->___U3CU3Eu__1_3 = L_14;
-				Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_3))->___m_task_0), (void*)NULL);
-				AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_15 = (&__this->___U3CU3Et__builder_1);
-				AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CConnectionStopU3Ed__33_tC6DF0BAFE2197D6AE6E5AB80E9D82CE37DB28866_m78EEF426A11C560B397A325B7134729B3911A444(L_15, (&V_2), __this, AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CConnectionStopU3Ed__33_tC6DF0BAFE2197D6AE6E5AB80E9D82CE37DB28866_m78EEF426A11C560B397A325B7134729B3911A444_RuntimeMethod_var);
-				goto IL_00f9;
-			}
-
-IL_0074_2:
-			{
-				TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_16 = __this->___U3CU3Eu__1_3;
-				V_2 = L_16;
-				TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_17 = (&__this->___U3CU3Eu__1_3);
-				il2cpp_codegen_initobj(L_17, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
-				int32_t L_18 = (-1);
-				V_0 = L_18;
-				__this->___U3CU3E1__state_0 = L_18;
-			}
-
-IL_0090_2:
-			{
-				TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
-				// websocket = null;
-				WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_19 = V_1;
-				NullCheck(L_19);
-				L_19->___websocket_13 = (WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F*)NULL;
-				Il2CppCodeGenWriteBarrier((void**)(&L_19->___websocket_13), (void*)(WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F*)NULL);
-			}
-
-IL_009e_2:
-			{
-				// if (peerConnection!=null) {
-				WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_20 = V_1;
-				NullCheck(L_20);
-				RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_21 = L_20->___peerConnection_14;
-				if (!L_21)
-				{
-					goto IL_00b8_2;
-				}
-			}
-			{
-				// peerConnection.Close();
-				WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_22 = V_1;
-				NullCheck(L_22);
-				RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_23 = L_22->___peerConnection_14;
-				NullCheck(L_23);
-				RTCPeerConnection_Close_m4A7E9986B74152BAAF950C6155E3BD39D8226FCC(L_23, NULL);
-				// peerConnection = null;
-				WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_24 = V_1;
-				NullCheck(L_24);
-				L_24->___peerConnection_14 = (RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2*)NULL;
-				Il2CppCodeGenWriteBarrier((void**)(&L_24->___peerConnection_14), (void*)(RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2*)NULL);
-			}
-
-IL_00b8_2:
-			{
-				// }
-				goto IL_00cd_1;
-			}
-		}// end try (depth: 2)
-		catch(Il2CppExceptionWrapper& e)
-		{
-			if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&RuntimeObject_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
-			{
-				IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-				goto CATCH_00ba_1;
-			}
-			throw e;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_15 = __this->___U3CU3Eu__1_3;
+			V_2 = L_15;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_16 = (&__this->___U3CU3Eu__1_3);
+			il2cpp_codegen_initobj(L_16, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
+			int32_t L_17 = (-1);
+			V_0 = L_17;
+			__this->___U3CU3E1__state_0 = L_17;
 		}
 
-CATCH_00ba_1:
-		{// begin catch(System.Object)
-			// catch{
-			// TMP_url.text="exception";
-			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_25 = V_1;
-			NullCheck(L_25);
-			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_26 = L_25->___TMP_url_7;
-			NullCheck(L_26);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_26, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralCF6D423D6F6C1327D40E616C52007CE750F00A62)));
-			// }
-			IL2CPP_POP_ACTIVE_EXCEPTION();
-			goto IL_00cd_1;
-		}// end catch (depth: 2)
-
-IL_00cd_1:
+IL_0089_1:
 		{
-			goto IL_00e6;
+			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
+			// websocket = null;
+			WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* L_18 = V_1;
+			NullCheck(L_18);
+			L_18->___websocket_13 = (WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F*)NULL;
+			Il2CppCodeGenWriteBarrier((void**)(&L_18->___websocket_13), (void*)(WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F*)NULL);
+		}
+
+IL_0097_1:
+		{
+			goto IL_00b0;
 		}
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -20278,31 +20184,31 @@ IL_00cd_1:
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_00cf;
+			goto CATCH_0099;
 		}
 		throw e;
 	}
 
-CATCH_00cf:
+CATCH_0099:
 	{// begin catch(System.Exception)
 		V_3 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
 		__this->___U3CU3E1__state_0 = ((int32_t)-2);
-		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_27 = (&__this->___U3CU3Et__builder_1);
-		Exception_t* L_28 = V_3;
-		AsyncVoidMethodBuilder_SetException_mD9A6F5D1A99A62AC9DF322901BFDE05193CB177B(L_27, L_28, NULL);
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_19 = (&__this->___U3CU3Et__builder_1);
+		Exception_t* L_20 = V_3;
+		AsyncVoidMethodBuilder_SetException_mD9A6F5D1A99A62AC9DF322901BFDE05193CB177B(L_19, L_20, NULL);
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_00f9;
+		goto IL_00c3;
 	}// end catch (depth: 1)
 
-IL_00e6:
+IL_00b0:
 	{
 		// }
 		__this->___U3CU3E1__state_0 = ((int32_t)-2);
-		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_29 = (&__this->___U3CU3Et__builder_1);
-		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_29, NULL);
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_21 = (&__this->___U3CU3Et__builder_1);
+		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_21, NULL);
 	}
 
-IL_00f9:
+IL_00c3:
 	{
 		return;
 	}
@@ -21185,8 +21091,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass24_0_U3CConnectionS
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JsonUtility_FromJson_TisOnmessageObject_t9167F1746A92CD199642506882C1A8EA088BC6E4_m3E749F62EA655A8C78A94FE0874D80B037E656AE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1927CD38A67E950F13732AF98A23F4313A251142);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3AE03EBE46AE1C4210C06C32E17B5A49D81EBB6D);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral414C03F1EA82EF3DFA14D711A0F5FCED76F20BDC);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral68C1A4B3AB847735C0E9D7023B719EA4EEDF1A79);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9040D6797BE00D35D9AF18E07007840A211C480C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAC0F60CEB354FB51B8CAB27FA93D604559DF81DE);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB2C267877B994B94CF33EC01C9CB02F47C1B9F61);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC4A11E6BD289680B3A703E5D6D4ECFB1E7AB0C36);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC4E920B7717C5800EF2ED537EE62E64E449D1144);
@@ -21256,7 +21168,7 @@ IL_0069:
 		L_17 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_16, _stringLiteral414C03F1EA82EF3DFA14D711A0F5FCED76F20BDC, NULL);
 		if (!L_17)
 		{
-			goto IL_00a8;
+			goto IL_0100;
 		}
 	}
 	{
@@ -21276,19 +21188,57 @@ IL_0069:
 		NullCheck(L_18);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_24;
 		L_24 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_18, L_23, NULL);
+		// TMP_url.text=friend_url+newBackstageItemID2+"_"+newBackstageItemID1+"  : (connected) ";
+		WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_25 = __this->___U3CU3E4__this_0;
+		NullCheck(L_25);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_26 = L_25->___TMP_url_7;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_27 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_28 = L_27;
+		WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_29 = __this->___U3CU3E4__this_0;
+		NullCheck(L_29);
+		String_t* L_30 = L_29->___friend_url_4;
+		NullCheck(L_28);
+		ArrayElementTypeCheck (L_28, L_30);
+		(L_28)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_30);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_31 = L_28;
+		WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_32 = __this->___U3CU3E4__this_0;
+		NullCheck(L_32);
+		String_t* L_33 = L_32->___newBackstageItemID2_9;
+		NullCheck(L_31);
+		ArrayElementTypeCheck (L_31, L_33);
+		(L_31)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_33);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_34 = L_31;
+		NullCheck(L_34);
+		ArrayElementTypeCheck (L_34, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
+		(L_34)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_35 = L_34;
+		WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_36 = __this->___U3CU3E4__this_0;
+		NullCheck(L_36);
+		String_t* L_37 = L_36->___newBackstageItemID1_8;
+		NullCheck(L_35);
+		ArrayElementTypeCheck (L_35, L_37);
+		(L_35)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_37);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_38 = L_35;
+		NullCheck(L_38);
+		ArrayElementTypeCheck (L_38, _stringLiteral1927CD38A67E950F13732AF98A23F4313A251142);
+		(L_38)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral1927CD38A67E950F13732AF98A23F4313A251142);
+		String_t* L_39;
+		L_39 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_38, NULL);
+		NullCheck(L_26);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_26, L_39);
 	}
 
-IL_00a8:
+IL_0100:
 	{
 		// if (message_obbject.type == "ICEcandidate")
-		OnmessageObject_t9167F1746A92CD199642506882C1A8EA088BC6E4* L_25 = V_1;
-		NullCheck(L_25);
-		String_t* L_26 = L_25->___type_0;
-		bool L_27;
-		L_27 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_26, _stringLiteralE7857BE83090EB9D47690E22B57524B973BC050F, NULL);
-		if (!L_27)
+		OnmessageObject_t9167F1746A92CD199642506882C1A8EA088BC6E4* L_40 = V_1;
+		NullCheck(L_40);
+		String_t* L_41 = L_40->___type_0;
+		bool L_42;
+		L_42 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_41, _stringLiteralE7857BE83090EB9D47690E22B57524B973BC050F, NULL);
+		if (!L_42)
 		{
-			goto IL_00d0;
+			goto IL_0128;
 		}
 	}
 	{
@@ -21296,23 +21246,23 @@ IL_00a8:
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralE7857BE83090EB9D47690E22B57524B973BC050F, NULL);
 		// HandleICEcandidate(message);
-		WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_28 = __this->___U3CU3E4__this_0;
-		String_t* L_29 = V_0;
-		NullCheck(L_28);
-		WebRTCConnectionWithServer_HandleICEcandidate_m7DA449EE14FE8D4784AB35226C54334FDFDB110A(L_28, L_29, NULL);
+		WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_43 = __this->___U3CU3E4__this_0;
+		String_t* L_44 = V_0;
+		NullCheck(L_43);
+		WebRTCConnectionWithServer_HandleICEcandidate_m7DA449EE14FE8D4784AB35226C54334FDFDB110A(L_43, L_44, NULL);
 	}
 
-IL_00d0:
+IL_0128:
 	{
 		// if (message_obbject.type == "send_msg")
-		OnmessageObject_t9167F1746A92CD199642506882C1A8EA088BC6E4* L_30 = V_1;
-		NullCheck(L_30);
-		String_t* L_31 = L_30->___type_0;
-		bool L_32;
-		L_32 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_31, _stringLiteralB2C267877B994B94CF33EC01C9CB02F47C1B9F61, NULL);
-		if (!L_32)
+		OnmessageObject_t9167F1746A92CD199642506882C1A8EA088BC6E4* L_45 = V_1;
+		NullCheck(L_45);
+		String_t* L_46 = L_45->___type_0;
+		bool L_47;
+		L_47 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_46, _stringLiteralB2C267877B994B94CF33EC01C9CB02F47C1B9F61, NULL);
+		if (!L_47)
 		{
-			goto IL_00f8;
+			goto IL_0150;
 		}
 	}
 	{
@@ -21320,13 +21270,38 @@ IL_00d0:
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralE7857BE83090EB9D47690E22B57524B973BC050F, NULL);
 		// HandleMessage(message);
-		WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_33 = __this->___U3CU3E4__this_0;
-		String_t* L_34 = V_0;
-		NullCheck(L_33);
-		WebRTCConnectionWithServer_HandleMessage_m3BE59473318B551AB0DD0D6D54CE81884E8DC3AD(L_33, L_34, NULL);
+		WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_48 = __this->___U3CU3E4__this_0;
+		String_t* L_49 = V_0;
+		NullCheck(L_48);
+		WebRTCConnectionWithServer_HandleMessage_m3BE59473318B551AB0DD0D6D54CE81884E8DC3AD(L_48, L_49, NULL);
 	}
 
-IL_00f8:
+IL_0150:
+	{
+		// if (message_obbject.type == "service_busy")
+		OnmessageObject_t9167F1746A92CD199642506882C1A8EA088BC6E4* L_50 = V_1;
+		NullCheck(L_50);
+		String_t* L_51 = L_50->___type_0;
+		bool L_52;
+		L_52 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_51, _stringLiteral9040D6797BE00D35D9AF18E07007840A211C480C, NULL);
+		if (!L_52)
+		{
+			goto IL_0181;
+		}
+	}
+	{
+		// Debug.Log("server service_busy");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralAC0F60CEB354FB51B8CAB27FA93D604559DF81DE, NULL);
+		// TMP_url.text="???????????...";
+		WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_53 = __this->___U3CU3E4__this_0;
+		NullCheck(L_53);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_54 = L_53->___TMP_url_7;
+		NullCheck(L_54);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_54, _stringLiteral68C1A4B3AB847735C0E9D7023B719EA4EEDF1A79);
+	}
+
+IL_0181:
 	{
 		// };
 		return;
@@ -21474,21 +21449,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConnectionStartU3Ed__24_MoveNext_mC92
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebSocketMessageEventHandler_tE2C6EB24566102E15F0474D745557485BA17496C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebSocketOpenEventHandler_t0241D6C4719F6CD56F1FE610A9371AC15FDCC93E_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral08E61D7024F97BF9AD3C38EA4EE20D707BC34251);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral12A32D77F55F3AEC458E68162C8A6FF50814B9E0);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1927CD38A67E950F13732AF98A23F4313A251142);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral29E0E06DB6B4F8482D1149EDA951A83D65B93BFD);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5276CE61B28CC251F17A113BA65624B1FD81C4D1);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral581D047DB6859429EC8F8CE0300CB23569DF2E94);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral70AB7FB5FB55FE54159A9384D1B62AEA0BE277C1);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral766D76A60075D7861DD9C8A2F1504D0EF88CFCE1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral68C1A4B3AB847735C0E9D7023B719EA4EEDF1A79);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA3911314737FF37683BFF76CC5F7671FB51CA782);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD6C1626750A32580034F1B7A3DF754767CFA0DA1);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD85FA8B832ACD7FC86D5068E92E3CCF085E93EE9);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDD20A4ABE85826C9E1FB7E7CF231364434408BFA);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDE58E973AD1D91D64B6B4074F84CBE2E57E2069F);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE660608646DC2948F0955A207525583986188A59);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
@@ -21534,7 +21503,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConnectionStartU3Ed__24_MoveNext_mC92
 			int32_t L_2 = V_0;
 			if (!L_2)
 			{
-				goto IL_03f1_1;
+				goto IL_035d_1;
 			}
 		}
 		{
@@ -21547,218 +21516,197 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConnectionStartU3Ed__24_MoveNext_mC92
 			NullCheck(L_4);
 			L_4->___U3CU3E4__this_0 = L_5;
 			Il2CppCodeGenWriteBarrier((void**)(&L_4->___U3CU3E4__this_0), (void*)L_5);
-			// friend_url="https://metaverse.venraas.tw:7654/friend/";
+			// TMP_url.text="???????????...";
 			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_6 = V_1;
 			NullCheck(L_6);
-			L_6->___friend_url_4 = _stringLiteralA3911314737FF37683BFF76CC5F7671FB51CA782;
-			Il2CppCodeGenWriteBarrier((void**)(&L_6->___friend_url_4), (void*)_stringLiteralA3911314737FF37683BFF76CC5F7671FB51CA782);
-			// Debug.Log("[vr_debug]WebRTCConnection.ConnectionStart");
-			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral08E61D7024F97BF9AD3C38EA4EE20D707BC34251, NULL);
-			// if (peerConnection!= null)
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_7 = V_1;
+			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_7 = L_6->___TMP_url_7;
 			NullCheck(L_7);
-			RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_8 = L_7->___peerConnection_14;
-			if (!L_8)
+			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_7, _stringLiteral68C1A4B3AB847735C0E9D7023B719EA4EEDF1A79);
+			// friend_url="https://metaverse.venraas.tw:7654/friend/";
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_8 = V_1;
+			NullCheck(L_8);
+			L_8->___friend_url_4 = _stringLiteralA3911314737FF37683BFF76CC5F7671FB51CA782;
+			Il2CppCodeGenWriteBarrier((void**)(&L_8->___friend_url_4), (void*)_stringLiteralA3911314737FF37683BFF76CC5F7671FB51CA782);
+			// if (peerConnection!= null)
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_9 = V_1;
+			NullCheck(L_9);
+			RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_10 = L_9->___peerConnection_14;
+			if (!L_10)
 			{
-				goto IL_0048_1;
+				goto IL_004e_1;
 			}
 		}
 		{
 			// return;
-			goto IL_0471;
+			goto IL_03cc;
 		}
 
-IL_0048_1:
+IL_004e_1:
 		{
+			// WebRTC.Initialize();
+			WebRTC_Initialize_mD79110DF1000DC3AEDC14B128A6619C9BEA5048F((bool)1, (bool)0, 1, NULL);
 			// newBackstageItemID1 = System.Guid.NewGuid().ToString();
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_9 = V_1;
-			Guid_t L_10;
-			L_10 = Guid_NewGuid_m1F4894E8DC089811D6252148AD5858E58D43A7BD(NULL);
-			V_7 = L_10;
-			String_t* L_11;
-			L_11 = Guid_ToString_m2BFFD5FA726E03FA707AAFCCF065896C46D5290C((&V_7), NULL);
-			NullCheck(L_9);
-			L_9->___newBackstageItemID1_8 = L_11;
-			Il2CppCodeGenWriteBarrier((void**)(&L_9->___newBackstageItemID1_8), (void*)L_11);
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_11 = V_1;
+			Guid_t L_12;
+			L_12 = Guid_NewGuid_m1F4894E8DC089811D6252148AD5858E58D43A7BD(NULL);
+			V_7 = L_12;
+			String_t* L_13;
+			L_13 = Guid_ToString_m2BFFD5FA726E03FA707AAFCCF065896C46D5290C((&V_7), NULL);
+			NullCheck(L_11);
+			L_11->___newBackstageItemID1_8 = L_13;
+			Il2CppCodeGenWriteBarrier((void**)(&L_11->___newBackstageItemID1_8), (void*)L_13);
 			// newBackstageItemID2 = System.Guid.NewGuid().ToString();
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_12 = V_1;
-			Guid_t L_13;
-			L_13 = Guid_NewGuid_m1F4894E8DC089811D6252148AD5858E58D43A7BD(NULL);
-			V_7 = L_13;
-			String_t* L_14;
-			L_14 = Guid_ToString_m2BFFD5FA726E03FA707AAFCCF065896C46D5290C((&V_7), NULL);
-			NullCheck(L_12);
-			L_12->___newBackstageItemID2_9 = L_14;
-			Il2CppCodeGenWriteBarrier((void**)(&L_12->___newBackstageItemID2_9), (void*)L_14);
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_14 = V_1;
+			Guid_t L_15;
+			L_15 = Guid_NewGuid_m1F4894E8DC089811D6252148AD5858E58D43A7BD(NULL);
+			V_7 = L_15;
+			String_t* L_16;
+			L_16 = Guid_ToString_m2BFFD5FA726E03FA707AAFCCF065896C46D5290C((&V_7), NULL);
+			NullCheck(L_14);
+			L_14->___newBackstageItemID2_9 = L_16;
+			Il2CppCodeGenWriteBarrier((void**)(&L_14->___newBackstageItemID2_9), (void*)L_16);
 			// newBackstageItemID1 = newBackstageItemID1.Substring(0,3);
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_15 = V_1;
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_16 = V_1;
-			NullCheck(L_16);
-			String_t* L_17 = L_16->___newBackstageItemID1_8;
-			NullCheck(L_17);
-			String_t* L_18;
-			L_18 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_17, 0, 3, NULL);
-			NullCheck(L_15);
-			L_15->___newBackstageItemID1_8 = L_18;
-			Il2CppCodeGenWriteBarrier((void**)(&L_15->___newBackstageItemID1_8), (void*)L_18);
-			// newBackstageItemID2 = "service";
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_19 = V_1;
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_17 = V_1;
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_18 = V_1;
+			NullCheck(L_18);
+			String_t* L_19 = L_18->___newBackstageItemID1_8;
 			NullCheck(L_19);
-			L_19->___newBackstageItemID2_9 = _stringLiteralDD20A4ABE85826C9E1FB7E7CF231364434408BFA;
-			Il2CppCodeGenWriteBarrier((void**)(&L_19->___newBackstageItemID2_9), (void*)_stringLiteralDD20A4ABE85826C9E1FB7E7CF231364434408BFA);
-			// TMP_url.text="service :"+newBackstageItemID2+"_"+newBackstageItemID1;
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_20 = V_1;
-			NullCheck(L_20);
-			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_21 = L_20->___TMP_url_7;
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_22 = V_1;
-			NullCheck(L_22);
-			String_t* L_23 = L_22->___newBackstageItemID2_9;
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_24 = V_1;
-			NullCheck(L_24);
-			String_t* L_25 = L_24->___newBackstageItemID1_8;
-			String_t* L_26;
-			L_26 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteralE660608646DC2948F0955A207525583986188A59, L_23, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C, L_25, NULL);
+			String_t* L_20;
+			L_20 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_19, 0, 3, NULL);
+			NullCheck(L_17);
+			L_17->___newBackstageItemID1_8 = L_20;
+			Il2CppCodeGenWriteBarrier((void**)(&L_17->___newBackstageItemID1_8), (void*)L_20);
+			// newBackstageItemID2 = "service";
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_21 = V_1;
 			NullCheck(L_21);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_21, L_26);
-			// TMP_url.text="[vr_debug]WebRTCConnection.ConnectionStart -2";
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_27 = V_1;
-			NullCheck(L_27);
-			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_28 = L_27->___TMP_url_7;
-			NullCheck(L_28);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_28, _stringLiteralD85FA8B832ACD7FC86D5068E92E3CCF085E93EE9);
+			L_21->___newBackstageItemID2_9 = _stringLiteralDD20A4ABE85826C9E1FB7E7CF231364434408BFA;
+			Il2CppCodeGenWriteBarrier((void**)(&L_21->___newBackstageItemID2_9), (void*)_stringLiteralDD20A4ABE85826C9E1FB7E7CF231364434408BFA);
 			// RTCConfiguration configuration = default;
 			il2cpp_codegen_initobj((&V_3), sizeof(RTCConfiguration_t7D74CAE450A2A9A4A190FC7016BF7B95C71E6839));
 			// configuration.iceServers = new[] { new RTCIceServer { urls = new[] { "stun:stun.l.google.com:19302" } } };
-			RTCIceServerU5BU5D_t13301352D5F5F78D0D702CC03B8EA75523D31FE5* L_29 = (RTCIceServerU5BU5D_t13301352D5F5F78D0D702CC03B8EA75523D31FE5*)(RTCIceServerU5BU5D_t13301352D5F5F78D0D702CC03B8EA75523D31FE5*)SZArrayNew(RTCIceServerU5BU5D_t13301352D5F5F78D0D702CC03B8EA75523D31FE5_il2cpp_TypeInfo_var, (uint32_t)1);
-			RTCIceServerU5BU5D_t13301352D5F5F78D0D702CC03B8EA75523D31FE5* L_30 = L_29;
+			RTCIceServerU5BU5D_t13301352D5F5F78D0D702CC03B8EA75523D31FE5* L_22 = (RTCIceServerU5BU5D_t13301352D5F5F78D0D702CC03B8EA75523D31FE5*)(RTCIceServerU5BU5D_t13301352D5F5F78D0D702CC03B8EA75523D31FE5*)SZArrayNew(RTCIceServerU5BU5D_t13301352D5F5F78D0D702CC03B8EA75523D31FE5_il2cpp_TypeInfo_var, (uint32_t)1);
+			RTCIceServerU5BU5D_t13301352D5F5F78D0D702CC03B8EA75523D31FE5* L_23 = L_22;
 			il2cpp_codegen_initobj((&V_8), sizeof(RTCIceServer_t548B7A7F1BF0F7C29275974C129920AA55208D0B));
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_31 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)1);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_32 = L_31;
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_24 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)1);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_25 = L_24;
+			NullCheck(L_25);
+			ArrayElementTypeCheck (L_25, _stringLiteral29E0E06DB6B4F8482D1149EDA951A83D65B93BFD);
+			(L_25)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral29E0E06DB6B4F8482D1149EDA951A83D65B93BFD);
+			(&V_8)->___urls_2 = L_25;
+			Il2CppCodeGenWriteBarrier((void**)(&(&V_8)->___urls_2), (void*)L_25);
+			RTCIceServer_t548B7A7F1BF0F7C29275974C129920AA55208D0B L_26 = V_8;
+			NullCheck(L_23);
+			(L_23)->SetAt(static_cast<il2cpp_array_size_t>(0), (RTCIceServer_t548B7A7F1BF0F7C29275974C129920AA55208D0B)L_26);
+			(&V_3)->___iceServers_0 = L_23;
+			Il2CppCodeGenWriteBarrier((void**)(&(&V_3)->___iceServers_0), (void*)L_23);
+			// peerConnection = new RTCPeerConnection(ref configuration);
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_27 = V_1;
+			RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_28 = (RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2*)il2cpp_codegen_object_new(RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2_il2cpp_TypeInfo_var);
+			NullCheck(L_28);
+			RTCPeerConnection__ctor_m8B71DFA4536EDC2C382A8164FADF716BC2AAB7FE(L_28, (&V_3), NULL);
+			NullCheck(L_27);
+			L_27->___peerConnection_14 = L_28;
+			Il2CppCodeGenWriteBarrier((void**)(&L_27->___peerConnection_14), (void*)L_28);
+			// onIceCandidate = candidate => { OnIceCandidate(candidate); };
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_29 = V_1;
+			U3CU3Ec__DisplayClass24_0_t491BADE1027ACC514310564E0A58E55607555CC3* L_30 = V_2;
+			DelegateOnIceCandidate_tDAEDCD6006EF84842D32A716C955A486C4820C7D* L_31 = (DelegateOnIceCandidate_tDAEDCD6006EF84842D32A716C955A486C4820C7D*)il2cpp_codegen_object_new(DelegateOnIceCandidate_tDAEDCD6006EF84842D32A716C955A486C4820C7D_il2cpp_TypeInfo_var);
+			NullCheck(L_31);
+			DelegateOnIceCandidate__ctor_m5434F142DB3B3F3DFB94D575A0D1E3128D327853(L_31, L_30, (intptr_t)((void*)U3CU3Ec__DisplayClass24_0_U3CConnectionStartU3Eb__0_mD66385457AE2975A587B792B92F270D783C989C3_RuntimeMethod_var), NULL);
+			NullCheck(L_29);
+			L_29->___onIceCandidate_15 = L_31;
+			Il2CppCodeGenWriteBarrier((void**)(&L_29->___onIceCandidate_15), (void*)L_31);
+			// peerConnection.OnIceCandidate = onIceCandidate;
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_32 = V_1;
 			NullCheck(L_32);
-			ArrayElementTypeCheck (L_32, _stringLiteral29E0E06DB6B4F8482D1149EDA951A83D65B93BFD);
-			(L_32)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral29E0E06DB6B4F8482D1149EDA951A83D65B93BFD);
-			(&V_8)->___urls_2 = L_32;
-			Il2CppCodeGenWriteBarrier((void**)(&(&V_8)->___urls_2), (void*)L_32);
-			RTCIceServer_t548B7A7F1BF0F7C29275974C129920AA55208D0B L_33 = V_8;
-			NullCheck(L_30);
-			(L_30)->SetAt(static_cast<il2cpp_array_size_t>(0), (RTCIceServer_t548B7A7F1BF0F7C29275974C129920AA55208D0B)L_33);
-			(&V_3)->___iceServers_0 = L_30;
-			Il2CppCodeGenWriteBarrier((void**)(&(&V_3)->___iceServers_0), (void*)L_30);
-			// TMP_url.text="[vr_debug]WebRTCConnection.ConnectionStart -1";
+			RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_33 = L_32->___peerConnection_14;
 			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_34 = V_1;
 			NullCheck(L_34);
-			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_35 = L_34->___TMP_url_7;
-			NullCheck(L_35);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_35, _stringLiteral5276CE61B28CC251F17A113BA65624B1FD81C4D1);
-			// peerConnection = new RTCPeerConnection(ref configuration);
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_36 = V_1;
-			RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_37 = (RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2*)il2cpp_codegen_object_new(RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2_il2cpp_TypeInfo_var);
-			NullCheck(L_37);
-			RTCPeerConnection__ctor_m8B71DFA4536EDC2C382A8164FADF716BC2AAB7FE(L_37, (&V_3), NULL);
-			NullCheck(L_36);
-			L_36->___peerConnection_14 = L_37;
-			Il2CppCodeGenWriteBarrier((void**)(&L_36->___peerConnection_14), (void*)L_37);
-			// onIceCandidate = candidate => { OnIceCandidate(candidate); };
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_38 = V_1;
-			U3CU3Ec__DisplayClass24_0_t491BADE1027ACC514310564E0A58E55607555CC3* L_39 = V_2;
-			DelegateOnIceCandidate_tDAEDCD6006EF84842D32A716C955A486C4820C7D* L_40 = (DelegateOnIceCandidate_tDAEDCD6006EF84842D32A716C955A486C4820C7D*)il2cpp_codegen_object_new(DelegateOnIceCandidate_tDAEDCD6006EF84842D32A716C955A486C4820C7D_il2cpp_TypeInfo_var);
-			NullCheck(L_40);
-			DelegateOnIceCandidate__ctor_m5434F142DB3B3F3DFB94D575A0D1E3128D327853(L_40, L_39, (intptr_t)((void*)U3CU3Ec__DisplayClass24_0_U3CConnectionStartU3Eb__0_mD66385457AE2975A587B792B92F270D783C989C3_RuntimeMethod_var), NULL);
-			NullCheck(L_38);
-			L_38->___onIceCandidate_15 = L_40;
-			Il2CppCodeGenWriteBarrier((void**)(&L_38->___onIceCandidate_15), (void*)L_40);
-			// peerConnection.OnIceCandidate = onIceCandidate;
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_41 = V_1;
-			NullCheck(L_41);
-			RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_42 = L_41->___peerConnection_14;
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_43 = V_1;
-			NullCheck(L_43);
-			DelegateOnIceCandidate_tDAEDCD6006EF84842D32A716C955A486C4820C7D* L_44 = L_43->___onIceCandidate_15;
-			NullCheck(L_42);
-			RTCPeerConnection_set_OnIceCandidate_m91B18C3CBA7F82BBBA0FE10D8251B830ACAE25E4_inline(L_42, L_44, NULL);
+			DelegateOnIceCandidate_tDAEDCD6006EF84842D32A716C955A486C4820C7D* L_35 = L_34->___onIceCandidate_15;
+			NullCheck(L_33);
+			RTCPeerConnection_set_OnIceCandidate_m91B18C3CBA7F82BBBA0FE10D8251B830ACAE25E4_inline(L_33, L_35, NULL);
 			// peerConnection.OnIceConnectionChange = state =>
 			// {
 			//     Debug.Log($"WebRTC: OnIceConnectionChange {state.ToString()}");
 			// };
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_45 = V_1;
-			NullCheck(L_45);
-			RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_46 = L_45->___peerConnection_14;
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_36 = V_1;
+			NullCheck(L_36);
+			RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_37 = L_36->___peerConnection_14;
 			il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var);
-			DelegateOnIceConnectionChange_tFB1664A52CE8214A21F6CC32AD78600EE4DE27E2* L_47 = ((U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var))->___U3CU3E9__24_1_1;
-			DelegateOnIceConnectionChange_tFB1664A52CE8214A21F6CC32AD78600EE4DE27E2* L_48 = L_47;
-			G_B5_0 = L_48;
-			G_B5_1 = L_46;
-			if (L_48)
+			DelegateOnIceConnectionChange_tFB1664A52CE8214A21F6CC32AD78600EE4DE27E2* L_38 = ((U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var))->___U3CU3E9__24_1_1;
+			DelegateOnIceConnectionChange_tFB1664A52CE8214A21F6CC32AD78600EE4DE27E2* L_39 = L_38;
+			G_B5_0 = L_39;
+			G_B5_1 = L_37;
+			if (L_39)
 			{
-				G_B6_0 = L_48;
-				G_B6_1 = L_46;
-				goto IL_0170_1;
+				G_B6_0 = L_39;
+				G_B6_1 = L_37;
+				goto IL_0138_1;
 			}
 		}
 		{
 			il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var);
-			U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52* L_49 = ((U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var))->___U3CU3E9_0;
-			DelegateOnIceConnectionChange_tFB1664A52CE8214A21F6CC32AD78600EE4DE27E2* L_50 = (DelegateOnIceConnectionChange_tFB1664A52CE8214A21F6CC32AD78600EE4DE27E2*)il2cpp_codegen_object_new(DelegateOnIceConnectionChange_tFB1664A52CE8214A21F6CC32AD78600EE4DE27E2_il2cpp_TypeInfo_var);
-			NullCheck(L_50);
-			DelegateOnIceConnectionChange__ctor_m0D3CB0DD1B4729F1E1BAA5F0D7952084D52EBC8E(L_50, L_49, (intptr_t)((void*)U3CU3Ec_U3CConnectionStartU3Eb__24_1_m83F76F0349610FDF3E56AF03662DDD2FD86C839C_RuntimeMethod_var), NULL);
-			DelegateOnIceConnectionChange_tFB1664A52CE8214A21F6CC32AD78600EE4DE27E2* L_51 = L_50;
-			((U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var))->___U3CU3E9__24_1_1 = L_51;
-			Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var))->___U3CU3E9__24_1_1), (void*)L_51);
-			G_B6_0 = L_51;
+			U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52* L_40 = ((U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+			DelegateOnIceConnectionChange_tFB1664A52CE8214A21F6CC32AD78600EE4DE27E2* L_41 = (DelegateOnIceConnectionChange_tFB1664A52CE8214A21F6CC32AD78600EE4DE27E2*)il2cpp_codegen_object_new(DelegateOnIceConnectionChange_tFB1664A52CE8214A21F6CC32AD78600EE4DE27E2_il2cpp_TypeInfo_var);
+			NullCheck(L_41);
+			DelegateOnIceConnectionChange__ctor_m0D3CB0DD1B4729F1E1BAA5F0D7952084D52EBC8E(L_41, L_40, (intptr_t)((void*)U3CU3Ec_U3CConnectionStartU3Eb__24_1_m83F76F0349610FDF3E56AF03662DDD2FD86C839C_RuntimeMethod_var), NULL);
+			DelegateOnIceConnectionChange_tFB1664A52CE8214A21F6CC32AD78600EE4DE27E2* L_42 = L_41;
+			((U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var))->___U3CU3E9__24_1_1 = L_42;
+			Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var))->___U3CU3E9__24_1_1), (void*)L_42);
+			G_B6_0 = L_42;
 			G_B6_1 = G_B5_1;
 		}
 
-IL_0170_1:
+IL_0138_1:
 		{
 			NullCheck(G_B6_1);
 			RTCPeerConnection_set_OnIceConnectionChange_m5503BD7216601E700A9A8BD0CC4A21B71260AD9E_inline(G_B6_1, G_B6_0, NULL);
 			// var cam = GetComponent<Camera>();
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_52 = V_1;
-			NullCheck(L_52);
-			Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_53;
-			L_53 = Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4(L_52, Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var);
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_43 = V_1;
+			NullCheck(L_43);
+			Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_44;
+			L_44 = Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4(L_43, Component_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m64AC6C06DD93C5FB249091FEC84FA8475457CCC4_RuntimeMethod_var);
 			// MediaStream videoStream = cam.CaptureStream(1280, 720);
-			MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_54;
-			L_54 = CameraExtension_CaptureStream_m1B3AB13B0C1B1846997638488E287DBD3314F221(L_53, ((int32_t)1280), ((int32_t)720), ((int32_t)24), NULL);
-			V_4 = L_54;
+			MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_45;
+			L_45 = CameraExtension_CaptureStream_m1B3AB13B0C1B1846997638488E287DBD3314F221(L_44, ((int32_t)1280), ((int32_t)720), ((int32_t)24), NULL);
+			V_4 = L_45;
 			// foreach (var track in videoStream.GetTracks())
-			MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_55 = V_4;
-			NullCheck(L_55);
-			RuntimeObject* L_56;
-			L_56 = MediaStream_GetTracks_m134FD76346815CA9FFF8115FDEBCE14DBF04F868(L_55, NULL);
-			NullCheck(L_56);
-			RuntimeObject* L_57;
-			L_57 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<Unity.WebRTC.MediaStreamTrack>::GetEnumerator() */, IEnumerable_1_tCD38BCB580AB2636A0EE46D0B88C40B44862BFA6_il2cpp_TypeInfo_var, L_56);
-			V_9 = L_57;
+			MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_46 = V_4;
+			NullCheck(L_46);
+			RuntimeObject* L_47;
+			L_47 = MediaStream_GetTracks_m134FD76346815CA9FFF8115FDEBCE14DBF04F868(L_46, NULL);
+			NullCheck(L_47);
+			RuntimeObject* L_48;
+			L_48 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<Unity.WebRTC.MediaStreamTrack>::GetEnumerator() */, IEnumerable_1_tCD38BCB580AB2636A0EE46D0B88C40B44862BFA6_il2cpp_TypeInfo_var, L_47);
+			V_9 = L_48;
 		}
 		{
 			auto __finallyBlock = il2cpp::utils::Finally([&]
 			{
 
-FINALLY_01e1_1:
+FINALLY_01a9_1:
 				{// begin finally (depth: 2)
 					{
-						int32_t L_58 = V_0;
-						if ((((int32_t)L_58) >= ((int32_t)0)))
+						int32_t L_49 = V_0;
+						if ((((int32_t)L_49) >= ((int32_t)0)))
 						{
-							goto IL_01f0_1;
+							goto IL_01b8_1;
 						}
 					}
 					{
-						RuntimeObject* L_59 = V_9;
-						if (!L_59)
+						RuntimeObject* L_50 = V_9;
+						if (!L_50)
 						{
-							goto IL_01f0_1;
+							goto IL_01b8_1;
 						}
 					}
 					{
-						RuntimeObject* L_60 = V_9;
-						NullCheck(L_60);
-						InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_60);
+						RuntimeObject* L_51 = V_9;
+						NullCheck(L_51);
+						InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_51);
 					}
 
-IL_01f0_1:
+IL_01b8_1:
 					{
 						return;
 					}
@@ -21767,54 +21715,54 @@ IL_01f0_1:
 			try
 			{// begin try (depth: 2)
 				{
-					goto IL_01d6_2;
+					goto IL_019e_2;
+				}
+
+IL_0166_2:
+				{
+					// foreach (var track in videoStream.GetTracks())
+					RuntimeObject* L_52 = V_9;
+					NullCheck(L_52);
+					MediaStreamTrack_tE9A3A14A55BD53667B26B202AF719053FDBDC2E6* L_53;
+					L_53 = InterfaceFuncInvoker0< MediaStreamTrack_tE9A3A14A55BD53667B26B202AF719053FDBDC2E6* >::Invoke(0 /* T System.Collections.Generic.IEnumerator`1<Unity.WebRTC.MediaStreamTrack>::get_Current() */, IEnumerator_1_t90B18233A3A36BB63F925FAEC1549B95DCA94978_il2cpp_TypeInfo_var, L_52);
+					V_10 = L_53;
+					// Debug.Log("track.enabled : "+track.Enabled);
+					MediaStreamTrack_tE9A3A14A55BD53667B26B202AF719053FDBDC2E6* L_54 = V_10;
+					NullCheck(L_54);
+					bool L_55;
+					L_55 = MediaStreamTrack_get_Enabled_mBAD3132E274239AD2FE349778112D4B6C25BB04D(L_54, NULL);
+					V_11 = L_55;
+					String_t* L_56;
+					L_56 = Boolean_ToString_m6646C8026B1DF381A1EE8CD13549175E9703CC63((&V_11), NULL);
+					String_t* L_57;
+					L_57 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral12A32D77F55F3AEC458E68162C8A6FF50814B9E0, L_56, NULL);
+					il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+					Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_57, NULL);
+					// peerConnection.AddTrack(track, videoStream);
+					WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_58 = V_1;
+					NullCheck(L_58);
+					RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_59 = L_58->___peerConnection_14;
+					MediaStreamTrack_tE9A3A14A55BD53667B26B202AF719053FDBDC2E6* L_60 = V_10;
+					MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_61 = V_4;
+					NullCheck(L_59);
+					RTCRtpSender_t9F641589CAD8E9FECEE9613037EAF7BAD0C84657* L_62;
+					L_62 = RTCPeerConnection_AddTrack_m98F6DF27832BA37E3BF69DEDF2168E1E20310F9D(L_59, L_60, L_61, NULL);
 				}
 
 IL_019e_2:
 				{
 					// foreach (var track in videoStream.GetTracks())
-					RuntimeObject* L_61 = V_9;
-					NullCheck(L_61);
-					MediaStreamTrack_tE9A3A14A55BD53667B26B202AF719053FDBDC2E6* L_62;
-					L_62 = InterfaceFuncInvoker0< MediaStreamTrack_tE9A3A14A55BD53667B26B202AF719053FDBDC2E6* >::Invoke(0 /* T System.Collections.Generic.IEnumerator`1<Unity.WebRTC.MediaStreamTrack>::get_Current() */, IEnumerator_1_t90B18233A3A36BB63F925FAEC1549B95DCA94978_il2cpp_TypeInfo_var, L_61);
-					V_10 = L_62;
-					// Debug.Log("track.enabled : "+track.Enabled);
-					MediaStreamTrack_tE9A3A14A55BD53667B26B202AF719053FDBDC2E6* L_63 = V_10;
+					RuntimeObject* L_63 = V_9;
 					NullCheck(L_63);
 					bool L_64;
-					L_64 = MediaStreamTrack_get_Enabled_mBAD3132E274239AD2FE349778112D4B6C25BB04D(L_63, NULL);
-					V_11 = L_64;
-					String_t* L_65;
-					L_65 = Boolean_ToString_m6646C8026B1DF381A1EE8CD13549175E9703CC63((&V_11), NULL);
-					String_t* L_66;
-					L_66 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral12A32D77F55F3AEC458E68162C8A6FF50814B9E0, L_65, NULL);
-					il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-					Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_66, NULL);
-					// peerConnection.AddTrack(track, videoStream);
-					WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_67 = V_1;
-					NullCheck(L_67);
-					RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_68 = L_67->___peerConnection_14;
-					MediaStreamTrack_tE9A3A14A55BD53667B26B202AF719053FDBDC2E6* L_69 = V_10;
-					MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_70 = V_4;
-					NullCheck(L_68);
-					RTCRtpSender_t9F641589CAD8E9FECEE9613037EAF7BAD0C84657* L_71;
-					L_71 = RTCPeerConnection_AddTrack_m98F6DF27832BA37E3BF69DEDF2168E1E20310F9D(L_68, L_69, L_70, NULL);
-				}
-
-IL_01d6_2:
-				{
-					// foreach (var track in videoStream.GetTracks())
-					RuntimeObject* L_72 = V_9;
-					NullCheck(L_72);
-					bool L_73;
-					L_73 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_72);
-					if (L_73)
+					L_64 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_63);
+					if (L_64)
 					{
-						goto IL_019e_2;
+						goto IL_0166_2;
 					}
 				}
 				{
-					goto IL_01f1_1;
+					goto IL_01b9_1;
 				}
 			}// end try (depth: 2)
 			catch(Il2CppExceptionWrapper& e)
@@ -21823,63 +21771,51 @@ IL_01d6_2:
 			}
 		}
 
-IL_01f1_1:
+IL_01b9_1:
 		{
 			// Debug.Log("microphont audiosource name : "+microphoneAudioSource.name);
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_74 = V_1;
-			NullCheck(L_74);
-			AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_75 = L_74->___microphoneAudioSource_11;
-			NullCheck(L_75);
-			String_t* L_76;
-			L_76 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_75, NULL);
-			String_t* L_77;
-			L_77 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralD6C1626750A32580034F1B7A3DF754767CFA0DA1, L_76, NULL);
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_65 = V_1;
+			NullCheck(L_65);
+			AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_66 = L_65->___microphoneAudioSource_11;
+			NullCheck(L_66);
+			String_t* L_67;
+			L_67 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_66, NULL);
+			String_t* L_68;
+			L_68 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralD6C1626750A32580034F1B7A3DF754767CFA0DA1, L_67, NULL);
 			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_77, NULL);
-			// TMP_url.text="[vr_debug] microphont audiosource name : "+microphoneAudioSource.name;
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_78 = V_1;
-			NullCheck(L_78);
-			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_79 = L_78->___TMP_url_7;
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_80 = V_1;
-			NullCheck(L_80);
-			AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_81 = L_80->___microphoneAudioSource_11;
-			NullCheck(L_81);
-			String_t* L_82;
-			L_82 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_81, NULL);
-			String_t* L_83;
-			L_83 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral70AB7FB5FB55FE54159A9384D1B62AEA0BE277C1, L_82, NULL);
-			NullCheck(L_79);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_79, L_83);
+			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_68, NULL);
 			// MediaStream sendMicrophoneAudioStream = new MediaStream();
-			MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_84 = (MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED*)il2cpp_codegen_object_new(MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED_il2cpp_TypeInfo_var);
-			NullCheck(L_84);
-			MediaStream__ctor_mC5CCF48C9CE423D106ABF77D1C28C352B1CA7E3E(L_84, NULL);
-			V_5 = L_84;
+			MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_69 = (MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED*)il2cpp_codegen_object_new(MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED_il2cpp_TypeInfo_var);
+			NullCheck(L_69);
+			MediaStream__ctor_mC5CCF48C9CE423D106ABF77D1C28C352B1CA7E3E(L_69, NULL);
+			V_5 = L_69;
 			// AudioStreamTrack microphone_audioTrack = new AudioStreamTrack(microphoneAudioSource);
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_85 = V_1;
-			NullCheck(L_85);
-			AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_86 = L_85->___microphoneAudioSource_11;
-			AudioStreamTrack_t04D03230A7070B413208CA9F1D47BD3C6015FDFC* L_87 = (AudioStreamTrack_t04D03230A7070B413208CA9F1D47BD3C6015FDFC*)il2cpp_codegen_object_new(AudioStreamTrack_t04D03230A7070B413208CA9F1D47BD3C6015FDFC_il2cpp_TypeInfo_var);
-			NullCheck(L_87);
-			AudioStreamTrack__ctor_mF0F55E34C2DF945290423F8A05D5CBBA5C4DC250(L_87, L_86, NULL);
-			V_6 = L_87;
-			// peerConnection.AddTrack(microphone_audioTrack, sendMicrophoneAudioStream);
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_88 = V_1;
-			NullCheck(L_88);
-			RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_89 = L_88->___peerConnection_14;
-			AudioStreamTrack_t04D03230A7070B413208CA9F1D47BD3C6015FDFC* L_90 = V_6;
-			MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_91 = V_5;
-			NullCheck(L_89);
-			RTCRtpSender_t9F641589CAD8E9FECEE9613037EAF7BAD0C84657* L_92;
-			L_92 = RTCPeerConnection_AddTrack_m98F6DF27832BA37E3BF69DEDF2168E1E20310F9D(L_89, L_90, L_91, NULL);
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_70 = V_1;
+			NullCheck(L_70);
+			AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_71 = L_70->___microphoneAudioSource_11;
+			AudioStreamTrack_t04D03230A7070B413208CA9F1D47BD3C6015FDFC* L_72 = (AudioStreamTrack_t04D03230A7070B413208CA9F1D47BD3C6015FDFC*)il2cpp_codegen_object_new(AudioStreamTrack_t04D03230A7070B413208CA9F1D47BD3C6015FDFC_il2cpp_TypeInfo_var);
+			NullCheck(L_72);
+			AudioStreamTrack__ctor_mF0F55E34C2DF945290423F8A05D5CBBA5C4DC250(L_72, L_71, NULL);
+			V_6 = L_72;
+			// var sender = peerConnection.AddTrack(microphone_audioTrack, sendMicrophoneAudioStream);
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_73 = V_1;
+			NullCheck(L_73);
+			RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_74 = L_73->___peerConnection_14;
+			AudioStreamTrack_t04D03230A7070B413208CA9F1D47BD3C6015FDFC* L_75 = V_6;
+			MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_76 = V_5;
+			NullCheck(L_74);
+			RTCRtpSender_t9F641589CAD8E9FECEE9613037EAF7BAD0C84657* L_77;
+			L_77 = RTCPeerConnection_AddTrack_m98F6DF27832BA37E3BF69DEDF2168E1E20310F9D(L_74, L_75, L_76, NULL);
+			__this->___U3CsenderU3E5__2_3 = L_77;
+			Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CsenderU3E5__2_3), (void*)L_77);
 			// MediaStream receiveStream = new MediaStream();
-			U3CU3Ec__DisplayClass24_0_t491BADE1027ACC514310564E0A58E55607555CC3* L_93 = V_2;
-			MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_94 = (MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED*)il2cpp_codegen_object_new(MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED_il2cpp_TypeInfo_var);
-			NullCheck(L_94);
-			MediaStream__ctor_mC5CCF48C9CE423D106ABF77D1C28C352B1CA7E3E(L_94, NULL);
-			NullCheck(L_93);
-			L_93->___receiveStream_1 = L_94;
-			Il2CppCodeGenWriteBarrier((void**)(&L_93->___receiveStream_1), (void*)L_94);
+			U3CU3Ec__DisplayClass24_0_t491BADE1027ACC514310564E0A58E55607555CC3* L_78 = V_2;
+			MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_79 = (MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED*)il2cpp_codegen_object_new(MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED_il2cpp_TypeInfo_var);
+			NullCheck(L_79);
+			MediaStream__ctor_mC5CCF48C9CE423D106ABF77D1C28C352B1CA7E3E(L_79, NULL);
+			NullCheck(L_78);
+			L_78->___receiveStream_1 = L_79;
+			Il2CppCodeGenWriteBarrier((void**)(&L_78->___receiveStream_1), (void*)L_79);
 			// receiveStream.OnAddTrack = e =>
 			// {
 			//     if (e.Track is AudioStreamTrack track)
@@ -21893,15 +21829,15 @@ IL_01f1_1:
 			//         remoteAudioSource.Play();
 			//     }
 			// };
-			U3CU3Ec__DisplayClass24_0_t491BADE1027ACC514310564E0A58E55607555CC3* L_95 = V_2;
-			NullCheck(L_95);
-			MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_96 = L_95->___receiveStream_1;
-			U3CU3Ec__DisplayClass24_0_t491BADE1027ACC514310564E0A58E55607555CC3* L_97 = V_2;
-			DelegateOnAddTrack_tCA18E923B6BAADF8427EA9331CA985968EB04481* L_98 = (DelegateOnAddTrack_tCA18E923B6BAADF8427EA9331CA985968EB04481*)il2cpp_codegen_object_new(DelegateOnAddTrack_tCA18E923B6BAADF8427EA9331CA985968EB04481_il2cpp_TypeInfo_var);
-			NullCheck(L_98);
-			DelegateOnAddTrack__ctor_m6AD61ADAFEC3E1AD89AB88A1B7B5F77AA9066705(L_98, L_97, (intptr_t)((void*)U3CU3Ec__DisplayClass24_0_U3CConnectionStartU3Eb__2_mD56D53B286743BE158623F048539CB89BB2385B6_RuntimeMethod_var), NULL);
-			NullCheck(L_96);
-			MediaStream_set_OnAddTrack_mF8BB65B2B6631431E04C078D5208AC2EE7258DB0_inline(L_96, L_98, NULL);
+			U3CU3Ec__DisplayClass24_0_t491BADE1027ACC514310564E0A58E55607555CC3* L_80 = V_2;
+			NullCheck(L_80);
+			MediaStream_t8E9105D6B4F7FF90AEB7B50B1C5A02DCAEF9BDED* L_81 = L_80->___receiveStream_1;
+			U3CU3Ec__DisplayClass24_0_t491BADE1027ACC514310564E0A58E55607555CC3* L_82 = V_2;
+			DelegateOnAddTrack_tCA18E923B6BAADF8427EA9331CA985968EB04481* L_83 = (DelegateOnAddTrack_tCA18E923B6BAADF8427EA9331CA985968EB04481*)il2cpp_codegen_object_new(DelegateOnAddTrack_tCA18E923B6BAADF8427EA9331CA985968EB04481_il2cpp_TypeInfo_var);
+			NullCheck(L_83);
+			DelegateOnAddTrack__ctor_m6AD61ADAFEC3E1AD89AB88A1B7B5F77AA9066705(L_83, L_82, (intptr_t)((void*)U3CU3Ec__DisplayClass24_0_U3CConnectionStartU3Eb__2_mD56D53B286743BE158623F048539CB89BB2385B6_RuntimeMethod_var), NULL);
+			NullCheck(L_81);
+			MediaStream_set_OnAddTrack_mF8BB65B2B6631431E04C078D5208AC2EE7258DB0_inline(L_81, L_83, NULL);
 			// peerConnection.OnTrack = (RTCTrackEvent e) => {
 			//     if (e.Track.Kind == TrackKind.Audio)
 			//     {
@@ -21910,96 +21846,96 @@ IL_01f1_1:
 			//         receiveStream.AddTrack(e.Track);
 			//     }
 			// };
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_99 = V_1;
-			NullCheck(L_99);
-			RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_100 = L_99->___peerConnection_14;
-			U3CU3Ec__DisplayClass24_0_t491BADE1027ACC514310564E0A58E55607555CC3* L_101 = V_2;
-			DelegateOnTrack_t274AA48A2E8C802AE101CF2A09192E35DD1127BF* L_102 = (DelegateOnTrack_t274AA48A2E8C802AE101CF2A09192E35DD1127BF*)il2cpp_codegen_object_new(DelegateOnTrack_t274AA48A2E8C802AE101CF2A09192E35DD1127BF_il2cpp_TypeInfo_var);
-			NullCheck(L_102);
-			DelegateOnTrack__ctor_m9F9248EC74098EBE06A9120A5DEE3F4E816B0EFE(L_102, L_101, (intptr_t)((void*)U3CU3Ec__DisplayClass24_0_U3CConnectionStartU3Eb__3_m5047CC2A1EF15D6DCA93339A0D305D245AB0FD0F_RuntimeMethod_var), NULL);
-			NullCheck(L_100);
-			RTCPeerConnection_set_OnTrack_mFC24230DF8CCAB0D65D01BE0116DE7AA9FEB765E_inline(L_100, L_102, NULL);
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_84 = V_1;
+			NullCheck(L_84);
+			RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_85 = L_84->___peerConnection_14;
+			U3CU3Ec__DisplayClass24_0_t491BADE1027ACC514310564E0A58E55607555CC3* L_86 = V_2;
+			DelegateOnTrack_t274AA48A2E8C802AE101CF2A09192E35DD1127BF* L_87 = (DelegateOnTrack_t274AA48A2E8C802AE101CF2A09192E35DD1127BF*)il2cpp_codegen_object_new(DelegateOnTrack_t274AA48A2E8C802AE101CF2A09192E35DD1127BF_il2cpp_TypeInfo_var);
+			NullCheck(L_87);
+			DelegateOnTrack__ctor_m9F9248EC74098EBE06A9120A5DEE3F4E816B0EFE(L_87, L_86, (intptr_t)((void*)U3CU3Ec__DisplayClass24_0_U3CConnectionStartU3Eb__3_m5047CC2A1EF15D6DCA93339A0D305D245AB0FD0F_RuntimeMethod_var), NULL);
+			NullCheck(L_85);
+			RTCPeerConnection_set_OnTrack_mFC24230DF8CCAB0D65D01BE0116DE7AA9FEB765E_inline(L_85, L_87, NULL);
 			// if (!webrtcUpdateStarted)
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_103 = V_1;
-			NullCheck(L_103);
-			bool L_104 = L_103->___webrtcUpdateStarted_16;
-			if (L_104)
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_88 = V_1;
+			NullCheck(L_88);
+			bool L_89 = L_88->___webrtcUpdateStarted_16;
+			if (L_89)
 			{
-				goto IL_02a3_1;
+				goto IL_0250_1;
 			}
 		}
 		{
 			// StartCoroutine(WebRTC.Update());
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_105 = V_1;
-			RuntimeObject* L_106;
-			L_106 = WebRTC_Update_mDC3FE52572BFC486A7E3A6BFAEC091CDB2093977(NULL);
-			NullCheck(L_105);
-			Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_107;
-			L_107 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_105, L_106, NULL);
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_90 = V_1;
+			RuntimeObject* L_91;
+			L_91 = WebRTC_Update_mDC3FE52572BFC486A7E3A6BFAEC091CDB2093977(NULL);
+			NullCheck(L_90);
+			Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_92;
+			L_92 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_90, L_91, NULL);
 			// webrtcUpdateStarted = true;
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_108 = V_1;
-			NullCheck(L_108);
-			L_108->___webrtcUpdateStarted_16 = (bool)1;
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_93 = V_1;
+			NullCheck(L_93);
+			L_93->___webrtcUpdateStarted_16 = (bool)1;
 		}
 
-IL_02a3_1:
+IL_0250_1:
 		{
 			// websocket = new WebSocket("wss://metaverse.venraas.tw:4567/ws/call/");
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_109 = V_1;
-			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_110 = (WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F*)il2cpp_codegen_object_new(WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F_il2cpp_TypeInfo_var);
-			NullCheck(L_110);
-			WebSocket__ctor_mE82FA607D6E3E45BA219738196DA152651677B24(L_110, _stringLiteral581D047DB6859429EC8F8CE0300CB23569DF2E94, (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)NULL, NULL);
-			NullCheck(L_109);
-			L_109->___websocket_13 = L_110;
-			Il2CppCodeGenWriteBarrier((void**)(&L_109->___websocket_13), (void*)L_110);
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_94 = V_1;
+			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_95 = (WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F*)il2cpp_codegen_object_new(WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F_il2cpp_TypeInfo_var);
+			NullCheck(L_95);
+			WebSocket__ctor_mE82FA607D6E3E45BA219738196DA152651677B24(L_95, _stringLiteral581D047DB6859429EC8F8CE0300CB23569DF2E94, (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)NULL, NULL);
+			NullCheck(L_94);
+			L_94->___websocket_13 = L_95;
+			Il2CppCodeGenWriteBarrier((void**)(&L_94->___websocket_13), (void*)L_95);
 			// websocket.OnOpen += () =>
 			// {
 			//     Debug.Log("Connection open!");
 			//     SendLoginMessage();
 			//     StartCoroutine(HandleCallSend(peerConnection));
 			// };
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_111 = V_1;
-			NullCheck(L_111);
-			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_112 = L_111->___websocket_13;
-			U3CU3Ec__DisplayClass24_0_t491BADE1027ACC514310564E0A58E55607555CC3* L_113 = V_2;
-			WebSocketOpenEventHandler_t0241D6C4719F6CD56F1FE610A9371AC15FDCC93E* L_114 = (WebSocketOpenEventHandler_t0241D6C4719F6CD56F1FE610A9371AC15FDCC93E*)il2cpp_codegen_object_new(WebSocketOpenEventHandler_t0241D6C4719F6CD56F1FE610A9371AC15FDCC93E_il2cpp_TypeInfo_var);
-			NullCheck(L_114);
-			WebSocketOpenEventHandler__ctor_m9C0F1F9240E959710FE2E7F9F1F97AF5D3D440AF(L_114, L_113, (intptr_t)((void*)U3CU3Ec__DisplayClass24_0_U3CConnectionStartU3Eb__4_m7C002B0EE73240E74FC0B0FE53EB2046DF054B7F_RuntimeMethod_var), NULL);
-			NullCheck(L_112);
-			WebSocket_add_OnOpen_mE4848C3EB53A6CF346B790895D636D7A8BA4DDA3(L_112, L_114, NULL);
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_96 = V_1;
+			NullCheck(L_96);
+			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_97 = L_96->___websocket_13;
+			U3CU3Ec__DisplayClass24_0_t491BADE1027ACC514310564E0A58E55607555CC3* L_98 = V_2;
+			WebSocketOpenEventHandler_t0241D6C4719F6CD56F1FE610A9371AC15FDCC93E* L_99 = (WebSocketOpenEventHandler_t0241D6C4719F6CD56F1FE610A9371AC15FDCC93E*)il2cpp_codegen_object_new(WebSocketOpenEventHandler_t0241D6C4719F6CD56F1FE610A9371AC15FDCC93E_il2cpp_TypeInfo_var);
+			NullCheck(L_99);
+			WebSocketOpenEventHandler__ctor_m9C0F1F9240E959710FE2E7F9F1F97AF5D3D440AF(L_99, L_98, (intptr_t)((void*)U3CU3Ec__DisplayClass24_0_U3CConnectionStartU3Eb__4_m7C002B0EE73240E74FC0B0FE53EB2046DF054B7F_RuntimeMethod_var), NULL);
+			NullCheck(L_97);
+			WebSocket_add_OnOpen_mE4848C3EB53A6CF346B790895D636D7A8BA4DDA3(L_97, L_99, NULL);
 			// websocket.OnError += (e) =>
 			// {
 			//     Debug.Log("Error! " + e);
 			// };
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_115 = V_1;
-			NullCheck(L_115);
-			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_116 = L_115->___websocket_13;
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_100 = V_1;
+			NullCheck(L_100);
+			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_101 = L_100->___websocket_13;
 			il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var);
-			WebSocketErrorEventHandler_t6121C1087F8242428F801B27D293CE78597A75C3* L_117 = ((U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var))->___U3CU3E9__24_5_2;
-			WebSocketErrorEventHandler_t6121C1087F8242428F801B27D293CE78597A75C3* L_118 = L_117;
-			G_B18_0 = L_118;
-			G_B18_1 = L_116;
-			if (L_118)
+			WebSocketErrorEventHandler_t6121C1087F8242428F801B27D293CE78597A75C3* L_102 = ((U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var))->___U3CU3E9__24_5_2;
+			WebSocketErrorEventHandler_t6121C1087F8242428F801B27D293CE78597A75C3* L_103 = L_102;
+			G_B18_0 = L_103;
+			G_B18_1 = L_101;
+			if (L_103)
 			{
-				G_B19_0 = L_118;
-				G_B19_1 = L_116;
-				goto IL_02f0_1;
+				G_B19_0 = L_103;
+				G_B19_1 = L_101;
+				goto IL_029d_1;
 			}
 		}
 		{
 			il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var);
-			U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52* L_119 = ((U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var))->___U3CU3E9_0;
-			WebSocketErrorEventHandler_t6121C1087F8242428F801B27D293CE78597A75C3* L_120 = (WebSocketErrorEventHandler_t6121C1087F8242428F801B27D293CE78597A75C3*)il2cpp_codegen_object_new(WebSocketErrorEventHandler_t6121C1087F8242428F801B27D293CE78597A75C3_il2cpp_TypeInfo_var);
-			NullCheck(L_120);
-			WebSocketErrorEventHandler__ctor_m57F2C1BA800F30F50FD411F8461AAA24D40FBAF9(L_120, L_119, (intptr_t)((void*)U3CU3Ec_U3CConnectionStartU3Eb__24_5_mECEF6DC66DB8F4064EBBBEAB9379F94B7B3EC6C7_RuntimeMethod_var), NULL);
-			WebSocketErrorEventHandler_t6121C1087F8242428F801B27D293CE78597A75C3* L_121 = L_120;
-			((U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var))->___U3CU3E9__24_5_2 = L_121;
-			Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var))->___U3CU3E9__24_5_2), (void*)L_121);
-			G_B19_0 = L_121;
+			U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52* L_104 = ((U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+			WebSocketErrorEventHandler_t6121C1087F8242428F801B27D293CE78597A75C3* L_105 = (WebSocketErrorEventHandler_t6121C1087F8242428F801B27D293CE78597A75C3*)il2cpp_codegen_object_new(WebSocketErrorEventHandler_t6121C1087F8242428F801B27D293CE78597A75C3_il2cpp_TypeInfo_var);
+			NullCheck(L_105);
+			WebSocketErrorEventHandler__ctor_m57F2C1BA800F30F50FD411F8461AAA24D40FBAF9(L_105, L_104, (intptr_t)((void*)U3CU3Ec_U3CConnectionStartU3Eb__24_5_mECEF6DC66DB8F4064EBBBEAB9379F94B7B3EC6C7_RuntimeMethod_var), NULL);
+			WebSocketErrorEventHandler_t6121C1087F8242428F801B27D293CE78597A75C3* L_106 = L_105;
+			((U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var))->___U3CU3E9__24_5_2 = L_106;
+			Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var))->___U3CU3E9__24_5_2), (void*)L_106);
+			G_B19_0 = L_106;
 			G_B19_1 = G_B18_1;
 		}
 
-IL_02f0_1:
+IL_029d_1:
 		{
 			NullCheck(G_B19_1);
 			WebSocket_add_OnError_mA10F34789A6C13F5AA64EC0F35D45ED4EDCDABA0(G_B19_1, G_B19_0, NULL);
@@ -22007,35 +21943,35 @@ IL_02f0_1:
 			// {
 			//     Debug.Log("Connection closed!");
 			// };
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_122 = V_1;
-			NullCheck(L_122);
-			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_123 = L_122->___websocket_13;
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_107 = V_1;
+			NullCheck(L_107);
+			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_108 = L_107->___websocket_13;
 			il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var);
-			WebSocketCloseEventHandler_tC02B2B8CA126489D18F9F48805A3C7460661E466* L_124 = ((U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var))->___U3CU3E9__24_6_3;
-			WebSocketCloseEventHandler_tC02B2B8CA126489D18F9F48805A3C7460661E466* L_125 = L_124;
-			G_B20_0 = L_125;
-			G_B20_1 = L_123;
-			if (L_125)
+			WebSocketCloseEventHandler_tC02B2B8CA126489D18F9F48805A3C7460661E466* L_109 = ((U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var))->___U3CU3E9__24_6_3;
+			WebSocketCloseEventHandler_tC02B2B8CA126489D18F9F48805A3C7460661E466* L_110 = L_109;
+			G_B20_0 = L_110;
+			G_B20_1 = L_108;
+			if (L_110)
 			{
-				G_B21_0 = L_125;
-				G_B21_1 = L_123;
-				goto IL_031a_1;
+				G_B21_0 = L_110;
+				G_B21_1 = L_108;
+				goto IL_02c7_1;
 			}
 		}
 		{
 			il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var);
-			U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52* L_126 = ((U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var))->___U3CU3E9_0;
-			WebSocketCloseEventHandler_tC02B2B8CA126489D18F9F48805A3C7460661E466* L_127 = (WebSocketCloseEventHandler_tC02B2B8CA126489D18F9F48805A3C7460661E466*)il2cpp_codegen_object_new(WebSocketCloseEventHandler_tC02B2B8CA126489D18F9F48805A3C7460661E466_il2cpp_TypeInfo_var);
-			NullCheck(L_127);
-			WebSocketCloseEventHandler__ctor_mCF39CA9F24C0F9804D5B6E51EF946CEB60142764(L_127, L_126, (intptr_t)((void*)U3CU3Ec_U3CConnectionStartU3Eb__24_6_m677494A648ADFA508AEDB216AA785E720A76AD38_RuntimeMethod_var), NULL);
-			WebSocketCloseEventHandler_tC02B2B8CA126489D18F9F48805A3C7460661E466* L_128 = L_127;
-			((U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var))->___U3CU3E9__24_6_3 = L_128;
-			Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var))->___U3CU3E9__24_6_3), (void*)L_128);
-			G_B21_0 = L_128;
+			U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52* L_111 = ((U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var))->___U3CU3E9_0;
+			WebSocketCloseEventHandler_tC02B2B8CA126489D18F9F48805A3C7460661E466* L_112 = (WebSocketCloseEventHandler_tC02B2B8CA126489D18F9F48805A3C7460661E466*)il2cpp_codegen_object_new(WebSocketCloseEventHandler_tC02B2B8CA126489D18F9F48805A3C7460661E466_il2cpp_TypeInfo_var);
+			NullCheck(L_112);
+			WebSocketCloseEventHandler__ctor_mCF39CA9F24C0F9804D5B6E51EF946CEB60142764(L_112, L_111, (intptr_t)((void*)U3CU3Ec_U3CConnectionStartU3Eb__24_6_m677494A648ADFA508AEDB216AA785E720A76AD38_RuntimeMethod_var), NULL);
+			WebSocketCloseEventHandler_tC02B2B8CA126489D18F9F48805A3C7460661E466* L_113 = L_112;
+			((U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var))->___U3CU3E9__24_6_3 = L_113;
+			Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t1090AF5AF8E1740F65E60FEE383DF06498E45B52_il2cpp_TypeInfo_var))->___U3CU3E9__24_6_3), (void*)L_113);
+			G_B21_0 = L_113;
 			G_B21_1 = G_B20_1;
 		}
 
-IL_031a_1:
+IL_02c7_1:
 		{
 			NullCheck(G_B21_1);
 			WebSocket_add_OnClose_m5D0A672A02F5BF6252DA825D7AB7EFC1020C2B4A(G_B21_1, G_B21_0, NULL);
@@ -22055,6 +21991,7 @@ IL_031a_1:
 			//     {
 			//         Debug.Log("call_answered");
 			//         StartCoroutine(HandleCallReceived(peerConnection,message));
+			//         TMP_url.text=friend_url+newBackstageItemID2+"_"+newBackstageItemID1+"  : (connected) ";
 			//     }
 			// 
 			//     if (message_obbject.type == "ICEcandidate")
@@ -22067,172 +22004,122 @@ IL_031a_1:
 			//         Debug.Log("ICEcandidate");
 			//         HandleMessage(message);
 			//     }
+			//     if (message_obbject.type == "service_busy")
+			//     {
+			//         Debug.Log("server service_busy");
+			//         TMP_url.text="???????????...";
+			//     }
 			// };
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_129 = V_1;
-			NullCheck(L_129);
-			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_130 = L_129->___websocket_13;
-			U3CU3Ec__DisplayClass24_0_t491BADE1027ACC514310564E0A58E55607555CC3* L_131 = V_2;
-			WebSocketMessageEventHandler_tE2C6EB24566102E15F0474D745557485BA17496C* L_132 = (WebSocketMessageEventHandler_tE2C6EB24566102E15F0474D745557485BA17496C*)il2cpp_codegen_object_new(WebSocketMessageEventHandler_tE2C6EB24566102E15F0474D745557485BA17496C_il2cpp_TypeInfo_var);
-			NullCheck(L_132);
-			WebSocketMessageEventHandler__ctor_m15BC0672C78EDC192A2ECACCD3B9762149A5A7A8(L_132, L_131, (intptr_t)((void*)U3CU3Ec__DisplayClass24_0_U3CConnectionStartU3Eb__7_m0DFE255792578C9C100AA0C491CFF893FDA298D6_RuntimeMethod_var), NULL);
-			NullCheck(L_130);
-			WebSocket_add_OnMessage_mB2D438685DB29D57498A0AC6BEF756F5FEB0BDE5(L_130, L_132, NULL);
-			// TMP_url.text=friend_url+newBackstageItemID2+"_"+newBackstageItemID1+"  : (connected) ";
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_133 = V_1;
-			NullCheck(L_133);
-			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_134 = L_133->___TMP_url_7;
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_135 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_136 = L_135;
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_137 = V_1;
-			NullCheck(L_137);
-			String_t* L_138 = L_137->___friend_url_4;
-			NullCheck(L_136);
-			ArrayElementTypeCheck (L_136, L_138);
-			(L_136)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_138);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_139 = L_136;
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_140 = V_1;
-			NullCheck(L_140);
-			String_t* L_141 = L_140->___newBackstageItemID2_9;
-			NullCheck(L_139);
-			ArrayElementTypeCheck (L_139, L_141);
-			(L_139)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_141);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_142 = L_139;
-			NullCheck(L_142);
-			ArrayElementTypeCheck (L_142, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
-			(L_142)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_143 = L_142;
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_144 = V_1;
-			NullCheck(L_144);
-			String_t* L_145 = L_144->___newBackstageItemID1_8;
-			NullCheck(L_143);
-			ArrayElementTypeCheck (L_143, L_145);
-			(L_143)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_145);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_146 = L_143;
-			NullCheck(L_146);
-			ArrayElementTypeCheck (L_146, _stringLiteral1927CD38A67E950F13732AF98A23F4313A251142);
-			(L_146)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral1927CD38A67E950F13732AF98A23F4313A251142);
-			String_t* L_147;
-			L_147 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_146, NULL);
-			NullCheck(L_134);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_134, L_147);
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_114 = V_1;
+			NullCheck(L_114);
+			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_115 = L_114->___websocket_13;
+			U3CU3Ec__DisplayClass24_0_t491BADE1027ACC514310564E0A58E55607555CC3* L_116 = V_2;
+			WebSocketMessageEventHandler_tE2C6EB24566102E15F0474D745557485BA17496C* L_117 = (WebSocketMessageEventHandler_tE2C6EB24566102E15F0474D745557485BA17496C*)il2cpp_codegen_object_new(WebSocketMessageEventHandler_tE2C6EB24566102E15F0474D745557485BA17496C_il2cpp_TypeInfo_var);
+			NullCheck(L_117);
+			WebSocketMessageEventHandler__ctor_m15BC0672C78EDC192A2ECACCD3B9762149A5A7A8(L_117, L_116, (intptr_t)((void*)U3CU3Ec__DisplayClass24_0_U3CConnectionStartU3Eb__7_m0DFE255792578C9C100AA0C491CFF893FDA298D6_RuntimeMethod_var), NULL);
+			NullCheck(L_115);
+			WebSocket_add_OnMessage_mB2D438685DB29D57498A0AC6BEF756F5FEB0BDE5(L_115, L_117, NULL);
 			// Debug.Log(friend_url+newBackstageItemID2+"_"+newBackstageItemID1+"  : (connected url) ");
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_148 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_149 = L_148;
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_150 = V_1;
-			NullCheck(L_150);
-			String_t* L_151 = L_150->___friend_url_4;
-			NullCheck(L_149);
-			ArrayElementTypeCheck (L_149, L_151);
-			(L_149)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_151);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_152 = L_149;
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_153 = V_1;
-			NullCheck(L_153);
-			String_t* L_154 = L_153->___newBackstageItemID2_9;
-			NullCheck(L_152);
-			ArrayElementTypeCheck (L_152, L_154);
-			(L_152)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_154);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_155 = L_152;
-			NullCheck(L_155);
-			ArrayElementTypeCheck (L_155, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
-			(L_155)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_156 = L_155;
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_157 = V_1;
-			NullCheck(L_157);
-			String_t* L_158 = L_157->___newBackstageItemID1_8;
-			NullCheck(L_156);
-			ArrayElementTypeCheck (L_156, L_158);
-			(L_156)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_158);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_159 = L_156;
-			NullCheck(L_159);
-			ArrayElementTypeCheck (L_159, _stringLiteralDE58E973AD1D91D64B6B4074F84CBE2E57E2069F);
-			(L_159)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralDE58E973AD1D91D64B6B4074F84CBE2E57E2069F);
-			String_t* L_160;
-			L_160 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_159, NULL);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_118 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_119 = L_118;
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_120 = V_1;
+			NullCheck(L_120);
+			String_t* L_121 = L_120->___friend_url_4;
+			NullCheck(L_119);
+			ArrayElementTypeCheck (L_119, L_121);
+			(L_119)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_121);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_122 = L_119;
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_123 = V_1;
+			NullCheck(L_123);
+			String_t* L_124 = L_123->___newBackstageItemID2_9;
+			NullCheck(L_122);
+			ArrayElementTypeCheck (L_122, L_124);
+			(L_122)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_124);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_125 = L_122;
+			NullCheck(L_125);
+			ArrayElementTypeCheck (L_125, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
+			(L_125)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_126 = L_125;
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_127 = V_1;
+			NullCheck(L_127);
+			String_t* L_128 = L_127->___newBackstageItemID1_8;
+			NullCheck(L_126);
+			ArrayElementTypeCheck (L_126, L_128);
+			(L_126)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_128);
+			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_129 = L_126;
+			NullCheck(L_129);
+			ArrayElementTypeCheck (L_129, _stringLiteralDE58E973AD1D91D64B6B4074F84CBE2E57E2069F);
+			(L_129)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralDE58E973AD1D91D64B6B4074F84CBE2E57E2069F);
+			String_t* L_130;
+			L_130 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_129, NULL);
 			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_160, NULL);
+			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_130, NULL);
 			// await websocket.Connect();
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_161 = V_1;
-			NullCheck(L_161);
-			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_162 = L_161->___websocket_13;
-			NullCheck(L_162);
-			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_163;
-			L_163 = WebSocket_Connect_m6668D9F07FE1BFD16D5391B1AB8980FA740E705A(L_162, NULL);
-			NullCheck(L_163);
-			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_164;
-			L_164 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_163, NULL);
-			V_12 = L_164;
-			bool L_165;
-			L_165 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_12), NULL);
-			if (L_165)
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_131 = V_1;
+			NullCheck(L_131);
+			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_132 = L_131->___websocket_13;
+			NullCheck(L_132);
+			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_133;
+			L_133 = WebSocket_Connect_m6668D9F07FE1BFD16D5391B1AB8980FA740E705A(L_132, NULL);
+			NullCheck(L_133);
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_134;
+			L_134 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_133, NULL);
+			V_12 = L_134;
+			bool L_135;
+			L_135 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_12), NULL);
+			if (L_135)
 			{
-				goto IL_040e_1;
+				goto IL_037a_1;
 			}
 		}
 		{
-			int32_t L_166 = 0;
-			V_0 = L_166;
-			__this->___U3CU3E1__state_0 = L_166;
-			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_167 = V_12;
-			__this->___U3CU3Eu__1_3 = L_167;
-			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_3))->___m_task_0), (void*)NULL);
-			AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_168 = (&__this->___U3CU3Et__builder_1);
-			AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CConnectionStartU3Ed__24_t9F5D61F91F11F2913933C8DF142D1F99369494CE_m7E51961B377514E20BDAD500E613945C9F313609(L_168, (&V_12), __this, AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CConnectionStartU3Ed__24_t9F5D61F91F11F2913933C8DF142D1F99369494CE_m7E51961B377514E20BDAD500E613945C9F313609_RuntimeMethod_var);
-			goto IL_0484;
+			int32_t L_136 = 0;
+			V_0 = L_136;
+			__this->___U3CU3E1__state_0 = L_136;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_137 = V_12;
+			__this->___U3CU3Eu__1_4 = L_137;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_4))->___m_task_0), (void*)NULL);
+			AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_138 = (&__this->___U3CU3Et__builder_1);
+			AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CConnectionStartU3Ed__24_t9F5D61F91F11F2913933C8DF142D1F99369494CE_m7E51961B377514E20BDAD500E613945C9F313609(L_138, (&V_12), __this, AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CConnectionStartU3Ed__24_t9F5D61F91F11F2913933C8DF142D1F99369494CE_m7E51961B377514E20BDAD500E613945C9F313609_RuntimeMethod_var);
+			goto IL_03e6;
 		}
 
-IL_03f1_1:
+IL_035d_1:
 		{
-			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_169 = __this->___U3CU3Eu__1_3;
-			V_12 = L_169;
-			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_170 = (&__this->___U3CU3Eu__1_3);
-			il2cpp_codegen_initobj(L_170, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
-			int32_t L_171 = (-1);
-			V_0 = L_171;
-			__this->___U3CU3E1__state_0 = L_171;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_139 = __this->___U3CU3Eu__1_4;
+			V_12 = L_139;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_140 = (&__this->___U3CU3Eu__1_4);
+			il2cpp_codegen_initobj(L_140, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
+			int32_t L_141 = (-1);
+			V_0 = L_141;
+			__this->___U3CU3E1__state_0 = L_141;
 		}
 
-IL_040e_1:
+IL_037a_1:
 		{
 			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_12), NULL);
-			// TMP_url.text=friend_url+newBackstageItemID2+"_"+newBackstageItemID1+"  : (closed) ";
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_172 = V_1;
-			NullCheck(L_172);
-			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_173 = L_172->___TMP_url_7;
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_174 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_175 = L_174;
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_176 = V_1;
-			NullCheck(L_176);
-			String_t* L_177 = L_176->___friend_url_4;
-			NullCheck(L_175);
-			ArrayElementTypeCheck (L_175, L_177);
-			(L_175)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_177);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_178 = L_175;
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_179 = V_1;
-			NullCheck(L_179);
-			String_t* L_180 = L_179->___newBackstageItemID2_9;
-			NullCheck(L_178);
-			ArrayElementTypeCheck (L_178, L_180);
-			(L_178)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_180);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_181 = L_178;
-			NullCheck(L_181);
-			ArrayElementTypeCheck (L_181, _stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
-			(L_181)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral50639CAD49418C7B223CC529395C0E2A3892501C);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_182 = L_181;
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_183 = V_1;
-			NullCheck(L_183);
-			String_t* L_184 = L_183->___newBackstageItemID1_8;
-			NullCheck(L_182);
-			ArrayElementTypeCheck (L_182, L_184);
-			(L_182)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_184);
-			StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_185 = L_182;
-			NullCheck(L_185);
-			ArrayElementTypeCheck (L_185, _stringLiteral766D76A60075D7861DD9C8A2F1504D0EF88CFCE1);
-			(L_185)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral766D76A60075D7861DD9C8A2F1504D0EF88CFCE1);
-			String_t* L_186;
-			L_186 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_185, NULL);
-			NullCheck(L_173);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_173, L_186);
-			goto IL_0471;
+			// peerConnection.Close();
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_142 = V_1;
+			NullCheck(L_142);
+			RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_143 = L_142->___peerConnection_14;
+			NullCheck(L_143);
+			RTCPeerConnection_Close_m4A7E9986B74152BAAF950C6155E3BD39D8226FCC(L_143, NULL);
+			// peerConnection.RemoveTrack(sender);
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_144 = V_1;
+			NullCheck(L_144);
+			RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_145 = L_144->___peerConnection_14;
+			RTCRtpSender_t9F641589CAD8E9FECEE9613037EAF7BAD0C84657* L_146 = __this->___U3CsenderU3E5__2_3;
+			NullCheck(L_145);
+			int32_t L_147;
+			L_147 = RTCPeerConnection_RemoveTrack_m16397C48B9E118A46CEECA2648ABEA02E16CE68A(L_145, L_146, NULL);
+			// peerConnection = null;
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_148 = V_1;
+			NullCheck(L_148);
+			L_148->___peerConnection_14 = (RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2*)NULL;
+			Il2CppCodeGenWriteBarrier((void**)(&L_148->___peerConnection_14), (void*)(RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2*)NULL);
+			// WebRTC.Dispose();
+			WebRTC_Dispose_m00620DEA440A9A8FC3DDB3C9F51D79D4E3DBDA60(NULL);
+			goto IL_03cc;
 		}
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -22240,31 +22127,35 @@ IL_040e_1:
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_0458;
+			goto CATCH_03ac;
 		}
 		throw e;
 	}
 
-CATCH_0458:
+CATCH_03ac:
 	{// begin catch(System.Exception)
 		V_13 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
 		__this->___U3CU3E1__state_0 = ((int32_t)-2);
-		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_187 = (&__this->___U3CU3Et__builder_1);
-		Exception_t* L_188 = V_13;
-		AsyncVoidMethodBuilder_SetException_mD9A6F5D1A99A62AC9DF322901BFDE05193CB177B(L_187, L_188, NULL);
+		__this->___U3CsenderU3E5__2_3 = (RTCRtpSender_t9F641589CAD8E9FECEE9613037EAF7BAD0C84657*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CsenderU3E5__2_3), (void*)(RTCRtpSender_t9F641589CAD8E9FECEE9613037EAF7BAD0C84657*)NULL);
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_149 = (&__this->___U3CU3Et__builder_1);
+		Exception_t* L_150 = V_13;
+		AsyncVoidMethodBuilder_SetException_mD9A6F5D1A99A62AC9DF322901BFDE05193CB177B(L_149, L_150, NULL);
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_0484;
+		goto IL_03e6;
 	}// end catch (depth: 1)
 
-IL_0471:
+IL_03cc:
 	{
 		// }
 		__this->___U3CU3E1__state_0 = ((int32_t)-2);
-		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_189 = (&__this->___U3CU3Et__builder_1);
-		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_189, NULL);
+		__this->___U3CsenderU3E5__2_3 = (RTCRtpSender_t9F641589CAD8E9FECEE9613037EAF7BAD0C84657*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CsenderU3E5__2_3), (void*)(RTCRtpSender_t9F641589CAD8E9FECEE9613037EAF7BAD0C84657*)NULL);
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_151 = (&__this->___U3CU3Et__builder_1);
+		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_151, NULL);
 	}
 
-IL_0484:
+IL_03e6:
 	{
 		return;
 	}
@@ -23618,7 +23509,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConnectionStopU3Ed__35_MoveNext_m6143
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CConnectionStopU3Ed__35_t25AA6BD4AF27BF5FAB82474119FFA7AC84751D7B_mB9977F9853A63D6EAEAF2D3DFF5EC0850FD80E8F_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7D6BA5C6EC459A6998BDCA0C55D2938B709E3417);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9AC8E4E8C67C0F3852DECEC2037A97C692126303);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF346123C092B451C2FC9C4F64B359F05443C0569);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -23627,7 +23518,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConnectionStopU3Ed__35_MoveNext_m6143
 	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	Exception_t* V_3 = NULL;
-	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 2> __active_exceptions;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		int32_t L_0 = __this->___U3CU3E1__state_0;
 		V_0 = L_0;
@@ -23640,153 +23531,83 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CConnectionStopU3Ed__35_MoveNext_m6143
 			int32_t L_2 = V_0;
 			if (!L_2)
 			{
-				goto IL_0021_1;
+				goto IL_006d_1;
 			}
 		}
 		{
-			// TMP_url.text="ConnectionStop #";
+			// TMP_url.text="????";
 			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_3 = V_1;
 			NullCheck(L_3);
 			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_4 = L_3->___TMP_url_7;
 			NullCheck(L_4);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_4, _stringLiteral7D6BA5C6EC459A6998BDCA0C55D2938B709E3417);
+			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_4, _stringLiteral9AC8E4E8C67C0F3852DECEC2037A97C692126303);
+			// Debug.Log("WebRTCConnection.ConnectionStop");
+			il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+			Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralF346123C092B451C2FC9C4F64B359F05443C0569, NULL);
+			// if (websocket!=null) {
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_5 = V_1;
+			NullCheck(L_5);
+			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_6 = L_5->___websocket_13;
+			if (!L_6)
+			{
+				goto IL_0097_1;
+			}
+		}
+		{
+			// await websocket.Close();
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_7 = V_1;
+			NullCheck(L_7);
+			WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_8 = L_7->___websocket_13;
+			NullCheck(L_8);
+			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_9;
+			L_9 = WebSocket_Close_m8EF33167E215E9898AF33A787C3E9FABCBB789E3(L_8, NULL);
+			NullCheck(L_9);
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_10;
+			L_10 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_9, NULL);
+			V_2 = L_10;
+			bool L_11;
+			L_11 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_2), NULL);
+			if (L_11)
+			{
+				goto IL_0089_1;
+			}
+		}
+		{
+			int32_t L_12 = 0;
+			V_0 = L_12;
+			__this->___U3CU3E1__state_0 = L_12;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_13 = V_2;
+			__this->___U3CU3Eu__1_3 = L_13;
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_3))->___m_task_0), (void*)NULL);
+			AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_14 = (&__this->___U3CU3Et__builder_1);
+			AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CConnectionStopU3Ed__35_t25AA6BD4AF27BF5FAB82474119FFA7AC84751D7B_mB9977F9853A63D6EAEAF2D3DFF5EC0850FD80E8F(L_14, (&V_2), __this, AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CConnectionStopU3Ed__35_t25AA6BD4AF27BF5FAB82474119FFA7AC84751D7B_mB9977F9853A63D6EAEAF2D3DFF5EC0850FD80E8F_RuntimeMethod_var);
+			goto IL_00c3;
 		}
 
-IL_0021_1:
+IL_006d_1:
 		{
-		}
-		try
-		{// begin try (depth: 2)
-			{
-				int32_t L_5 = V_0;
-				if (!L_5)
-				{
-					goto IL_0074_2;
-				}
-			}
-			{
-				// Debug.Log("WebRTCConnection.ConnectionStop");
-				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-				Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralF346123C092B451C2FC9C4F64B359F05443C0569, NULL);
-				// if (websocket!=null) {
-				WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_6 = V_1;
-				NullCheck(L_6);
-				WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_7 = L_6->___websocket_13;
-				if (!L_7)
-				{
-					goto IL_009e_2;
-				}
-			}
-			{
-				// await websocket.Close();
-				WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_8 = V_1;
-				NullCheck(L_8);
-				WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F* L_9 = L_8->___websocket_13;
-				NullCheck(L_9);
-				Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_10;
-				L_10 = WebSocket_Close_m8EF33167E215E9898AF33A787C3E9FABCBB789E3(L_9, NULL);
-				NullCheck(L_10);
-				TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_11;
-				L_11 = Task_GetAwaiter_m08B368EAC939DD35D0AC428180822255A442CA29(L_10, NULL);
-				V_2 = L_11;
-				bool L_12;
-				L_12 = TaskAwaiter_get_IsCompleted_mC236D276FBE3A271B56EE13FCAF2C96E48453ED8((&V_2), NULL);
-				if (L_12)
-				{
-					goto IL_0090_2;
-				}
-			}
-			{
-				int32_t L_13 = 0;
-				V_0 = L_13;
-				__this->___U3CU3E1__state_0 = L_13;
-				TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_14 = V_2;
-				__this->___U3CU3Eu__1_3 = L_14;
-				Il2CppCodeGenWriteBarrier((void**)&(((&__this->___U3CU3Eu__1_3))->___m_task_0), (void*)NULL);
-				AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_15 = (&__this->___U3CU3Et__builder_1);
-				AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CConnectionStopU3Ed__35_t25AA6BD4AF27BF5FAB82474119FFA7AC84751D7B_mB9977F9853A63D6EAEAF2D3DFF5EC0850FD80E8F(L_15, (&V_2), __this, AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CConnectionStopU3Ed__35_t25AA6BD4AF27BF5FAB82474119FFA7AC84751D7B_mB9977F9853A63D6EAEAF2D3DFF5EC0850FD80E8F_RuntimeMethod_var);
-				goto IL_00f9;
-			}
-
-IL_0074_2:
-			{
-				TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_16 = __this->___U3CU3Eu__1_3;
-				V_2 = L_16;
-				TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_17 = (&__this->___U3CU3Eu__1_3);
-				il2cpp_codegen_initobj(L_17, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
-				int32_t L_18 = (-1);
-				V_0 = L_18;
-				__this->___U3CU3E1__state_0 = L_18;
-			}
-
-IL_0090_2:
-			{
-				TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
-				// websocket = null;
-				WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_19 = V_1;
-				NullCheck(L_19);
-				L_19->___websocket_13 = (WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F*)NULL;
-				Il2CppCodeGenWriteBarrier((void**)(&L_19->___websocket_13), (void*)(WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F*)NULL);
-			}
-
-IL_009e_2:
-			{
-				// if (peerConnection!=null) {
-				WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_20 = V_1;
-				NullCheck(L_20);
-				RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_21 = L_20->___peerConnection_14;
-				if (!L_21)
-				{
-					goto IL_00b8_2;
-				}
-			}
-			{
-				// peerConnection.Close();
-				WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_22 = V_1;
-				NullCheck(L_22);
-				RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2* L_23 = L_22->___peerConnection_14;
-				NullCheck(L_23);
-				RTCPeerConnection_Close_m4A7E9986B74152BAAF950C6155E3BD39D8226FCC(L_23, NULL);
-				// peerConnection = null;
-				WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_24 = V_1;
-				NullCheck(L_24);
-				L_24->___peerConnection_14 = (RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2*)NULL;
-				Il2CppCodeGenWriteBarrier((void**)(&L_24->___peerConnection_14), (void*)(RTCPeerConnection_t3C85171063B36E61FD20824BB0C5EA016F355DD2*)NULL);
-			}
-
-IL_00b8_2:
-			{
-				// }
-				goto IL_00cd_1;
-			}
-		}// end try (depth: 2)
-		catch(Il2CppExceptionWrapper& e)
-		{
-			if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&RuntimeObject_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
-			{
-				IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-				goto CATCH_00ba_1;
-			}
-			throw e;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 L_15 = __this->___U3CU3Eu__1_3;
+			V_2 = L_15;
+			TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833* L_16 = (&__this->___U3CU3Eu__1_3);
+			il2cpp_codegen_initobj(L_16, sizeof(TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833));
+			int32_t L_17 = (-1);
+			V_0 = L_17;
+			__this->___U3CU3E1__state_0 = L_17;
 		}
 
-CATCH_00ba_1:
-		{// begin catch(System.Object)
-			// catch{
-			// TMP_url.text="exception";
-			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_25 = V_1;
-			NullCheck(L_25);
-			TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_26 = L_25->___TMP_url_7;
-			NullCheck(L_26);
-			VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_26, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralCF6D423D6F6C1327D40E616C52007CE750F00A62)));
-			// }
-			IL2CPP_POP_ACTIVE_EXCEPTION();
-			goto IL_00cd_1;
-		}// end catch (depth: 2)
-
-IL_00cd_1:
+IL_0089_1:
 		{
-			goto IL_00e6;
+			TaskAwaiter_GetResult_mC1D712500AE49B4A89C85D6B79D87D1BA9A6B94D((&V_2), NULL);
+			// websocket = null;
+			WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* L_18 = V_1;
+			NullCheck(L_18);
+			L_18->___websocket_13 = (WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F*)NULL;
+			Il2CppCodeGenWriteBarrier((void**)(&L_18->___websocket_13), (void*)(WebSocket_tA854BC697D5FA80EB48E9217EF622E0F9B0E325F*)NULL);
+		}
+
+IL_0097_1:
+		{
+			goto IL_00b0;
 		}
 	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -23794,31 +23615,31 @@ IL_00cd_1:
 		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
 		{
 			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_00cf;
+			goto CATCH_0099;
 		}
 		throw e;
 	}
 
-CATCH_00cf:
+CATCH_0099:
 	{// begin catch(System.Exception)
 		V_3 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));
 		__this->___U3CU3E1__state_0 = ((int32_t)-2);
-		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_27 = (&__this->___U3CU3Et__builder_1);
-		Exception_t* L_28 = V_3;
-		AsyncVoidMethodBuilder_SetException_mD9A6F5D1A99A62AC9DF322901BFDE05193CB177B(L_27, L_28, NULL);
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_19 = (&__this->___U3CU3Et__builder_1);
+		Exception_t* L_20 = V_3;
+		AsyncVoidMethodBuilder_SetException_mD9A6F5D1A99A62AC9DF322901BFDE05193CB177B(L_19, L_20, NULL);
 		IL2CPP_POP_ACTIVE_EXCEPTION();
-		goto IL_00f9;
+		goto IL_00c3;
 	}// end catch (depth: 1)
 
-IL_00e6:
+IL_00b0:
 	{
 		// }
 		__this->___U3CU3E1__state_0 = ((int32_t)-2);
-		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_29 = (&__this->___U3CU3Et__builder_1);
-		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_29, NULL);
+		AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D* L_21 = (&__this->___U3CU3Et__builder_1);
+		AsyncVoidMethodBuilder_SetResult_m008490FDF057D5F5D871F537C7A58BE36027F3DC(L_21, NULL);
 	}
 
-IL_00f9:
+IL_00c3:
 	{
 		return;
 	}

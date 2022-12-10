@@ -31,7 +31,7 @@ public class WebRtcBroadcast : MonoBehaviour
         // check if connection is existed.
         if (peerConnection!= null)
             return;
-        WebRTC.Initialize();
+        
         RTCConfiguration configuration = new RTCConfiguration
         {
             iceServers = new[] { new RTCIceServer { urls = new[] { "stun:stun.l.google.com:19302" } } }
@@ -65,7 +65,10 @@ public class WebRtcBroadcast : MonoBehaviour
         // add video stream //
         var cam = GetComponent<Camera>();
         //MediaStream videoStream = cam.CaptureStream(1280, 720, RenderTextureDepth.DEPTH_24);
-        MediaStream videoStream = cam.CaptureStream(1280, 720);
+        // MediaStream videoStream = cam.CaptureStream(1280, 720);
+        MediaStream videoStream = cam.CaptureStream(640, 480);
+        // MediaStream videoStream = cam.CaptureStream(1000, 480);
+        // MediaStream videoStream = cam.CaptureStream(480, 360);
         foreach (var track in videoStream.GetTracks())
         {
             Debug.Log("track.enabled : "+track.Enabled+" ,"+track);
@@ -162,7 +165,9 @@ public class WebRtcBroadcast : MonoBehaviour
         Debug.Log("data : "+data);
         byte[] postData = System.Text.Encoding.UTF8.GetBytes(data); // 把字符串转换为bype数组
 	    // var www = new UnityWebRequest("https://f13a-60-250-213-114.ngrok.io/offer", UnityWebRequest.kHttpVerbPOST);
-        var www = new UnityWebRequest("http://60.250.213.114:8080/offer", UnityWebRequest.kHttpVerbPOST);
+        // var www = new UnityWebRequest("http://60.250.213.114:8080/offer", UnityWebRequest.kHttpVerbPOST); 
+        var www = new UnityWebRequest("https://metaverse.venraas.tw:8080/offer", UnityWebRequest.kHttpVerbPOST);
+        // var www = new UnityWebRequest("http://34.80.147.120:8080/offer", UnityWebRequest.kHttpVerbPOST);
 	    www.chunkedTransfer = false;
 	    www.uploadHandler = new UploadHandlerRaw(postData);
 	    www.downloadHandler = new DownloadHandlerBuffer();

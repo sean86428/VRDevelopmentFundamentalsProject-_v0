@@ -399,6 +399,8 @@ struct MonoSslAuthenticationOptions_t50E83A9A2B726808720B74CBD44D3ABC2593B611;
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
 // Unity.WebRTC.RTCIceCandidate
 struct RTCIceCandidate_t934E142F42C60EB706D94154B8596B73E7AB5CE4;
+// Unity.WebRTC.RTCRtpSender
+struct RTCRtpSender_t9F641589CAD8E9FECEE9613037EAF7BAD0C84657;
 // System.Text.RegularExpressions.Regex
 struct Regex_tE773142C2BE45C5D362B0F815AFF831707A51772;
 // UnityEngine.UIElements.UIR.RenderChainCommand
@@ -3898,8 +3900,10 @@ struct U3CConnectionStartU3Ed__24_t094AAB2F05459CBB0019529614A9BC7071A47ACF
 	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
 	// WebRTCConnection WebRTCConnection/<ConnectionStart>d__24::<>4__this
 	WebRTCConnection_tBA6EAAAD61592893C0EC11AA3B2E0E60CCCCF8BF* ___U3CU3E4__this_2;
+	// Unity.WebRTC.RTCRtpSender WebRTCConnection/<ConnectionStart>d__24::<sender>5__2
+	RTCRtpSender_t9F641589CAD8E9FECEE9613037EAF7BAD0C84657* ___U3CsenderU3E5__2_3;
 	// System.Runtime.CompilerServices.TaskAwaiter WebRTCConnection/<ConnectionStart>d__24::<>u__1
-	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_3;
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_4;
 };
 
 // WebRTCConnection/<ConnectionStop>d__33
@@ -3967,8 +3971,10 @@ struct U3CConnectionStartU3Ed__24_t9F5D61F91F11F2913933C8DF142D1F99369494CE
 	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
 	// WebRTCConnectionWithServer WebRTCConnectionWithServer/<ConnectionStart>d__24::<>4__this
 	WebRTCConnectionWithServer_tA71918BDAB0437CE2CDA2B04F6388412082F2C28* ___U3CU3E4__this_2;
+	// Unity.WebRTC.RTCRtpSender WebRTCConnectionWithServer/<ConnectionStart>d__24::<sender>5__2
+	RTCRtpSender_t9F641589CAD8E9FECEE9613037EAF7BAD0C84657* ___U3CsenderU3E5__2_3;
 	// System.Runtime.CompilerServices.TaskAwaiter WebRTCConnectionWithServer/<ConnectionStart>d__24::<>u__1
-	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_3;
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_4;
 };
 
 // WebRTCConnectionWithServer/<ConnectionStop>d__35
